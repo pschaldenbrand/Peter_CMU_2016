@@ -1,0 +1,145 @@
+5176	All Data	9ceaf6cf80cb33d58e3b4cb524174db0	Stu_c5a065fe4447461bc3aaf7140d905bde	Sfacccd6d24bc41eb857ebf0475e51248	2016-06-22 10:47:28	US/Eastern	0.2	ATTEMPT		RESULT		Lynnette Tutor	ProblemSetDashboard_5	18eq-2 4parx-1par	1	2016-06-22 10:47:18	solveLeft5 UpdateTextField	1	0	InCorrect	solveLeft5	UpdateTextField	22	Bug!!! Name: bug-multiply-unlike-terms-make-variable				Add/subtract_constant_from_both_sides	LDashb									Single-KC		KC630		Hopewell_2016_Dashboard_Study	Mr.Gill_period3	nil	nil	Add/subtrac..._both_sides,LDashb,0.52	Stu_2948133b7dcc8a822cf49251a982484c	2016-05-05 16:01:32.389 CEST	f04af8477b3d9247e08545f09a9cf02a	nil	nil	nil	nil	nil	nil	nil	[solveLeft5][UpdateTextField]	2016-06-22 14:47:28.706 UTC	nil	nil	2016-06-22 14:47:29.718 UTC
+bugs fired in this log:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+	bug-combine-unlike-terms-make-variable
+
+4853	All Data	ce60f307320170d57da6fee6cf2db470	Stu_bed4dc3bb9a054ae4a8e65567ec0f5e0	Sf1fc5bbe0df34af012a24fabe7e49402	2016-06-22 10:47:49	US/Eastern	0	ATTEMPT		RESULT		Lynnette Tutor	ProblemSetDashboard_7	7x=2x-10	1	2016-06-22 10:47:49	solveLeft1 UpdateTextField	1	0	InCorrect	solveLeft1	UpdateTextField	7x	Bug!!! Name: bug-multiply-unlike-terms-make-variable				Add/subtract_variable_from_both_sides	LDashb									Single-KC		KC55		Hopewell_2016_Dashboard_Study	Mr.Gill_period3	nil	nil	Add/subtrac..._both_sides,LDashb,0.27	Stu_928f4a8e21002fba92ecab2481f14594	2016-05-05 16:21:16.625 CEST	936c420b8e094bc94d4a671cb8983846	nil	nil	nil	nil	nil	nil	nil	[solveLeft1][UpdateTextField]	2016-06-22 14:47:49.531 UTC	nil	nil	2016-06-22 14:47:50.240 UTC
+bugs fired in this log:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+
+6101	All Data	219ca97be55de3069e58162e9f27772d	Stu_fc895c1a5824d00304d2e141083cecdb	Sb32e93729c4919c526c4536ee477c88e	2016-06-22 10:44:16	US/Eastern	2	ATTEMPT		RESULT		Lynnette Tutor	ProblemSetDashboard_1	9=4 x	1	2016-06-22 10:44:02	solveLeft1 UpdateTextField	4	0	InCorrect	solveLeft1	UpdateTextField	9	Bug!!! Name: bug-multiply-unlike-terms-make-constant				Add/subtract_constant_from_both_sides	LDashb									Single-KC		KC733		Hopewell_2016_Dashboard_Study	Mr.Gill_period3	nil	nil	Add/subtrac..._both_sides,LDashb,0.25	Stu_8c5c693429a65e067f8a60df7f0a2da0	2016-05-04 15:54:06.360 CEST	bf66ffc195bd5079e8a22d4560f93e32	nil	nil	nil	nil	nil	nil	nil	[solveLeft1][UpdateTextField]	2016-06-22 14:44:16.911 UTC	nil	nil	2016-06-22 14:44:20.114 UTC
+bugs fired in this log:
+	bug-multiply-unlike-terms-make-constant
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+	bug-combine-unlike-terms-make-variable
+
+4498	All Data	a582b27af374b0c214370186b7ce171d	Stu_bed4dc3bb9a054ae4a8e65567ec0f5e0	Sfd30daea6b79775ca53cd3ca613bba53	2016-06-22 10:46:24	US/Eastern	0	ATTEMPT		RESULT		Lynnette Tutor	ProblemSetDashboard_2	8=-x 2	1	2016-06-22 10:46:24	solveLeft1 UpdateTextField	1	0	InCorrect	solveLeft1	UpdateTextField	8	Bug!!! Name: bug-multiply-unlike-terms-make-variable				Add/subtract_constant_from_both_sides	LDashb									Single-KC		KC244		Hopewell_2016_Dashboard_Study	Mr.Gill_period3	nil	nil	Add/subtrac..._both_sides,LDashb,0.27	Stu_928f4a8e21002fba92ecab2481f14594	2016-05-04 16:23:08.737 CEST	1efd7d0ed8929ad3d16ff02b8297a0c7	nil	nil	nil	nil	nil	nil	nil	[solveLeft1][UpdateTextField]	2016-06-22 14:46:24.647 UTC	nil	nil	2016-06-22 14:46:26.968 UTC
+bugs fired in this log:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+	bug-combine-unlike-terms-make-variable
+
+6013	All Data	97cdf79328bb965b95c38eb765f3b86b	Stu_df737f9075cc5dbfcd2bbe68dff1a3a9	Sece433cf3fa634fb8bc942cb32d96e74	2016-06-22 10:48:35	US/Eastern	0	ATTEMPT		RESULT		Lynnette Tutor	ProblemSetDashboard_7	7x=2x-10	1	2016-06-22 10:48:35	solveLeft1 UpdateTextField	1	0	InCorrect	solveLeft1	UpdateTextField	7x	Bug!!! Name: bug-multiply-unlike-terms-make-variable				Add/subtract_variable_from_both_sides	LDashb									Single-KC		KC55		Hopewell_2016_Dashboard_Study	Mr.Gill_period3	nil	nil	Add/subtrac..._both_sides,LDashb,0.27	Stu_76b51b7edb2c2a1d2e0560faa17611cc	2016-05-05 16:11:19.131 CEST	854f2845325934f2c1d4c3d2e6f3fd69	nil	nil	nil	nil	nil	nil	nil	[solveLeft1][UpdateTextField]	2016-06-22 14:48:35.384 UTC	nil	nil	2016-06-22 14:48:35.712 UTC
+bugs fired in this log:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+
+4082	All Data	e270845d946be1dd26fad046a362fff0	Stu_786df64296b06b1230158602279280b0	S32141ace51175522ac9eea3bffc1a85f	2016-06-22 10:48:04	US/Eastern	0.2	ATTEMPT		RESULT		Lynnette Tutor	ProblemSetDashboard_5	1eq2par3x-4par 15	1	2016-06-22 10:48:02	solveLeft4 UpdateTextField	1	0	InCorrect	solveLeft4	UpdateTextField	1	Bug!!! Name: bug-multiply-unlike-terms-make-variable				Add/subtract_constant_from_both_sides	LDashb									Single-KC		KC484		Hopewell_2016_Dashboard_Study	Mr.Gill_period3	nil	nil	Add/subtrac..._both_sides,LDashb,0.27	Stu_b79fd56a3a0a0e334190de3e30af6df4	2016-05-05 16:01:07.856 CEST	da04a038e4cbc13a6f1f679b20731737	nil	nil	nil	nil	nil	nil	nil	[solveLeft4][UpdateTextField]	2016-06-22 14:48:04.382 UTC	nil	nil	2016-06-22 14:48:05.092 UTC
+bugs fired in this log:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+
+4111	All Data	34703315397a57daf7c2c9f4bf4c9c94	Stu_786df64296b06b1230158602279280b0	S32141ace51175522ac9eea3bffc1a85f	2016-06-22 10:48:08	US/Eastern	0	ATTEMPT		RESULT		Lynnette Tutor	ProblemSetDashboard_7	5x=3x 10	1	2016-06-22 10:48:08	solveLeft1 UpdateTextField	1	0	InCorrect	solveLeft1	UpdateTextField	5x	Bug!!! Name: bug-multiply-unlike-terms-make-variable				Add/subtract_variable_from_both_sides	LDashb									Single-KC		KC493		Hopewell_2016_Dashboard_Study	Mr.Gill_period3	nil	nil	Add/subtrac..._both_sides,LDashb,0.27	Stu_b79fd56a3a0a0e334190de3e30af6df4	2016-05-05 16:03:34.011 CEST	b024c3800a8055127e0be6030c46f1f2	nil	nil	nil	nil	nil	nil	nil	[solveLeft1][UpdateTextField]	2016-06-22 14:48:08.507 UTC	nil	nil	2016-06-22 14:48:08.913 UTC
+bugs fired in this log:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+
+1718	All Data	3191f3181f71d7026a10b48935d81e2e	Stu_352c4b1cea9d91d1723a0099e751116c	S7e305966949e0f898e0a710388073fd3	2016-06-22 10:44:42	US/Eastern	0	ATTEMPT		RESULT		Lynnette Tutor	ProblemSetDashboard_2	8=-x 2	1	2016-06-22 10:44:42	solveLeft1 UpdateTextField	1	0	InCorrect	solveLeft1	UpdateTextField	8	Bug!!! Name: bug-multiply-unlike-terms-make-variable				Add/subtract_constant_from_both_sides	LDashb									Single-KC		KC244		Hopewell_2016_Dashboard_Study	Mr.Gill_period3	nil	nil	Add/subtrac..._both_sides,LDashb,0.27	Stu_842c280728e58489ac225cd3f5f035a1	2016-05-04 16:10:30.025 CEST	db622cec43fdd5d0cf7c62e36c33b41d	nil	nil	nil	nil	nil	nil	nil	[solveLeft1][UpdateTextField]	2016-06-22 14:44:42.947 UTC	nil	nil	2016-06-22 14:44:44.655 UTC
+bugs fired in this log:
+	bug-multiply-unlike-terms-make-variable
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+	bug-combine-unlike-terms-make-variable
+
+1990	All Data	a19f7d8f568af85669846e165d2f0c1c	Stu_352c4b1cea9d91d1723a0099e751116c	S30b89a3d4284635541d425225d22b262	2016-06-22 10:46:43	US/Eastern	2	ATTEMPT		RESULT		Lynnette Tutor	ProblemSetDashboard_7	7x=2x-10	1	2016-06-22 10:46:41	solveLeft1 UpdateTextField	2	0	InCorrect	solveLeft1	UpdateTextField	7x	Bug!!! Name: bug-multiply-unlike-terms-make-variable				Add/subtract_variable_from_both_sides	LDashb									Single-KC		KC55		Hopewell_2016_Dashboard_Study	Mr.Gill_period3	nil	nil	Add/subtrac..._both_sides,LDashb,0.27	Stu_842c280728e58489ac225cd3f5f035a1	2016-05-05 15:54:18.976 CEST	b7d17b8250deedfa63df86e235554439	nil	nil	nil	nil	nil	nil	nil	[solveLeft1][UpdateTextField]	2016-06-22 14:46:43.234 UTC	nil	nil	2016-06-22 14:46:44.515 UTC
+bugs fired in this log:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+	bug-combine-unlike-terms-make-variable
+
+5966	All Data	23643c3ed33e0fa3474d76b260ed1807	Stu_df737f9075cc5dbfcd2bbe68dff1a3a9	Sece433cf3fa634fb8bc942cb32d96e74	2016-06-22 10:48:31	US/Eastern	0	ATTEMPT		RESULT		Lynnette Tutor	ProblemSetDashboard_7	6x=2x 8	1	2016-06-22 10:48:31	solveLeft1 UpdateTextField	1	0	InCorrect	solveLeft1	UpdateTextField	6x	Bug!!! Name: bug-multiply-unlike-terms-make-variable				Add/subtract_variable_from_both_sides	LDashb									Single-KC		KC403		Hopewell_2016_Dashboard_Study	Mr.Gill_period3	nil	nil	Add/subtrac..._both_sides,LDashb,0.27	Stu_76b51b7edb2c2a1d2e0560faa17611cc	2016-05-05 16:07:16.434 CEST	2f248e601733622caf384b6259ee724d	nil	nil	nil	nil	nil	nil	nil	[solveLeft1][UpdateTextField]	2016-06-22 14:48:31.090 UTC	nil	nil	2016-06-22 14:48:31.659 UTC
+bugs fired in this log:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+
+4333	All Data	4e5ba5557031f0ed9970295a8c62664d	Stu_9c65e67925cc6151b61a4821a98c3618	S4336af9bdeecf3c47485c142633788e7	2016-06-22 10:44:28	US/Eastern	0	ATTEMPT		RESULT		Lynnette Tutor	ProblemSetDashboard_1	9=4 x	1	2016-06-22 10:44:28	solveLeft1 UpdateTextField	1	0	InCorrect	solveLeft1	UpdateTextField	9	Bug!!! Name: bug-multiply-unlike-terms-make-constant				Add/subtract_constant_from_both_sides	LDashb									Single-KC		KC733		Hopewell_2016_Dashboard_Study	Mr.Gill_period3	nil	nil	Add/subtrac..._both_sides,LDashb,0.27	Stu_925e17c8197858d417364aa0f91716f7	2016-05-04 16:14:07.777 CEST	e090d5c51882fee6a90febdbbb19939e	nil	nil	nil	nil	nil	nil	nil	[solveLeft1][UpdateTextField]	2016-06-22 14:44:28.460 UTC	nil	nil	2016-06-22 14:44:31.050 UTC
+bugs fired in this log:
+	bug-multiply-unlike-terms-make-constant
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+	bug-combine-unlike-terms-make-variable
+
+2785	All Data	d62bf5d3c7afaf7bb674d802722cebe6	Stu_59305c62b75c423bfe57c9b0afadaf6c	S0019f97f0070401c3f568fd4ff9d0e52	2016-06-22 10:45:39	US/Eastern	2	ATTEMPT		RESULT		Lynnette Tutor	ProblemSetDashboard_5	10eq1 3parx-4par	1	2016-06-22 10:45:22	solveLeft5 UpdateTextField	5	0	InCorrect	solveLeft5	UpdateTextField	9	Bug!!! Name: bug-multiply-unlike-terms-make-variable				Add/subtract_constant_from_both_sides	LDashb									Single-KC				Hopewell_2016_Dashboard_Study	Mr.Gill_period3	nil	nil	Add/subtrac..._both_sides,LDashb,0.81	Stu_d658d49399a84c40fa18666a5ab7a6c5	2016-05-04 16:22:25.127 CEST	276d0d828f3a50e8ebc1fbd8a6adbe89	nil	nil	nil	nil	nil	nil	nil	[solveLeft5][UpdateTextField]	2016-06-22 14:45:39.162 UTC	nil	nil	2016-06-22 14:45:41.254 UTC
+bugs fired in this log:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+	bug-combine-unlike-terms-make-variable
+
+5818	All Data	326b9b8fd2504c9947d0cd509a873a57	Stu_df737f9075cc5dbfcd2bbe68dff1a3a9	Sece433cf3fa634fb8bc942cb32d96e74	2016-06-22 10:48:13	US/Eastern	0.083	ATTEMPT		RESULT		Lynnette Tutor	ProblemSetDashboard_5	18eq-2 4parx-1par	1	2016-06-22 10:48:12	solveLeft4 UpdateTextField	1	0	InCorrect	solveLeft4	UpdateTextField	18	Bug!!! Name: bug-multiply-unlike-terms-make-variable				Add/subtract_constant_from_both_sides	LDashb									Single-KC		KC299		Hopewell_2016_Dashboard_Study	Mr.Gill_period3	nil	nil	Add/subtrac..._both_sides,LDashb,0.27	Stu_76b51b7edb2c2a1d2e0560faa17611cc	2016-05-05 15:58:41.670 CEST	eccea87d3913256512a7a8ea96028dc5	nil	nil	nil	nil	nil	nil	nil	[solveLeft4][UpdateTextField]	2016-06-22 14:48:13.385 UTC	nil	nil	2016-06-22 14:48:13.892 UTC
+bugs fired in this log:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+
+4400	All Data	f5c0591e55a86a117a5c182f5ac36bbc	Stu_9c65e67925cc6151b61a4821a98c3618	S4336af9bdeecf3c47485c142633788e7	2016-06-22 10:45:04	US/Eastern	1	ATTEMPT		RESULT		Lynnette Tutor	ProblemSetDashboard_2	5=6-x	1	2016-06-22 10:44:53	solveRight3 UpdateTextField	1	0	InCorrect	solveRight3	UpdateTextField	6	Bug!!! Name: bug-multiply-unlike-terms-make-variable				Add/subtract_constant_from_both_sides	LDashb									Single-KC		KC144		Hopewell_2016_Dashboard_Study	Mr.Gill_period3	nil	nil	Add/subtrac..._both_sides,LDashb,0.25	Stu_925e17c8197858d417364aa0f91716f7	2016-05-04 16:22:50.309 CEST	d083a80492fecb846736dd68a8fca9ca	nil	nil	nil	nil	nil	nil	nil	[solveRight3][UpdateTextField]	2016-06-22 14:45:04.714 UTC	nil	nil	2016-06-22 14:45:07.706 UTC
+bugs fired in this log:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+	bug-combine-unlike-terms-make-variable
+
+843	All Data	907599e5f7ec514fd83b313a67ed39e2	Stu_2a3c2e0f49db70170e03271d25e1cbf2	S55e86b89ae1c97b0c89596101102509b	2016-06-22 10:44:06	US/Eastern	4	ATTEMPT		RESULT		Lynnette Tutor	ProblemSetDashboard_1	x 3=5	1	2016-06-22 10:44:02	solveRight1 UpdateTextField	1	0	InCorrect	solveRight1	UpdateTextField	5	Bug!!! Name: bug-multiply-unlike-terms-make-constant				Add/subtract_constant_from_both_sides	LDashb									Single-KC		KC132		Hopewell_2016_Dashboard_Study	Mr.Gill_period3	nil	nil	Add/subtrac..._both_sides,LDashb,0.25	Stu_1d919b4e19d841b285dc79832b7c4801	2016-05-04 16:16:01.476 CEST	454b32da1d4de726d678e590c807c777	nil	nil	nil	nil	nil	nil	nil	[solveRight1][UpdateTextField]	2016-06-22 14:44:06.757 UTC	nil	nil	2016-06-22 14:44:11.027 UTC
+bugs fired in this log:
+	bug-multiply-unlike-terms-make-constant
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+	bug-combine-unlike-terms-make-variable
+
+172	All Data	44b3b37a14ec857c846cda5ddb10a793	Stu_109f8c8c2083b59544f905932ff5e920	Sf0d00beb106975ab32380fae5f5ae837	2016-06-22 10:45:43	US/Eastern	2	ATTEMPT		RESULT		Lynnette Tutor	ProblemSetDashboard_5	20eq5parx-1par	1	2016-06-22 10:45:21	solveLeft3 UpdateTextField	4	0	InCorrect	solveLeft3	UpdateTextField	20	Bug!!! Name: bug-multiply-unlike-terms-make-variable				Add/subtract_constant_from_both_sides	LDashb									Single-KC		KC485		Hopewell_2016_Dashboard_Study	Mr.Gill_period3	nil	nil	Add/subtrac..._both_sides,LDashb,0.25	Stu_d0acb46bfc7bf307f8c48207e018b919	2016-05-04 16:20:38.662 CEST	d964836c4a30a6dd82ecb781fe0f3037	nil	nil	nil	nil	nil	nil	nil	[solveLeft3][UpdateTextField]	2016-06-22 14:45:43.535 UTC	nil	nil	2016-06-22 14:45:45.261 UTC
+bugs fired in this log:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+	bug-combine-unlike-terms-make-variable
+
+5229	All Data	468e3a42f92c07726c5680377aec882e	Stu_c5a065fe4447461bc3aaf7140d905bde	Sfacccd6d24bc41eb857ebf0475e51248	2016-06-22 10:47:38	US/Eastern	0	ATTEMPT		RESULT		Lynnette Tutor	ProblemSetDashboard_7	7x=2x-10	1	2016-06-22 10:47:38	solveLeft1 UpdateTextField	1	0	InCorrect	solveLeft1	UpdateTextField	7x	Bug!!! Name: bug-multiply-unlike-terms-make-variable				Add/subtract_variable_from_both_sides	LDashb									Single-KC		KC55		Hopewell_2016_Dashboard_Study	Mr.Gill_period3	nil	nil	Add/subtrac..._both_sides,LDashb,0.27	Stu_2948133b7dcc8a822cf49251a982484c	2016-05-05 16:05:00.539 CEST	f61bd1568793fa10e17327d586dc062f	nil	nil	nil	nil	nil	nil	nil	[solveLeft1][UpdateTextField]	2016-06-22 14:47:38.422 UTC	nil	nil	2016-06-22 14:47:39.100 UTC
+bugs fired in this log:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+
+66	All Data	9bbcf38ddeda7fb44d58be8db920b1dd	Stu_109f8c8c2083b59544f905932ff5e920	Sf0d00beb106975ab32380fae5f5ae837	2016-06-22 11:55:07	US/Eastern	0	ATTEMPT		RESULT		Lynnette Tutor	ProblemSetDashboard_2	1=9-x	1	2016-06-22 11:55:07	solveLeft1 UpdateTextField	1	0	InCorrect	solveLeft1	UpdateTextField	10	Bug!!! Name: bug-miscalculate-combine-constants-opposite-sign-positive-result				Add/subtract_constant_from_both_sides	LDashb									Single-KC		KC497		Hopewell_2016_Dashboard_Study	Mr.Gill_period3	nil	nil	Add/subtrac..._both_sides,LDashb,0.27	Stu_d0acb46bfc7bf307f8c48207e018b919	2016-05-04 16:12:09.773 CEST	9ed3692bc423c3f7191d97fb54476db2	nil	nil	nil	nil	nil	nil	nil	[solveLeft1][UpdateTextField]	2016-06-22 15:55:07.994 UTC	nil	nil	2016-06-22 15:55:09.958 UTC
+bugs fired in this log:
+	bug-miscalculate-combine-constants-opposite-sign-positive-result
+	bug-miscalculate-combine-constants-opposite-sign-positive-result
+	bug-move-constant-left-strategically-same-sign
+
+1703	All Data	174afdd6502c6792b2d239713a28cc72	Stu_352c4b1cea9d91d1723a0099e751116c	S7e305966949e0f898e0a710388073fd3	2016-06-22 10:44:32	US/Eastern	3	ATTEMPT		RESULT		Lynnette Tutor	ProblemSetDashboard_2	3=7-x	1	2016-06-22 10:44:26	solveLeft1 UpdateTextField	2	0	InCorrect	solveLeft1	UpdateTextField	3	Bug!!! Name: bug-multiply-unlike-terms-make-constant				Add/subtract_constant_from_both_sides	LDashb									Single-KC		KC295		Hopewell_2016_Dashboard_Study	Mr.Gill_period3	nil	nil	Add/subtrac..._both_sides,LDashb,0.25	Stu_842c280728e58489ac225cd3f5f035a1	2016-05-04 16:08:17.918 CEST	3372ad6536341dbf2550368b03164bb8	nil	nil	nil	nil	nil	nil	nil	[solveLeft1][UpdateTextField]	2016-06-22 14:44:32.038 UTC	nil	nil	2016-06-22 14:44:34.290 UTC
+bugs fired in this log:
+	bug-multiply-unlike-terms-make-constant
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+	bug-combine-unlike-terms-make-variable
+
+2159	All Data	a74d42572a291dca71c85d23f8ed22e2	Stu_449896671e7775db2c6b74febe6c3712	S92abb256ddc60a7a0bdea9d0671c0b68	2016-06-22 10:44:57	US/Eastern	0.167	ATTEMPT		RESULT		Lynnette Tutor	ProblemSetDashboard_5	18eq-2 4parx-1par	1	2016-06-22 10:44:41	solveLeft4 UpdateTextField	1	0	InCorrect	solveLeft4	UpdateTextField	18	Bug!!! Name: bug-multiply-unlike-terms-make-constant				Add/subtract_constant_from_both_sides	LDashb									Single-KC		KC299		Hopewell_2016_Dashboard_Study	Mr.Gill_period3	nil	nil	Add/subtrac..._both_sides,LDashb,0.27	Stu_fba3a41d2233274eb1d5fe48073abd3f	2016-05-04 16:19:23.016 CEST	4e829fb45ecfbe2816f5ae7448fe8eaa	nil	nil	nil	nil	nil	nil	nil	[solveLeft4][UpdateTextField]	2016-06-22 14:44:57.575 UTC	nil	nil	2016-06-22 14:44:59.494 UTC
+bugs fired in this log:
+	bug-multiply-unlike-terms-make-constant
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+	bug-combine-unlike-terms-make-variable
+
+2277	All Data	d333f8b61c5a8e9e79e5b0a8e98c23d6	Stu_449896671e7775db2c6b74febe6c3712	S8e07de2458ec453ea8262f1bd1de6917	2016-06-22 10:46:02	US/Eastern	2	ATTEMPT		RESULT		Lynnette Tutor	ProblemSetDashboard_5	20eq5parx-1par	1	2016-06-22 10:45:58	solveLeft3 UpdateTextField	2	0	InCorrect	solveLeft3	UpdateTextField	20	Bug!!! Name: bug-multiply-unlike-terms-make-variable				Add/subtract_constant_from_both_sides	LDashb									Single-KC		KC485		Hopewell_2016_Dashboard_Study	Mr.Gill_period3	nil	nil	Add/subtrac..._both_sides,LDashb,0.27	Stu_fba3a41d2233274eb1d5fe48073abd3f	2016-05-05 15:49:59.751 CEST	ac12c6a8815f3e5ed68aabeaf74ea9ae	nil	nil	nil	nil	nil	nil	nil	[solveLeft3][UpdateTextField]	2016-06-22 14:46:02.493 UTC	nil	nil	2016-06-22 14:46:04.580 UTC
+bugs fired in this log:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+	bug-combine-unlike-terms-make-variable
+

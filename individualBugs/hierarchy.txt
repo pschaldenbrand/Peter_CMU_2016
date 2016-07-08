@@ -1,0 +1,5 @@
+bug-miscalculate-combine-constants-opposite-sign-positive-result
+bug-miscalculate-combine-constants-opposite-sign-negative-result
+bug-multiply-unlike-terms-make-constant-mid-transf
+bug-multiply-unlike-terms-make-variable
+bug-multiply-unlike-terms-make-constant

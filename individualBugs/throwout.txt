@@ -1,0 +1,400 @@
+bug-multiply-unlike-terms-make-constant
+	occurrences when using all bugs versus occurrences with just the one bug
+		3/24	
+		12.5%
+
+	Bugs that replaced it:
+		bug-combine-unlike-terms-make-constant
+		bug-miscalculate-combine-vars-opposite-sign-positive-result
+		bug-combine-unlike-terms-make-variable
+		bug-copy-previous-equation
+		bug-copy-previous-equation
+		bug-combine-unlike-terms-make-constant
+		bug-combine-unlike-terms-make-constant
+		bug-combine-unlike-terms-make-constant
+		bug-combine-unlike-terms-make-constant
+		bug-combine-unlike-terms-make-constant
+		bug-combine-unlike-terms-make-constant
+		bug-miscalculate-combine-constants-opposite-sign-positive-result
+		bug-multiply-unlike-terms-make-variable
+		bug-copy-previous-equation
+		bug-copy-previous-equation
+		bug-combine-unlike-terms-make-constant
+		bug-copy-previous-equation
+		bug-combine-unlike-terms-make-constant
+		bug-multiply-unlike-terms-make-variable
+		bug-combine-unlike-terms-make-constant
+		bug-combine-unlike-terms-make-constant
+		bug-combine-unlike-terms-make-constant
+		bug-miscalculate-combine-constants-opposite-sign-positive-result
+
+
+bug-multiply-unlike-terms-make-variable
+	occurrences when using all bugs versus occurrences with just the one bug
+		3/8	
+		37.5%
+
+	Bugs that replaced it:
+		bug-miscalculate-combine-vars-opposite-sign-positive-result
+		bug-copy-previous-equation
+		bug-copy-previous-equation
+		bug-combine-unlike-terms-make-constant
+		bug-multiply-unlike-terms-make-constant-mid-transf
+		bug-miscalculate-combine-constants-opposite-sign-positive-result
+		bug-miscalculate-combine-constants-opposite-sign-positive-result
+
+
+bug-multiply-unlike-terms-make-constant-mid-transf
+	occurrences when using all bugs versus occurrences with just the one bug
+		2/1	
+		200.0%
+
+	Bugs that replaced it:
+
+
+bug-miscalculate-combine-constants-opposite-sign-positive-result
+	occurrences when using all bugs versus occurrences with just the one bug
+		9/9	
+		100.0%
+
+	Bugs that replaced it:
+
+
+bug-miscalculate-combine-constants-opposite-sign-negative-result
+	occurrences when using all bugs versus occurrences with just the one bug
+		3/12	
+		25.0%
+
+	Bugs that replaced it:
+		bug-miscalculate-combine-constants-opposite-sign-positive-result
+		bug-miscalculate-combine-constants-opposite-sign-positive-result
+		bug-miscalculate-combine-constants-opposite-sign-positive-result
+		bug-miscalculate-combine-constants-opposite-sign-positive-result
+		bug-miscalculate-combine-constants-opposite-sign-positive-result
+
+
+bug-miscalculate-combine-constants-opposite-sign-negative-result
+	occurrences when using all bugs versus occurrences with just the one bug
+		3/5	
+		60.0%
+
+	Bugs that replaced it:
+
+
+bug-miscalculate-combine-constants-opposite-sign-divide
+	occurrences when using all bugs versus occurrences with just the one bug
+		1/2	
+		50.0%
+
+	Bugs that replaced it:
+		bug-miscalculate-multiply-constants-add
+
+
+bug-distribute-forget-var
+	occurrences when using all bugs versus occurrences with just the one bug
+		2/2	
+		100.0%
+
+	Bugs that replaced it:
+
+
+bug-distribute-change-minus-sign
+	occurrences when using all bugs versus occurrences with just the one bug
+		1/1	
+		100.0%
+
+	Bugs that replaced it:
+
+
+bug-move-variable-left-strategically-same-sign
+	occurrences when using all bugs versus occurrences with just the one bug
+		1/3	
+		33.3333333333%
+
+	Bugs that replaced it:
+		bug-miscalculate-combine-vars-opposite-sign-positive-result
+		bug-wrong-transf-add-same-sign-var
+
+
+bug-move-constant-left-strategically-same-sign
+	occurrences when using all bugs versus occurrences with just the one bug
+		7/6	
+		116.666666667%
+
+	Bugs that replaced it:
+		bug-miscalculate-combine-constants-opposite-sign-positive-result
+		bug-wrong-transf-add-same-sign-const
+
+
+bug-move-constant-left-strategically-same-sign
+	occurrences when using all bugs versus occurrences with just the one bug
+		7/7	
+		100.0%
+
+	Bugs that replaced it:
+		bug-miscalculate-combine-constants-opposite-sign-positive-result
+		bug-miscalculate-combine-constants-opposite-sign-positive-result
+		bug-miscalculate-combine-constants-opposite-sign-positive-result
+		bug-miscalculate-combine-constants-opposite-sign-positive-result
+
+
+bug-move-constant-right-strategically-same-sign
+	occurrences when using all bugs versus occurrences with just the one bug
+		0/1	
+		0%
+
+bug-move-constant-same-sign-mid-transf
+	occurrences when using all bugs versus occurrences with just the one bug
+		38/29	
+		131.034482759%
+
+	Bugs that replaced it:
+
+
+bug-both-sides-different-transf-term
+	occurrences when using all bugs versus occurrences with just the one bug
+		16/12	
+		133.333333333%
+
+	Bugs that replaced it:
+
+
+bug-both-sides-different-transf-sign
+	occurrences when using all bugs versus occurrences with just the one bug
+		0/49	
+		0%
+
+bug-both-sides-forget-transf
+	occurrences when using all bugs versus occurrences with just the one bug
+		22/26	
+		84.6153846154%
+
+	Bugs that replaced it:
+
+
+bug-both-sides-forget-transf
+	occurrences when using all bugs versus occurrences with just the one bug
+		22/15	
+		146.666666667%
+
+	Bugs that replaced it:
+		bug-order-of-op-distrib-eliminate-constant
+		bug-order-of-op-distrib-eliminate-constant
+		bug-order-of-op-distrib-eliminate-constant
+
+
+bug-order-of-op-distrib-eliminate-constant
+	occurrences when using all bugs versus occurrences with just the one bug
+		4/1	
+		400.0%
+
+	Bugs that replaced it:
+
+
+bug-order-of-op-distrib-add-constant
+	occurrences when using all bugs versus occurrences with just the one bug
+		2/1	
+		200.0%
+
+	Bugs that replaced it:
+
+
+bug-order-of-op-distrib-eliminate-coeff
+	occurrences when using all bugs versus occurrences with just the one bug
+		1/1	
+		100.0%
+
+	Bugs that replaced it:
+
+
+bug-wrong-op-subtract-left-var-coeff
+	occurrences when using all bugs versus occurrences with just the one bug
+		7/2	
+		350.0%
+
+	Bugs that replaced it:
+		bug-wrong-op-subtract-left-instead-of-divide
+
+
+bug-wrong-op-subtract-right-var-coeff
+	occurrences when using all bugs versus occurrences with just the one bug
+		11/1	
+		1100.0%
+
+	Bugs that replaced it:
+
+
+bug-wrong-op-subtract-left-instead-of-divide
+	occurrences when using all bugs versus occurrences with just the one bug
+		1/1	
+		100.0%
+
+	Bugs that replaced it:
+
+
+bug-wrong-transf-add-same-sign-const
+	occurrences when using all bugs versus occurrences with just the one bug
+		5/10	
+		50.0%
+
+	Bugs that replaced it:
+		bug-move-constant-left-strategically-same-sign
+		bug-move-constant-left-strategically-same-sign
+		bug-move-constant-left-strategically-same-sign
+		bug-move-constant-left-strategically-same-sign
+		bug-move-constant-left-strategically-same-sign
+
+
+bug-wrong-transf-add-same-sign-var
+	occurrences when using all bugs versus occurrences with just the one bug
+		1/3	
+		33.3333333333%
+
+	Bugs that replaced it:
+		bug-move-constant-left-strategically-same-sign
+		bug-move-variable-left-strategically-same-sign
+
+
+bug-not-done-1
+	occurrences when using all bugs versus occurrences with just the one bug
+		187/146	
+		128.082191781%
+
+	Bugs that replaced it:
+		bug-not-done-3
+		bug-not-done-3
+
+
+bug-not-done-2
+	occurrences when using all bugs versus occurrences with just the one bug
+		133/139	
+		95.6834532374%
+
+	Bugs that replaced it:
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+		bug-not-done-1
+
+
+bug-not-done-3
+	occurrences when using all bugs versus occurrences with just the one bug
+		25/33	
+		75.7575757576%
+
+	Bugs that replaced it:
+		bug-not-done-2
+		bug-not-done-2
+		bug-not-done-2
+		bug-not-done-2
+		bug-not-done-2
+		bug-not-done-2
+		bug-not-done-2
+		bug-not-done-2
+		bug-not-done-2
+		bug-not-done-2
+		bug-not-done-2
+
+
+bug-copy-previous-equation
+	occurrences when using all bugs versus occurrences with just the one bug
+		5/21	
+		23.8095238095%
+
+	Bugs that replaced it:
+		bug-combine-unlike-terms-make-constant
+		bug-miscalculate-combine-vars-opposite-sign-positive-result
+		bug-combine-unlike-terms-make-constant
+		bug-combine-unlike-terms-make-constant
+		bug-combine-unlike-terms-make-constant
+		bug-combine-unlike-terms-make-constant
+		bug-combine-unlike-terms-make-constant
+		bug-combine-unlike-terms-make-constant
+		bug-miscalculate-combine-constants-opposite-sign-positive-result
+		bug-move-variable-right-unstrategically-same-sign
+		bug-combine-unlike-terms-make-constant
+		bug-combine-unlike-terms-make-constant
+		bug-combine-unlike-terms-make-constant
+		bug-combine-unlike-terms-make-constant
+		bug-combine-unlike-terms-make-constant
+		bug-miscalculate-combine-constants-opposite-sign-positive-result
+
+
+bug-invalid-expression
+	occurrences when using all bugs versus occurrences with just the one bug
+		40/35	
+		114.285714286%
+
+	Bugs that replaced it:
+
+
+bug-invalid-expression
+	occurrences when using all bugs versus occurrences with just the one bug
+		40/40	
+		100.0%
+
+	Bugs that replaced it:
+
+
+bug-combine-unlike-terms-make-constant
+	occurrences when using all bugs versus occurrences with just the one bug
+		12/20	
+		60.0%
+
+	Bugs that replaced it:
+		bug-miscalculate-combine-vars-opposite-sign-positive-result
+		bug-copy-previous-equation
+		bug-copy-previous-equation
+		bug-miscalculate-combine-constants-opposite-sign-positive-result
+		bug-copy-previous-equation
+		bug-copy-previous-equation
+		bug-copy-previous-equation
+		bug-miscalculate-combine-constants-opposite-sign-positive-result
+
+
+bug-combine-unlike-terms-make-variable
+	occurrences when using all bugs versus occurrences with just the one bug
+		1/14	
+		7.14285714286%
+
+	Bugs that replaced it:
+		bug-combine-unlike-terms-make-constant
+		bug-miscalculate-combine-vars-opposite-sign-positive-result
+		bug-copy-previous-equation
+		bug-copy-previous-equation
+		bug-combine-unlike-terms-make-constant
+		bug-combine-unlike-terms-make-constant
+		bug-combine-unlike-terms-make-constant
+		bug-combine-unlike-terms-make-constant
+		bug-miscalculate-combine-constants-opposite-sign-positive-result
+		bug-copy-previous-equation
+		bug-copy-previous-equation
+		bug-copy-previous-equation
+		bug-miscalculate-combine-constants-opposite-sign-positive-result
+
+

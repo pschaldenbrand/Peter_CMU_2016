@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProblemSet initial_sequence="0" selection_algorithm="sequential" max_count="1000" description="Student compares two options using common multiples, factors, or a unit rate to determine the better option." max_repeat="1" label="6.28 Proportions" team_size="1" name="6.28" picture="">
+  <Problems>
+    <Problem selection_features="" problem_file="s2p1.brd" description="Which kind of flour has more protein in it?" student_interface="6_28_template.swf" label="Which kind of flour has more protein in it?" name="vegetarian" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Scaling-down-to-a-factor"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Identifying-given-values"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Comparing-options"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Calculating-common-factor"/>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="s2p2.brd" description="Is it cheaper to buy bus passes or ride tokens?" student_interface="6_28_template.swf" label="Is it cheaper to buy bus passes or ride tokens?" name="bus ride" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Scaling-down-to-a-factor"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Identifying-given-values"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Comparing-options"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Calculating-common-factor"/>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="s3p1.brd" description="Which kind of case is cheaper?" student_interface="6_28_template.swf" label="Which kind of case is cheaper?" name="soda" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Scaling-up-to-a-multiple"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Identifying-given-values"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Comparing-options"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Calculating-common-multiple"/>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="s3p2.brd" description="Which packet of tickets is a better deal?" student_interface="6_28_template.swf" label="Which packet of tickets is a better deal?" name="ticket sales" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Scaling-appropriately"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Identifying-given-values"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Comparing-options"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Selecting-common-number"/>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="s3p3.brd" description="Which theater sells cheaper tickets?" student_interface="6_28_template.swf" label="Which theater sells cheaper tickets?" name="movies" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Scaling-up-to-a-multiple"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Identifying-given-values"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Comparing-options"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Calculating-common-multiple"/>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="s3p4.brd" description="Which cereal box is cheaper?" student_interface="6_28_template.swf" label="Which cereal box is cheaper?" name="cereal" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Finding-unit-cost"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Identifying-given-values"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Comparing-options"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Initiating-unit-comparison"/>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="s3p5.brd" description="Which gas station is cheaper?" student_interface="6_28_template.swf" label="Which gas station is cheaper?" name="driving" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Scaling-appropriately"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Identifying-given-values"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Comparing-options"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Selecting-common-number"/>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="s3p6.brd" description="Which vegetable has more calcium in it?" student_interface="6_28_template.swf" label="Which vegetable has more calcium in it?" name="greens" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Scaling-up-to-a-multiple"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Identifying-given-values"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Comparing-options"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Calculating-common-multiple"/>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="s3p7.brd" description="Who scored more points in basketball?" student_interface="6_28_template.swf" label="Who scored more points in basketball?" name="basketball points" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Scaling-down-to-a-factor"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Identifying-given-values"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Comparing-options"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Calculating-common-factor"/>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="s3p8.brd" description="which place is selling cheaper tickets for the game?" student_interface="6_28_template.swf" label="which place is selling cheaper tickets for the game?" name="basketball tickets" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Finding-unit-cost"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Identifying-given-values"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Comparing-options"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Initiating-unit-comparison"/>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="s4p1.brd" description="Which bag of lollipops is cheaper?" student_interface="6_28_template.swf" label="Which bag of lollipops is cheaper?" name="lollipops" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Scaling-appropriately"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Identifying-given-values"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Comparing-options"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Selecting-common-number"/>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="s4p2.brd" description="Which box of cards is a better deal?" student_interface="6_28_template.swf" label="Which box of cards is a better deal?" name="game cards" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Scaling-appropriately"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Identifying-given-values"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Comparing-options"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Selecting-common-number"/>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="s4p3.brd" description="Which CD club offers better deals?" student_interface="6_28_template.swf" label="Which CD club offers better deals?" name="cd club" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Scaling-appropriately"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Identifying-given-values"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Comparing-options"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Selecting-common-number"/>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="s4p4.brd" description="Which theme park has better passes?" student_interface="6_28_template.swf" label="Which theme park has better passes?" name="theme park" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Scaling-appropriately"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Identifying-given-values"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Comparing-options"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Selecting-common-number"/>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="s4p5.brd" description="Who's snack is cheaper?" student_interface="6_28_template.swf" label="Who's snack is cheaper?" name="snack" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Scaling-appropriately"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Identifying-given-values"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Comparing-options"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Selecting-common-number"/>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="s4p6.brd" description="Which ice tea is a better buy?" student_interface="6_28_template.swf" label="Which ice tea is a better buy?" name="tea shop" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Scaling-appropriately"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Identifying-given-values"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Comparing-options"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Selecting-common-number"/>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="s4p7.brd" description="Who is driving faster?" student_interface="6_28_template.swf" label="Who is driving faster?" name="washington dc" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Scaling-appropriately"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Identifying-given-values"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Comparing-options"/>
+        <Skill category="comparing-rates-using-number-sense" occurrences="1" name="Selecting-common-number"/>
+      </Skills>
+    </Problem>
+  </Problems>
+  <Categories>
+    <Collection category="" description="Released Problem Sets" parent_category="" label="Released Problem Sets" parent_name="" name="general"/>
+    <Standard category="standard" description="PA Assessment Anchors" parent_category="" label="PA Assessment Anchors" parent_name="" name="PA"/>
+    <Standard category="standard" description="NCTM Curriculum Focal Points" parent_category="" label="NCTM Curriculum Focal Points" parent_name="" name="NCTM"/>
+    <Standard category="standard" description="Common Core Standards" parent_category="" label="Common Core Standards" parent_name="" name="CommonCore"/>
+    <Standard category="standard" description="Student Standards" parent_category="" label="Problem Set Categories" parent_name="" name="Student"/>
+    <Grade category="" description="6th Grade" parent_category="" label="6th Grade" parent_name="" name="6"/>
+    <Grade category="" description="7th Grade" parent_category="" label="7th Grade" parent_name="" name="7"/>
+    <Standard category="reporting_category" description="A. Numbers and Operations" parent_category="standard" label="A. Numbers and Operations" parent_name="PA" name="PA.A"/>
+    <Standard category="assessment_anchor" description="A.2. Understand the meanings of operations, use operations and understand how they relate to each other." parent_category="reporting_category" label="A.2. Operations: Meanings, Uses and Relationships" parent_name="PA.A" name="PA.A.2"/>
+    <Standard category="strand" description="A. Numbers and Operations" parent_category="standard" label="A. Numbers and Operations" parent_name="NCTM" name="NCTM.A"/>
+    <Standard category="grade_level" description="7th Grade" parent_category="standard" label="7th Grade" parent_name="CommonCore" name="CommonCore.7"/>
+    <Standard category="strand" description="7.RP. Ratios and Proportional Relationships" parent_category="grade_level" label="7.RP. Ratios and Proportional Relationships" parent_name="CommonCore.7" name="CommonCore.7.RP"/>
+    <Standard category="strand" description="Student.Usfr" parent_category="standard" label="Student.Usfr" parent_name="Student" name="Student.USFR"/>
+  </Categories>
+  <Skills>
+    <Skill category="comparing-rates-using-number-sense" pKnown="0.25" description="Calculating Common Factor" pLearn="0.2" label="Calculating Common Factor" name="Calculating-common-factor" pGuess="0.2" pSlip="0.1"/>
+    <Skill category="comparing-rates-using-number-sense" pKnown="0.25" description="Calculating Common Multiple" pLearn="0.2" label="Calculating Common Multiple" name="Calculating-common-multiple" pGuess="0.2" pSlip="0.1"/>
+    <Skill category="comparing-rates-using-number-sense" pKnown="0.25" description="Comparing Options" pLearn="0.2" label="Comparing Options" name="Comparing-options" pGuess="0.2" pSlip="0.1"/>
+    <Skill category="comparing-rates-using-number-sense" pKnown="0.25" description="Finding Unit Cost" pLearn="0.2" label="Finding Unit Cost" name="Finding-unit-cost" pGuess="0.2" pSlip="0.1"/>
+    <Skill category="comparing-rates-using-number-sense" pKnown="0.25" description="Identifying Given Values" pLearn="0.2" label="Identifying Given Values" name="Identifying-given-values" pGuess="0.2" pSlip="0.1"/>
+    <Skill category="comparing-rates-using-number-sense" pKnown="0.25" description="Initiating Unit Comparison" pLearn="0.2" label="Initiating Unit Comparison" name="Initiating-unit-comparison" pGuess="0.2" pSlip="0.1"/>
+    <Skill category="comparing-rates-using-number-sense" pKnown="0.25" description="Scaling Appropriately" pLearn="0.2" label="Scaling Appropriately" name="Scaling-appropriately" pGuess="0.2" pSlip="0.1"/>
+    <Skill category="comparing-rates-using-number-sense" pKnown="0.25" description="Scaling Down To A Factor" pLearn="0.2" label="Scaling Down To A Factor" name="Scaling-down-to-a-factor" pGuess="0.2" pSlip="0.1"/>
+    <Skill category="comparing-rates-using-number-sense" pKnown="0.25" description="Scaling Up To A Multiple" pLearn="0.2" label="Scaling Up To A Multiple" name="Scaling-up-to-a-multiple" pGuess="0.2" pSlip="0.1"/>
+    <Skill category="comparing-rates-using-number-sense" pKnown="0.25" description="Selecting Common Number" pLearn="0.2" label="Selecting Common Number" name="Selecting-common-number" pGuess="0.2" pSlip="0.1"/>
+  </Skills>
+  <Assets>
+  </Assets>
+</ProblemSet>

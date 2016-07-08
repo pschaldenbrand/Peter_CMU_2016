@@ -1,0 +1,145 @@
+18eq-2+4parx-1par => 22=$
+bugs fired in this transaction:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+	bug-combine-unlike-terms-make-variable
+
+7x=2x-10 => 7x=$
+bugs fired in this transaction:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+
+9=4+x => 9=$
+bugs fired in this transaction:
+	bug-multiply-unlike-terms-make-constant
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+	bug-combine-unlike-terms-make-variable
+
+8=-x+2 => 8=$
+bugs fired in this transaction:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+	bug-combine-unlike-terms-make-variable
+
+7x=2x-10 => 7x=$
+bugs fired in this transaction:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+
+1eq2par3x-4par+15 => 1=$
+bugs fired in this transaction:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+
+5x=3x+10 => 5x=$
+bugs fired in this transaction:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+
+8=-x+2 => 8=$
+bugs fired in this transaction:
+	bug-multiply-unlike-terms-make-variable
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+	bug-combine-unlike-terms-make-variable
+
+7x=2x-10 => 7x=$
+bugs fired in this transaction:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+	bug-combine-unlike-terms-make-variable
+
+6x=2x+8 => 6x=$
+bugs fired in this transaction:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+
+9=4+x => 9=$
+bugs fired in this transaction:
+	bug-multiply-unlike-terms-make-constant
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+	bug-combine-unlike-terms-make-variable
+
+9-12=3x => 9=$
+bugs fired in this transaction:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+	bug-combine-unlike-terms-make-variable
+
+18eq-2+4parx-1par => 18=$
+bugs fired in this transaction:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+
+5=6-x => $=6
+bugs fired in this transaction:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+	bug-combine-unlike-terms-make-variable
+
+x+3=5 => $=5
+bugs fired in this transaction:
+	bug-multiply-unlike-terms-make-constant
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+	bug-combine-unlike-terms-make-variable
+
+8=5x-5 => 20=$
+bugs fired in this transaction:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+	bug-combine-unlike-terms-make-variable
+
+7x=2x-10 => 7x=$
+bugs fired in this transaction:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+
+1=9-x => 10=$
+bugs fired in this transaction:
+	bug-miscalculate-combine-constants-opposite-sign-positive-result
+	bug-miscalculate-combine-constants-opposite-sign-positive-result
+	bug-move-constant-left-strategically-same-sign
+
+3=7-x => 3=$
+bugs fired in this transaction:
+	bug-multiply-unlike-terms-make-constant
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+	bug-combine-unlike-terms-make-variable
+
+18=-2+4(x)+4(-1) => 18=$
+bugs fired in this transaction:
+	bug-multiply-unlike-terms-make-constant
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+	bug-combine-unlike-terms-make-variable
+
+20eq5parx-1par => 20=$
+bugs fired in this transaction:
+	bug-multiply-unlike-terms-make-variable
+	bug-copy-previous-equation
+	bug-combine-unlike-terms-make-constant
+	bug-combine-unlike-terms-make-variable
+

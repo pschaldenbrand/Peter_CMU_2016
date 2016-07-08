@@ -1,0 +1,46 @@
+0.0	Row	5544
+100.0	Sample Name	5544
+0.0	Transaction Id	5544
+0.0	Anon Student Id	5544
+100.0	Session Id	5544
+0.0	Time	5544
+0.0	Time Zone	5544
+2.6875901875901875	Duration (sec)	5544
+100.0	Student Response Type	5544
+100.0	Tutor Response Type	3971
+100.0	Level (Assignment)	5544
+100.0	Level (ProblemSet)	5544
+100.0	Problem Name	5544
+94.82323232323232	Problem View	5544
+0.0	Problem Start Time	5544
+98.48904558045832	Step Name	3971
+76.00100730294636	Attempt At Step	3971
+82.67438932258877	Is Last Attempt	3971
+99.77335683706875	Outcome	3971
+100.0	Selection	5544
+100.0	Action	5544
+99.98196248196248	Input	5544
+99.15966386554622	Feedback Text	714
+100.0	Help Level	714
+99.29971988795518	Total Num Hints	714
+99.1652754590985	KC (Default)	1797
+100.0	KC Category (Default)	1782
+0.0	KC (Default)	251
+100.0	KC Category (Default)	251
+100.0	KC (Single-KC)	3971
+0.09157509157509157	KC (Unique-step)	3276
+100.0	School	5544
+100.0	Class	5544
+99.92445227902292	CF (act)	3971
+2.132435465768799	CF (knowledge-trace)	1782
+100.0	CF (pKnowValues)	3971
+99.82372198438681	CF (postEqStu)	3971
+99.92445227902292	CF (postEqSys)	3971
+99.77335683706875	CF (preEqProps)	3971
+99.77335683706875	CF (preEqStu)	3971
+99.77335683706875	CF (preEqSys)	3971
+99.1381495564005	CF (step_id)	3945
+0.0	CF (tool_event_time)	5544
+99.92445227902292	CF (transf)	3971
+99.97037914691943	CF (transfProps)	3376
+0.0	CF (tutor_event_time)	3971

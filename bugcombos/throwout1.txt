@@ -1,0 +1,469 @@
+21a84a70397c7dad9cca8f2b53d63af8	bug!!! name: bug-miscalculate-combine-constants-opposite-sign-positive-result	x + c0  = c1  => $  = c2 	x+3 = 5 => $ = 8
+d6639a8b6d8fa53971384d1ae9658d5b	bug!!! name: bug-miscalculate-combine-constants-opposite-sign-positive-result	c0  = c1 - x  => c2  = $ 	5 = 6-x => 11 = $
+abd326b47622339f2390d471b7ba5a59		c0  = c1 - x  => $  = x 	5 = 6-x => $ = x
+f293f8ec955770bd4d1d7ac9a92aff8e		c0  = c1 - x  => nc2  = x 	5 = 6-x => -1 = x
+0f0a19df708468a51fa3009b8fe3996b		nc0  = n x  => nc0  = x 	-1 = -x => -1 = x
+9ed3692bc423c3f7191d97fb54476db2	bug!!! name: bug-miscalculate-combine-constants-opposite-sign-positive-result	c0  = c1 - x  => c2  = $ 	1 = 9-x => 10 = $
+d4dcdd20667bbb44fbebf1684750e349	bug!!! name: bug-wrong-op-subtract-left-var-coeff	c0 * x  = c1  => $  = c2 	2x = 6 => $ = 3
+06b2d58c2f31f0779048b66a3bab1489	bug!!! name: bug-wrong-op-subtract-left-var-coeff	c0 * x  = c1  =>  = c2 	7x = 14 =>  = 2
+f74cc2decec7a18bb9cfbeedb8e128e0	bug!!! name: bug-wrong-op-subtract-left-var-coeff	c0 * x  = c1  =>  = c2 	5x = 15 =>  = 3
+86e820505e0abffe2af7e3548eaeade4	bug!!! name: bug-order-of-op-distrib-eliminate-constant	c0  = c1 * x - c2  => c3  = $ 	20 = 5(x-1) => 21 = $
+976e36a830e550a06d78bd5c638900d9	bug!!! name: bug-order-of-op-distrib-add-constant	c0  = c1 * x - c2  => c3  = $ 	20 = 5(x-1) => 19 = $
+cb787b617c22d330fe843cf1bf4ccd29		c0  = c1 * x - c2  => c3  = $ 	20 = 5(x-1) => 4 = $
+0edea020730a20ada847fa3cf90a5f8e		c0  = c1 * x - c2  => c3  = $ 	20 = 5(x-1) => 8 = $
+9836b4a426ee9ef654dd0e31dc6249e1	bug!!! name: bug-invalid-expression	c0  = c1 * x - c2  => c3  = c1 * x 	20 = 5(x-1) => 8 = 5x=-5
+92e46736c1a593eceb0257995dc8b0f7		c0  = c1 * x - c1  => $  = x 	8 = 5x-5 => $ = x
+daf7ff039f0d0e9e30af874b93e7ef43	bug!!! name: bug-miscalculate-combine-constants-opposite-sign-positive-result	c0  = c1 * x - c1  => c3  = $ 	8 = 5x-5 => 15 = $
+d964836c4a30a6dd82ecb781fe0f3037	bug!!! name: bug-combine-unlike-terms-make-constant	c0  = c1 * x - c1  => c3  = $ 	8 = 5x-5 => 20 = $
+ea7d441dc841a8b04d52d30827b8e809		c0 - c0 - c2 * x  = nc2  => nc2 * x  = nc2 	20-20-5x = -5 => -5x = -5
+52b7ce5611eb7bc2adcb3e4b557f1ca0	bug!!! name: bug-invalid-expression	c0 - c0 - c2 * x  = nc2  => n  = $ 	20-20-5x = -5 => - = $
+7481953fbb3b798cfea7bb26088f98ac	bug!!! name: bug-wrong-op-subtract-right-var-coeff	c0  = c1 * x  => c2  = $ 	6 = 2x => 3 = $
+f84665449d59c74c216f88ade338cf9d	bug!!! name: bug-order-of-op-distrib-add-constant	c0 * x - c1  = c0  => $  = c3 	3(x-2) = 3 => $ = 1
+1e63fe52c2a106f73061c5717187f253	bug!!! name: bug-distribute-forget-const	c0 * x - c1  = c0  => c0 * x  = c4 	3(x-2) = 3 => 3*x = 1
+25095c94300f65c4792dc2c167ed045f		c0 * x - c1  = c2  => x - c1  = $ 	3(x-2)/3 = 1 => x-2 = $
+d562983e5d490d8c291a164d3349fc3d		c0 * x - c1  = c2  => $  = c2 	3(x-2)/3 = 1 => $ = 1
+7be122b29f891010bcf34b8cd0ce0fa5		c0 * x - c1  = c2  => $  = nc2 	3(x-2)/3 = 1 => $ = -1
+9c86860349580cd73ed8d274f9e0eca1		c0 * x - c1  = c2  => x  = $ 	3(x-2)/3 = 1 => x = $
+c3f0792c6cbafe2593fe174f615d0c23		c0 * x - c1  = c2  => $  = c0 	3(x-2)/3 = 1 => $ = 3
+d2293dbece30395f14894e5cd86badae		c0  = c1 + c2 * x - c2  => c4  = nc4 + c2 * x 	5 = 3+2(x-2) => 1 = -1+2x
+4f44a5fcc454f0ac064dfbb8f5814f25	bug!!! name: bug-wrong-op-subtract-right-var-coeff	c0  = nc1 + c2 * x  => c3  = $ 	6 = -1+2x => 3 = $
+71dd27258308a391b7c7a7804c18f757	bug!!! name: bug-order-of-op-distrib-eliminate-constant	c0 * c1 * x - c2  = c0  => $  = c4 	4(2x-3) = 4 => $ = 7
+ba5c7415867e32d8339320232a54ef55		c0 * c1 * x - c2  = c0  => c0 * c1 * x - c2  = c0 	4(2x-3) = 4 => 4(2x-3) = 4
+e88874578a1bcba16762d5190a98a44a		c0 * c1 * x - c2  = c0  => c4 * x - c2  = c0 	4(2x-3) = 4 => 8x-3 = 4
+50f771bbf8cc1aaa0458b1b1590351cd		c0 * c1 * x - c2  = c0  => c4 * x + nc5  = c0 	4(2x-3) = 4 => 8x+-16 = 4
+5b87203f2b66a054e7c3a735742734dc		c0  = c1 * c2 * x - c3 + c4  =>  = c1 	1 = 2(3x-4)+15 =>  = 2
+a0bdc0b153b8ff07173ba4c6c4433573		c0  = c1 * x + c2  => c0  = x 	1 = 6x+15 => 1 = x
+7dd46a674b59cb90fe2a05e98343437a	bug!!! name: bug-combine-unlike-terms-make-constant-mid-transf	c0  = c1 * c2 + x  => $  = c1 * x 	15 = 3(1+x) => $ = 3x
+7738b4ea6b1cc5ee6f6fcdde5c84d3a4		c0  = c1 * x  => $  = x 	12 = 3x => $ = x
+af835de0b7ddb40a12c7befd05f226d9		c0  = c1 * x  => c2  = $ 	12 = 3x => 4 = $
+7b1ad2cd8c850cbd7472a54fff592da6	bug!!! name: bug-wrong-op-subtract-right-var-coeff	c0 * x + c1  = c2 * x  => c2  = $ 	3x+10 = 5x => 5 = $
+1da507c1e1f6d2563374315fc777af1f		c0 * x + c1  = c2 * x  => c1  = $ 	2x+6 = 3x => 6 = $
+13175eb6042ebf4066229a5f430fd8e1		c0 * x + c1  = c2 * x  => c1  = x 	2x+6 = 3x => 6 = x
+7c514bd2868425fa216f9df249290de3		c0 * x + c1  = c2 * x  => c1  = c4 * x 	2x+6 = 3x => 6 = 1x
+23398b27ad60b997cd3a36525a3b1e0f		n x + c0  = c1  => x  = c2 	-x+3 = 11 => x = 8
+bbc54e927115bd9c1785c0e6643603b6	bug!!! name: bug-invalid-expression	c0  = n x + c1  =>  = n x 	13 = -x+6 =>  = -x=6-6
+3cfcdfb44a881dc0700a5c8f402d7f5f		c0 * x + c1 - c1  = c3  => x  = c0 	9x+3-3 = 18 => x = 9
+b1a51ca21a836326244c1909da9ec500		c0 * x + c1  = c2 * x  => c1  = c0 * x - c2 * x 	2x+6 = 3x => 6 = 2x-3x
+4bc7de7fc2b3f42a3f224f73a75e29ca	bug!!! name: bug-invalid-expression	c0 * x + c1  = c2 * x  => c1  = c4 * x c 	2x+6 = 3x => 6 = 1xc
+571d1c5864c95e85ef68fea1d8ffe494		c0  = c1 * x  => $  = c1 * x c1 	6 = 1x => $ = 1x/1
+a175709d1673a2a76870149fbcabad85		c0  = c1 * x  => c0  = $ 	6 = 1x => 6/1 = $
+3de25984cfe5d9c5e3433586f4324799		c0  = c1 * x  => c0  = $ 	6 = 1x => 6 = $
+3509f3eb1f1a07aedadea26c725d7b72		c0  = c1 * x  => $  = x 	6 = 1x => $ = x
+0dcecffed5fc42f373abd1a4759a8794	bug!!! name: bug-multiply-unlike-terms-make-variable	x + c0  = c1  => c0 * x  = $ 	x+3 = 5 => 3x = $
+454b32da1d4de726d678e590c807c777	bug!!! name: bug-miscalculate-combine-vars-opposite-sign-positive-result	x + c0  = c1  => $  = c1 	x+3 = 5 => $ = 5
+eba4f80df99b3b5859c1558f2c7b6f38		x + c0  = c1  => x  = $ 	x+3 = 5 => x = $
+b271d89b12c49227ea188b76d627b6bb		x + c0  = c1  => x  = c2 - c3 	x+3 = 5 => x = 2-6
+f366516d48d1819da3652e99049d9702		x + c0  = c1  => x  = c1 - c3 	x+3 = 5 => x = 5-2
+63416ee3382c47f3259302113620dfed		x + c0  = c1  => c1 - c3  = $ 	x+3 = 5 => 5-2 = $
+0256a90d830e80e291d77c767465e6d0		x + c0  = c1  => x  = $ 	x+6 = 0 => x = $
+1dc0c86df9677334569f52fc0238bea2	bug!!! name: bug-invalid-expression	x + c0  = c0  =>  = o 	x+7 = 7 =>  = o
+bb343f63435900e2338b888a55ef0047		x + c0  = c0  => x  = $ 	x+7 = 7 => x = $
+1444002e5bfd8fb66dd9724416173559	bug!!! name: bug-move-constant-left-strategically-same-sign	c0  = c1 - x  => c0 + c1  = $ 	1 = 9-x => 1+9 = $
+2f46a0b7199a1a22d9725b832ba7a0c2		c0  = c1 - x  => c1 - c0  = $ 	1 = 9-x => 9-1 = $
+8c17e5758ae95b00682229c60ef120e7	bug!!! name: bug-move-variable-left-unstrategically-same-sign	c0  = c1 - x  => c1 - c0  = c1 - c0 	1 = 9-x => 9-1 = 9-1
+2caae3a10078c33c3ac80fb8e0216236		c0  = c1 - x  => c1 - c0  = c1 - c1 	1 = 9-x => 9-1 = 9-9
+5f593e307badeb56be1c47fd415c4697		c0  = c1 - x  => c1 - c0  = x 	1 = 9-x => 9-1 = x
+d26e00a7ac79bf86d121d969b2feea21		c0  = c1 - x  => x  = $ 	1 = 9-x => x = $
+d16f43f78b406e15df832e553f3079f6		c0  = c1 - x  => nc2 - c1  = $ 	1 = 9-x => -8-9 = $
+ccf96d81438d2da41a652a8d5a8edea9	bug!!! name: bug-invalid-expression	c0  = c1 - x  => nc2 - c0  = $ 	1 = 9-x => -8-1 = $
+64575ad34d6b82d3c6025bc1b898c9f5		c0  = c1 - x  => c2  = c2 	1 = 9-x => 8 = 8
+78eca4ff5caf2919eb2844a4e4dce226		c0  = c1 - x  => c2 - c0  = $ 	1 = 9-x => 8-1 = $
+10a75686e9834f14861028465ce1968f	bug!!! name: bug-move-constant-left-strategically-same-sign	c0  = c1 - x  => c0 + c1  = $ 	5 = 6-x => 5+6 = $
+229debdcd746008ca48a1d8c2f513c15		c0  = c1 - x  => c2  = $ 	5 = 6-x => 0 = $
+00b00a00d4e22d13304986c625171562		c0  = c1 - x  => nc2  = $ 	5 = 6-x => -1 = $
+b9949ab8f77702e3bdf66169c3bf46d6		c0  = c1 - x  => c2  = $ 	5 = 6-x => 2 = $
+48c250e9ccabaa4aaf91247d163015ab		c0  = c1 - x  => nc2  = $ 	5 = 6-x => -2 = $
+6dd3eea8307518826b457d88e20e8b7e		 = c0 - c1  => $  = nc1 	 = 1-8 => $ = -8
+fff83c7cd5dd91ff2a7efc2269c1e9b9		n x nc0  = nc1  => $  = nc1 	-x/-1 = -7 => $ = -7
+a4f89e507a3e28589844b82b5a40cc65		n x nc0  = nc1  => x  = nc2 	-x/-1 = -7 => x = -6
+0bc12285e46f51c0b8afcd99cdbbebeb		n x nc0  = nc1  => x  = nc2 	-x/-1 = -7 => x = -8
+564ea0cb127e94b868c41b44264c0105		n x nc0  = nc1  => x  = nc0 	-x/-1 = -7 => x = -1
+66f2458954eea65abb8425bc330ac7a4		n x nc0  = nc1  => x  = c0 	-x/-1 = -7 => x = 1
+144e3e385dc133af9ad5906e904cfb3a	bug!!! name: bug-wrong-op-subtract-right-var-coeff	c0  = c1 * x  => c0 - c1  = $ 	10 = 2x => 10-2 = $
+fa2b4e6a98c8260e31bc3b3e9343cf41		c0  = c1 * x  => c0  = c1 x 	10 = 2x => 10/2 = 2/x
+9b70e1221815d5a747e846b29f530e40		c0  = c1 * x  => c0  = c3 	10 = 2x => 10/2 = 1
+829c61dee0a49c548118739e23902d2f		c0  = c1 * x  => c2  = $ 	10 = 2x => 5/1 = $
+c1ff8a4ae4ee438d797fde46ebd280a4		c0  = c1 * x  => c2 * x  = $ 	10 = 2x => 5/1x = $
+7ed00d14804ed9858aee3c4a64124043	bug!!! name: bug-combine-unlike-terms-make-variable	c0 * x + c1  = c2  => c3 * x  = $ 	2(x+1) = 6 => 4x = $
+b9ecf7d9b8c35fb7c45ce87f9c26a4fc		c0 * x + c1  = c2  => c0 * x  = c4 	2(x+1) = 6 => 2x = 4/2
+64eaeabded62961be3fb50c03ce03179	bug!!! name: bug-invalid-expression	c0  = c1 + c2 * x - c2  => c0  = c5 	5 = 3+2(x-2) => 5 = 1=2x
+9b154311e0d84283e8873487285884c0	bug!!! name: bug-invalid-expression	c0  = c1 + c2 * x - c2  => c0  = nc5 	5 = 3+2(x-2) => 5 = -1=2x
+3fe3ad24e39157df8ef380d6e69da658		c0  = c1 + c2 * x - c2  => c0  = nc5 - c2 * x 	5 = 3+2(x-2) => 5 = -1-2x
+7f798bb8c7d544bedfcc15af58b9c6ed	bug!!! name: bug-invalid-expression	c0  = c1 + c2 * x - c2  => c0  = c5 	5 = 3+2(x-2) => 5=1 = $
+1d737673463d80937f1e08627b7b210f	bug!!! name: bug-invalid-expression	c0  = c1 + c2 * x - c2  => c4  = c5 	5 = 3+2(x-2) => 6 = 1=2x
+bb6769bd7157ba20afd2b6ff88144cfd		c0  = c1 * x c1  => c1  = $ 	6 = 2x/2 => 2 = $
+29a7d2bebacc76ab97f3401b683d9160		c0 * nc1 + c2 * x  = c3  => nc4 + c5 * x - c6  = $ 	2(-3+7x) = 8 => -6+16x -1 = $
+4d575d514c99af74c26c5e615d6dcc41		c0 * nc1 + c1 * x  = c3  => c4 + c4 * x  = $ 	5(-2+2x) = 20 => 10+10x = $
+9996dbf40991e6f314e6a8eec7da5a04	bug!!! name: bug-wrong-transf-add-same-sign-const	c0 * nc1 + c1 * x  = c3  => nc4 - c4 + c4 * x  = $ 	5(-2+2x) = 20 => -10-10+10x = $
+d9d8f0cf5460b6fe641a876eb2f5c2c1	bug!!! name: bug-invalid-expression	c0 * x - c1 + c2  = c3  => c0 * x - c0 * $  = $ 	2(x-3)+6 = 14 => 2(x)-2($ = $
+37a3821c75302ceefd51811bbebeecc0		x + c0  = c1  => x  = nc2 	x+2 = 6 => x = -4
+737df492f66fc28f054a85d7be74180f	bug!!! name: bug-wrong-op-subtract-right-var-coeff	c0  = c1 * x  => c2  = $ 	10 = 2x => 5 = $
+8f2bde7456d7be1c0739ddfa5c2f9fae		c0  = c1 * x  => c2  = $ 	16 = 2x => 4 = $
+54fb450c9e988c66e49412ed2ab1f5d2		c0  = nc1 + c2 * x - c3  => $  = nc3 * x 	18 = -2+4(x-1) => $ = -1x
+6d36d22d905c07e73725f3a180daafcf		c0  = nc1 + c2 * x - c3  => $  = x 	18 = -2+4(x-1) => $ = x
+51ed3228f846be16c2f143518a782e29		c0  = nc1 + c2 * x - c3  => $  = n x 	18 = -2+4(x-1) => $ = -x
+64b9357e61a345b3cf59708210957591		c0  = n x  => $  = c1 * x 	20 = -x => $ = 4x
+fb6884f4cfeecaa24bbac4348f464822		c0  = n x  => $  = nc1 * x 	20 = -x => $ = -4x
+ccc720b98bee03822f7cd266222e8d17		c0  = n x  => $  = x 	20 = -x => $ = x
+ff8175d0b0cbf44ddfecad9f0d68d766		c0  = n x  => $  = n x 	20 = -x => $ = -x
+c75f1399c9db42eeb7287bb0194fe0bd		c0  = n x  => $  = c1 * x 	20 = -x => $ = 3x
+ebe82fb8012a3d277bd8717f78d7f667		c0  = n x  => $  = nc1 * x 	20 = -x => $ = -3x
+561acd189a2e73b0c46111ee8deecb82		c0  = n x  => $  = nc1 * x 	20 = -x => $ = -2x
+b9a02d2bfa16b0eee3b94b44a8b82bb2		c0  = n x  => $  = c1 * x 	20 = -x => $ = 2x
+ae75dfe1dc72269109040f2c44a8574a		c0  = n x  => $  = nc1 * x 	20 = -x => $ = -1x
+29c4995d4044f40eef5724fdaee5d33c		c0  = n x  => $  = c1 * x 	20 = -x => $ = 5x
+57d8f1304106cb795dcd59b8b8e46d40		c0  = n x  => $  = nc1 * x 	20 = -x => $ = -5x
+9042c88e18c874801c43ff7203489a9d		c0  = n x  => $  = x 	20 = -x => $ = x
+b2f3c97c6dd87dfa5697e83fb15f80e3		c0  = n x  => $  = c1 * x 	20 = -x => $ = 4x
+cb05d485c503794544efa3f98c28e2d9		c0  = n x  => $  = nc1 * x 	20 = -x => $ = -4x
+1359ece129f41652f809de66e7b453f3		c0  = n x  => c1  = $ 	20 = -x => 18 = $
+5885535cf6c4f10b0af685393bb6b713		c0  = n x  => nc1  = $ 	20 = -x => -18 = $
+197f1a64dc5cebc161434b09ae74bfc6	bug!!! name: bug-move-constant-left-strategically-same-sign	c0  = c1 * x + c1 * nc3  => c4  = c1 * x + nc1 	20 = 4(x)+4(-1) => 16 = 4x+-4
+798d64e550aef767124cb4b4104c61df	bug!!! name: bug-wrong-op-subtract-right-var-coeff	c0  = c1 * x + nc1  => c3  = $ 	24 = 4x+-4 => 6 = $
+173a6a4857e975875688cfc35c5da17c		c0 * x - c1  = c0  => c0 * x - c1  = 	3(x-2) = 3 => 3(x)-2 = 
+2df8803f13ec42619c54b9a7b6d4037e	bug!!! name: bug-invalid-expression	 = c0  => c1 * x +  = $ 	 = 21 => 9x+ = $
+0c68c57245a8aed3ae7065d9a7c318d2		c0 * x  = c1 * x - c2  => x  = nc3 	7x = 2x-10 => x = -5
+d0c6633dfb3c71acaa4afc0dc9dd44fa		c0 * x  = c1 * x - c2  => x  = c3 	7x = 2x-10 => x = 5
+be71c2b46bdf14334cb6963c36d05e01		c0 * x  = c1 * x - c2  => x  = c1 	7x = 2x-10 => x = 2
+f64f0d4622e23a792826cd737643815d	bug!!! name: bug-multiply-unlike-terms-make-constant	n x + c0  = c1  => nc0  = $ 	-x+6 = 15 => -6 = $
+7b743ba9e8c546faa197e34cf2e1deba		n x + c0  = c1  => n x  = $ 	-x+6 = 15 => -x = $
+f6e6ebdd18885da2d863ff02e44d2653		n x + c0  = c1  => n x  = c2 	-x+6 = 15 => -x = 9
+8f2a7234641679dfb0b29f08d09d2ead		c0  = c1 - x  => $  = x 	3 = 7-x => $ = x
+3e87d7cf95486fc8613b8132e9a2987b	bug!!! name: bug-miscalculate-combine-constants-opposite-sign-positive-result	c0  = c1 - x  => c2  = $ 	3 = 7-x => 10 = $
+3372ad6536341dbf2550368b03164bb8	bug!!! name: bug-copy-previous-equation	c0  = c1 - x  => c0  = $ 	3 = 7-x => 3 = $
+e1bc608015c87129b8375eefff94d310	bug!!! name: bug-miscalculate-combine-constants-opposite-sign-positive-result	c0  = c1 - x  => c2  = $ 	3 = 7-x => 10 = $
+db622cec43fdd5d0cf7c62e36c33b41d	bug!!! name: bug-copy-previous-equation	c0  = n x + c1  => c0  = $ 	8 = -x+2 => 8 = $
+0890fc01241bc88ef45ff6c4b5b5c092		c0  = n x + c1  => c2  = $ 	8 = -x+2 => 6 = $
+ccc9211045580b4cb00116facce871b6	bug!!! name: bug-multiply-unlike-terms-make-constant	n x + c0  = c1  => nc0  = $ 	-x+3 = 11 => -3 = $
+d48cf9ad9182dc613d07f9944f740e64	bug!!! name: bug-invalid-expression	n x + c0  = c1  => nnc2  = $ 	-x+3 = 11 => -/-1 = $
+5d4ebd667d04e6bf32d97bb77ee45dba		 = nc0  => c1  = $ 	 = -5 => 1 = $
+0a4fc6cc5a05d2b8c320a6b1315eaeef	bug!!! name: bug-wrong-op-subtract-right-var-coeff	c0  = c1 * x  => c2  = $ 	6 = 2x => 3 = $
+d405b9bef7e3b331ec4cdba807ced4bc	bug!!! name: bug-wrong-op-subtract-right-var-coeff	c0  = c1 * x  => c2  = $ 	18 = 3x => 6 = $
+b10d678943ed2ef53c762502a303fe58		c0 * x + c1  = c2  => c1 * x  = $ 	2(x+1) = 6 => 1x = $
+f24b30cfd39df22898cbe6b669b698ad		c0 * x + c1  = c2  => c0 * c1 * x  = $ 	2(x+1) = 6 => 2(1x) = $
+0d24054c234b0040734bd6434eaa6f9d		c0 * x + c1  = c2  => x  = $ 	2(x+1) = 6 => x = $
+b8c560466496029a0eff32318ee25fff		c0 * x + c1  = c2  => x  = c0 	2(x+1) = 6 => x = 2
+38bf593e8080aa4639946fe59e352022		c0  = c1 * x - c2  => c0  = c1 * x - c2 	20 = 5(x-1) => 20 = 5x-1
+289c7ad15c7dd3c7151fc525ced2a1be	bug!!! name: bug-invalid-expression	c0  = c1 * x - c2  => c0  = c1 * x - c2 * c2 	20 = 5(x-1) => 20 = 5x-1(1
+cce3e1729d66924f7d3019e11f55de39		c0  = c1 * x - c2  => c0  = c1 * x - c2 	20 = 5(x-1) => 20 = 5x-1
+d5a8a0a1b1963e8a02ac710bae255485		c0  = c1 * x - c2  => c0  = c1 * x - c2 	20 = 5(x-1) => 20 = 5x-1
+69d35539e8cf6ed51c1f3bd159c96de8		c0  = c1 * x - c2  => c0  = c1 * x - c1 * nc2 	20 = 5(x-1) => 20 = 5x-5(-1)
+baa783d74146ac5331239bbe7f45e6a7		c0  = c1 * x - c2  => c0  = c1 * x - c1 + c1 * nc2 	20 = 5(x-1) => 20 = 5x-5+5(-1)
+fa1563a321e20df7b6c3be9ff0950587	bug!!! name: bug-invalid-expression	c0  = c1 * x - c2  => c0  = c1 * x - + c1 * nc2 	20 = 5(x-1) => 20 = 5x-+5(-1)
+1a48b37b5cc4b767028c18109ad744a7	bug!!! name: bug-miscalculate-combine-vars-opposite-sign-positive-result	c0  = c1 * x - c1  => $  = c1 * x 	20 = 5x-5 => $ = 5x
+89c9434bc01a160d04aa19cf8c9f6b04		c0  = c1 * x - c1  => c3  = x 	20 = 5x-5 => 25 = x
+b54a30b585efb7c507eff60ee8e9928f		 = c0  => c1 * x + c1 * nc3  = $ 	 = 14 => 2x+2(-4) = $
+5794a49e89211132d45270ce0b1d7ec2		 = c0  => c1 * x + nc1  = $ 	 = 14 => 8x+-8 = $
+68adca16b52ec945a18edeb9218e664b		 = c0  => c1 * x  = $ 	 = 14 => 8x = $
+c1cb9e8ff661c70d54273df3de2b2fd5		c0 + c1 * x - c2  = c3  => c3  = $ 	6+2x-8 = 14 => 14 = $
+e0a07c6913b9c866ee7806fb7ba7efdb	bug!!! name: bug-miscalculate-combine-vars-opposite-sign-positive-result	c0 * x  = c1 * x - c2  => c3 * x  = $ 	7x = 2x-10 => 9x = $
+b7d17b8250deedfa63df86e235554439	bug!!! name: bug-combine-unlike-terms-make-constant	c0 * x  = c1 * x - c2  => c0 * x  = $ 	7x = 2x-10 => 7x = $
+75cb53c15ef94e722fbe8b04edea8cc9	bug!!! name: bug-move-variable-left-strategically-same-sign	c0 * x  = c1 * x - c2  => c0 * x + c1 * x  = $ 	7x = 2x-10 => 7x+2x = $
+4525c097153c125fc8ea190fff5a1f6b		 = nc0 * x  => nc1  = $ 	 = -3x => -27 = $
+ffbc94cd453c6a4c584e573282299705		 = nc0 * x  => nc0  = $ 	 = -3x => -3 = $
+916991e3b12f3550def1f19efdebe344	bug!!! name: bug-miscalculate-combine-vars-opposite-sign-negative-result	c0 * x + c1  = c2 * x  => $  = c3 * x 	3x+10 = 5x => $ = 2x
+af4b2a06cf8c6cfb4149e036dfe9202d		c0  = c1 * x  => c2  = $ 	10 = 2x => 5 = $
+6686a9a389269c843937920ab12f9c43		c0  = c1 * x  => $  = x 	10 = 2x => $ = x
+cacdeb1297bb903631cb33ee82a6ed0e		x + c0  = c1  => x  = $ 	x+2 = 0 => x = $
+0dfc817bdb7c46bb4fa0df8ad8c5a003	bug!!! name: bug-invalid-expression	x + c0  = c1  => x  = n 	x+2 = 0 => x = -
+dc671dc8ab14e582d5991e8fdb8e5519		c0  = c1 + x  => x  = $ 	10 = 5+x => x = $
+2cf6576fa35bdd26220c6a2a24eb0cec		c0  = c1 - x  => nc2  = $ 	5 = 6-x => -1 = $
+07accdc58ec928553f19572f5be37e64	bug!!! name: bug-wrong-op-subtract-left-var-coeff	c0 * x  = c1  => $  = c0 	3x = 9 => $ = 3
+8baf88c3fd929cb8b7a78a571fa75ab6	bug!!! name: bug-wrong-op-subtract-left-var-coeff	c0 * x  = c1  => $  = c2 	6x = 18 => $ = 3
+3859a22519cfcde91b80f8d7da1a09ac	bug!!! name: bug-wrong-op-subtract-right-var-coeff	c0  = c1 * x  => c2  = $ 	10 = 2x => 5 = $
+54064acac6f66386f08b2785afeee97d	bug!!! name: bug-order-of-op-distrib-eliminate-constant	c0  = nc1 + c2 * x - c3  => c0 + c3  = $ 	18 = -2+4(x-1) => 18+1 = $
+f8103006e563c110e5ce6c111aa220e5	bug!!! name: bug-invalid-expression	c0  = nc1 + c2 * x - c3  => $  = nc1 + c2 * nc3 	18 = -2+4(x-1) => $ = -2+4(X-1)
+eb0aecb2dafab5d083b28002e6b2a83d	bug!!! name: bug-invalid-expression	c0  = nc1 + c2 * x - c3  => $  = nc1 + c2 * nc3 + c3 	18 = -2+4(x-1) => $ = -2+4(X-1+1)
+431274ec69d8c459b47dc1f4efa58e04	bug!!! name: bug-invalid-expression	c0  = nc1 + c2 * x - c3  => $  = nc1 + c2 + c2 - c3 	18 = -2+4(x-1) => $ = -2+4X+4-1
+436ba30b157238c1a7e17cbdc73ec408	bug!!! name: bug-invalid-expression	c0  = nc1 + c2 * x - c3  => $  = nc1 + c2 * X + c2 * nc3 	18 = -2+4(x-1) => $ = -2+4(X)+4(-1)
+4e829fb45ecfbe2816f5ae7448fe8eaa	bug!!! name: bug-combine-unlike-terms-make-constant	c0  = nc1 + c2 * x + c2 * nc4  => c0  = $ 	18 = -2+4(x)+4(-1) => 18 = $
+3c5f2f87c8c56ed57b83beb5e9cccbad		c0  = nc1 + c2 * x + c2 * nc4  => c0  = nc1 + c2 * x - c2 * nc4 	18 = -2+4(x)+4(-1) => 18 = -2+4(x)-4(-1)
+4bccf445606497df69df2688328226aa		c0  = nc1 + c2 * x + c2 * nc4  => c0  = nc1 + c2 * x c2 * nc4 	18 = -2+4(x)+4(-1) => 18 = -2+4(x)4(-1)
+96543aab138b072093c6d029050e0562		c0  = nc1 + c2 * x + c2 * nc4  => c5 * x  = $ 	18 = -2+4(x)+4(-1) => 24/4x = $
+239865763b7b0b2e6696512b2f98b17b		c0  = nc1 + c2 * x + c2 * nc4  => c2 * x c6  = $ 	18 = -2+4(x)+4(-1) => 4x/24 = $
+ac12c6a8815f3e5ed68aabeaf74ea9ae	bug!!! name: bug-combine-unlike-terms-make-constant	c0  = c1 * x - c2  => c0  = $ 	20 = 5(x-1) => 20 = $
+6145af456bfcf3100be2cd64b5011910		c0 * x  = c1 * x + c2  => c3 * x  = $ 	12x = 2x+20 => 10x = $
+9dfdf1652e8d7ddca226c18ba87c9a7d		c0  = c1 + x  => c1 + c1  = $ 	10 = 5+x => 5+5 = $
+19acd9a5245b354e02f9408fafc01e41	bug!!! name: bug-invalid-expression	c0  = c1 + x  => c1 + c1  = x x c1 	10 = 5+x => 5+5 = x x5
+77518e2811a47b3ec45cbc4d77d2e250	bug!!! name: bug-invalid-expression	c0  = c1 + x  => c0  = c0 	10 = 5+x => 10=10 = $
+c88075265b9390ee7343ff4819555050	bug!!! name: bug-invalid-expression	c0  = c1 + x  => x  = c0 	10 = 5+x => x=10 = $
+1240d915bb5bf03e879f891339eb6878		x  = c0  => c1 - c1 + x  = c1 - c0 	x=10 = 5-5+x => 5-10 = $
+27c9a89dc2780917be71f77b5a5a1590		x + c0  = c1  => c1  = $ 	x+6 = 0 => 0 = $
+103961ab971efe1f8f571ede7d0ff3ff		x + c0  = c1  => x  = x 	x+6 = 0 => x = x
+186e78fe8b96b416f4ad826051a6d610		x + c0  = c1  => c0 - c0 + x  = c1 - c5 	x+2 = 0 => 2-2+x = 0-6
+15504159cfb5e04fa03472fe4067c930		c0  = c1 - x  =>  = c1 - c1 + x 	5 = 6-x =>  = 6-6+x
+dc2863114f6db3d1e990fc18f4747e0d	bug!!! name: bug-wrong-transf-add-same-sign-const	c0  = c1 - x  =>  = c1 + c1 - x 	5 = 6-x =>  = 6+6-x
+ca0fc950256f0de320ae513fad811a3d	bug!!! name: bug-invalid-expression	c0  = c1 - x  =>  = nc1 	5 = 6-x =>  = -6=x
+2e2d9e30a924f015a45a187779bb06e7	bug!!! name: bug-multiply-unlike-terms-make-constant-mid-transf	c0  = c1 - x  =>  = nc1 + x 	5 = 6-x =>  = -6+x
+f7cb249787a9c15f0ae0dcc43589f556		c0  = c1 - x  =>  = x + c1 	5 = 6-x =>  = x+6
+c5e8c87a2132ec703fcfdd2e907f8b3d		c0  = c1 - x  =>  = x + c1 - c1 	5 = 6-x =>  = x+6-6
+597536c19705edc232863058e764cde4		 = c0  => c1 - c0  = $ 	 = 6 => 5-6 = $
+c947646b5af39f04b8992501459e57b8		 = c0  => c0 - c2  = $ 	 = 6 => 6-5 = $
+955ba033e957e28d6811e49900b27187		 = c0  => c1 - c0  = $ 	 = 6 => 5-6 = $
+8fa009d085cebed7240e6a87ff094cfe		 = c0 - c0 + n x  => x  = $ 	 = 2-2+ -x => x = $
+d23c0139891e8351ab6d7837cce9799c		 = c0 - c0 + n x  => c2  = $ 	 = 2-2+ -x => 6 = $
+fc183775ff4eaafdac22bb762ed0f2ea		 = c0 - c0 + n x  => c2  = $ 	 = 2-2+ -x => 4 = $
+4ac6782621c6b3414ca8b1e625d934df		 = c0 - c0 + n x  => c2 - n x  = $ 	 = 2-2+ -x => 6- -x = $
+983f1e0706510134e5c9546ba23c464f		 = c0 - c0 + n x  => n x - c2  = $ 	 = 2-2+ -x => -x-6 = $
+00eec863036ffee2fa63ed5da45aead4		 = c0 - c0 + n x  => c2 - c3  = $ 	 = 2-2+ -x => 6-1 = $
+c3c2f32b10a33bfbbc220e7c0f6ee7b4		 = c0 - c0 + n x  => nc2 - n x  = $ 	 = 2-2+ -x => -6- -x = $
+7f7e605260c32186df677144e98a7af8		 = c0 - c0 + n x  => c2 - n x  = $ 	 = 2-2+ -x => 6- -x = $
+262474ee98dfdb3d11b337791958d238		 = c0 - c0 + n x  => c2 - c0 * x  = $ 	 = 2-2+ -x => 6-2x = $
+35cfe708746103ec63919406cc362d16		 = c0 - c0 + n x  => c2 - c0  = $ 	 = 2-2+ -x => 6-2 = $
+a8ce9c48598deac1729b1e43ecb8b1f8		 = c0 - c0 + n x  => c2 - c3  = $ 	 = 2-2+ -x => 6-4 = $
+be93e64605bf424ff4a52a7e801e7358		 = c0 - c0 + n x  => c2  = $ 	 = 2-2+ -x => 6 = $
+03961840fa4d334fc4e323cf7fcee602		 = c0 - c0 + n x  => c2 x  = $ 	 = 2-2+ -x => 6/-x = $
+8f53e721323a4fd7f7fe1543c204da35		 = c0 - c0 + n x  => c2 - c0  = $ 	 = 2-2+ -x => 4-2 = $
+66de943f1e4e4b4d7db94121a686d1e6		 = c0 - c0 + n x  => c2  = $ 	 = 2-2+ -x => 6 = $
+3c012b6c3aa51b8d992b772a751f051b		c0 - x  = c1  => c0 - c0 + x  = $ 	7-x = 2 => 7-7+x = $
+1467216f622f46d7472a75d853f06925	bug!!! name: bug-wrong-transf-add-same-sign-const	c0 - x  = c1  => c0 + c0 - x  = $ 	7-x = 2 => 7+7-x = $
+35c0f4f9185cec1d601193e63197f821		c0 - x  = c1  => c0  = c1 - c0 	7-x = 2 => 7 = 2-7
+f70706f530bf88e6fd0abd3dbd93c4f6		c0 - x  = c1  => c0  = c0 - c1 	7-x = 2 => 7 = 7-2
+bb1b7f3012e41678ee7df28b63945a4c		c0 - x  = c1  => c0 * x  = $ 	7-x = 2 => 7x = $
+643cd55c480d7505dc5978e9df2d8b53	bug!!! name: bug-invalid-expression	c0 - x  = c1  => c0  = $ 	7-x = 2 => 7/ = $
+2cfc51b0b4d3881e276534ec895e2d94	bug!!! name: bug-invalid-expression	n x + c0  = c1  => c0 -  = $ 	-x+6 = 15 => 6- = $
+4e3a7a3db837ecd1961d75f76ec29c5e		n x + c0  = c1  => c0 - c0 + x  = $ 	-x+6 = 15 => 6-6+x = $
+89d2b293c69a3c6f6f0a98d685aeb593	bug!!! name: bug-wrong-transf-add-same-sign-const	n x + c0  = c1  => c0 + c0 - x  = $ 	-x+6 = 15 => 6+6-x = $
+093cf6d35a4b29aa724d92d4b74d4c59		c0  = n x + c1  => c2  = $ 	13 = -x+6 => 9 = $
+31522f1b9461973f8e7cf1331a3dd845		c0  = c1 - x  => nc2  = $ 	5 = 6-x => -1 = $
+7b503c3daca11d6f6366842b7253b720		c0  = c1 - x  => nc2  = $ 	5 = 6-x => -1 = $
+f193fca7be0fdb0dc58b86a9f2871679		c0  = c1 - x  => nc2  = $ 	1 = 9-x => -8 = $
+d5948c5db32e5c0974cbd5cc498cb981		c0  =  => c1  = $ 	16 =  => 8/4 = $
+ca45f5d4b09cd074c848403625314563		c0  =  => c1  = x 	16 =  => 8/4 = x
+dd0e87e7809a6b6343f564ff1d308d96		c0 * x  = c0  => x  = c2 	4x = 4/4 => x = 0
+d7e0130e508fa3c0e280e50d39ef78f0	bug!!! name: bug-wrong-transf-add-same-sign-const	 = c0 + c1 * x - c1 * c3  => c4 - c5  = $ 	 = 1+3*x-3*4 => 9-12 = $
+90ef07b1494f3eecffa370df5ae8dfe2		c0 - c1  = c2 * x  => c0  = $ 	9-12 = 3x => 9/3 = $
+276d0d828f3a50e8ebc1fbd8a6adbe89	bug!!! name: bug-combine-unlike-terms-make-constant	c0 - c1  = c2 * x  => c0  = $ 	9-12 = 3x => 9 = $
+e3d8e01f3d3064b76381f24de50faba4	bug!!! name: bug-move-constant-left-strategically-same-sign	c0 - c1  = c2 * x  => c0 - c1  = $ 	9-12 = 3x => 9-12 = $
+c7b23e7214dcf5e966535fa4a76b35c2		c0 - c1  = c2 * x  => c3  = c2 	9-12 = 3x => 21/3 = 3
+fe734e0b167f44388d932658a6cda915		 = c0 * x - c1 * x  => c1  = $ 	 = 6x-3x => 3 = $
+5afe85bdb7afd5ea170e669066f0a8c1	bug!!! name: bug-miscalculate-combine-constants-opposite-sign-negative-result	x + c0  = c1  => x  = nc2 	x+6 = 3 => x = -9
+8a0325ed1f2d62217d5f62518bdb72a1	bug!!! name: bug-miscalculate-combine-constants-opposite-sign-positive-result	x + c0  = c1  => x  = c2 	x+6 = 3 => x = 9
+b6ded0593755d71dabfa032a59e398ed	bug!!! name: bug-miscalculate-combine-constants-opposite-sign-negative-result	x + c0  = c1  => x  = nc2 	x+6 = 3 => x = -9
+a290670556d0de342aa427656b34093e	bug!!! name: bug-miscalculate-combine-vars-opposite-sign-negative-result	c0  = c1 + x  =>  = x 	6 = 3+x =>  = x
+f5639567aff7d2e46b083da717ff04ff		c0  = c1 + x  => c1 - c0  = $ 	6 = 3+x => 3-6 = $
+de0427ad6cedc0d6c14bf9450479e799		c0 - x  = c1  => x  = $ 	8-x = 1 => x = $
+b6d356083cc83fc19a969abd3f39323b	bug!!! name: bug-miscalculate-combine-constants-opposite-sign-negative-result	c0 - x  = c1  => c2 * x  = $ 	8-x = 1 => 16x = $
+b29f66f7ba73c9f7e5c3e77d66935b16		c0 - x  = c1  => x  = $ 	8-x = 1 => x = $
+a6b9e6d19a1237892366a980fadad544		c0  = n x + c1  =>  = x 	13 = -x+6 =>  = x
+67e16c00540df2ef2a499a16468236f8		c0 * c1 * x - c2  = c0  => c1 * x + c5  = $ 	4(2x-3) = 4 => 2x+1 = $
+df57e4eda435490c82bac7ed34f2254e		c0 * c1 * x - c2  = c0  => c1 * x + c5  = $ 	4(2x-3) = 4 => 2x+5 = $
+7ded7daba64a6dd357ad2a1d79c41ea4	bug!!! name: bug-invalid-expression	c0 * c1 * x - c2  = c0  => c4 * x  = n 	4(2x-3) = 4 => 8x = -
+8448ade9f5367b7238588352b65a963a		c0 * c1 * x - c2  = c0  => x  = $ 	4(2x-3) = 4 => x = $
+d212fc0d940ba9c127c8100ed5320969		c0  = c1 * x - c2  =>  = c1 * c1 * x + c1 * nc2 	20 = 5(x-1) =>  = 5(5x)+5(-1)
+c1f2c7a900c2ed374d68c233b23f2294		 = c0 * x + c0 * nc2  => $  = c3 * x 	 = 5(x)+5(-1) => $ = 9x
+6e3f03434dd4b5addd63573900979b41	bug!!! name: bug-miscalculate-combine-vars-opposite-sign-positive-result	 = c0 * x + c0 * nc2  => $  = c0 * x 	 = 5(x)+5(-1) => $ = 5x
+21783f0e2c18650fb532f801c4e58764		c0 + c1  = c1 * x  => $  = x 	20+5 = 5x => $ = x
+3675550e36b4efd7ae09fb4771f7f3ee		c0 + c1 * x + c0  = c3  => c4 * x - c0  = $ 	2+3(x+2) = 11 => 5(x-2) = $
+7dd5b25fc8fbd00a0d5c63acd2ea010a		c0 * x  = c0  => x  = c2 	3x = 3 => x = 0
+a8eaf1e40adc0d8bb0c272e3e1f9a869		c0 * x  = c0  => x  = c2 	3x = 3 => x = 0
+2a0589f1c01d67389f508c7e7b0b49d8	bug!!! name: bug-distribute-change-minus-sign	c0 * x - c1  = c0  => c0 * x + c0 * c1  = $ 	3(x-2) = 3 => 3(x)+3(2) = $
+4558903a727cf00ca93dc857eb3f50a3	bug!!! name: bug-miscalculate-multiply-constants-add	c0 * x - c1  = c0  => c0 * x + c4  = $ 	3(x-2) = 3 => 3x+1 = $
+c757c7fe148c5b2e46b21937f5dc72df		c0  = c1 * x + c1 - c3  => $  = c1 * x + c5 	10 = 6x+6-8 => $ = 6x+14
+875ba82712e6a6024f39664434a22a05	bug!!! name: bug-wrong-op-subtract-right-var-coeff	c0  = c1 * x  => c2  = $ 	10 = 6x => 2 = $
+cc60032433712100c9fa31031d306844		c0 * x - c1 + c2  = c3  => c0 * x + nc2 + c2  = $ 	2(x-3)+6 = 14 => 2x+-6+6 = $
+f4f52c7fe06628b14d465e88fb0db729		c0 * x - c1 + c2  = c3  => x  = c2 	2(x-3)+6 = 14 => x = 6
+6f581fc6ea1ed1844cb7729336433049	bug!!! name: bug-wrong-op-subtract-right-var-coeff	c0  = c1 * x  => c2  = $ 	5 = 2x => 3 = $
+6e08ab919a5b8a0ebe5be5259fe466b0	bug!!! name: bug-invalid-expression	x + c0  = c1  => x  = c0 	x+7 = 2 => x = 7=2
+53570da23ac2292a821c1d69910f0ad9		x + c0  = c1  => x  = c2 	x+7 = 2 => x = 5
+e226f0d859a343cced2167d3780df291		x + c0  = c1  => x  = $ 	x+7 = 2 => x = $
+457740b49260931a1e8512b1926072b5		x + c0  = c1  => x  = nc2 	x+7 = 2 => x = -5
+e1493559f7c17bf308e56db0b9f9ce67		x + c0  = c1  => nc2  = $ 	x+7 = 2 => -5 = $
+d8ba15a28b9ba6576dd13a0ef29a3a17		x + c0  = c1  => nc2  = x 	x+7 = 2 => -5 = x
+b196fc70c0908d9fe43eaa08b5a9a24f		x + c0  = c1  => x  = c0 - c1 	x+3 = 0 => x = 3-0
+7aa08474caf2d78db5edec00440941a0		c0 - x  = c1  => x  = $ 	8-x = 1 => x = $
+3a07004c9323bf3ddd173286c5bcf6f4		c0 - x  = c1  => $  = c0 - c1 	8-x = 1 => $ = 8-1
+ee126da130275d179ca1392c4327a0e0		c0 - x  = c1  => n x  = c2 	8-x = 1 => -x = 7
+2a97ce936c6e9ba67132f36c7ccea29e		n x + c0  = c1  => x  = c2 	-x+6 = 15 => x = 9
+b66114387d27060224aa4dfb8be728b6		c0  = c1 * x  => c0  = $ 	20 = 4x => 20 = $
+c21db0140df92af7dfafb70e310a5260		c0  = c1 * x  => c0 * c1  = $ 	20 = 4x => 20*4 = $
+cc615fe347395ec672afc84680c6e309		c0 * x - c1 + c2  = c3  => c0  = $ 	2(x-3)+6 = 14 => 2 = $
+f2fa42257153a4a5b95878af5897e227		c0 * x - c1 + c2  = c3  => c0 * x - c0 * c6  = $ 	2(x-3)+6 = 14 => 2*x-2*4 = $
+333281a5f3fdf0573b1134080a7339c8		c0 * x - c1 + c2  = c3  => c0 * x - c0 * nc6  = $ 	2(x-3)+6 = 14 => 2*x-2*-4 = $
+ed0a3f098d0edf203b024b5c47a63ec9		c0 * x - c1 + c2  = c3  => c0 * x + c0 * nc6  = $ 	2(x-3)+6 = 14 => 2*x+2*-4 = $
+3c0875073aaac8d8c3f50f2060b299e5		c0 * x - c1 + c2  = c3  => c0 * x  = $ 	2(x-3)+6 = 14 => 2x = $
+9332f58da96e90db78afac9038361139		c0 * x - c1 + c2  = c3  => x  = $ 	2(x-3)+6 = 14 => x = $
+57bae5cf055473117bc54c8f85c9dc7a	bug!!! name: bug-move-constant-left-strategically-same-sign	c0  = c1 * c2 + x  => c0 + c1  = $ 	15 = 3(1+x) => 15+3 = $
+5d88e457cd55d8015c1a6843241ae8b2	bug!!! name: bug-distribute-forget-var	c0 * c0 * x + c2  = c3  => c0  = $ 	2(2x+1) = 6 => 2 = $
+bbbab7688ec80a5832474e1e7a291916	bug!!! name: bug-distribute-forget-var	c0 * c0 * x + c2  = c3  => c0  = $ 	2(2x+1) = 6 => 2 = $
+12810d5daa5012a8a436dcf50fe0f496		c0 * c0 * x + c2  = c3  => c0 * c0 * x + c0  = c3 + c2 	2(2x+1) = 6 => 2*2x+2 = 6+1
+a1e317bfb50c2eb9ddc9c8748dd8fa57		c0 * c0 * x + c2  = c3  => c0 * x + c0  = $ 	2(2x+1) = 6 => 2x+2 = $
+19e3837b110eed3e2e9b11537e85f352		c0 * x + c0  = c2  => x  = $ 	2x+2 = 6 => x = $
+c76ca429a955cc394dc292d96f9b25d7		c0 * nc1 + x - c2  = nc3  => c0  = $ 	5(-6+x)-1 = -16 => 5 = $
+77703e653ced72ab0eb6f40642364cd7		c0 * nc1 + x - c2  = nc3  => nc4 + c0 * x  = c6 	5(-6+x)-1 = -16 => -30+5x = 15
+d543716647e8ead6e8744a2c21769dfa		c0 * nc1 + c2 * x  = c3  => c0 * nc1 + c2 * x  = $ 	2(-3+7x) = 8 => 2*-3+7x = $
+6bcde8e5cf30c884ec376d67319b76e3		c0 * nc1 + c2 * x  = c3  => c0 * nc1 + c6 * x  = $ 	2(-3+7x) = 8 => 2*-3+27x = $
+0bc7bcd5f7d961f0ff34725022fc4e14		c0  = c1 + c2 * x - c2  => c0  = c1 + c2 * x - c7 	5 = 3+2(x-2) => 5 = 3+2x-6
+b67478991d52170985f474fec0d2698d		c0  = c1 + c2 * x - c2  => c0  = c5 + c2 * x 	5 = 3+2(x-2) => 5 = 7+2x
+48189094b8fbf36e25abac0c5fc8c7a7		c0  = c1 + c2 * x - c2  => c0  = c5 - c2 * x 	5 = 3+2(x-2) => 5 = 7-2x
+7bfecf2d2701e1369007250921c212e4	bug!!! name: bug-move-constant-left-strategically-same-sign	c0  = c1 + c2 * x - c2  => c0 - c5  = $ 	5 = 3+2(x-2) => 5-1 = $
+ddee881b13a8b384737ebb29d61c3f59		c0 + c1 * nc2 + x  = c3  => c0  = $ 	4+3(-1+x) = 7 => 4 = $
+28946999bb4c338f7c3b112286df31c4	bug!!! name: bug-invalid-expression	c0 + c1 * nc2 + x  = c3  => c2 + c1 * x ]  = $ 	4+3(-1+x) = 7 => 1+3x] = $
+da04a038e4cbc13a6f1f679b20731737	bug!!! name: bug-combine-unlike-terms-make-constant	c0  = c1 * c2 * x - c3 + c4  => c0  = $ 	1 = 2(3x-4)+15 => 1 = $
+9329ce8774dc84b4efb5f116038d87d2		c0  = c1 * c2 * x - c3 + c4  => c5  = $ 	1 = 2(3x-4)+15 => 6 = $
+19131c91ca163916e9bda110921841dd		c0  = c1 * c2 * x - c3 + c4  => c0  = $ 	1 = 2(3x-4)+15 => 1 = $
+b024c3800a8055127e0be6030c46f1f2	bug!!! name: bug-combine-unlike-terms-make-constant	c0 * x  = c1 * x + c2  => c0 * x  = $ 	5x = 3x+10 => 5x = $
+5395c9f37bdf2f5c3d56dbf68eb8bc61		c0 * x  = c1 * x + c2  => c0 * x + c1 * x  = c1 * x 	5x = 3x+10 => 5x+3x = 3x
+04fd0ef68f4357ddc1a7e0d4dfbf418f		c0 * x  = c1 * x + c2  => c0 * x - c1 * x  = c1 * x 	5x = 3x+10 => 5x-3x = 3x
+10726d35fa8dd3fd5b40f1794ca2153f		nc0  = c1 * x  => $  = c2 * x 	-10 = 3x => $ = 2x
+04ae4a957c51e7c906031e031ae86225		nc0  = c1 * x  => nc0  = c3 * x 	-10 = 3x => -10 = 7x
+e7a9d6c6cdb782176209373ce5845a0a		nc0  = c1 * x  => c0  = $ 	-10 = 3x => 10 = $
+87f57e34538ccfef40aaa65e612c3faf		nc0  = c1 * x  => nc0  = $ 	-10 = 3x => -10 = $
+5e19f3e4aa2c507e01639ad6cec574a6		nc0  = c1 * x  => nc0  = $ 	-10 = 3x => -10/2 = $
+8daed103f02a7e7295f7352968f11107	bug!!! name: bug-invalid-expression	c0 * x - c1  = c2 * x  => c0 * x -  = $ 	10x-6 = 4x => 10x- = $
+1d6c59caa84305d67c6f4973da3c0656		c0 * x  = c1 * x - c2  => nc3 * x  = $ 	7x = 2x-10 => -5x = $
+21185d492523023968d470fecbe6f9b4		x + c0  = c1 * x  => x - c1 * x  = $ 	x+9 = 4x => x-4x = $
+789482e27f37f8464e9c4ea5401f78f4		x + c0  = c1 * x  => x - c1 * x  = c0 	x+9 = 4x => x-4x = 9
+c6ffde1f769e017b5e1313c7c988295c	bug!!! name: bug-miscalculate-combine-constants-opposite-sign-divide	c0  = c1 + x  => c2  = $ 	6 = 3+x => 2 = $
+f3272a4da7fdcce01c09e8abbc675d5a	bug!!! name: bug-miscalculate-combine-vars-opposite-sign-negative-result	c0  = c1 + x  => c2  = x 	6 = 3+x => 2 = x
+e090d5c51882fee6a90febdbbb19939e	bug!!! name: bug-miscalculate-combine-constants-opposite-sign-positive-result	c0  = c1 + x  => c0  = $ 	9 = 4+x => 9 = $
+9ecfa0d8a0a2bcfffd4205268dbba585		c0  = c1 - x  => $  = x 	3 = 7-x => $ = x
+3611fdd5890f501cc9c2d1d57fc690d0		c0  = c1 - x  => c0 - c1  = c1 - x + x 	3 = 7-x => 3-7 = 7-x+x
+a6394e70ec170c68997ca7fb779bb77c		c0  = c1 - x  => c0 + c1  = c1 - x + x 	3 = 7-x => 3+7 = 7-x+x
+e422ddcaf99cf30843c2387c7761f928		c0  = c1 - x  => $  = x 	3 = 7-x => $ = x
+6901d817b79d41731927a6db87bd9905		c0  = c1 - x  => c0 - c1  = c1 - x + x 	5 = 6-x => 5-6 = 6-x+x
+f1c3405580b02ff105027017021a3518		c0  = c1 - x  => c0 * x  = c1 - x + x 	5 = 6-x => 5x = 6-x+x
+b7e4ad5a78d1198129189747dce93855		c0  = c1 - x  => $  = c1 * x 	5 = 6-x => $ = 6x
+4eef7ef126ac9540dd0355ebc2087667		c0  = c1 - x  => $  = x 	5 = 6-x => $ = x
+1a94559427cb96ef2e4b37b131994fcd		c0  = c1 - x  => $  = c1 + x 	5 = 6-x => $ = 6+x
+226832c8804a3a9da30b19a30b328bc0		c0  = c1 - x  => c0 * x  = c1 + x 	5 = 6-x => 5x = 6+x
+035878c7092570c3fdb3a0da36027313	bug!!! name: bug-multiply-unlike-terms-make-variable	c0  = c1 - x  => c0 * x  = c1 	5 = 6-x => 5x = 6
+b244248529524dee3419b37a49db4f0e	bug!!! name: bug-move-variable-right-unstrategically-same-sign	c0  = c1 - x  => c0 + x  = c1 	5 = 6-x => 5+x = 6
+d083a80492fecb846736dd68a8fca9ca	bug!!! name: bug-copy-previous-equation	c0  = c1 - x  => $  = c1 	5 = 6-x => $ = 6
+c44757360358e4a3fd69727d3773c617		x  = c0  => $  = nc1 	x = 6 => $ = -1
+a7c4c143337b21ba6677ceec64519f8f		x + c0  = c0  => nc0  = $ 	x+3 = 3 => -3 = $
+3e732002b884c7341c509c3e6d0e3dd2	bug!!! name: bug-wrong-op-subtract-left-var-coeff	n x + c0  = c1  => n x  = $ 	-x+3 = 11 => -x = $
+5bab148c0bb4d29486cfb6f879561ceb	bug!!! name: bug-wrong-op-subtract-left-var-coeff	n x + c0  = c1  => n x + c2  = $ 	-x+3 = 11 => -x+1 = $
+1d1098ee31805276b9630158df5a8456		n x + c0  = c1  => n x + c2 * x  = $ 	-x+3 = 11 => -x+1x = $
+187c740dfed53bc0d98c0ca789880e6a		n x + c0  = c1  => n x + x  = $ 	-x+3 = 11 => -x+x = $
+5dbf6f4679ec68e8098193a183f653c2		n x + c0  = c1  => n x / x  = $ 	-x+3 = 11 => -x/x = $
+787f4642445aaaa11f0e5d9b894d12a7		n x + c0  = c1  => n x /n x  = $ 	-x+3 = 11 => -x/-x = $
+1efd7d0ed8929ad3d16ff02b8297a0c7	bug!!! name: bug-copy-previous-equation	c0  = n x + c1  => c0  = $ 	8 = -x+2 => 8 = $
+3e19ac20e365ce79a17015592d2b8273	bug!!! name: bug-order-of-op-distrib-eliminate-constant	c0  = c1 * x + c2  => c0 - c2  = $ 	16 = 4(x+2) => 16-2 = $
+22b165a96deefee8e47e1e65a1e3aa96	bug!!! name: bug-order-of-op-distrib-eliminate-coeff	c0  = c1 * x + c2  => c0 - c1  = $ 	16 = 4(x+2) => 16-4 = $
+0224678fc1046a59a99a3b7b33a76637		c0 * c0 * x + c2  = c3  => c4 * x - c0  = $ 	3(3x+1) = 21 => 9x-3 = $
+1d9ead2f767e2c93a8a0a1f0bf06e959		c0 * c0 * x + c2  = c3  => c4 * x  = c5 	3(3x+1) = 21 => 9x = 19
+2d7077032780b0d40472a237d2402076		 = c0 * x + c0 - c2  => c3  = c0 * x + c5 	 = 6x+6-8 => 10 = 6x+14
+65e1f9e7c0d15cc7a37876e0e920b13d		c0 * nc1 + x - c2  = nc3  => nc4 + c0 * x - c2  = $ 	5(-6+x)-1 = -16 => -11+5x-1 = $
+80ad5632f5aa0926bd687e1b198dadc3		c0 * nc1 + c2 * x  = c3  => nc4 + nc5 * x  = $ 	2(-3+7x) = 8 => -6+-14x = $
+305e2dc65371d2383e4e3f4428f88584		c0 * nc1 + c2 * x  = c3  => c4 + c5 * x + c6  = $ 	2(-3+7x) = 8 => 16+14x+6 = $
+b46f6b776021b69b7a74a09719d7f504		c0 * x + c1  = c2 * x  => c0 * x c2  = $ 	4x+3 = 7x => 4x/7 = $
+23647becc6155c827aa4f3d59c4f156e		c0 * x + c1  = c2 * x  => c0 * x c0  = $ 	4x+3 = 7x => 4x/4 = $
+badf6332636be6e8744ca7d75b7dcfb8		c0 * x + c1  = c2 * x  => c1  = $ 	4x+3 = 7x => 3 = $
+0838dc053640c9f4dc20a02ab1de09a2		c0 * x + c1  = c2 * x  => c1 * x  = $ 	4x+3 = 7x => 3x = $
+b534cdd3171b9ad9870276de8f390e02		c0 * x + c1  = c2 * x  => nc1 + c1  = $ 	4x+3 = 7x => -3+3 = $
+50dd1ff2ea32885821acd584ea3e0f4f		c0 * x + c1  = c2 * x  => nc1 * x + c1 * x  = $ 	4x+3 = 7x => -3x+3x = $
+c8e5351b291f8f4955626a06d6f1cb7d	bug!!! name: bug-wrong-op-subtract-left-instead-of-divide	c0 * x + c1  = c2 * x  => nc1 * x + c1  = $ 	4x+3 = 7x => -3x+3 = $
+388af3ea44020f706224493b27290ce8		c0 * x + c1  = c2 * x  => nc1 * x c1  = $ 	4x+3 = 7x => -3x/3 = $
+271badcb89b85e3fd34a8f6136d256ec		c0 * x + c1  = c2 * x  => nc1 * x c1 * x  = $ 	4x+3 = 7x => -3x/3x = $
+8853c382b25d021445eec7b003c01084		c0 * x + c1  = c2 * x  => nc1 * x nc1  = c5 	4x+3 = 7x => -3x/-3 = 0
+7f714a11f45c4f3d26135833738d0cdf		c0 * x + c1  = c2 * x  => nc3 * x nc3  = nc1 	2x+6 = 3x => -1x/-1 = -6
+7687b8d36326ef2843848f0880b5ce5e		c0 * x + c1  = c2 * x  => x  = nc3 	2x+6 = 3x => x = -1
+936c420b8e094bc94d4a671cb8983846	bug!!! name: bug-combine-unlike-terms-make-constant	c0 * x  = c1 * x - c2  => c0 * x  = $ 	7x = 2x-10 => 7x = $
+3af07aac521bf303e0163b9bc5e8e604		c0 * x  = c1 * x - c2  => c0 * x - c2  = $ 	7x = 2x-10 => 7x-10 = $
+9931c74ded9829de3a83868529af4767	bug!!! name: bug-invalid-expression	c0 * x  = c1 * x - c2  => c2  = $ 	7x = 2x-10 => 10/ = $
+e4c5f470ecbe4ac719db547b6087d234		c0 - x  = c1  => x  = 	6-x = 3 => x = 
+b694f27ee9f3d8feab4eed0331882f4d		c0 - x  = c1  => n x  = c2 	8-x = 1 => -x = 7
+4629c2ebc72a79f07fc28ed2992c3259		n x + c0  = c1  => n x  = nc2 	-x+3 = 11 => -x = -8
+bf40e78518fff077a5eb92de8a1f29f2		n x + c0  = c1  => n x  = nc2 	-x+3 = 11 => -x = -9
+946055bf50ee35e36190f0740198c8ad		n x + c0  = c1  => n x  = c2 	-x+3 = 11 => -x = 9
+8213ec0be43a1562672bc839299639d9		n x + c0  = c1  => n x  = nc2 	-x+3 = 11 => -x = -8
+88a322e21683f62d50fa2c7b576a24bf		n x + c0  = c1  => n x  = nc2 	-x+3 = 11 => -x = -9
+825d87098d2742ef21e81fc16fc87874		n x + c0  = c1  => n x  = nc2 	-x+3 = 11 => -x = -9
+dbe1fbfd5278383ece5ab826ba5ceb8d		n x + c0  = c1  => x  = $ 	-x+3 = 11 => x = $
+1f94e0464f6447ad99ea4b62f9b86398		n x + c0  = c1  => x  = c2 	-x+3 = 11 => x = 9
+3eec699a2fd99f67b75383761895ae93		n x + c0  = c1  => n x  = c2 	-x+3 = 11 => -x = 9
+b1f285c5a5963a6e85113342f801a458		n x + c0  = c1  => n x  = nc2 	-x+3 = 11 => -x = -9
+38541dd9984d04d655ee1063be862f1e		n x + c0  = c1  => n x  = nc2 	-x+3 = 11 => -x = -8
+f4b6eb37cc547666d19f6e03f56d47d9		c0 * x - c1 + c2  = c3  => c0 * x - c5 - c2  = $ 	2(x-3)+6 = 14 => 2x-4-6 = $
+e7c3382a2ae0abc9c5ef25109ff09631		c0 * x - c1 - c2  = c3 - c2  => c0 * x - c6 - c2  = $ 	2x-4-6 = 14-6 => 2x-8-6 = $
+27d08f7c17bb834d6f14e4907a5f16f9		c0 * x - c1 - c2  = c3 - c2  => c0 * x - c6  = $ 	2x-4-6 = 14-6 => 2x-8 = $
+831130a7facfc8db0d135013fffc5a35		c0 * x - c1 - c2  = c3 - c2  => c0 * x - c6  = $ 	2x-4-6 = 14-6 => 2x-8 = $
+4b90a32405a87b7ebaf657381fae3ca3		c0 * x - c1 - c2  = c3 - c2  => c0 * x - c6  = c6 - c6 	2x-4-6 = 14-6 => 2x-8 = 8-8
+1335abbe5d87183f3edc91128c8948b1		c0 * x - c1 - c2  = c3 - c2  => c0 * x c0  = $ 	2x-4-6 = 14-6 => 2x/2 = $
+20f49fca1b2680566dc23df9e60c1a97		c0 * x - c1 - c2  = c3 - c2  => c0 * x  = $ 	2x-4-6 = 14-6 => 2/2x = $
+b77c786c910dec65cec5b6eca3d77423	bug!!! name: bug-order-of-op-distrib-eliminate-var	c0 * nc1 + x - c2  = nc3  => c0 * nc1 + x + c2  = $ 	5(-6+x)-1 = -16 => 5(-6+x)+1 = $
+1f87675f8d0d66cc661bcda8f0ace4ef	bug!!! name: bug-order-of-op-distrib-add-var	c0 * nc1 + x - c2  = nc3  => c0 * nc1 + x - c2  = $ 	5(-6+x)-1 = -16 => 5(-6+x)-1 = $
+d742d19f4ada5ff78147187bd0cd7097		c0  = nc1 + c2 * x - c3  => c0  = nc1 + c2 * x - c3 + c1 	18 = -2+4(x-1) => 18 = -2+4(x-1)+2
+9782be2ad9b54cfe475acb58c930f1dc		c0  = nc1 + c2 * x - c3  => c0  = nc1 + c2 * x + c2 * c3 	18 = -2+4(x-1) => 18 = -2+4(x)+4(1)
+28333ffa7e0d02a9c42034611380ea2c		c0  = nc1 + c2 * x - c3  => c0 + c1  = $ 	18 = -2+4(x-1) => 18+2 = $
+e87dafb0509ffb062a7eb79bb0856f1e		c0  = nc1 + c2 * x - c3  => c0 + nc1  = $ 	18 = -2+4(x-1) => 18+-2 = $
+a9fbe21a93a8e996ec1c6744105e2730		c0  = nc1 + c2 * x - c3  => c0 + nc1  = nc1 + c2 * x + c2 * nc3 + c1 	18 = -2+4(x-1) => 18+-2 = -2+4(x)+4(-1)+2
+db1f39838c0ce9b845562412e91d6788	bug!!! name: bug-move-constant-left-strategically-same-sign	c0  = nc1 + c2 * x - c3  => c0 - c2  = $ 	18 = -2+4(x-1) => 18-4 = $
+f04af8477b3d9247e08545f09a9cf02a	bug!!! name: bug-copy-previous-equation	c0  = nc1 + c2 * x - c3  => c4  = $ 	18 = -2+4(x-1) => 22 = $
+f61bd1568793fa10e17327d586dc062f	bug!!! name: bug-combine-unlike-terms-make-constant	c0 * x  = c1 * x - c2  => c0 * x  = $ 	7x = 2x-10 => 7x = $
+05882ccd58a2c208584e2d50f687f6bd		c0 * x  = c1 * x - c2  => c3 * x  = $ 	7x = 2x-10 => 17x = $
+d295cc46cb3d7271b2aa87274b1720a4		c0 * x  = c1 * x - c2  => c0 * x + c2  = $ 	7x = 2x-10 => 7x+10/7 = $
+a5df9c46d9e9500bbf52949b2f468b24	bug!!! name: bug-wrong-transf-add-same-sign-var	c0 * x  = c1 * x - c2  => c0 * x + c1 * x  = $ 	7x = 2x-10 => 7x+2x = $
+756084c260bfb6691a4cc95fbe8e55f3		c0 * x + c1 * x  = c1 * x - c3 + c3  => c0 * x + c3  = $ 	7x+2x = 2x-10+10 => 7x+10/7 = $
+649db0ee4608e17fdb43151003ecf41d		c0 * x + c1 * x  = c1 * x - c3 + c3  => c0 * x c0 + c3  = $ 	7x+2x = 2x-10+10 => 7x/7+10 = $
+628d64b84270a22dee92abc8fa7e44b5		c0 * x + c1 * x  = c1 * x - c3 + c3  => c0 * x + c3  = $ 	7x+2x = 2x-10+10 => 7x+10/7 = $
+210b079409f4a32062800034b4279ec8		c0 * x + c1 * x  = c1 * x - c3 + c3  => c0 * x c0 + c3  = $ 	7x+2x = 2x-10+10 => 7x/7+10 = $
+d1cd043061ac8b843b9dbcbdb9518db5		c0 * x + c1 * x  = c1 * x - c3 + c3  => c3  = nc6 * x c6 	7x+2x = 2x-10+10 => 10/-5 = -5x/5
+2557371231828d6581f5b0b1468d4f0b		c0 * x - c1 + c1  = c3 * x + c1 - c3 * x  => c1 * x c1  = c8 	10x-6+6 = 4x+6-4x => 6x/6 = 0
+20b303775186d965fead19ff8295d378		 = c0 * x + c1 - c1  => nc0 * x  = $ 	 = 2x+8-8 => -2x = $
+f9e1c884ab8992b02095921222fcc773		 = c0 * x + c1 - c1  => c1  = $ 	 = 2x+8-8 => 8 = $
+6d582d84b03c1be8743e661ec9d8a8c8	bug!!! name: bug-multiply-unlike-terms-make-variable	x + c0  = c0  => c0 * x  = $ 	x+7 = 7 => 7x = $
+1079335fc4581bc4a76acd20e8452e9d		x + c0  = c1  => x  = c0 - c1 	x+7 = 2 => x = 7-2
+aaccef020c8e261fb154846ebfaaf882		c0  = n x + c1  => c2  = n x 	13 = -x+6 => 7/-1 = -x
+64faf641d8f9e4e996ffe179b9285ef8		c0  = n x + c1  => c2  = $ 	13 = -x+6 => 1 = $
+774ac7f3dec94dc86006e443ed582c60		c0  = n x + c1  => c2  = $ 	13 = -x+6 => 7 = $
+853138820eba21a65c0f62fb6453d2ed	bug!!! name: bug-invalid-expression	c0  = c1 - x  => nc2  = $ 	1 = 9-x => -8/- = $
+7e415495b1e59ccd6bbdc29eacacec3b		c0  = n x + c1  => c0 - c1  = nc4 	10 = -x+5 => 10-5 = -7
+5446b0ef7f32cab517ca8ca5adcfa341		c0 * x  = c1  => c0 * x c0  = c0 	7x = 14 => 7x/7 = 7
+4d72ee0b8892fe1bb3c03e1482895819		c0 * c0 * x + c2  = c3  => x  = c4 - c4 	2(2x+1) = 6 => x = 4-4
+ef2884295165026bdd74ce7f421d022c		c0 * c0 * x + c2  = c3  => x  = c4 	2(2x+1) = 6 => x = 4
+b2eda3016396dbaf8a0a6617f7939041		c0 * nc1 + c1 * x  = c3  => c4 * x  = c3 	5(-2+2x) = 20 => 10x = 20/10
+fd22e185d9bd0784af7ae2deccb4a71e		c0 * nc1 + c1 * x  = c3  => c4 * x  = c3 * c4 	5(-2+2x) = 20 => 10x = 20*10
+34602ada6bf59af698c5e5a860910ef5		c0 * nc1 + c1 * x  = c3  => c4  = $ 	5(-2+2x) = 20 => 10 = $
+e7e30b01bbd1b1e50703773e75d37c24	bug!!! name: bug-invalid-expression	c0  = nc1 + c2 * x - c3  => c0  = nc1 + c2 * x + 	18 = -2+4(x-1) => 18 = -2+4x+
+eccea87d3913256512a7a8ea96028dc5	bug!!! name: bug-combine-unlike-terms-make-constant	c0  = nc1 + c2 * x - c3  => c0  = $ 	18 = -2+4(x-1) => 18 = $
+af55f1898760954ee63dd62485072302		c0  = nc1 + c2 * x - c3  => c0  = $ 	18 = -2+4(x-1) => 18/-6 = $
+b711199f336dce9079fb564fde0b6a03		c0  = nc1 + c2 * x - c3  => c4  = $ 	18 = -2+4(x-1) => 24/-4 = $
+49d59ab5c819a93a8b1f0292b18ffe1c		c0 * x  = c1 * x + c2  => c1 * x  = c2 	4x = 2x+6 => 2x = 6/-2
+f79219c76baf480875a45746105c2f01		c0 * x - c1  = c2 * x  => c1  = $ 	3x-9 = 6x => 9 = $
+2f248e601733622caf384b6259ee724d	bug!!! name: bug-combine-unlike-terms-make-constant	c0 * x  = c1 * x + c2  => c0 * x  = $ 	6x = 2x+8 => 6x = $
+aec505e872648f4d1f5441e1d72e9da7		c0 * x  = c1 * x + c2  => c3 * x  = c3 	6x = 2x+8 => 4x = 4/-8
+abdf2a1e2b6ef4d5edc1bdd24626f664		c0 * x  = c1 * x + c2  => c3 * x  = c3 	6x = 2x+8 => 4x = 4/8
+597e63a56f29f9067a4ba66b35ed05c3		c0 * x  = c1 * x + c2  => x  = c2 	5x = 3x+10 => x = 10/-2
+854f2845325934f2c1d4c3d2e6f3fd69	bug!!! name: bug-combine-unlike-terms-make-constant	c0 * x  = c1 * x - c2  => c0 * x  = $ 	7x = 2x-10 => 7x = $
+fff145ef15c568a5e060e6e9c2345a98		c0 * x  = c1 * x - c2  => c3 * x  = $ 	7x = 2x-10 => 5x = $
+7a58af568f85d0e434e3f98154454b99	bug!!! name: bug-invalid-expression	c0 * x  = c1 * x - c2  => x  = c3 	7x = 2x-10 => x = /5
+d5ded71874be2e42195816011ad3d47b		c0 * x  = c1 * x - c2  => x  = nc3 	7x = 2x-10 => x = -5
+d030ab3b862be9423a576c14e603ea1f		c0 * x  = c1 * x - c2  => x  = c3 	7x = 2x-10 => x = 5
+d16e15521ed952ebfc3702b7c94a1c53		c0 * x + c1  = c2 * x  => c1  = c1 	4x+3 = 7x => 3 = 3
+f5ce5eb3c4c26876cbd605941e6306a2		c0 * x  = c1 * x + c2  => c3  = $ 	12x = 2x+20 => 10 = $
+606deff3505b2628f3c637647c1cd565		c0  = c1 + x  =>  = nc1 	9 = 4+x =>  = -4
+fcb0473f81390c1db84440f8e438802e		c0  = c1 + x  => nc1  = $ 	9 = 4+x => -4 = $
+b920aa13f3461e317bcc785fa20e122d		c0  = c1 + x  => nc0  = $ 	9 = 4+x => -9 = $
+92d86d9f78735f97c4e9fc84b45c58fc		c0  = c1 + x  => + c1  = $ 	9 = 4+x => +4 = $
+bf66ffc195bd5079e8a22d4560f93e32	bug!!! name: bug-miscalculate-combine-constants-opposite-sign-positive-result	c0  = c1 + x  => c0  = $ 	9 = 4+x => 9 = $
+6d83b617236b1fe5c52f65226a39ed93		c0  = c1 + x  => c2  = $ 	9 = 4+x => 1 = $
+72675a24df550c5ae590deeea5f8ad98		c0  = c1 + x  => + c1  = $ 	9 = 4+x => +4 = $
+0108e591ac3853c2e0867cd638dd7b02		c0  = c1 + x  => c1  = $ 	9 = 4+x => 4 = $
+adb864bf939235a8de215da7f39e9724		c0  = c1 + x  => c1  = $ 	9 = 4+x => 4 = $
+a52f02493112270ffab0ec20693d52dc	bug!!! name: bug-invalid-expression	c0  = c1 + x  => c0 - c1  = c1 - c1 + X 	9 = 4+x => 9-4 = 4-4+X
+5efdac6faa84ff8842964121a679ad05		x + c0  = c1  => c0 - c0 + x  = c1 	x+2 = 0 => 2 - 2 +x = 0
+475141adab2b0941caa540d5499ece1b		n x + c0  = c1  => c0 - c0 + x  = $ 	-x+3 = 11 => 3 - 3 + x = $
+7bf08aae67aac13c5b9cd5c36100527b		n x + c0  = c1  => c0 - c0  = $ 	-x+3 = 11 => 3 - 3 = $
+ac860380be8ae0fabfab118c4f2f92be		c0 - c0 + * n x  = c2  => n x  = nc2 	3 - 3 + (-x) = 8 => -x = -8
+73a69ebf1fdf4accd5a8e4a2a44ef324	bug!!! name: bug-multiply-unlike-terms-make-constant	c0  = n x + c1  => $  = nc1 	8 = -x+2 => $ = -2
+8f4f384656cd34416d052789d3a22586		nc0  = n x  => nc0 + c0  = $ 	-6 = -x => -6 + 6 = $
+af783e6f152de98ae7108ada63c86048		c0  = c1 - x  => $  = c1 - c1 	1 = 9-x => $ = 9 - 9
+baffe49da8dbe392511b4fc1784231bc		c0  = c1 - x  => $  = c1 - c1 + x 	1 = 9-x => $ = 9 - 9 + x
+1ef92966ab6332db7ad8479f30b7917d		c0  = c1 - x  => $  = c1 - c1 + x 	1 = 9-x => $ = 9 - 9 +x
+837f11cdef89e048ed71203841cd97e6		c0  = c1 - x  => $  = c1 - c1 + x 	1 = 9-x => $ = 9 - 9 + x
+c3810819f7c25c0bd1d01995092be098		c0  = c1 - x  => nc2  = c1 - c1 + * n x 	1 = 9-x => -7 = 9 - 9 + (-x)
+8388c73682ee8867d8ac6e09b92c9837		nc0  = c1 - c1 + * n x  => nc0 + c0  = x 	-8 = 9 - 9 + (-x) => -8 + 8 = x
+70ca7a18509967690d728dd32627119e		nc0  = c1 - c1 + * n x  => c3  = x 	-8 = 9 - 9 + (-x) => 0 = x
+9670d289fa9c6bede0e1dfe026877e6d		nc0  = c1 - c1 + * n x  => $  = x 	-8 = 9 - 9 + (-x) => $ = x
+452cea633828b74b36ea002f6dbf1700	bug!!! name: bug-invalid-expression	n x + c0  = c1  => n x nc2  = nnnc2 	-x+7 = 18 => -x/-1 = --/-1
+f01c41e271337cb54216a3d781d67868	bug!!! name: bug-invalid-expression	n x + c0  = c1  => n x  = c0 - c0 	-x+6 = 15 => -x = 6 - 6 = $
+c6341695a6895cb31ddb3975d3aa247e	bug!!! name: bug-invalid-expression	n x + c0  = c1  => n x  = c0 - c0 	-x+6 = 15 => -x =6 - 6 = $
+44315fe992c4004c25cb5028d734b859	bug!!! name: bug-invalid-expression	n x + c0  = c1  => n x  = c0 - c0 	-x+6 = 15 => -x =6 - 6 = +
+c91f7f1ea5f524162f514db696cb0145	bug!!! name: bug-invalid-expression	c0  = n x + c1  => c0 - c1  = c1 - c1 - 	13 = -x+6 => 13 - 6 = 6 - 6 -
+f7aca235178e4563f8817922691387d1		c0 * x + c1  = c2  => x  = c3 	2x+3 = 7 => x = 21
+3de65dc9f19f4a4e95039ad6be1af3f8		c0 * x + c1  = c2  => c0  = $ 	4x+5 = 1 => 4 = $
+d3292fb4672fb7c97653ed5b7ab5e548		c0 * x  = c1  => c0 * x c0  = c4 	6x = 18 => 6x/6 = 10/6
+031303583a35303ac661f2b972407c72		c0 * x - c1  = nc2  => c0 * x - c1 + c1  = nc6 	3x-1 = -10 => 3x - 1 + 1 = -7
+08a5212558867ef433ce2d4ae7c897ad		c0 * x + c1  = c2  => c0 * x c0  = c1 	5x+10 = 0 => 5x/5 = 10/5

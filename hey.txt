@@ -1,0 +1,16 @@
+Problem Name	Level (Assignment)	Level (ProblemSet)	BRD	SWF
+vegetarian	Default Assignment	6.28	FinalBRDs\s2p1.brd	Flash\
+bus ride	Default Assignment	6.28	FinalBRDs\s2p2.brd	Flash\
+soda	Default Assignment	6.28	FinalBRDs\s3p1.brd	Flash\
+washington dc	Default Assignment	6.28	FinalBRDs\s4p7.brd	Flash\
+ticket sales	Default Assignment	6.28	FinalBRDs\s3p2.brd	Flash\
+movies	Default Assignment	6.28	FinalBRDs\s3p3.brd	Flash\
+cereal	Default Assignment	6.28	FinalBRDs\s3p4.brd	Flash\
+driving	Default Assignment	6.28	FinalBRDs\s3p5.brd	Flash\
+greens	Default Assignment	6.28	FinalBRDs\s3p6.brd	Flash\
+basketball points	Default Assignment	6.28	FinalBRDs\s3p7.brd	Flash\
+basketball tickets	Default Assignment	6.28	FinalBRDs\s3p8.brd	Flash\
+lollipops	Default Assignment	6.28	FinalBRDs\s4p1.brd	Flash\
+game cards	Default Assignment	6.28	FinalBRDs\s4p2.brd	Flash\
+cd club	Default Assignment	6.28	FinalBRDs\s4p3.brd	Flash\
+theme park	Default Assignment	6.28	FinalBRDs\s4p4.brd	Flash\

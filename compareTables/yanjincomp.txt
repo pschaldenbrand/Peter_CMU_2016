@@ -1,0 +1,54 @@
+Row	Sample Name	Transaction Id	Anon Student Id	Session Id	Time	Time Zone	Duration (sec)	Student Response Type	Student Response Subtype	Tutor Response Type	Tutor Response Subtype	Level (Assignment)	Level (ProblemSet)	Problem Name	Problem View	Problem Start Time	Step Name	Attempt At Step	Is Last Attempt	Outcome	Selection	Action	Input	Feedback Text	Feedback Classification	Help Level	Total Num Hints	Condition Name	Condition Type	KC (Default)	KC Category (Default)	KC (Default)	KC Category (Default)	KC (Default-us-s)	KC Category (Default-us-s)	KC (Default-us-m)	KC Category (Default-us-m)	KC (Default-us-m)	KC Category (Default-us-m)	KC (Default-us-m)	KC Category (Default-us-m)	KC (Default-us-m)	KC Category (Default-us-m)	KC (Default-us-m)	KC Category (Default-us-m)	KC (Single-KC)	KC Category (Single-KC)	KC (Unique-step)	KC Category (Unique-step)	School	Class	CF (Rewards)	CF (act)	CF (knowledge-trace)	CF (pKnowValues)	CF (postEqStu)	CF (postEqSys)	CF (preEqProps)	CF (preEqStu)	CF (preEqSys)	CF (step_id)	CF (tool_event_time)	CF (transf)	CF (transfProps)	CF (tutor_event_time)	
+0.0	Row	29660
+100.0	Sample Name	29660
+0.0	Transaction Id	29660
+0.0	Anon Student Id	29660
+100.0	Session Id	29660
+0.0	Time	29660
+0.0	Time Zone	29660
+4.025623735670937	Duration (sec)	29660
+100.0	Student Response Type	29660
+100.0	Student Response Subtype	29660
+72.26904922454484	Tutor Response Type	29660
+90.75859743762643	Tutor Response Subtype	29660
+100.0	Level (Assignment)	29660
+100.0	Level (ProblemSet)	29660
+100.0	Problem Name	29660
+93.08833445718139	Problem View	29660
+0.0	Problem Start Time	29660
+70.8024275118004	Step Name	29660
+68.45920431557654	Attempt At Step	29660
+70.73499662845583	Is Last Attempt	29660
+0.006743088334457182	Outcome	29660
+100.0	Selection	29660
+100.0	Action	29660
+100.0	Input	29660
+99.40323668240055	Feedback Text	29660
+100.0	Feedback Classification	29660
+99.93594066082265	Help Level	29660
+99.87525286581254	Total Num Hints	29660
+100.0	Condition Name	29660
+100.0	Condition Type	29660
+52.49494268374916	KC (Default)	29660
+90.52933243425488	KC Category (Default)	29660
+27.6298044504383	KC (Default)	29660
+69.44369521240729	KC Category (Default)	29660
+72.26904922454484	KC (Single-KC)	29660
+100.0	KC Category (Single-KC)	29660
+46.679028995279836	KC (Unique-step)	29660
+100.0	KC Category (Unique-step)	29660
+100.0	School	29660
+100.0	Class	29660
+71.58462575859744	CF (act)	29660
+62.859069453809845	CF (knowledge-trace)	29660
+72.26904922454484	CF (pKnowValues)	29660
+71.82063385030344	CF (postEqStu)	29660
+71.83074848280513	CF (postEqSys)	29660
+71.54079568442346	CF (preEqProps)	29660
+71.53742414025623	CF (preEqStu)	29660
+71.53742414025623	CF (preEqSys)	29660
+70.98786244099797	CF (step_id)	29660
+0.0	CF (tool_event_time)	29660
+99.05286240843559	CF (transf)	21433
+99.39345868520506	CF (transfProps)	21433
+0.0	CF (tutor_event_time)	21433

@@ -1,0 +1,56 @@
+Do the numbers matter?
+
+gill_period3.txt
+legters_block1.txt
+	real constants
+		2563 / 3282
+		78.092%
+	numberless constants
+		2993 / 3836
+		78.023%
+		
+gill_period3.txt
+muller_period3.txt
+	real constants
+		1752 / 2581
+		67.881%
+	numberless constants
+		2146 / 3131
+		68.540%
+
+gill_period3.txt
+roberts_block3.txt
+	real constants
+		936 / 1365
+		68.571%
+	numberless constants
+		1142 / 1628
+		70.1474%
+		
+gill_period3.txt
+roberts_block2.txt
+	real constants
+		967 / 1527
+		63.326%
+	numberless constants
+		1128 / 1765
+		63.909%
+
+legters_block1.txt
+roberts_block2.txt
+	real constants
+		1047 / 1596
+		65.601%
+	numberless constants
+		1196 / 1784
+		67.040%
+
+legters_block1.txt
+gill_period3.txt
+	real constants
+		1654 / 2085
+		79.329%
+	numberless constants
+		1915 / 2469
+		77.562%
+		

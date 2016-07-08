@@ -1,0 +1,3919 @@
+	To try and determine if the actual values of constants and coefficients 
+matter to a student solving a problem, I have compared the results of all 
+steps with the same format but different values.  The first line in these 
+results is the format of the equation i.e. the equation with arbitrary values.  
+The next lines are the times that the student wrote a correct input given the 
+equation seen to the right.
+	The idea behind this was that student performance on a step with a certain 
+format should be similar across all instances of that format (different 
+values, same format) if that actual values don’t matter regarding student 
+performance.
+
+
+
+
+
+Number of Std Deviations == 0:	48 out of 251
+
+Average Standard Deviation:	0.111654109011
+
+Largest Std Deviation:	0.40537481183	there are 2 equations with this value
+
+# of standard deviations between 0.0	-  0.05: 	69
+# of standard deviations between 0.05	-  0.1: 	56
+# of standard deviations between 0.1	-  0.15: 	45
+# of standard deviations between 0.15	-  0.2: 	42
+# of standard deviations between 0.2	-  0.25: 	19
+# of standard deviations between 0.25	-  0.3: 	11
+# of standard deviations between 0.3	-  0.35: 	4
+# of standard deviations between 0.35	-  0.4: 	3
+# of standard deviations between 0.4	-  0.45: 	2
+# of standard deviations between 0.45	-  0.5: 	0
+# of standard deviations between 0.5	-  0.55: 	0
+
+The following have the format:
+{given equation sans distict constants}
+	{percent correct of a particular instance of format} {how many times correct out of times it showed up}   {actual values}
+		[examples of correct student input]
+		[examples of incorrect  student input]
+	....
+	{standard deviation of the ratios of correctness above}
+	
+c0+x=c1
+		64.7%	22/34 	5+x=6
+			Correct Input:   {5=$}  {5=6-x}  {5-5+x=$}  {5-5+x=6-5}  {x=$}  {x=1}  {5+x-5=$}  {5+x-5=6-5}  {x=6-5}  
+			Incorrect Input: {1=$}  {$=6}  {11=$}  {$=0}  {0=$}  {5=1}  {5=x}  {x=6}  {5x=$}  {5+x=$}  {x=-1}  
+		76.9%	10/13 	10+x=5
+			Correct Input:   {$=5-10}  {10+x-10=5-10}  {x=$}  {x=5-10}  {10 - 10 + x=$}  {10 - 10 + x=5 - 10}  {10+x-10=$}  
+			Incorrect Input: {10-10-x=$}  {10-10=$}  {x=10-5}  
+		73.6%	14/19 	13+x=6
+			Correct Input:   {x=$}  {x=-7}  {x=6-13}  {13-13+x=$}  {13-13+x=6-13}  {13=$}  {13=6-x}  {13+x-13=$}  {13+x-13=6-13}  
+			Incorrect Input: {7=$}  {$=6}  {13-13+x=6=13}  {13=6}  {13=x}  
+		50.0%	2/4 	7+x=7
+			Correct Input:   {7+x-x=$}  {7+x-x=7-x}  
+			Incorrect Input: {7+x-x=7}  {7+x-x=7x}  
+		70.5%	12/17 	3+x=5
+			Correct Input:   {3=$}  {3=5-x}  {3+x=5-x}  
+			Incorrect Input: {3+x=$}  {5+x=$}  {3=5}  {3=5+x}  
+		100.%	2/2 	7+x=2
+			Correct Input:   {7-7+x=$}  {7-7+x=2-7}  
+		90.9%	20/22 	3+x=7
+			Correct Input:   {3=$}  {3=7-x}  {x=$}  {x=4}  {3-3+x=$}  {3-3+x=7-3}  {$=7-3}  {3+x-3=7-3}  {3+x-3=$}  
+			Incorrect Input: {3=7}  {3-3+x=3-7}  
+		80.0%	20/25 	1+x=9
+			Correct Input:   {x=$}  {x=8}  {1=$}  {1=9-x}  {1-1+x=$}  {1-1+x=9-1}  {$=9-x-9}  {1-9=9-x-9}  {1+x-x=$}  {1+x-x=9-x}  {1+x-1=$}  {1+x-1=9-1}  
+			Incorrect Input: {1=9}  {1=x}  {1-1+x=9=1}  {$=cuvdvscdhhvidhdsvvdsjvbdsjhbdasjvgaerighiefgweigewghekefhdfujverkgheiuvdkjfbewkghjbewklgwvhdsfkwenfkwehkdsnfewkfndskfn kfhwkfnbjsfeg}  {1+x-x=9}  
+		75.0%	18/24 	8+x=2
+			Correct Input:   {x=$}  {x=2-8}  {x=-6}  {8-8+x=$}  {8-8+x=2-8}  {8=$}  {8=2-x}  {8+x-8=$}  {8+x-8=2-8}  
+			Incorrect Input: {x=8+2}  {x=8-2}  {x=8}  {x=2+x}  {8=2+x}  {8=2}  
+	Standard Deviation:	0.135556776774
+
+x=c0/c1
+		100.%	8/8 	x=16/2
+			Correct Input:   {x=$}  {x=8}  
+		85.7%	6/7 	x=3/3
+			Correct Input:   {x=$}  {x=1}  
+			Incorrect Input: {x=0}  
+		100.%	6/6 	x=16/8
+			Correct Input:   {x=$}  {x=2}  {$=2}  
+		100.%	2/2 	x=6/6
+			Correct Input:   {x=$}  {x=1}  
+		100.%	4/4 	x=15/3
+			Correct Input:   {x=$}  {x=5}  
+		100.%	16/16 	x=15/5
+			Correct Input:   {x=$}  {x=3}  {$=3}  
+		100.%	12/12 	x=14/7
+			Correct Input:   {x=$}  {x=2}  {$=2}  
+		100.%	2/2 	x=18/9
+			Correct Input:   {x=$}  {x=2}  
+		100.%	3/3 	x=14/14
+			Correct Input:   {x=$}  {x=1}  {$=1}  
+		100.%	12/12 	x=18/6
+			Correct Input:   {x=$}  {x=3}  {$=3}  
+		100.%	2/2 	x=12/3
+			Correct Input:   {x=$}  {x=4}  
+		100.%	8/8 	x=9/3
+			Correct Input:   {x=$}  {x=3}  {$=3}  
+		100.%	6/6 	x=12/6
+			Correct Input:   {$=2}  {x=2}  {x=$}  
+		100.%	2/2 	x=10/5
+			Correct Input:   {x=$}  {x=2}  
+		100.%	2/2 	x=7/1
+			Correct Input:   {x=$}  {x=7}  
+		100.%	11/11 	x=10/2
+			Correct Input:   {$=5}  {x=$}  {x=5}  
+		100.%	8/8 	x=20/10
+			Correct Input:   {x=$}  {x=2}  {$=2}  
+		80.0%	12/15 	x=4/4
+			Correct Input:   {x=$}  {x=1}  {$=1}  
+			Incorrect Input: {x0=$}  {x=0}  
+		100.%	4/4 	x=4/2
+			Correct Input:   {x=$}  {x=2}  
+		100.%	13/13 	x=8/4
+			Correct Input:   {x=$}  {x=2}  {$=2}  
+		90.0%	9/10 	x=6/3
+			Correct Input:   {x=$}  {x=2}  {$=2}  
+			Incorrect Input: {x=3}  
+		100.%	10/10 	x=6/2
+			Correct Input:   {x=$}  {x=3}  
+		100.%	4/4 	x=30/10
+			Correct Input:   {x=$}  {x=3}  
+	Standard Deviation:	0.0518698623506
+
+c0-c1=c2-c3+(-x)
+		100.%	2/2 	8-2=2-2+(-x)
+			Correct Input:   {$=-x}  {6=-x}  
+		66.6%	2/3 	1-9=9-9+(-x)
+			Correct Input:   {-8=$}  {-8=-x}  
+			Incorrect Input: {-7=$}  
+	Standard Deviation:	0.166666666667
+
+c0/c1=c2x
+		66.6%	2/3 	21/3=3x
+			Correct Input:   {$=x}  {7=x}  
+			Incorrect Input: {$=3}  
+		100.%	2/2 	6/2=2x
+			Correct Input:   {$=2x/2}  {3=2x/2}  
+		100.%	2/2 	24/4=4x
+			Correct Input:   {$=x}  {6=x}  
+	Standard Deviation:	0.157134840264
+
+c0=c1x+-c2
+		100.%	2/2 	9=3x+-12
+			Correct Input:   {21=$}  {21=3x}  
+		50.0%	8/16 	10=6x+-2
+			Correct Input:   {$=6x}  {12=6x}  {10+2=$}  {10+2=6x+-2+2}  {10--2=6x}  
+			Incorrect Input: {8=$}  {8=6x}  {10=$}  {=2=$}  {+2=$}  {$=+}  {$=6x+-2-2}  {10+2=-2+2}  
+		57.1%	12/21 	20=5x+-5
+			Correct Input:   {$=5x+5+-5}  {25=5x+5+-5}  {$=5x+-5+5}  {20+5=5x+-5+5}  {20+5=$}  {20+5=5x-5+5}  {$=5x-5+5}  {25=$}  {25=5x}  
+			Incorrect Input: {20=$}  {20=5x+5+-5}  {20=5x+-5+5}  {20\=5x+-5+5}  {20+5=5x+-5-5}  
+		50.0%	2/4 	20=4x+-4
+			Correct Input:   {24=$}  {24=4x}  
+			Incorrect Input: {16=$}  {24=8x}  
+		57.1%	4/7 	18=4x+-6
+			Correct Input:   {$=4x}  {18 + 6=4x}  {18+6=$}  {18+6=4x+6-6}  
+			Incorrect Input: {18=$}  {12=$}  {12=4x}  
+		100.%	2/2 	10=3x+-11
+			Correct Input:   {10+11=$}  {10+11=3x+11-11}  
+		100.%	2/2 	5=2x+-1
+			Correct Input:   {$=2x}  {5--1=2x}  
+	Standard Deviation:	0.231342531607
+
+c0x+-c1=c2
+		50.0%	2/4 	2x+-8=8
+			Correct Input:   {2x=$}  {2x=8+8}  
+			Incorrect Input: {2x=8+-8}  {2x=8-8}  
+		76.9%	10/13 	8x+-12=4
+			Correct Input:   {8x+-12+12=$}  {8x+-12+12=4+12}  {$=16}  {8x=16}  {8x=$}  {8x=4+12}  
+			Incorrect Input: {8x+-12+12=4=12}  {8x=4}  {8x=4+1}  
+		66.6%	6/9 	10x+-10=20
+			Correct Input:   {10x-10+10=$}  {10x-10+10=20+10}  {10x=$}  {10x=30}  
+			Incorrect Input: {10x=10}  {-10+10=$}  {10x-10+10=20}  
+		70.5%	12/17 	3x+-6=3
+			Correct Input:   {-6--6+3x=$}  {-6--6+3x=3--6}  {3x+-6+6=$}  {3x+-6+6=3+6}  {3x - 6 + 6=$}  {3x - 6 + 6=3 + 6}  {3x=$}  {3x=3--6}  {$=9}  {3x=9}  {3x=3+6}  
+			Incorrect Input: {-6--6+3x=-6-3}  {3x/3=$}  {x - 6 + 6=$}  {3x - 6 + 6=3}  {3x=3-6}  
+		66.6%	4/6 	2x+-2=14
+			Correct Input:   {-2+2+2x=$}  {-2+2+2x=14+2}  {2x=$}  {2x=14--2}  
+			Incorrect Input: {-2+2+2x=14}  {-2+2+2x=x}  
+	Standard Deviation:	0.0891192141179
+
+c0x-x+c1=x-x+c2
+		100.%	2/2 	6x-x+16=x-x+1
+			Correct Input:   {5x+16=$}  {5x+16=1}  
+		100.%	2/2 	4x-x+11=x-x+2
+			Correct Input:   {3x+11=$}  {3x+11=2}  
+		100.%	6/6 	6x-x+3=x-x+13
+			Correct Input:   {5x+3=$}  {5x+3=13}  {5x + 3=$}  {5x + 3=13}  
+		100.%	2/2 	4x-x+1=x-x+10
+			Correct Input:   {3x+1=$}  {3x+1=10}  
+	Standard Deviation:	0.0
+
+x-c0=c1
+		88.8%	8/9 	x-2=1
+			Correct Input:   {x=$}  {x=3}  {x-2+2=$}  {x-2+2=1+2}  
+			Incorrect Input: {$=-1}  
+		100.%	2/2 	x-4=4
+			Correct Input:   {$=8}  {x=8}  
+	Standard Deviation:	0.0555555555556
+
+c0+c1x+c2*-c3=c4
+		100.%	2/2 	6+2x+2*-4=14
+			Correct Input:   {6+2x-8=$}  {6+2x-8=14}  
+		66.6%	2/3 	4+3x+3*-1=7
+			Correct Input:   {4+3x-3=$}  {4+3x-3=7}  
+			Incorrect Input: {12x+3=$}  
+	Standard Deviation:	0.166666666667
+
+-c0=c1x-c2x
+		75.0%	6/8 	-10=3x-5x
+			Correct Input:   {-10=$}  {-10=-2x}  
+			Incorrect Input: {-10=2x}  {-10=7x}  
+		100.%	8/8 	-9=6x-3x
+			Correct Input:   {-9=$}  {-9=3x}  {$=3x}  
+		100.%	2/2 	-6=2x-4x
+			Correct Input:   {-6=$}  {-6=-2x}  
+		100.%	2/2 	-9=5x-8x
+			Correct Input:   {-9=$}  {-9=-3x}  
+		85.7%	12/14 	-6=4x-10x
+			Correct Input:   {-6=$}  {-6=-6x}  
+			Incorrect Input: {-6=6x}  
+	Standard Deviation:	0.102020406122
+
+(c0*-c1)+(c2*c3x)=c4
+		50.0%	2/4 	(2*-3)+(2*7x)=8
+			Correct Input:   {-6+14x=$}  {-6+14x=8}  
+			Incorrect Input: {1+14x=$}  {-1+14x=$}  
+		66.6%	2/3 	(5*-2)+(5*2x)=20
+			Correct Input:   {-10+10x=$}  {-10+10x=20}  
+			Incorrect Input: {10+10x=$}  
+	Standard Deviation:	0.0833333333333
+
+-c0/c1=x
+		80.0%	8/10 	-9/3=x
+			Correct Input:   {$=x}  {-3=x}  {-3=$}  
+			Incorrect Input: {3=$}  
+		75.0%	6/8 	-6/6=x
+			Correct Input:   {-1=$}  {-1=x}  {$=x}  
+			Incorrect Input: {1=$}  
+	Standard Deviation:	0.025
+
+c0-c1=x+c2-c3
+		100.%	2/2 	7-2=x+2-2
+			Correct Input:   {$=x}  {5=x}  
+		100.%	6/6 	6-3=x+3-3
+			Correct Input:   {3=$}  {3=x}  
+		100.%	2/2 	9-4=x+4-4
+			Correct Input:   {$=x}  {5=x}  
+		100.%	8/8 	10-5=x+5-5
+			Correct Input:   {$=x}  {5=x}  {5=$}  
+		100.%	2/2 	4-2=x+2-2
+			Correct Input:   {2=$}  {2=x}  
+	Standard Deviation:	0.0
+
+c0=c1-x
+		65.3%	256/392 	1=9-x
+			Correct Input:   {1-9=$}  {1-9=9-9-x}  {1-9=9-9+-x}  {$=9-9-x}  {1-9=-x}  {1 - 9=$}  {1 - 9=9-9-x}  {$=-x}  {-8=-x}  {1-9=-x+9-9}  {-8=$}  {1-9=-9+9-x}  {$=9}  {1+x=9}  {1+x=$}  {$=9-x-9}  {1-9=9-x-9}  {-8=9-9-x}  {x + 1=$}  {x + 1=9}  {$=9+-x-9}  {1-9=9+-x-9}  {$=-1x}  {-8=-1x}  {$=9 - 9 + (-x)}  {1 - 9=9 - 9 + (-x)}  {$=9-x+x}  {1+x=9-x+x}  {1-9=9-1x-9}  
+			Incorrect Input: {x=$}  {$=8}  {$=x}  {8=$}  {1-9=x}  {1-9=9-x}  {1-9=9-9+x}  {9-1=$}  {1+9=$}  {$=1+9}  {x - 1 + 1=$}  {$=1-9}  {x - 9=$}  {$=1 + 9 -9}  {x + 9 - 9=$}  {10=-x}  {-1=-x}  {-2=-x}  {-3=-x}  {-9=-x}  {-10=-x}  {-11=-x}  {9-1=-x}  {-x+9-9=$}  {$=9-1}  {1-9=-x+1-1}  {-8=x}  {-8=-1-x}  {-8=-1}  {1-9=9-9}  {1=$}  {-x=$}  {$=-8}  {1=9}  {x=9}  {9=$}  {-x=9}  {$=9-x+9}  {ws90ofijwefhoweifhwweohfriewhkihuq=$}  {$=qjmewknhfeswhiwehiio3ru932ur32orókhü}  {9=-x}  {8=-x}  {9-8=$}  {9 - x=$}  {9 - 1=$}  {$=-9}  {10=$}  {$=9-x}  {$=678}  {1-x=$}  {1-9=9}  {1+9=9}  {9-1=9-x-9}  {$=x-9-9}  {1=9-x-9}  {1-x=9-x-9}  {1+x=9-x-9}  {1-9=9-9*x}  {1-x=9}  {9-`1=-x}  {$=9-9}  {$=9 - 9}  {$=9 - 9 + x}  {$=9 - 9 +x}  {1-9=9-9x}  {$=9+9-x}  
+		25.0%	5/20 	6=0-x
+			Correct Input:   {6=$}  {6=0-x}  {6=-x}  
+			Incorrect Input: {6=0}  {6=6}  {6=6x}  {6=0x}  {6=6-0}  {6=0-6}  {6-0=$}  {6=x}  {6=x0}  {6=6-x}  
+		20.0%	2/10 	2=6-x
+			Correct Input:   {-4=$}  {-4=6-6-x}  
+			Incorrect Input: {2=$}  {4=$}  {3=$}  {1=$}  {6=$}  {10=$}  {-4=6}  {-4=0}  
+		66.6%	4/6 	2=0-x
+			Correct Input:   {2=$}  {2=-x}  
+			Incorrect Input: {2=x}  {2=0}  
+		37.9%	11/29 	6=3-x
+			Correct Input:   {3=$}  {3=3-3-x}  {6-3=$}  {6-3=3-3-x}  {6=$}  {6=3-x}  
+			Incorrect Input: {6=$}  {3=6-x}  {3=6+x}  {3=3-3+x}  {6-x=$}  {x=$}  {6-3=3}  {6-3=x}  {6-3=3-3}  {6-3=3-}  {3=x}  {6-6=$}  {6=3}  {$=3-6-x}  {6-3=3-6-x}  
+		55.3%	281/508 	3=7-x
+			Correct Input:   {$=-x}  {-4=-x}  {3-7=$}  {3-7=7-7-x}  {3-7=7-7+-x}  {$=7 - x - 7}  {3 - 7=7 - x - 7}  {3-7=-x}  {3-7=7-x-7}  {3-7=-x+7-7}  {$=7-7-x}  {3+x=$}  {3+x=7}  {-4=$}  {$=7}  {x+3=7}  {-4=7-7-x}  {3 + x=$}  {3 + x=7}  {-4=-x+7-7}  {$=7-x-7}  {$=7+-x-7}  {3-7=7+-x-7}  {3 - 7=$}  {3 - 7=7 - 7 - x}  {$=-7+7-x}  {3-7=-7+7-x}  {3- 7=$}  {3- 7=7-7-x}  {3 - 7=-x}  {$=7-x+x}  {3+x=7-x+x}  {$=7 -x - 7}  {3 - 7=7 -x - 7}  {3-7=7-1x-7}  
+			Incorrect Input: {4=$}  {$=x}  {x=$}  {$=4}  {7-3=$}  {$=7-3}  {$=3-7}  {3-7=x}  {3+7=$}  {3-7=7-7+x}  {3=7 - x - 7}  {7-4=$}  {3=$}  {4=-x}  {3-7=x-7-7}  {3-7=7-7x}  {3-7=-x+3-3}  {$=-4}  {$=-4-x}  {7-7-x=$}  {-x=$}  {-4=x}  {7-x=$}  {-x-3=$}  {-x+3=$}  {-x-3=7}  {x-3=7}  {7=$}  {3=7}  {x=7}  {3-7=-4}  {10=$}  {$=10}  {-4=4}  {-4=0}  {-4=7-7}  {7-4=-x}  {-7-4=-x}  {7--4=-x}  {$=-}  {7 - x=$}  {7 - 3=$}  {$=7-x}  {$=3}  {$=7-x+7}  {3-7=7-x+7}  {$=7-7+x}  {$=x+7-7}  {3x=$}  {3-7=7-7}  {3 - 7=7 - x}  {-5=-x}  {5=-x}  {10=-x}  {3-7=7-7 +x}  {3-7=7-7+-3}  {3-7=3-7-x}  {3+x=7-x-7}  {3-x=7-x-7}  {-2=-x}  {2=-x}  {-3=-x}  {3=-x}  {$=x-7+7}  {+7=$}  {$=7+7-x}  {$=+7}  {-7=-7+7-x}  {7-7=$}  {3-7=7-x}  {3-7=7-x+x}  {3+7=7-x+x}  {3-=7-x-7}  {4=7}  {7/7=$}  {$=7-7}  {-=$}  
+		56.6%	252/445 	5=6-x
+			Correct Input:   {5-6=$}  {5-6=6-6-x}  {$=6-6-x}  {$=6-x-6}  {5-6=6-x-6}  {$=-x}  {5-6=-x}  {5 - 6=$}  {5 - 6=6 - 6 - x}  {-1=$}  {-1=-x}  {5+x=$}  {5+x=6}  {$=6}  {x+5=6}  {-1=6-6-x}  {5 + x=$}  {5 + x=6}  {$=6+-x-6}  {5-6=6+-x-6}  {-1=-1x}  {$=-6+6-x}  {5-6=-6+6-x}  {$=6-x+x}  {5+x=6-x+x}  {5 - 6=6 - x - 6}  {5-6=6-6-1x}  
+			Incorrect Input: {6+5=$}  {5+6=$}  {6-5=$}  {5-6=x}  {-6-6-x=$}  {6+-6-x=$}  {6-6-x=$}  {x-6+6=$}  {$=5}  {5-6=x-6+6}  {5-6=6+6-x}  {5-6=6-x}  {x=$}  {$=x}  {$=1}  {$=x1}  {$=6-x+6}  {5-5=$}  {5-6=6}  {5-6=6-x+6}  {6-5=-x}  {65-6=-x}  {$=5-6}  {-6x=$}  {-56e2fegsszf=$}  {=-56=$}  {5=$}  {5x=$}  {_x=$}  {-x=$}  {6-x=$}  {5-x=$}  {5-6=6-6}  {5-6=6-x-5}  {5-6=x-6}  {1=$}  {51=-x}  {5=-x}  {-1=x}  {-1=-1}  {x-5=$}  {-x+5=$}  {-x+5=6}  {$=-1}  {11=6}  {-11=6}  {$=-6-6-x}  {$=-12-x}  {-1=0-x}  {1=-x}  {11=$}  {-11=$}  {$=6-x}  {6-5=6-x-6}  {-=$}  {11=-x}  {-11=-x}  {-10=-x}  {x=-x}  {5-6=6-6+x}  {$=6-x-x}  {5+6=6-x-6}  {$=6+x}  {$=6-6-}  {5-6+6=$}  {$=x-6+6}  {$=6-6x}  {5+6-6=$}  {$=-6}  {-6=$}  {-5=$}  {$=+x}  {$=+6}  {+6=$}  {+5=$}  {$=+5}  {-x=-x}  {+x=-x}  {4=-x}  {6=-x}  {$=6-6+x}  {$=6+6-x}  {$=-6=x}  {$=-6+x}  {$=x+6}  {$=x+6-6}  {5-x=6}  {6-5=6}  {5=6}  {5-6=6-x+x}  {5x=6-x+x}  {-1=6-x}  {5 - 6=6 - x}  {-2=$}  {5-6=6-1x=6}  
+		41.3%	12/29 	7=7-x
+			Correct Input:   {7-7=$}  {7-7=7-7-x}  {$=7}  {x+7=7}  {0=$}  {0=7-7-x}  {7+x=$}  {7+x=7-x+x}  {$=7-x+x}  {$=7-x-7}  {7-7=7-x-7}  
+			Incorrect Input: {x=$}  {7=$}  {$=x}  {$=7-7}  {0=7}  {0=7-0-x}  {0=7-0}  {0=x}  {0=7/-0}  {0=7/-7}  {0=7/0}  {7-x=$}  {7+x=7+x}  {7+x=7-x}  {7-x+x=$}  {7=7-x+x}  
+		38.4%	20/52 	3=5-x
+			Correct Input:   {3-5=$}  {3-5=5-5-x}  {$=5}  {3+x=5}  {3+x=$}  {x=$}  {x=2}  {$=5-5-x}  
+			Incorrect Input: {x=$}  {5-5=$}  {$=x}  {5=$}  {3-5=5-5}  {3=$}  {3=5}  {shit=$}  {im sorry=$}  {2=$}  {4=$}  {6=$}  {67=$}  {7=$}  {8=$}  {9=$}  {10=$}  {-=$}  {49683968968=$}  {$=sdvcsdcsdv}  {x-x+3=$}  {$=5-x+5}  {3-x=5-5-x}  {3+x=5-5-x}  
+		57.1%	4/7 	8=2-x
+			Correct Input:   {8+x=$}  {8+x=2}  {8-2=$}  {8-2=-x}  
+			Incorrect Input: {2-2-x=$}  {2-2=$}  {8-2=x}  
+		48.3%	15/31 	7=2-x
+			Correct Input:   {7-2=$}  {7-2=-x}  {x+7=$}  {x+7=2}  {5=$}  {5=2-2-x}  {$=2-x}  {$=2}  {7+x=2}  
+			Incorrect Input: {7=$}  {2=$}  {7-2=x}  {5=2-xd}  {5=2-x}  {7=2-x}  {7=2}  {x=$}  {2-x=$}  {-x=$}  {5=0}  {5=2-2}  {x=2}  
+		54.5%	6/11 	3=0-x
+			Correct Input:   {3=$}  {3=0-x}  {3=-x}  
+			Incorrect Input: {3=0}  {3=x}  {3=3}  
+		33.3%	2/6 	13=6-x
+			Correct Input:   {13-6=$}  {13-6=6-6-x}  
+			Incorrect Input: {$=5}  {13=$}  {$=13-6}  {13-6=6x}  
+		100.%	4/4 	3=3-x
+			Correct Input:   {0=$}  {0=-x}  {$=3-x-3}  {3-3=3-x-3}  
+	Standard Deviation:	0.194833681327
+
+c0=c1x/c2
+		100.%	1/1 	4=2x/2
+			Correct Input:   {$=x}  
+		100.%	1/1 	3=2x/2
+			Correct Input:   {$=x}  
+	Standard Deviation:	0.0
+
+c0=c1+c2x-c3
+		86.9%	20/23 	1=15+6x-8
+			Correct Input:   {$=6x+7}  {1=6x+7}  {1=$}  {1=7+6x}  {$=15+6x-8+8}  {1+8=15+6x-8+8}  {$=15+6x-8-15}  {-14=15+6x-8-15}  
+			Incorrect Input: {1=15+6x-8}  {1=13+6x}  {1=7}  
+		100.%	3/3 	5=3+2x-2
+			Correct Input:   {$=3+2x-4}  {$=2x-4}  {2=2x-4}  
+		63.3%	69/109 	5=3+2x-4
+			Correct Input:   {2=$}  {2=2x-4}  {5=$}  {5=-1+2x}  {5=2x-1}  {$=3+2x+4-4}  {5+4=3+2x+4-4}  {$=2x-1}  {$=3+2x-4+4}  {9=3+2x-4+4}  {$=-1+2x}  {5+4=3+2x-4+4}  {5=3+2x-4}  {$=3+2x-4-3}  {5-3=3+2x-4-3}  
+			Incorrect Input: {5-4=$}  {5=7+2x}  {$=-1}  {5=3+2x+4-4}  {1=3+2x+4-4}  {5=5x-4}  {5=1=2x}  {5=1+2x}  {5=-1=2x}  {5=7-2x}  {5=-2x-1}  {1=-1+2x}  {5=2x+1}  {5=2x+1-1}  {5=3+2x}  {5=3+2x-4-3}  {5=-1+2X}  {$=x}  {$=1x}  {$=5x-4}  {5=x}  {5=1x}  {5=1x-4}  {5=3+2x-4}  {5=5x}  {5=2x}  {5=3x}  {5=4x}  {5=2x+7}  {10=$}  {10=-1+2x}  {5=-1+2}  
+		100.%	2/2 	6=3+2x-3
+			Correct Input:   {$=2x}  {6=2x}  
+		79.3%	46/58 	10=1+3x-12
+			Correct Input:   {22=$}  {22=1+3x}  {22=1+3x-12+12}  {10=$}  {10=-11+3x}  {9=$}  {9=3x -12}  {10=3x-11}  {10=-11 + 3x}  {$=-11+3x}  {10-1=$}  {10-1=3x-12}  {$=3x-11}  {$=-11 + 3x}  {$=1+3(x)-3(4)}  {10=1+3(x)-3(4)}  
+			Incorrect Input: {-2=$}  {11=$}  {22=3x-13}  {22=3x+13}  {10=4x-12}  {10=4x}  {10=4x+12}  {10 - 12=$}  {$=3x-11+11}  {10+11=$}  
+	Standard Deviation:	0.138043067774
+
+c0x+-c1+c2=c3+c4
+		100.%	2/2 	2x+-2+2=14+2
+			Correct Input:   {2x=$}  {2x=16}  
+		100.%	4/4 	8x+-12+12=4+12
+			Correct Input:   {8x=$}  {8x=16}  
+		100.%	2/2 	3x+-6+6=3+6
+			Correct Input:   {$=9}  {3x=9}  
+	Standard Deviation:	0.0
+
+-c0+x+c1=c2+c3
+		80.0%	4/5 	-1+x+1=1+1
+			Correct Input:   {x=$}  {x=2}  
+			Incorrect Input: {x=1}  
+		100.%	2/2 	-2+x+2=3+2
+			Correct Input:   {x=$}  {x=5}  
+	Standard Deviation:	0.1
+
+c0=c1+c2(x)-c3(c4)
+		100.%	2/2 	5=3+2(x)-2(2)
+			Correct Input:   {5=$}  {5=3+2x-4}  
+		100.%	6/6 	10=1+3(x)-3(4)
+			Correct Input:   {10=$}  {10=1 + 3x - 12}  {10=1+3x-12}  {$=1+3x-12}  
+	Standard Deviation:	0.0
+
+c0/c1=c2/c3x
+		100.%	4/4 	6/2=2/2x
+			Correct Input:   {3=$}  {3=x}  
+		100.%	2/2 	20/4=4/4x
+			Correct Input:   {5=$}  {5=x}  
+		100.%	4/4 	16/8=8/8x
+			Correct Input:   {2=$}  {2=x}  
+		100.%	2/2 	24/4=4/4x
+			Correct Input:   {6=$}  {6=x}  
+		100.%	2/2 	25/5=5/5x
+			Correct Input:   {5=$}  {5=x}  
+	Standard Deviation:	0.0
+
+c0=c1-c2-x
+		57.1%	4/7 	7=6-6-x
+			Correct Input:   {7=$}  {7=-x}  {$=-x}  
+			Incorrect Input: {7=0-x}  {x=$}  {$=x}  
+		88.8%	8/9 	6=2-2-x
+			Correct Input:   {6=$}  {6=-x}  {$=-x}  
+			Incorrect Input: {6=x}  
+		50.0%	2/4 	3=3-3-x
+			Correct Input:   {3=$}  {3=-x}  
+			Incorrect Input: {3=x}  {3=0-x}  
+		66.6%	4/6 	5=2-2-x
+			Correct Input:   {5=$}  {5=-x}  
+			Incorrect Input: {5=2-2-5}  {5=-xc}  
+		33.3%	4/12 	0=7-7-x
+			Correct Input:   {0=$}  {0=7-7-x}  {$=-x}  {0=-x}  
+			Incorrect Input: {0=7/0}  {0=7/-7}  {0=x}  {0=7-7}  {0=7/7}  {$=0}  
+		50.0%	4/8 	5=5-5-x
+			Correct Input:   {$=-x}  {5=-x}  {5=$}  
+			Incorrect Input: {x=$}  {$=x}  {10=$}  {5=5-5}  
+	Standard Deviation:	0.17155018875
+
+c0+c1(x)+c2(-c3)=c4
+		80.7%	21/26 	4+3(x)+3(-1)=7
+			Correct Input:   {$=7}  {4+3x+-3=7}  {4+3x+-3=$}  {4+3x-3=$}  {4+3x-3=7}  {4+ 3x + -3=$}  {4+ 3x + -3=7}  {4+3(x)+3(-1)=7}  
+			Incorrect Input: {7x+-3=7}  {10(-x)=$}  {4=3x-3=$}  {4+3(x)3(-1)=7}  {4+3x+3=7}  
+		66.6%	18/27 	6+2(x)+2(-4)=14
+			Correct Input:   {6+2x -8=$}  {6+2x -8=14}  {6+2x-8=$}  {6+2x-8=14}  {6+2(x)-8=$}  {6+2(x)-8=14}  
+			Incorrect Input: {6+x-8=$}  {4+2x=$}  {4+2(x)=$}  {7(x)+=$}  {8(x)=(-6)=$}  {8(x)2(-6)=$}  {8x+-8=$}  {8x=$}  
+	Standard Deviation:	0.0705128205128
+
+c0+c1x-c2=c3-c4
+		100.%	4/4 	8+3x-8=11-8
+			Correct Input:   {$=3}  {3x=3}  {3x=$}  
+		100.%	2/2 	4+3x-4=10-4
+			Correct Input:   {3x=$}  {3x=6}  
+		100.%	4/4 	1+4x-1=9-1
+			Correct Input:   {4x=$}  {4x=8}  
+		100.%	16/16 	1+3x-1=7-1
+			Correct Input:   {$=6}  {3x=6}  {3x=$}  
+	Standard Deviation:	0.0
+
+c0x-c1+c2=c3+c4
+		100.%	8/8 	14x-6+6=8+6
+			Correct Input:   {14x=$}  {14x=14}  
+		96.0%	24/25 	3x-6+6=3+6
+			Correct Input:   {3x=$}  {3x=9}  
+			Incorrect Input: {3x=-3}  
+		95.4%	42/44 	8x-12+12=4+12
+			Correct Input:   {8x=$}  {8x=16}  {$=16}  
+			Incorrect Input: {8x-24=$}  
+		100.%	2/2 	10x-20+20=0+20
+			Correct Input:   {10x=$}  {10x=20}  
+		100.%	12/12 	6x-6+6=0+6
+			Correct Input:   {6x=$}  {6x=6}  {$=6}  
+		100.%	8/8 	10x-10+10=20+10
+			Correct Input:   {10x=$}  {10x=30}  
+		66.6%	2/3 	4x-2+2=6+2
+			Correct Input:   {4x=$}  {4x=8}  
+			Incorrect Input: {4x=4}  
+		100.%	4/4 	2x-10+10=0+10
+			Correct Input:   {2x=$}  {2x=10}  
+		92.3%	12/13 	3x-9+9=0+9
+			Correct Input:   {3x=$}  {3x=9}  {$=9}  
+			Incorrect Input: {3x/3x=$}  
+		88.8%	8/9 	2x-8+8=8+8
+			Correct Input:   {2x=$}  {2x=16}  {2x=8+8}  
+			Incorrect Input: {2x/2=$}  
+		66.6%	2/3 	2x-6+6=0+6
+			Correct Input:   {$=6}  {2x=6}  
+			Incorrect Input: {2=6}  
+		100.%	2/2 	2x-1+1=3+1
+			Correct Input:   {2x=$}  {2x=4}  
+		100.%	16/16 	2x-5+5=5+5
+			Correct Input:   {2x=$}  {2x=10}  
+		100.%	22/22 	2x-2+2=14+2
+			Correct Input:   {2x=$}  {2x=16}  {2x-8+6=$}  {2x-8+6=14}  
+		100.%	4/4 	4x-1+1=7+1
+			Correct Input:   {4x=$}  {4x=8}  
+		72.7%	8/11 	2x-3+3=1+3
+			Correct Input:   {2x=$}  {2x=4}  {$=4}  {4/4(2x-3)=$}  {4/4(2x-3)=4/4}  
+			Incorrect Input: {4(2X-3=3)=$}  {4(2X-3+3)=$}  {4/4(2X-3)=$}  
+	Standard Deviation:	0.119003300467
+
+c0=c1x(c2)+c3(c4)-c5
+		66.6%	2/3 	10=2x(3)+3(2)-8
+			Correct Input:   {10=$}  {10=2x(3)+2(3)-8}  
+			Incorrect Input: {10=4x+6-8}  
+		100.%	2/2 	10=2x(3)+2(3)-8
+			Correct Input:   {10=$}  {10=6x+6-8}  
+	Standard Deviation:	0.166666666667
+
+c0-c1=c2-c3+x
+		100.%	4/4 	3-11=11-11+x
+			Correct Input:   {3 + -11=$}  {3 + -11=x}  {-8=$}  {-8=x}  
+		72.7%	8/11 	6-15=15-15+x
+			Correct Input:   {-9=$}  {-9=x}  {$=x}  
+			Incorrect Input: {x=$}  {6=$}  {$=-9}  
+		100.%	2/2 	7-18=18-18+x
+			Correct Input:   {-11=$}  {-11=x}  
+		100.%	4/4 	8-1=1-1+x
+			Correct Input:   {7=$}  {7=x}  
+		88.4%	46/52 	6-3=3-3+x
+			Correct Input:   {3=$}  {3=x}  {6-3=$}  {6-3=3-3+x}  {$=x}  
+			Incorrect Input: {x=$}  {$=3}  {-3=$}  {6=$}  {6-3=3-3}  
+		91.8%	56/61 	10-5=5-5+x
+			Correct Input:   {5=$}  {5=x}  
+			Incorrect Input: {5=0+x}  {x=$}  {0=$}  {5=0}  {5-10=$}  
+		74.3%	55/74 	9-4=4-4+x
+			Correct Input:   {5=$}  {5=x}  {9+-4=$}  {9+-4=x}  {9-4=$}  {9-4=x}  {$=x}  
+			Incorrect Input: {x=$}  {13=$}  {5=0}  {-5=$}  {9-4=5=$}  {5=0+X}  {$=5}  {9+-5=$}  {9+-4=5}  {9-4=5}  {9-4=4-4}  {9-4=4 -4}  
+		100.%	8/8 	7-2=2-2+x
+			Correct Input:   {$=x}  {5=x}  {5=$}  
+	Standard Deviation:	0.108570331679
+
+c0=-x/-c1
+		100.%	2/2 	8=-x/-1
+			Correct Input:   {8=$}  {8=x}  
+		100.%	4/4 	1=-x/-1
+			Correct Input:   {1=$}  {1=x}  
+		100.%	3/3 	4=-x/-1
+			Correct Input:   {4=$}  {4=x}  {$=x}  
+	Standard Deviation:	0.0
+
+c0/-c1=-x/-c2
+		81.8%	104/127 	7/-1=-x/-1
+			Correct Input:   {-7=$}  {-7=x}  {$=x}  {-7=-x/-1}  {7/-1=$}  {7/-1=x}  
+			Incorrect Input: {x=$}  {6=$}  {-6=$}  {7=$}  {-7=-x}  {-8=x}  {0=x}  {7=x}  {-1=x}  {1=x}  {x=x}  {-7=0}  {-7=-1}  
+		100.%	2/2 	2/-1=-x/-1
+			Correct Input:   {-2=$}  {-2=x}  
+		54.5%	6/11 	3/-1=-x/-1
+			Correct Input:   {-3=$}  {-3=1x}  {-3=x}  
+			Incorrect Input: {-x=$}  {-3=-1}  {-3=-1x}  {-3=-x}  {-3=-}  
+		85.0%	114/134 	5/-1=-x/-1
+			Correct Input:   {-5=$}  {-5=x}  {$=x}  {-5=-x}  
+			Incorrect Input: {5=$}  {1=$}  {4=$}  {-=$}  {-5=-x}  {1=x}  {5=x}  {$=-x}  {-5=1}  {-1=$}  {-5=-1}  {6=$}  
+		80.0%	4/5 	0/-1=-x/-1
+			Correct Input:   {0=$}  {0=x}  {$=x}  
+			Incorrect Input: {-1=x}  
+		90.8%	99/109 	6/-1=-x/-1
+			Correct Input:   {-6=$}  {-6=x}  {8-2=$}  {8-2=-x+2-2}  {$=x}  {$=-x/-1}  {6/-1=-x/-1}  {6/-1=$}  {6/-1=x}  
+			Incorrect Input: {6=x}  {6=$}  {-6=/-1c}  {-6=-1x}  {-6=0}  
+	Standard Deviation:	0.139588177312
+
+c0x-c1x=c2x-c3x-c4
+		85.7%	6/7 	7x-2x=2x-2x-10
+			Correct Input:   {5x=$}  {5x=-10}  
+			Incorrect Input: {5x=10}  
+		100.%	2/2 	2x-3x=3x-3x-6
+			Correct Input:   {-1x=$}  {-1x=-6}  
+		85.7%	6/7 	3x-5x=5x-5x-10
+			Correct Input:   {-2x=$}  {-2x=-10}  
+			Incorrect Input: {-2x=10}  
+		66.6%	4/6 	4x-7x=7x-7x-3
+			Correct Input:   {$=-3}  {-3x=-3}  {-3x=$}  
+			Incorrect Input: {3=$}  {3x=$}  
+		50.0%	4/8 	2x-2x=3x-2x-6
+			Correct Input:   {2x-2x=$}  {2x-2x=1x-6}  {0=$}  {0=1x-6}  
+			Incorrect Input: {x=$}  {-2x=$}  {-x=$}  {0+6=$}  
+	Standard Deviation:	0.174053970309
+
+c0-c1=x
+		100.%	2/2 	7-18=x
+			Correct Input:   {-11=$}  {-11=x}  
+		87.5%	28/32 	6-3=x
+			Correct Input:   {3=$}  {3=x}  {$=x}  
+			Incorrect Input: {x=$}  {-3=x}  {6/-3=x}  
+		68.4%	39/57 	9-4=x
+			Correct Input:   {5=$}  {5=x}  {9-4=$}  {9-4=x}  {9+-4=$}  {9+-4=x}  {$=x}  
+			Incorrect Input: {9-4=5}  {9+-4=5}  {9+-4=5x}  {x=$}  {9=$}  {$=-4}  {-4=x}  {9=x}  {4-4=$}  {3=$}  {9==$}  {$=-6}  {$=6}  {6=$}  
+		100.%	2/2 	8-1=x
+			Correct Input:   {7=$}  {7=x}  
+		100.%	8/8 	7-2=x
+			Correct Input:   {5=$}  {5=x}  
+		100.%	31/31 	10-5=x
+			Correct Input:   {5=$}  {5=x}  {$=x}  
+	Standard Deviation:	0.117590696678
+
+c0=x+c1
+		100.%	4/4 	4=x+2
+			Correct Input:   {2=$}  {2=x}  {$=x+2-2}  {4-2=x+2-2}  
+		66.6%	2/3 	7=x+2
+			Correct Input:   {$=x+2-2}  {7-2=x+2-2}  
+			Incorrect Input: {$=5}  
+	Standard Deviation:	0.166666666667
+
+c0=c1+c2x
+		54.0%	20/37 	1=7+6x
+			Correct Input:   {$=6x}  {-6=6x}  {$=7-7+6x}  {1-7=7-7+6x}  {-6=$}  {1-7=$}  {1-7=7+6x-7}  {$=6x+7-7}  {1-7=6x+7-7}  {1-7=6x}  
+			Incorrect Input: {1=$}  {8=$}  {7=$}  {$=7/7+6x}  {$=7+6x}  {$=7+6x/6}  {1+7=$}  
+		100.%	6/6 	9=3+2x
+			Correct Input:   {$=-3+3+2x}  {9-3=-3+3+2x}  {$=3+2x-3}  {6=3+2x-3}  {9-3=3+2x-3}  
+		80.0%	8/10 	22=1+3x
+			Correct Input:   {22-1=$}  {22-1=1+3x-1}  {21=$}  {21=3x}  {21=1-1+3x}  {$=3x}  
+			Incorrect Input: {22/1+3x=$}  {22/1+3=$}  
+		50.0%	2/4 	9=15+6x
+			Correct Input:   {$=15+6x-15}  {9-15=15+6x-15}  
+			Incorrect Input: {$=15+6x/6}  {$=15+6/6x}  
+		94.1%	32/34 	15=3+3x
+			Correct Input:   {15-3=$}  {15-3=3+3x-3}  {$=3+3x-3}  {$=3-3+3x}  {15-3=3-3+3x}  {15-3=3x}  {$=3x}  {12=3x}  {12=$}  
+			Incorrect Input: {15+3=$}  {15=$}  
+	Standard Deviation:	0.203823705346
+
+c0*-c1+c2*c3x=c4
+		100.%	4/4 	2*-3+2*7x=8
+			Correct Input:   {-6+14x=$}  {-6+14x=8}  
+		22.2%	4/18 	5*-2+5*2x=20
+			Correct Input:   {$=20}  {-10+10x=20}  {-10+10x=$}  
+			Incorrect Input: {x=$}  {2x=$}  {-53x=$}  {30=20}  {30x=20}  {5*2x=20}  {5*-2x=20}  {10+10x=20}  {10+10x=$}  {10x=$}  {$=10}  {$=1}  
+	Standard Deviation:	0.388888888889
+
+c0--c1=c2x
+		100.%	2/2 	5--1=2x
+			Correct Input:   {6=$}  {6=2x}  
+		100.%	2/2 	10--2=6x
+			Correct Input:   {12=$}  {12=6x}  
+	Standard Deviation:	0.0
+
+x+c0-c1=-c2
+		88.8%	8/9 	x+7-7=-5
+			Correct Input:   {x=$}  {x=-5}  
+			Incorrect Input: {-x=$}  
+		100.%	6/6 	x+2-2=-2
+			Correct Input:   {x=$}  {x=-2}  
+		100.%	8/8 	x+6-6=-3
+			Correct Input:   {x=$}  {x=-3}  
+		46.1%	6/13 	x+6-6=-6
+			Correct Input:   {$=-6}  {x=-6}  {x=$}  
+			Incorrect Input: {x-o=-6}  {x-12=-6}  {x=12=-6}  {6-6=-6}  {x+6+6=$}  {-6+6=$}  {x=+6}  
+		100.%	7/7 	x+3-3=-3
+			Correct Input:   {x=$}  {x+3-3=$}  {x+3-3=-3}  {x=-3}  
+	Standard Deviation:	0.20875707509
+
+-c0+c1x+c2=c3+c4
+		92.3%	24/26 	-6+14x+6=8+6
+			Correct Input:   {$=14}  {14x=14}  {14x=$}  
+			Incorrect Input: {14=$}  {-6+14x=$}  
+		80.0%	4/5 	-2+2x+2=14+2
+			Correct Input:   {$=16}  {2x=16}  {2x=$}  
+			Incorrect Input: {=$}  
+		100.%	2/2 	-3+7x+3=4+3
+			Correct Input:   {7x=$}  {7x=7}  
+		92.8%	26/28 	-10+10x+10=20+10
+			Correct Input:   {10x=$}  {10x=30}  {$=30}  
+			Incorrect Input: {10x=20}  {10x=10}  
+		92.3%	24/26 	-6+3x+6=9+6
+			Correct Input:   {3x=$}  {3x=15}  {$=15}  {-6+3x=$}  {-6+3x=9}  
+			Incorrect Input: {3x/3=$}  {3x=17}  
+		95.2%	20/21 	-1+4x+1=7+1
+			Correct Input:   {4x=$}  {4x=8}  {$=8}  
+			Incorrect Input: {4x/4=$}  
+		80.0%	4/5 	-2+2x+2=4+2
+			Correct Input:   {2x=$}  {2x=6}  
+			Incorrect Input: {2x=2}  
+	Standard Deviation:	0.0702243501978
+
+-c0+c1+c2x=-c3+c4
+		60.0%	12/20 	-31+31+5x=-16+31
+			Correct Input:   {5x=$}  {5x=15}  {$=15}  
+			Incorrect Input: {31+5x=$}  {5x=-15}  {5x=-14}  {5x=-16}  {0=5x=$}  {$=17}  {$=-47}  {0=5x=15}  
+		100.%	8/8 	-38+38+7x=-24+38
+			Correct Input:   {7x=$}  {7x=14}  
+	Standard Deviation:	0.2
+
+c0par-c1+c2xpareqc3
+		64.8%	72/111 	5par-2+2xpareq20
+			Correct Input:   {$=20}  {-10+10x=20}  {5(2x) + 5(-2)=$}  {5(2x) + 5(-2)=20}  {5(2x)+5(-2)=$}  {5(2x)+5(-2)=20}  {5(-2)+5(2x)=20}  {$=4}  {-2+2x=4}  {5(2x-2)/5=4}  {-10+10x=$}  {5*-2+5*2x=$}  {5*-2+5*2x=20}  {5(-2+2x)/5=$}  {5(-2+2x)/5=20/5}  {5(-2)+5(2x)=$}  {5*2x+5*-2=$}  {5*2x+5*-2=20}  {(5*-2)+(5*2x)=20}  
+			Incorrect Input: {-10+2x=$}  {x=$}  {$=x}  {-10=$}  {0x=20}  {0=20}  {-30=20}  {30=20}  {30x=20}  {-10x=20}  {-10=20}  {-x+2x=4}  {-30=$}  {$=2x}  {5(-2+2x)=$}  {2x=$}  {5x=$}  {-x=4}  {2x=4}  {-10+10x=4}  {-10=4}  {-10=10x=4}  {$=-2.4}  {-x=$}  {$=2.4}  {5(-2)+(2x)=20}  {5(-2)+(2)x=20}  {x=20}  {5(2)+5(-2)=20}  {5(2)+5(-2)x=20}  {5*-2+2-x=$}  {7x - 2=$}  {5(2x) 5(-2)=$}  {(5*-2)+=20}  
+		76.9%	70/91 	2par-3+7xpareq8
+			Correct Input:   {-6+14x=$}  {-6+14x=8}  {2(-3)+2(7x)=$}  {2(-3)+2(7x)=8}  {(-3+7x)=$}  {(-3+7x)=4}  {2(7x)+2(-3)=$}  {2(7x)+2(-3)=8}  {$=4}  {-3+7x=4}  {$=8}  {-3+7x=$}  {2(7x) + 2(-3)=8}  {2(-3 + 7x)/2=$}  {2(-3 + 7x)/2=8/2}  {2*-3+2*7x=$}  {2*-3+2*7x=8}  {2(-3+7x)/2=$}  {2(-3+7x)/2=8/2}  {(2*-3)+(2*7x)=$}  {(2*-3)+(2*7x)=8}  {14x-6=$}  {14x-6=8}  
+			Incorrect Input: {2(-3)==$}  {2(-3)+=$}  {i hate this=$}  {$=math itis hard}  {x=$}  {2(-3+7x)=$}  {6=$}  {14+7x=$}  {2=$}  {$=(}  {-6+21x=$}  {2(-3)+7x=$}  {2 - 3 + (7x)=$}  {2(-3+7x)-/2=$}  {2(7x-3)=$}  {2(7x- 3)=$}  {-6+-14x=$}  {2*-3+7x=$}  {2*-3+27x=$}  {-6+9x=$}  
+	Standard Deviation:	0.0602910602911
+
+c0=-c1+c2x
+		83.3%	20/24 	7=-1+2x
+			Correct Input:   {7+1=$}  {7+1=2x-1+1}  {7+1=2x+1-1}  {7 + 1=$}  {7 + 1=2x - 1 + 1}  {7 + 1=2x - 1  + 1}  
+			Incorrect Input: {7-1=$}  {7+1=-1+2x-7}  {7+1=-1+2x-}  {7+1=-1+2x}  
+		65.5%	40/61 	18=-6+4x
+			Correct Input:   {18+6=$}  {18+6=-6+6+4x}  {18+6=4x}  {$=4x+-6+6}  {18+6=4x+-6+6}  {$=-6+4x--6}  {18--6=-6+4x--6}  {18 + 6=$}  {18 + 6=-6 + 6 + 4x}  {$=6+-6+4x}  {18+6=6+-6+4x}  {18+ 6=$}  {18+ 6=-6 +6 +4x}  {18+6=-6+4x+6}  {$=4x}  {$=-6+4x+6}  {24=$}  {24=4x}  
+			Incorrect Input: {18=$}  {x=$}  {3=$}  {18-6=$}  {1=$}  {18+-6=$}  {6=$}  {$=-6 + 4x/4}  {$=-6 + 4x}  {18+ 6=-6 +6 -4x}  {18/-6=$}  {12=$}  {12=4x}  {-12=4x}  {-1218+6=4x}  {18=-6+4x+6}  
+		45.3%	39/86 	5=-1+2x
+			Correct Input:   {5+1=$}  {5+1=-1+2x+1}  {6=$}  {6=-1 + 1 + 2x}  {6=-1+1+2x}  {$=2x+1+-1}  {5+1=2x+1+-1}  {5=$}  {5=3+2(x)+2(-2)}  {6=2x}  {5+1=-1+1+2x}  {5+1=2x}  {$=2x}  {$=-1+2x+1}  {$=-1+1+2x}  {$=-1}  {$=3+2x-4}  {5=3+2x-4}  
+			Incorrect Input: {5+2=$}  {5+-1=$}  {5=$}  {x=$}  {1=$}  {-5=$}  {-x=$}  {2x=$}  {$=x}  {6=x}  {6=2x - -1}  {6=2x - 1}  {6=1x}  {6=3x}  {6=-1 + 1 =2x}  {$=1x}  {2.5=$}  {$=2x+1}  {$=2x--1}  {$=2x+-1}  {5=5(x-2)}  {5=3+2(x)+2(2)}  {$=-1-2x}  {5=1=$}  {5-1=$}  {$=-1+2x+(-1)}  {$=-1+2x-1}  {4=$}  {$=-1+2x}  {5-1=2x}  {5-1x=2x}  {5-1+2=2x}  {5=2x}  {-5=2x}  {$=-3}  {4=2x}  
+		85.7%	6/7 	22=-2+4x
+			Correct Input:   {$=-2+4x+2}  {22+2=-2+4x+2}  
+			Incorrect Input: {22=$}  
+		57.1%	20/35 	10=-2+6x
+			Correct Input:   {12=$}  {12=-2+2+6x}  {$=6x}  {10+2=6x}  {10+2=$}  {10+2=-2+2+6x}  {10=$}  {10=-2+2+6x}  {$=2-2+6x}  {10+2=2-2+6x}  {12=6x}  {10+2=-2+6x+2}  {$=-2+6x+2}  
+			Incorrect Input: {10=$}  {10=6x}  {10+2=-2+2}  {10=6x/6}  {10-2=$}  {-2-10=2-2+6x}  {8=6x}  {8=$}  {$=x}  {-=$}  {$=-3}  {10-2=6x}  
+		100.%	2/2 	4=-8+6x
+			Correct Input:   {$=6x}  {12=6x}  
+		54.1%	26/48 	10=-11+3x
+			Correct Input:   {10+11=$}  {10+11=-11+3x+11}  {$=-11+3x+11}  {10+11=3x}  {$=3x}  {10-(-11)=3x}  {$=3x-11+11}  {10+11=3x-11+11}  {10 + 11=3x}  {10+11=-11+11+3x}  
+			Incorrect Input: {10=$}  {10+11=-11+11}  {$=-11-3x}  {10+3=$}  {$=-8x}  {$=-8}  {10-11=$}  {10+11=3x+11}  {10  -11=$}  {$=-11+11}  {-1=3x}  {10+11=-11+11#x}  {10+11=-11+11*3x}  
+	Standard Deviation:	0.183915915914
+
+c0+c1x+c2=-c3
+		93.7%	30/32 	6+6x+8=-4
+			Correct Input:   {6x+14=$}  {6x+14=-4}  {14+6x=$}  {14+6x=-4}  {6 + 6x - 6 + 8=$}  {6 + 6x - 6 + 8=-4 - 6}  {$=-12}  {6+6x=-12}  
+			Incorrect Input: {12x+8=$}  {6+14x=$}  
+		83.3%	20/24 	8+6x+6=-4
+			Correct Input:   {14+6x=$}  {14+6x=-4}  {14 + 6x=$}  {14 + 6x=-4}  {8+6=$}  {8+6=-4-6x}  
+			Incorrect Input: {2+6x=$}  {8+6=14}  {8+6=-4}  {8+6=-4-6}  
+	Standard Deviation:	0.0520833333333
+
+c0x=-c1
+		100.%	4/4 	2x=-8
+			Correct Input:   {x=$}  {x=-4}  {x=-8/2}  
+		86.9%	20/23 	2x=-4
+			Correct Input:   {2x/2=$}  {2x/2=-4/2}  
+			Incorrect Input: {2x/4=$}  {2x/2=-4/2x}  {2x/2=-4-2}  
+		91.6%	22/24 	7x=-14
+			Correct Input:   {7x/7=$}  {7x/7=-14/7}  
+			Incorrect Input: {7x/7=-14//7}  {7x/7=-147}  
+		92.3%	24/26 	4x=-4
+			Correct Input:   {4x/4=$}  {4x/4=-4/4}  {x=$}  {x=-4/4}  
+			Incorrect Input: {4x/4=/-}  {4x/4=-1/4}  
+		100.%	2/2 	5x=-15
+			Correct Input:   {x=$}  {x=-3}  
+		14.2%	2/14 	7x=-24
+			Correct Input:   {7x=$}  {7x -42 =4=-24}  
+			Incorrect Input: {$=54}  {$=-54}  {$=}  {$=-}  {$=-                                                                                                                                                                                                                                                                -17}  {$=--17}  {$=-17}  {$=-14}  {$=-62}  {7x=-62}  {7x=-}  {7x -42 =4=$}  
+		0.0%	0/5 	1x=-2
+			Incorrect Input: {x=$}  {$=-2}  {1x=$}  {$=1}  
+		97.7%	44/45 	6x=-18
+			Correct Input:   {6x/6=$}  {6x/6=-18/6}  {x=$}  {x=-18/6}  {x=-3}  {$=-3}  
+			Incorrect Input: {x=3}  
+		96.0%	24/25 	3x=-9
+			Correct Input:   {3x/3=$}  {3x/3=-9/3}  {x=$}  {x=-3}  
+			Incorrect Input: {3/x=$}  
+		89.8%	80/89 	5x=-10
+			Correct Input:   {5x/5=$}  {5x/5=-10/5}  {x=$}  {x=-10/5}  {x=-2}  
+			Incorrect Input: {5x/5=-10-5}  {5x/5=10/5}  {x=-5}  {x=5}  {x=2}  {5x=$}  
+	Standard Deviation:	0.352524223976
+
+c0x-c1x=-c2
+		87.5%	14/16 	7x-2x=-10
+			Correct Input:   {5x=$}  {5x=-10}  
+			Incorrect Input: {-5x=$}  {x=$}  
+		80.0%	4/5 	4x-7x=-3
+			Correct Input:   {-3x=$}  {-3x=-3}  
+			Incorrect Input: {4x-7x/7=$}  
+		80.0%	4/5 	2x-3x=-6
+			Correct Input:   {-1x=$}  {-1x=-6}  
+			Incorrect Input: {-2x=$}  
+		100.%	2/2 	3x-5x=-10
+			Correct Input:   {-2x=$}  {-2x=-10}  
+	Standard Deviation:	0.0817293551914
+
+-c0+c1+c2x=c3
+		100.%	2/2 	-1+1+4x=8
+			Correct Input:   {4x=$}  {4x=8}  
+		100.%	2/2 	-6+6+14x=14
+			Correct Input:   {14x=$}  {14x=14}  
+	Standard Deviation:	0.0
+
+c0/c1=c2(x-c3)/c4
+		100.%	2/2 	2/2=2(x-2)/2
+			Correct Input:   {1=$}  {1=x-2}  
+		100.%	4/4 	9/3=3(x-4)/3
+			Correct Input:   {3=$}  {3=x-4}  
+	Standard Deviation:	0.0
+
+c0-c1+c2x=c3
+		93.3%	14/15 	4-3+3x=7
+			Correct Input:   {1+3x=$}  {1+3x=7}  {1 + 3x=$}  {1 + 3x=7}  {4 - 3 + 3x - 4=$}  {4 - 3 + 3x - 4=7 - 4}  
+			Incorrect Input: {1+3x-1=$}  
+		100.%	2/2 	8-8+3x=3
+			Correct Input:   {3x=$}  {3x=3}  
+	Standard Deviation:	0.0333333333333
+
+c0-c1=c2-c3+c4(x-c5)
+		100.%	2/2 	5-3=3-3+2(x-2)
+			Correct Input:   {2=$}  {2=2(x-2)}  
+		66.6%	2/3 	10-1=1-1+3(x-4)
+			Correct Input:   {9=$}  {9=3(x-4)}  
+			Incorrect Input: {9=3}  
+	Standard Deviation:	0.166666666667
+
+c0(c1x)+c2(c3)=c4
+		78.9%	30/38 	3(3x)+3(1)=21
+			Correct Input:   {9x+3=$}  {9x+3=21}  {3(3x) + 3=$}  {3(3x) + 3=21}  {$=21}  {9x + 3=$}  {9x + 3=21}  
+			Incorrect Input: {x=$}  {6x+3=$}  {9x+3=12x}  {9x+3=12}  {9x+4=$}  {9X + 3=$}  {9X +=$}  {9x+=$}  
+		76.1%	16/21 	2(2x)+2(1)=6
+			Correct Input:   {4x+2=$}  {4x+2=6}  {4x + 2=$}  {4x + 2=6}  {$=6}  
+			Incorrect Input: {4+2x+1=$}  {x=$}  {x+3=$}  {4x=$}  {4X+2=$}  
+	Standard Deviation:	0.0137844611529
+
+c0(x-c1)/c2=-c3/c4
+		66.6%	6/9 	7(x-6)/7=-28/7
+			Correct Input:   {x-6=$}  {x-6=-4}  
+			Incorrect Input: {7(x-6)=$}  {7x=$}  {7x-6=$}  
+		100.%	2/2 	5(x-6)/5=-15/5
+			Correct Input:   {x-6=$}  {x-6=-3}  
+	Standard Deviation:	0.166666666667
+
+c0=c1x-c2+c3
+		100.%	2/2 	24=4x-4+4
+			Correct Input:   {$=4x}  {24=4x}  
+		78.0%	39/50 	1=6x-8+15
+			Correct Input:   {1=$}  {1=6x+7}  {$=6x-8}  {-14=6x-8}  {$=7+6x}  {1=7+6x}  {$=6x+7}  {$=6x+15}  {9=6x+15}  {$=6x +7}  {1=6x +7}  {$=6x-8+15-15}  {1-15=6x-8+15-15}  {1=6x-8+15}  {1+8=$}  {1+8=6x-8+15+8}  {1+8=6x-8+8+15}  
+			Incorrect Input: {1=6x-23}  {1=6x-7}  {$=6x-7}  {1=6x+15}  {1=6x+24}  {1=6x-24}  {1=6x}  {1=24x}  {1-8=$}  
+		66.6%	2/3 	10=3x-12+1
+			Correct Input:   {10=$}  {10=3x-11}  
+			Incorrect Input: {$=3x-13}  
+	Standard Deviation:	0.138385755351
+
+-c0=c1-c2x
+		44.4%	4/9 	-12=4-8x
+			Correct Input:   {$=4}  {-12+8x=4}  
+			Incorrect Input: {-12=4}  {12=4}  {4=$}  {-=4}  
+		18.1%	2/11 	-6=8-14x
+			Correct Input:   {$=8}  {-6+14x=8}  
+			Incorrect Input: {-6=$}  {14x=$}  {-0.75=$}  {$=0}  {-8=8}  {-14x=8}  {14=8}  {-6x=8}  {-6=8}  
+		0.0%	0/2 	-2=4-2x
+			Incorrect Input: {$=x}  {-2=$}  
+	Standard Deviation:	0.182440635477
+
+c0-c1+c2x=c3-c4
+		100.%	2/2 	1-1+4x=9-1
+			Correct Input:   {4x=$}  {4x=8}  
+		100.%	2/2 	4-4+3x=10-4
+			Correct Input:   {3x=$}  {3x=6}  
+		80.0%	8/10 	1-1+3x=7-1
+			Correct Input:   {3x=$}  {3x=6}  
+			Incorrect Input: {x=$}  {$=2}  
+		100.%	8/8 	8-8+3x=11-8
+			Correct Input:   {3x=$}  {3x=3}  
+		100.%	2/2 	4-3+3x=7-4
+			Correct Input:   {$=7}  {1+3x=7}  
+	Standard Deviation:	0.08
+
+c0x/c1=-c2/c3
+		95.2%	20/21 	2x/2=-4/2
+			Correct Input:   {$=-2}  {x=-2}  {x=$}  {1x=$}  {1x=-2}  
+			Incorrect Input: {x\=$}  
+		85.7%	24/28 	4x/4=-4/4
+			Correct Input:   {x=$}  {x=-1}  {4x+5-5=$}  {4x+5-5=1-5}  {1x=$}  {1x=-1}  
+			Incorrect Input: {x=-}  {4x+5-5=uyuy786d6}  {x=-2}  
+		95.6%	44/46 	5x/5=-10/5
+			Correct Input:   {x=$}  {x=-2}  {1x=$}  {1x=-2}  
+			Incorrect Input: {x=-}  {x=-5}  
+		92.3%	24/26 	6x/6=-18/6
+			Correct Input:   {x=$}  {x=-3}  
+			Incorrect Input: {x=-6}  {x=6}  
+		100.%	22/22 	7x/7=-14/7
+			Correct Input:   {x=$}  {x=-2}  
+		100.%	22/22 	3x/3=-9/3
+			Correct Input:   {x=$}  {x=-3}  {1x=$}  {1x=-3}  
+	Standard Deviation:	0.0489485835045
+
+c0(c1x-c2)/c3=c4/c5
+		100.%	4/4 	4(2x-3)/4=4/4
+			Correct Input:   {2x-3=$}  {2x-3=1}  
+		80.0%	4/5 	2(2x-1)/2=6/2
+			Correct Input:   {(2x - 1)=$}  {(2x - 1)=3}  {2x-1=$}  {2x-1=3}  
+			Incorrect Input: {(2x - 1)+1=$}  
+	Standard Deviation:	0.1
+
+c0parc1x+c2pareqc3
+		84.6%	77/91 	2par2x+1pareq6
+			Correct Input:   {2(2x)+2=$}  {2(2x)+2=6}  {2(2x)+2(1)=$}  {2(2x)+2(1)=6}  {4x+2=$}  {4x+2=6}  {$=3}  {2x+1=3}  {2x(2)+1(2)=$}  {2x(2)+1(2)=6}  {4x + 2=$}  {4x + 2=6}  {2*2x+2*1=$}  {2*2x+2*1=6}  {2x+1=$}  {$=6}  {2(2x) + 2(1)=$}  {2(2x) + 2(1)=6}  {2*2x+2=$}  {2*2x+2=6}  {(2*2x)+(2*1)=$}  {(2*2x)+(2*1)=6}  
+			Incorrect Input: {2(2x=$}  {2(2x)=$}  {4x+1=$}  {2x+2=$}  {4(x)2=$}  {4(x)2(1)=$}  {2(2x)+2(1)=76}  {4x+3=$}  {4x+21=$}  {2=$}  {2*2x+2=6+1}  
+		86.7%	72/83 	3par3x+1pareq21
+			Correct Input:   {$=21}  {9x+3=21}  {3(3x)+3(1)=$}  {3(3x)+3(1)=21}  {3(3x) + 3(1)=$}  {3(3x) + 3(1)=21}  {9x+3=$}  {$=7}  {3x+1=7}  {3*3x+3*1=$}  {3*3x+3*1=21}  {3(3x+1)/3=$}  {3(3x+1)/3=21/3}  {9x + 3=$}  {9x + 3=21}  
+			Incorrect Input: {9x+1=$}  {3(3x) 3(1)=$}  {3(3x=1) 3(1)=$}  {3(3x=1)3(1)=$}  {3(3x+1)=$}  {6x+7=$}  {3x + 3(1)=$}  {3x=$}  {9x=3=$}  
+	Standard Deviation:	0.0106580166821
+
+c0=c1+c2(x)+c3(-c4)
+		71.7%	28/39 	10=1+3(x)+3(-4)
+			Correct Input:   {10=$}  {10=1+3x+-12}  {10=1+3x-12}  {10=1+3*(x)+3*(-4)}  {$=1+3x+-12}  {$=1+3x-12}  {$=1 + 3x - 12}  {10=1 + 3x - 12}  {$=1+3(x)+3(-4)}  {10=1+3(x)+3(-4)}  
+			Incorrect Input: {10=4(x)+3(-4)}  {10=4x+-12}  {10=4(x)+-12}  {10=4x+-1}  {$=3(x)=3(-4)}  {$=3(x)+3(-4)}  {$=1+3(x)+3}  {10=1+3x+-12\}  
+		70.9%	22/31 	5=3+2(x)+2(-2)
+			Correct Input:   {5=$}  {5=3+2x-4}  {5=3 + 2x + -4}  {$=3+2x-4}  {$=3+2x+-4}  {5=3+2x+-4}  {5=3+2(x)-4}  
+			Incorrect Input: {5=5+2x}  {x=$}  {2=$}  {5=5}  {5=x}  {5=3 + 2x}  {5=5(x)+2(-2)}  {5=3+2(x)}  {5=5x}  
+	Standard Deviation:	0.00413564929694
+
+c0*c1x+c2*-c3=c4
+		100.%	4/4 	4*2x+4*-3=4
+			Correct Input:   {8x-12=$}  {8x-12=4}  
+		100.%	2/2 	5*2x+5*-2=20
+			Correct Input:   {10x-10=$}  {10x-10=20}  
+	Standard Deviation:	0.0
+
+c0/c1x=c2/c3
+		100.%	4/4 	3/3x=6/3
+			Correct Input:   {x=$}  {x=2}  
+		80.0%	4/5 	6/6x=18/6
+			Correct Input:   {x=$}  {x=3}  
+			Incorrect Input: {x=6}  
+		100.%	4/4 	5/5x=15/5
+			Correct Input:   {x=$}  {x=3}  
+		100.%	2/2 	4/4x=4/4
+			Correct Input:   {x=$}  {x=1}  
+		100.%	2/2 	10/10x=30/10
+			Correct Input:   {x=$}  {x=3}  
+		100.%	6/6 	2/2x=4/2
+			Correct Input:   {x=$}  {x=2}  
+		100.%	2/2 	6/6x=12/6
+			Correct Input:   {x=$}  {x=2}  
+		100.%	2/2 	2/2x=6/2
+			Correct Input:   {x=$}  {x=3}  
+		100.%	2/2 	7/7x=14/7
+			Correct Input:   {x=$}  {x=2}  
+	Standard Deviation:	0.0628539361055
+
+c0(-c1+c2x)/c3=c4/c5
+		100.%	4/4 	2(-3+7x)/2=8/2
+			Correct Input:   {(-3 + 7x)=$}  {(-3 + 7x)=4}  {-3+7x=$}  {-3+7x=4}  
+		100.%	4/4 	5(-2+2x)/5=20/5
+			Correct Input:   {$=4}  {-2+2x=4}  {-2+2x=$}  
+	Standard Deviation:	0.0
+
+c0eqc1+c2parx-c3par
+		63.9%	78/122 	10eq1+3parx-4par
+			Correct Input:   {10=$}  {10=1+3(x)+3(-4)}  {10=1+3x-12}  {$=1+3(x)+3(-4)}  {9=$}  {9=3(x-4)}  {10=1 + 3x - 12}  {10=1+3*x-4*3}  {10=1 + 3(x)-3(4)}  {$=1+3(x-4)-1}  {10-1=1+3(x-4)-1}  {$=1+3*x-3*4}  {10=1+3*x-3*4}  {$=1+3x-12}  {10=1+3x+-12}  {$=1 + 3(x) + 3(-4)}  {10=1 + 3(x) + 3(-4)}  {$=1-1+3(x-4)}  {10-1=1-1+3(x-4)}  {9=3(x - 4)}  {$=3x-12+1}  {10=3x-12+1}  {10=1+3(x)-3(4)}  
+			Incorrect Input: {10=1+3(x)-1+3(4)}  {10=4(x)-4(4)}  {10=1+3(x)+1+3(4)}  {10=1+3(x)+1+3(-4)}  {10=1+(3x)-4}  {10=1+3x-4}  {10=1+3=4}  {10=1+3\}  {10=1+3}  {$=1+3(x)-(4)}  {$=1+3x}  {$=1+3(x)}  {$=1+3x-3}  {$=1+3(x)+3(4)}  {6=$}  {7=$}  {9=3}  {9=3(x-4}  {$=4x-16}  {$=4(x-4)}  {$=1+3x-4}  {$=3x-11}  {10=3x+1-4}  {10=1+(3x)+1(-4)}  {10=1+3*x-4*4}  {10=1-3*x-4*3}  {10=1-3*-4*4}  {10=1-3*-4*3}  {10=1+3*4-4*3}  {10=1 + 3(x)-3(3)}  {10=1 + 3(x)-3(-4)}  {10=1+3(x-4)}  {10=4x-16}  {10=4(x-4)}  {10=1+3x+12}  {10=1+3(x)+1-4}  {10=4(x-4)/4}  {10=1+3(x-}  
+		53.3%	79/148 	5eq3+2parx-2par
+			Correct Input:   {$=3+2x-4}  {5=3+2x-4}  {5=$}  {5=3+2(x)+2(-2)}  {2=$}  {2=2(x-2)}  {5=3 + 2(x) + 2(-2)}  {$=3+2(x)+2(-2)}  {$=3+(2x)+2(-2)}  {5=3+(2x)+2(-2)}  {5=3+2(x)-2(2)}  {5=3+2x+2*-2}  {5=3+2*x-2*2}  {5=3+2*x+2*-2}  {$=3-3+2(x-2)}  {5-3=3-3+2(x-2)}  {5=3+(2*x)-(2*2)}  {$=3+2(x-2)-3}  {5-3=3+2(x-2)-3}  
+			Incorrect Input: {$=2x-4}  {5=3(2x)+3(-2)}  {2=2(x-2}  {x=$}  {$=x}  {5=3 + 2}  {5=3 + 2 (2-2)}  {5=3 + x}  {5=3 + 2x}  {$=3+2(x)=2(-2)}  {6=$}  {$=3+2x}  {5=3+2x-2}  {5=5(x-2)}  {$=3+2x)+2(-2)}  {$=5x-2}  {$=5x-2+2}  {5+2=$}  {$=5x}  {$=-10x}  {$=3+2(x-2)}  {$=2x-2}  {$=3x}  {$=2x 2-2}  {$=2x*2-2}  {$=2x+2-2}  {5=3+2x}  {5=3+2x+2-2}  {5=3x}  {5=3x+2-2}  {5=3x+-4}  {5=5x+-10}  {5=5x-2}  {$=5x-10}  {$=3+2*x-2}  {$=3+2*x-2-3}  {$=3+2*x-2-5}  {$=3=2*x-2/5}  {$=3+2*x-2/5}  {$=3+2*x-2/3+2}  {$=3+2*x-2/5+2}  {$=3*x+2*x+3-2+2-2}  {5=3+2*X-2}  {5=3+2*x-2}  {5=3+2*x-2/2+3}  {5=5*x-2/5}  {5=5*-2}  {5=5*-2x/5}  {5=5*-2x}  {5=5*-3x}  {5=5*-3x/5}  {5=5*-3x/2}  {5=3+2*x-2/5}  {5=3+2*x-2/5-2}  {5=5*x-2}  {5=3+2*-3x}  {5=3+2*-3x/5}  {5-4=3+2x-4}  {10=3+2x-4}  
+	Standard Deviation:	0.0527802392556
+
+c0=c1
+		100.%	2/2 	5=5
+			Correct Input:   {$=x}  
+		66.6%	2/3 	0=8
+			Correct Input:   {-x=$}  {-x=-8}  
+			Incorrect Input: {x=$}  
+		100.%	2/2 	3=3
+			Correct Input:   {$=x}  
+	Standard Deviation:	0.157134840264
+
+(-c0+c1x)=c2
+		80.0%	4/5 	(-3+7x)=4
+			Correct Input:   {7x=$}  {7x=7}  {7x - 3 + 3=$}  {7x - 3 + 3=4+3}  
+			Incorrect Input: {(-3 + 7x)-3=$}  
+		66.6%	2/3 	(-3+3x)=3
+			Correct Input:   {$=6}  {3x=6}  
+			Incorrect Input: {$=0}  
+	Standard Deviation:	0.0666666666667
+
+-c0=c1x-c2
+		100.%	2/2 	-7=3x-4
+			Correct Input:   {$=3x-4+4}  {-7+4=3x-4+4}  
+		72.7%	8/11 	-14=6x-8
+			Correct Input:   {$=6x}  {-6=6x}  {$=6x-8+8}  {-14+8=6x-8+8}  
+			Incorrect Input: {$=+8}  {-4=6x-8+8}  {-14=$}  
+	Standard Deviation:	0.136363636364
+
+c0=c1*x+c2*c3
+		100.%	2/2 	16=4*x+4*2
+			Correct Input:   {16=$}  {16=4x+8}  
+		100.%	2/2 	16=4*x+2*4
+			Correct Input:   {16=$}  {16=4x+8}  
+	Standard Deviation:	0.0
+
+c0x-c1=c2x+c3-c4
+		56.0%	14/25 	6x-8=2x+8-8
+			Correct Input:   {6x-8=$}  {6x-8=2x}  {$=2x}  {6x-8=2x+8-8}  
+			Incorrect Input: {6x-8/2=$}  {6x-6x-8=$}  {-2x=$}  {-2x=2x}  {-2=2x}  {2x=2x}  {6x-8+8=2x}  {6x-8/6x+8=2x}  
+		54.5%	12/22 	12x-20=2x+20-20
+			Correct Input:   {$=2x}  {12x-20=2x}  {12x-20=$}  
+			Incorrect Input: {12x-20+20=2x}  {-8=$}  {12x=$}  {-8x=$}  {12-20=$}  {12x-20=2x+20}  {12x-20=2x-0}  {12x-20-12x=2x}  {12x-20-2x=$}  
+		88.8%	8/9 	5x-10=3x+10-10
+			Correct Input:   {$=3x}  {5x-10=3x}  {5x-10=$}  
+			Incorrect Input: {5x-10-3x=$}  
+		66.6%	10/15 	4x-6=2x+6-6
+			Correct Input:   {4x-6=$}  {4x-6=2x}  {$=-2x+2x+6}  {4x-2x=-2x+2x+6}  
+			Incorrect Input: {-4x+4x=$}  {-4x=$}  {-4x-6=$}  {4x-6-4x=$}  {4x-2x=$}  
+	Standard Deviation:	0.137336150532
+
+-c0=-x
+		100.%	1/1 	-7=-x
+			Correct Input:   {$=x}  
+		82.2%	218/265 	-1=-x
+			Correct Input:   {-1/-1=$}  {-1/-1=-x/-1}  {1=$}  {1=x}  {$=-x/-1}  {1=-x/-1}  {$=x}  {-1/-1=x}  
+			Incorrect Input: {x=$}  {-1/-1=-x}  {-1/-1=-1}  {-1=x}  {-1=$}  {-1/-=$}  {-1/-1=x/-1}  {-x=$}  {$=-x}  {0=$}  {1=-x}  {-1/-1=-x/1}  {$=-1/-1}  {-1/-1=0}  {-1+1=x}  {1+-1=x}  {-1--1=$}  {-1/1=$}  {-1/-1=-x/-x}  {-1/-x=$}  {-x/-1=$}  {-1+1=$}  {-1+1+x=$}  {$=-x/x}  {-1/x=$}  {$=-x/1x}  {$=-1x/1x}  {$=-x/1}  {$=-xx-1}  
+		100.%	3/3 	-5=-x
+			Correct Input:   {5=$}  {-5=$}  {-5=x}  
+		85.3%	228/267 	-8=-x
+			Correct Input:   {8=$}  {8=x}  {-8/-1=$}  {-8/-1=-x/-1}  {-8/-1=x}  {$=x}  {8=-x/-1}  {$=-x/-1}  {8/1=x}  
+			Incorrect Input: {-8/9=$}  {9/-8=-x/-1}  {2=$}  {8/-1=$}  {-8/-1=-x}  {-8-1=$}  {-8=$}  {-8/1=$}  {$=-x}  {-8+9=x}  {8/-1=x}  {-8=x}  {-8/-x=$}  {$=-x/x}  {$=-x/-x}  {-8/x=$}  {-8/-1=8}  {x=$}  {$=-8}  {$=8}  {-8/-`=$}  {-8-9=$}  {-8\-1=$}  {-8/-=$}  {-8 + 8=x}  {-8*-1=$}  {$=-x*-1}  {$=-x+1}  {$=-x*1}  {$=-x/1x}  {$=+x}  {$=\x}  {\8=$}  {$=-x\-1}  
+		100.%	4/4 	-2=-x
+			Correct Input:   {-2/-1=$}  {-2/-1=-x/-1}  {$=x}  {-2/-1=x}  
+		81.4%	250/307 	-4=-x
+			Correct Input:   {-4/-1=$}  {-4/-1=x}  {-4/-1=-x/-1}  {4=$}  {4=x}  {$=x}  {4=-x/-1}  {$=-x/-1}  {-4 / -1=x}  {-4/-1=-1x/-1}  {-4/ -1=$}  {-4/ -1=-x/ -1}  {$=1x}  {-4/-1=1x}  {$=7-x-7}  {3-7=7-x-7}  
+			Incorrect Input: {-4--1=$}  {$=-x--1}  {-4=$}  {-x=$}  {x=$}  {-4=x}  {-1=x}  {4=0}  {$=-4}  {-4/1=$}  {3=x}  {-4 / -4=$}  {-4/-x=$}  {--4/-1=$}  {$=-1/-1}  {-4/=$}  {-4/-1=-1/-1}  {1=$}  {-4/-1=-x}  {$=4/-1}  {-4--x=$}  {rr=1x}  {$=-x/1}  {$=-x/-}  {4=-x}  {$=-x/x}  {$=-x/-x}  {$=-x}  {-4*-1=$}  {$=-x*-1}  {-3=x}  {-4/1=x}  {-4*4=$}  {-4/4=$}  {-4+4=$}  {-4*2=$}  {-4*8=$}  {-4+8=$}  {$=x*-x}  
+	Standard Deviation:	0.0857012052779
+
+c0=(x-c1)
+		40.0%	2/5 	3=(x-4)
+			Correct Input:   {$=x}  {7=x}  
+			Incorrect Input: {-1=$}  {1=x}  {-1=x}  
+		66.6%	2/3 	4=(x-1)
+			Correct Input:   {$=x}  {5=x}  
+			Incorrect Input: {3=$}  
+	Standard Deviation:	0.133333333333
+
+-c0=-c1x
+		100.%	6/6 	-8=-4x
+			Correct Input:   {-8/-4=$}  {-8/-4=-4x/-4}  {$=-4x/-4}  
+		50.0%	6/12 	-4=-1x
+			Correct Input:   {$=-x/-1}  {-4/-1=-x/-1}  {-4/-1=$}  {-4/-1=-1x/-1}  
+			Incorrect Input: {-x-4=$}  {$=3}  {-3/-4=-x/-1}  {-4/-3=-x/-1}  {-3/-7=-x/-1}  {-7/-3=-x/-1}  
+		66.6%	6/9 	-6=-2x
+			Correct Input:   {-6/-2=$}  {-6/-2=-2x/-2}  
+			Incorrect Input: {6=$}  {-6*-1=$}  {-6/2=$}  
+		100.%	6/6 	-1=-1x
+			Correct Input:   {$=x}  {1=x}  {-1/-1=$}  {-1/-1=-1x/-1}  
+		73.6%	56/76 	-9=-3x
+			Correct Input:   {-9/-3=$}  {-9/-3=-3x/-3}  {$=x}  {3=x}  {-9/-3=x}  {3=$}  {-9 / -3=$}  {-9 / -3=-3x / -3}  {$=-3x/-3}  
+			Incorrect Input: {-9/-3=-3x/3}  {-3=$}  {9=$}  {$=3x}  {-9=$}  {-9/-3=-3/-3}  {-9/-3=-3/3}  {-9/-3=3/-3}  {$=-3x/3}  {$=-x}  {-27=$}  {$=-3x/-1}  {-9/-1=$}  {-9/3=$}  {9=x}  
+		57.1%	8/14 	-20=-10x
+			Correct Input:   {$=-10x/-10}  {-20/-10=-10x/-10}  {-20/-10=$}  
+			Incorrect Input: {-20/-10=-10x/-20}  {-20/-10=-10x/-10x}  {-20/-10=2}  {-20/-10=2x}  {-20/-10=-10/-10}  {$=-10x/10}  
+		72.5%	66/91 	-6=-6x
+			Correct Input:   {1=$}  {1=x}  {$=x}  {$=-6x/-6}  {-6/-6=-6x/-6}  {-6/-6=$}  {-6/-6=x}  {6/6=$}  {6/6=x}  
+			Incorrect Input: {-1=$}  {$=-x}  {$=-6x/6}  {1=-x}  {-6=$}  {-6/-6x=$}  {6=-6x/-6}  {-6/6=-6x/-6}  {0=$}  {$=-1}  {-1=x}  {6=x}  {-6=x}  {-6/6=$}  {$=-6/6}  {-6/-6=-6/-6}  {-6/-1=$}  {$=-16x/-1}  {$=-6x/-1}  
+		25.0%	2/8 	-4=-4x
+			Correct Input:   {$=x}  {1=x}  
+			Incorrect Input: {x=$}  {/-4=$}  {-4x=$}  {4=$}  {-4=$}  
+		50.0%	6/12 	-8=-1x
+			Correct Input:   {$=-x/-1}  {-8/-1=-x/-1}  {8=$}  {8=x}  {$=-1x/-1}  {-8/-1=-1x/-1}  
+			Incorrect Input: {-x/-=$}  {-x/-8=$}  {$=x/-1x}  {$=-x/1}  {-1/8=-x/-1}  {-8-1=-x/-1}  
+		54.5%	12/22 	-10=-2x
+			Correct Input:   {-10/-2=$}  {-10/-2=x}  {$=-2x/-2}  {-10/-2=-2x/-2}  {5=$}  {5=x}  
+			Incorrect Input: {10=$}  {-10=$}  {-10/2=$}  {$=-2x/-2x}  {-=$}  {$=-2x/2x}  {-10/2x=$}  {1-/-2=$}  {10/-2=$}  
+	Standard Deviation:	0.219222936054
+
+c0=-x
+		52.6%	10/19 	0=-x
+			Correct Input:   {0/-1=$}  {0/-1=-x/-1}  {0=$}  {0=x}  {$=x}  {x+7-7=$}  {x+7-7=7-7}  
+			Incorrect Input: {0=-7}  {$=3-3-x}  {0/x=$}  {0/-x=$}  {-x/x=$}  {$=-x/x}  {$=-x/-x}  {$=-x}  
+		76.5%	252/329 	6=-x
+			Correct Input:   {6/-1=$}  {6/-1=-x/-1}  {$=x}  {-6=x}  {-6=$}  {$=-x/-1}  {-6=-x/-1}  {6/-1=x}  {$=-x}  {6=-x}  {$=-1x/-1}  {6/-1=-1x/-1}  {8-2=$}  {8-2=-x}  {6=x}  {$=1x}  {6/-1=1x}  {6=$}  {6=2-2-x}  
+			Incorrect Input: {6/-1=x/-1}  {$=-x}  {6=$}  {6=x}  {4=$}  {8=$}  {6/-1=1}  {6/-1=-1}  {6/-1=-x}  {-x=$}  {3=x}  {-1=$}  {0=$}  {x=$}  {3=$}  {2=$}  {6x=$}  {6/-1=-x/-a}  {6/-x=$}  {-x/6=$}  {$=-x/6}  {$=-x/-x}  {$=-x/-1x}  {5=$}  {7=$}  {5=x}  {$=-x/x}  {6x=x}  {6/1=1x}  {6- -x=$}  {-x-6=$}  {6-1=$}  {-6- -x=$}  {6-2x=$}  {6-2=$}  {6-4=$}  {4-2=$}  {$=-x*1}  {60=x}  {36=x}  {6*-1=$}  {6*1=$}  {6*(-10=$}  {6/-1=-x/1}  {$=6}  {$=-6}  {-6=-6}  {-6=-x}  {6/1=$}  
+		78.3%	254/324 	7=-x
+			Correct Input:   {7/-1=$}  {7/-1=-x/-1}  {7/-1=x}  {-7=$}  {-7=x}  {-7=-x/-1}  {$=-x/-1}  {$=x}  {7=$}  {7=-x}  {7=x}  {$=-x/ -1}  {7/ -1=-x/ -1}  {$=1x}  {7/-1=1x}  {7/-1=-1x/-1}  
+			Incorrect Input: {7/7=$}  {7=$}  {x=$}  {7/1-=$}  {$=-x}  {-x/-1=$}  {7=-x/-1}  {7-7=x}  {7=x}  {-x=$}  {$=6}  {-1/7=$}  {7/-1=-x}  {$=-7}  {$=0}  {1=$}  {2=$}  {2=x}  {-7/-1=$}  {7/1=x}  {7x=$}  {6-6=$}  {6-6=x}  {7/-1=-x/7}  {7/-1=x/-1}  {7/-x=$}  {7/13=$}  {7/-1=7}  {-1=$}  {$=-1}  {-49=$}  {3.5=x}  {14=x}  {0=x}  {7/1=$}  {$=-x/1}  {0=$}  
+		21.7%	5/23 	2=-x
+			Correct Input:   {2/-1=$}  {2/-1=x}  {2/-1=-x/-1}  
+			Incorrect Input: {2-x=$}  {1=$}  {-1=$}  {2=$}  {-x=$}  {2/-x=$}  {2/x=$}  {$=x=}  {$=x=-1}  {$=x=-2}  {2/-1=x=-2}  {2/-1=x=2}  {2/-1=x=1}  {2/-1=-2}  {x=$}  {x=-2}  
+		81.0%	239/295 	5=-x
+			Correct Input:   {-5=$}  {-5=x}  {$=x}  {5/-1=x}  {5/-1=$}  {5/-1=-x/-1}  {$=-x/-1}  {-5=-x/-1}  {$=-1x/-1}  {5/-1=-1x/-1}  {10 - 5=$}  {10 - 5=5 -5 -x}  {5/ -1=$}  {5/ -1=- x/ -1}  
+			Incorrect Input: {5=$}  {5/-1=x/-1}  {5/-1=-x/1}  {5/-1=-x}  {-1/5=$}  {5\=$}  {5\-1=$}  {5~-1=$}  {5/-1=-x/-x}  {$=-x}  {5/-5=$}  {$=-x/5}  {$=-x/}  {$=-x-5}  {$=-x/1}  {$=x/-1}  {5/1=$}  {5-5=$}  {5/-x=$}  {-x/5=$}  {-x/-x=$}  {-x/x=$}  {x=$}  {$=divide -1}  {(5)(-x)=$}  {10 - 5=5 - 5}  {10 - 5=5 + (-5)}  {10 - 5=5 -5 5 -x}  {5/ -x=$}  {4=$}  {5=x}  {$=-x/-1x}  {-5/-1=$}  {-1/-5=$}  {$=-x/-x}  {$=-x/x}  {$=-x/1x}  
+		32.2%	10/31 	3=-x
+			Correct Input:   {3/-1=$}  {3/-1=-x/-1}  {3/-1=x}  
+			Incorrect Input: {3=$}  {6=$}  {-x=$}  {x=$}  {$=3}  {3x=$}  {3-x=$}  {6-x=$}  {6x=$}  {18=$}  {3/-1=-3}  {3/-1=-3x}  {\=$}  {\3-1=$}  {3-1=$}  {3/-1=2}  
+	Standard Deviation:	0.234274183765
+
+-c0x+c1x+c2=c3x-c4x
+		100.%	2/2 	-4x+4x+3=7x-4x
+			Correct Input:   {3=$}  {3=3x}  
+		100.%	2/2 	-3x+3x+10=5x-3x
+			Correct Input:   {10=$}  {10=2x}  
+	Standard Deviation:	0.0
+
+c0+x-c1=c2-c3
+		100.%	6/6 	10+x-10=5-10
+			Correct Input:   {x=$}  {x=-5}  
+		100.%	2/2 	6+x-6=3-6
+			Correct Input:   {x=$}  {x=-3}  
+		100.%	6/6 	1+x-1=9-1
+			Correct Input:   {$=8}  {x=8}  {x=$}  
+		100.%	4/4 	13+x-13=6-13
+			Correct Input:   {$=-7}  {x=-7}  {x=$}  
+		57.1%	4/7 	7+x-7=2-7
+			Correct Input:   {x=$}  {x=-5}  
+			Incorrect Input: {x=5}  {x=6}  
+		66.6%	2/3 	6+x-6=0-6
+			Correct Input:   {$=-6}  {x=-6}  
+			Incorrect Input: {6x=-6}  
+		100.%	4/4 	3+x-3=7-3
+			Correct Input:   {x=$}  {x=4}  
+		100.%	2/2 	3+x-3=5-3
+			Correct Input:   {x=$}  {x=2}  
+		100.%	4/4 	5+x-5=6-5
+			Correct Input:   {$=1}  {x=1}  {x=$}  
+		100.%	4/4 	8+x-8=2-8
+			Correct Input:   {x=$}  {x=-6}  {$=-6}  
+	Standard Deviation:	0.153861851632
+
+c0=c1x-c2x
+		100.%	2/2 	10=2x-7x
+			Correct Input:   {10=$}  {10=-5x}  
+		100.%	2/2 	9=4x-1x
+			Correct Input:   {$=3x}  {9=3x}  
+		100.%	11/11 	10=5x-3x
+			Correct Input:   {10=$}  {10=2x}  {$=2x}  {$=x}  {5=x}  
+		88.8%	8/9 	6=3x-2x
+			Correct Input:   {6=$}  {6=1x}  {6=x}  {$=1x}  
+			Incorrect Input: {$=1xc}  
+		88.8%	8/9 	3=7x-4x
+			Correct Input:   {3=$}  {3=3x}  
+			Incorrect Input: {3=3}  
+	Standard Deviation:	0.0544331053952
+
+c0=c1-c2+c3x
+		50.0%	2/4 	5=5-5+1x
+			Correct Input:   {5=$}  {5=5-5+x}  
+			Incorrect Input: {45=$}  {5=5-5+10}  
+		100.%	2/2 	21=1-1+3x
+			Correct Input:   {21=$}  {21=3x}  
+	Standard Deviation:	0.25
+
+c0x-c1x-c2=c3x-c4x
+		100.%	12/12 	3x-3x-9=6x-3x
+			Correct Input:   {$=3x}  {-9=3x}  {-9=$}  
+		100.%	2/2 	4x-4x-6=2x-4x
+			Correct Input:   {$=-2x}  {-6=-2x}  
+		66.6%	6/9 	12x-12x-20=2x-12x
+			Correct Input:   {$=-10x}  {-20=-10x}  {-20=$}  
+			Incorrect Input: {x=-10x}  {20=-10x}  {-20=10x}  
+		100.%	4/4 	6x-6x-8=2x-6x
+			Correct Input:   {-8=$}  {-8=-4x}  {$=-4x}  
+		75.0%	12/16 	8x-8x-9=5x-8x
+			Correct Input:   {-9=$}  {-9=-3x}  
+			Incorrect Input: {9=$}  {-9=-3}  
+		83.3%	10/12 	10x-10x-6=4x-10x
+			Correct Input:   {-6=$}  {-6=-6x}  
+			Incorrect Input: {6=$}  {$=-}  
+		66.6%	2/3 	8x-5x-9=5x-5x
+			Correct Input:   {3x-9=$}  {3x-9=0}  
+			Incorrect Input: {3x-9=x}  
+		100.%	2/2 	5x-5x-10=3x-5x
+			Correct Input:   {-10=$}  {-10=-2x}  
+	Standard Deviation:	0.143961197511
+
+x+c0-c1=c2
+		50.0%	2/4 	x+3-3=0
+			Correct Input:   {x=$}  {x=0}  
+			Incorrect Input: {x+0=$}  {x=-3}  
+		100.%	4/4 	x+3-3=2
+			Correct Input:   {x=$}  {x=2}  
+		100.%	4/4 	x+2-2=4
+			Correct Input:   {x=$}  {x=4}  
+		100.%	4/4 	x+7-7=0
+			Correct Input:   {x=$}  {x=0}  
+	Standard Deviation:	0.216506350946
+
+c0=c1x+c2
+		100.%	18/18 	15=4x+3
+			Correct Input:   {15-3=$}  {15-3=4x+3-3}  {15 -3=$}  {15 -3=4x + 3 - 3}  {15 - 3=$}  {15 - 3=4x + 3 - 3}  
+		100.%	6/6 	6=2x+2
+			Correct Input:   {4=$}  {4=2x}  
+		100.%	2/2 	0=3x+9
+			Correct Input:   {0-9=$}  {0-9=3x+9-9}  
+		84.0%	74/88 	16=4x+8
+			Correct Input:   {16-8=$}  {16-8=4x+8-8}  {8=$}  {8=4x}  {8=4x+8-8}  {$=4x+8-8}  {16+-8=4x+8-8}  {16-8=4x}  {16-8=4x + 8-8}  {$=4x}  {16=$}  {16=4x+8}  
+			Incorrect Input: {16=$}  {16+8=$}  {16+8=4x+8-8}  {16--8=4x+8-8}  {16-8=-4x}  {16-8=4x-8}  {16-8=4x+8}  {$=4x+8-8.}  {4x=$}  {16=4x+8-8}  
+		100.%	2/2 	5=2x+1
+			Correct Input:   {4=$}  {4=2x}  
+		66.6%	16/24 	15=3x+3
+			Correct Input:   {15-3=$}  {15-3=3x+3-3}  {12=$}  {12=3x}  {$=3x+3-3}  {$=3x}  {15 - 3=$}  {15 - 3=3x + 3 - 3}  {15-3=3x}  
+			Incorrect Input: {15=$}  {15-3=x-3}  {15-3=3x-3}  {18=3x}  {153=$}  {15+3=$}  {3+15=$}  
+		71.7%	56/78 	10=4x+2
+			Correct Input:   {10-2=$}  {10-2=4x+2-2}  {8=$}  {8=4x}  {10=$}  {10=2(2x)+2(1)}  {$=4x}  {$=4x+2-2}  {10-2=4x-2+2}  {10-2=4x}  
+			Incorrect Input: {$=6x}  {$=2x+2}  {$=2x}  {5=$}  {2.5=$}  {10=$}  {10/2=$}  {$=x}  {$=x+2}  {10-4=$}  {6=$}  {109=$}  {$=4x+2}  {10-2=4X+2-2}  {10-2=4x-2}  {10=4x}  {10+2=4x}  
+		80.0%	4/5 	18=6x+6
+			Correct Input:   {$=6x}  {12=6x}  
+			Incorrect Input: {24=6x}  
+		89.6%	26/29 	11=2x+5
+			Correct Input:   {11-5=$}  {11-5=2x+5-5}  {11 - 5=$}  {11 - 5=2x + 5 - 5}  
+			Incorrect Input: {11-5=2x=5-5}  {11=$}  {11+5=$}  
+		84.8%	28/33 	1=6x+7
+			Correct Input:   {1-7=$}  {1-7=6x+7-7}  {$=6x}  {1-7=6x}  {-6=6x}  {-6=$}  {$=6x+7-7}  
+			Incorrect Input: {1+7=6x}  {1=6x}  {8=6x}  {1=$}  {8=$}  
+		85.7%	6/7 	9=6x+15
+			Correct Input:   {$=6x}  {-6=6x}  {$=6x+15-15}  {9-15=6x+15-15}  {9-15=$}  {9-15=6x-15+15}  
+			Incorrect Input: {9/6=$}  
+	Standard Deviation:	0.112347195633
+
+x=-c0
+		21.4%	3/14 	x=-2
+			Correct Input:   {5x+10-10=$}  {5x+10-10=0-10}  {$=-2}  
+			Incorrect Input: {2 - 0=$}  {5x+10-10=o-10}  {x=$}  {0=$}  {2=$}  {xz+2=$}  {x+2=$}  {$=-}  
+		26.6%	4/15 	x=-3
+			Correct Input:   {x=$}  {x=-3}  {-x=$}  {-x=-3}  
+			Incorrect Input: {x=$}  {/1=$}  {x+3=$}  {$=-3}  {-3x=$}  {-3+6=$}  
+		10.0%	2/20 	x=-6
+			Correct Input:   {x+6-6=$}  {x+6-6=0-6}  
+			Incorrect Input: {x-6=$}  {x=$}  {$=0}  {0=$}  {x/-6=$}  {$=-6/-6}  {$=x}  {-x=$}  {-6=$}  
+		0.0%	0/5 	x=-11
+			Incorrect Input: {$=1}  {x=$}  {1/-11=$}  {x/-11=$}  
+		0.0%	0/2 	x=-8
+			Incorrect Input: {x=$}  {-x=$}  
+		0.0%	0/6 	x=-9
+			Incorrect Input: {x=$}  {-x=$}  {$=24}  {$=-9/-1}  {$=-9/1}  
+		9.09%	2/22 	x=-5
+			Correct Input:   {$=-5}  {x=$}  
+			Incorrect Input: {$=+ 5}  {x=$}  {$=-5}  {x3=$}  {x/1=$}  {$=-}  {-5=$}  {$=x}  
+		100.%	1/1 	x=-10
+			Correct Input:   {$=-2}  
+	Standard Deviation:	0.313429386711
+
+c0=-c1-c2x
+		18.1%	2/11 	6=-12-6x
+			Correct Input:   {18=$}  {18=-12+12-6x}  
+			Incorrect Input: {6=$}  {$=6x}  {$=2}  {x=$}  {$=-2}  {24=$}  {18=6x}  
+		66.6%	4/6 	14=-4-6x
+			Correct Input:   {$=-4-6x+4}  {14+4=-4-6x+4}  {14+4=$}  
+			Incorrect Input: {14=$}  {4=$}  
+	Standard Deviation:	0.242424242424
+
+c0=x
+		0.0%	0/2 	8=x
+			Incorrect Input: {8-1=$}  {$=x}  
+		20.0%	4/20 	6=x
+			Correct Input:   {$=-x}  {$=x}  {-6=x}  
+			Incorrect Input: {$=x}  {6=$}  {x=$}  {5=-x}  {7=x}  {4=x}  {8=x}  {3=x}  {2=x}  {6=x}  {9=x}  {1=x}  {$=6}  
+		0.0%	0/2 	1=x
+			Incorrect Input: {x=$}  {$=1}  
+		23.0%	3/13 	7=x
+			Correct Input:   {$=x}  {7=-}  
+			Incorrect Input: {7=$}  {$=x}  {-x=$}  {$=6-6}  {7=x}  {6=x}  {9=x}  {$=-x}  {13-13=-x}  {$=-}  
+		9.52%	2/21 	3=x
+			Correct Input:   {3=$}  {3=x}  
+			Incorrect Input: {3=$}  {3-x=$}  {6=$}  {6+x=$}  {3+x=$}  {3=3+x}  {x+6=$}  {$=6}  {$=3}  {3x=$}  {$=3x}  
+		0.0%	0/15 	4=x
+			Incorrect Input: {4 - 4=$}  {$=x}  {$=x -4}  {$=-x}  {4x=$}  {$=0}  {x=$}  {$=4}  {$=-4}  {-4=$}  {-x=$}  
+		15.3%	2/13 	2=x
+			Correct Input:   {10=$}  {10=6x+6-8}  
+			Incorrect Input: {2x=$}  {2=$}  {x=$}  {16=$}  {8x=$}  {$=x}  {$=1}  {$=3}  
+		21.7%	10/46 	5=x
+			Correct Input:   {10-5=$}  {10-5=5-5+x}  {9-4=$}  {9-4=4+x-4}  {$=x}  {5=x}  {10-5=x}  {$=5+x-5}  {10-5=5+x-5}  
+			Incorrect Input: {10-5=5-5+}  {0=$}  {5 - 5=$}  {x - 5=$}  {5 - x=$}  {$=x}  {9 - 9=$}  {x=$}  {5=$}  {5x=$}  {$=5}  {5+5=$}  {5/x=$}  {x/5=$}  {9=$}  {$=1}  {-5/-1=$}  {-1/-5=$}  
+	Standard Deviation:	0.0952767846636
+
+-c0/c1=c2x/c3
+		96.2%	26/27 	-9/3=3x/3
+			Correct Input:   {-3=$}  {-3=x}  
+			Incorrect Input: {3=$}  
+		80.0%	28/35 	-6/6=6x/6
+			Correct Input:   {-1=$}  {-1=x}  {$=x}  
+			Incorrect Input: {1=$}  {6=$}  {-6=$}  
+	Standard Deviation:	0.0814814814815
+
+c0x+c1=x+c2
+		100.%	2/2 	4x+11=x+2
+			Correct Input:   {4x-x+11=$}  {4x-x+11=x-x+2}  
+		100.%	2/2 	4x+1=x+10
+			Correct Input:   {4x-x+1=$}  {4x-x+1=x-x+10}  
+		100.%	2/2 	6x+16=x+1
+			Correct Input:   {6x-x+16=$}  {6x-x+16=x-x+1}  
+		54.5%	6/11 	6x+3=x+13
+			Correct Input:   {6x-x+3=$}  {6x-x+3=x-x+13}  {$=x-x+13}  {6x - x +3=x-x+13}  {6x - x + 3=$}  {6x - x + 3=x - x +13}  
+			Incorrect Input: {3 - 13=$}  {13 - 3=$}  {$=13 - 3}  {6x=x-x+13}  {6x - x=x-x+13}  
+	Standard Deviation:	0.196823955406
+
+-x=c0-c1
+		86.6%	26/30 	-x=2-7
+			Correct Input:   {-x=$}  {-x=-5}  {$=-5}  
+			Incorrect Input: {$=5}  {x=$}  {-x=-4}  {-z=$}  
+		57.1%	4/7 	-x=5-10
+			Correct Input:   {$=-5}  {-x=-5}  {-x=$}  
+			Incorrect Input: {-x-5=-5}  {-x/-5=-5}  {x=$}  
+		86.9%	20/23 	-x=1-8
+			Correct Input:   {-x=$}  {-x=-7}  
+			Incorrect Input: {x=$}  {-x=-9}  {$=7}  
+		90.3%	28/31 	-x=15-6
+			Correct Input:   {-x=$}  {-x=9}  {$=9}  
+			Incorrect Input: {-x=-9}  {-x=21}  {-x=-21}  
+		95.2%	20/21 	-x=3-6
+			Correct Input:   {-x=$}  {-x=-3}  {$=-3}  
+			Incorrect Input: {-x=3}  
+		80.9%	34/42 	-x=18-7
+			Correct Input:   {-x=$}  {-x=11}  {$=11}  
+			Incorrect Input: {-x=8}  {-x=-8}  {-x/-1=11}  {x=$}  {x=11}  {-x=9}  
+		75.5%	37/49 	-x=11-3
+			Correct Input:   {$=8}  {-x=$}  {-x=8}  
+			Incorrect Input: {x=$}  {-x=9}  {-x=-14}  {-x=-8}  {$=9}  {-x=14}  {-x=-9}  
+	Standard Deviation:	0.116603143209
+
+c0(-c1)+c2(c3x)=c4
+		90.9%	10/11 	2(-3)+2(7x)=8
+			Correct Input:   {-6+14x=$}  {-6+14x=8}  {-6+2(7x)=$}  {-6+2(7x)=8}  
+			Incorrect Input: {-1+2(7x)=$}  
+		76.9%	10/13 	5(-2)+5(2x)=20
+			Correct Input:   {$=20}  {10x-10=20}  {-10+10x=$}  {-10+10x=20}  
+			Incorrect Input: {10x-0=$}  {10+10x=$}  {-10+10=$}  
+	Standard Deviation:	0.0699300699301
+
+-x/-c0=c1/-c2
+		82.3%	98/119 	-x/-1=8/-1
+			Correct Input:   {x=$}  {x=-8}  {-x/-1=$}  {-x/-1=8/-1}  {-x/-1=-8}  {$=-8}  
+			Incorrect Input: {-8=$}  {8/-1=$}  {-1=$}  {-x=$}  {x=8}  {x=-x}  {x=-1}  {x=9}  {x=1}  {x=11}  {x=3}  {1=$}  
+		88.8%	96/108 	-x/-1=9/-1
+			Correct Input:   {x=$}  {x=-9}  {$=-9}  
+			Incorrect Input: {x=8}  {-1x=$}  {x=9}  {-9=$}  {-x=$}  {$=0}  {x=-8}  {$=9}  
+		87.6%	85/97 	-x/-1=11/-1
+			Correct Input:   {x=$}  {x=-11}  {-x/-1=$}  {-x/-1=11/-1}  {-x/-1=-11}  {-x+7-7=$}  {-x+7-7=18-7}  {$=-11}  
+			Incorrect Input: {x=11}  {x=10}  {x=-10}  {x=-1}  {x=-ll}  {-x/-1=11}  {-x=-11}  
+	Standard Deviation:	0.0283120808054
+
+-x/-c0=c1
+		100.%	6/6 	-x/-1=3
+			Correct Input:   {x=$}  {x=3}  {$=3}  
+		100.%	2/2 	-x/-1=5
+			Correct Input:   {x=$}  {x=5}  
+		66.6%	2/3 	-x/-1=11
+			Correct Input:   {$=11/-1}  {x=11/-1}  
+			Incorrect Input: {-x=11/-1}  
+		75.0%	3/4 	-x/-1=7
+			Correct Input:   {x=$}  {$=7}  {x=7}  
+			Incorrect Input: {-1=$}  
+	Standard Deviation:	0.148779758928
+
+c0x-c1x=c2x+c3-c4x
+		100.%	2/2 	3x-6x=6x+9-6x
+			Correct Input:   {-3x=$}  {-3x=9}  
+		100.%	32/32 	4x-2x=2x+6-2x
+			Correct Input:   {2x=$}  {2x=6}  {2x=2x+6-2x}  
+		92.8%	52/56 	12x-2x=2x+20-2x
+			Correct Input:   {10x=$}  {10x=20}  {$=20}  
+			Incorrect Input: {10=$}  {$=x}  {10x-20=$}  {1-x=$}  
+		100.%	48/48 	6x-2x=2x+8-2x
+			Correct Input:   {4x=$}  {4x=8}  {$=8}  
+		100.%	36/36 	5x-3x=3x+10-3x
+			Correct Input:   {2x=$}  {2x=10}  {$=3x+10-3x}  {5x-3x=3x+10-3x}  
+		100.%	4/4 	8x-5x=5x+9-5x
+			Correct Input:   {3x=$}  {3x=9}  
+		0.0%	0/3 	5x-5x=3x+10-5x
+			Incorrect Input: {x=$}  {$=2x+10}  {1x=$}  
+		100.%	6/6 	10x-4x=4x+6-4x
+			Correct Input:   {6x=$}  {6x=6}  
+	Standard Deviation:	0.328178141955
+
+c0-c1=c2-c3x-c4
+		66.6%	2/3 	3-7=7-1x-7
+			Correct Input:   {-4=$}  {-4=-1x}  
+			Incorrect Input: {-4=5}  
+		50.0%	2/4 	1-9=9-1x-9
+			Correct Input:   {-8=$}  {-8=-1x}  
+			Incorrect Input: {8=$}  {$=1x}  
+	Standard Deviation:	0.0833333333333
+
+c0x=-c1--c2
+		100.%	2/2 	5x=-16--31
+			Correct Input:   {5x=$}  {5x=15}  
+		100.%	2/2 	7x=-24--38
+			Correct Input:   {7x=$}  {7x=14}  
+	Standard Deviation:	0.0
+
+c0/c1(c2x-c3)=c4/c5
+		100.%	2/2 	2/2(2x-1)=6/2
+			Correct Input:   {(2x-1)=$}  {(2x-1)=3}  
+		100.%	4/4 	4/4(2x-3)=4/4
+			Correct Input:   {2x-3=$}  {2x-3=1}  
+	Standard Deviation:	0.0
+
+c0x/c1=c2/c3
+		100.%	32/32 	2x/2=16/2
+			Correct Input:   {x=$}  {x=8}  {$=8}  
+		97.1%	34/35 	8x/8=16/8
+			Correct Input:   {x=$}  {x=2}  
+			Incorrect Input: {x=8}  
+		94.7%	18/19 	3x/3=6/3
+			Correct Input:   {x=$}  {x=2}  
+			Incorrect Input: {x=3}  
+		95.6%	22/23 	3x/3=15/3
+			Correct Input:   {x=$}  {x=5}  {$=5}  
+			Incorrect Input: {x=4}  
+		98.4%	62/63 	6x/6=12/6
+			Correct Input:   {x=$}  {x=2}  {1x=$}  {1x=2}  {$=2}  
+			Incorrect Input: {-x=$}  
+		94.1%	16/17 	3x/3=3/3
+			Correct Input:   {x=$}  {x=1}  
+			Incorrect Input: {x=0}  
+		98.0%	50/51 	2x/2=4/2
+			Correct Input:   {x=$}  {x=2}  {1x=$}  {1x=2}  {$=2}  
+			Incorrect Input: {x=21}  
+		98.9%	90/91 	4x/4=8/4
+			Correct Input:   {x=$}  {x=2}  {$=2}  
+			Incorrect Input: {x=4}  
+		93.8%	46/49 	4x/4=4/4
+			Correct Input:   {x=$}  {x=1}  {$=6}  {2(2x)+2(1)=6}  {$=1}  
+			Incorrect Input: {x=0}  {4x+1=$}  
+		97.6%	42/43 	10x/10=20/10
+			Correct Input:   {$=2}  {x=2}  {x=$}  
+			Incorrect Input: {x=10}  
+		98.8%	88/89 	5x/5=15/5
+			Correct Input:   {x=$}  {x=3}  {1x=$}  {1x=3}  {$=3}  
+			Incorrect Input: {x=10}  
+		95.6%	88/92 	7x/7=14/7
+			Correct Input:   {$=2}  {x=2}  {x=$}  {1x=$}  {1x=2}  
+			Incorrect Input: {x=7}  
+		100.%	26/26 	10x/10=30/10
+			Correct Input:   {x=$}  {x=3}  {1x=$}  {1x=3}  {$=3}  
+		98.0%	50/51 	2x/2=10/2
+			Correct Input:   {$=10/2}  {x=10/2}  {x=$}  {x=5}  {1x=$}  {1x=5}  {$=5}  
+			Incorrect Input: {x=2}  
+		94.1%	16/17 	6x/6=6/6
+			Correct Input:   {x=$}  {x=1}  {$=1}  
+			Incorrect Input: {x=0}  
+		97.2%	36/37 	14x/14=14/14
+			Correct Input:   {1x=$}  {1x=1}  {x=$}  {x=1}  {$=1}  
+			Incorrect Input: {x=0}  
+		93.7%	60/64 	6x/6=18/6
+			Correct Input:   {$=3}  {x=3}  {x=$}  
+			Incorrect Input: {x=2}  {x=4}  
+		100.%	2/2 	7x/7=7/7
+			Correct Input:   {x=$}  {x=1}  
+		100.%	122/122 	3x/3=9/3
+			Correct Input:   {x=$}  {x=3}  {$=3}  {1x=3}  {1x=$}  
+		87.8%	36/41 	9x/9=18/9
+			Correct Input:   {1x=$}  {1x=2}  {x=$}  {x=2}  
+			Incorrect Input: {1=$}  {x=3}  {x=9}  {x=4}  
+		100.%	82/82 	2x/2=6/2
+			Correct Input:   {x=$}  {x=3}  {1x=$}  {1x=3}  {$=3}  
+	Standard Deviation:	0.0298157222028
+
+c0=c1+c2x-c3+c4
+		100.%	2/2 	22=1+3x-12+12
+			Correct Input:   {22=$}  {22=1+3x}  
+		100.%	2/2 	9=3+2x-4+4
+			Correct Input:   {$=3+2x}  {9=3+2x}  
+	Standard Deviation:	0.0
+
+(c0+-x)-c1=c2-c3
+		100.%	2/2 	(6+-x)-6=3-6
+			Correct Input:   {-x=$}  {-x=-3}  
+		50.0%	2/4 	(7+-x)-7=2-7
+			Correct Input:   {-x=$}  {-x=-5}  
+			Incorrect Input: {x=$}  {$=5}  
+	Standard Deviation:	0.25
+
+-c0=-x/-c1
+		80.0%	4/5 	-5=-x/-1
+			Correct Input:   {-5=$}  {-5=x}  
+			Incorrect Input: {5=$}  
+		66.6%	4/6 	-6=-x/-1
+			Correct Input:   {-6=$}  {-6=x}  {-6=1x}  
+			Incorrect Input: {-6=-7}  {-6=-5}  
+		81.2%	13/16 	-7=-x/-1
+			Correct Input:   {-7=$}  {-7=x}  {7=$}  {7=-x+6-6}  {-7=-x/-1}  
+			Incorrect Input: {-7=-x}  {-7=-1x}  {-7=-x1}  
+	Standard Deviation:	0.0659978020584
+
+c0/c1=c2x/c3
+		96.7%	60/62 	18/3=3x/3
+			Correct Input:   {6=$}  {6=x}  {$=x}  {6=1x}  
+			Incorrect Input: {6=3}  {6=1}  
+		100.%	18/18 	12/4=4x/4
+			Correct Input:   {3=$}  {3=x}  {3=1x}  
+		94.1%	32/34 	24/4=4x/4
+			Correct Input:   {6=$}  {6=x}  {$=x}  
+			Incorrect Input: {8=x}  {4=$}  
+		96.1%	100/104 	10/2=2x/2
+			Correct Input:   {5=$}  {5=x}  {$=x}  {5=1x}  
+			Incorrect Input: {5=2}  {20=x}  {2=x}  {5=1}  
+		100.%	30/30 	12/3=3x/3
+			Correct Input:   {4=$}  {4=x}  {$=x}  
+		95.3%	62/65 	16/8=8x/8
+			Correct Input:   {2=$}  {2=x}  {2=1x}  {$=x}  
+			Incorrect Input: {2=1}  {3=x}  {8=$}  
+		100.%	30/30 	25/5=5x/5
+			Correct Input:   {5=$}  {5=x}  {$=x}  
+		100.%	16/16 	12/6=6x/6
+			Correct Input:   {2=$}  {2=x}  {$=x}  
+		100.%	34/34 	21/3=3x/3
+			Correct Input:   {7=$}  {7=x}  {$=x}  
+		100.%	20/20 	8/2=2x/2
+			Correct Input:   {4=$}  {4=x}  {4=1x}  {$=2x/2}  {4=2x/2}  
+		100.%	2/2 	4/2=2x/2
+			Correct Input:   {2=$}  {2=x}  
+		100.%	66/66 	20/4=4x/4
+			Correct Input:   {5=$}  {5=x}  {5=1x}  {$=4x/4}  {20/4=4x/4}  {$=x}  
+		94.8%	110/116 	6/2=2x/2
+			Correct Input:   {$=x}  {3=x}  {3=$}  {3=1x}  
+			Incorrect Input: {4=$}  {3=1}  {x=$}  {2=$}  {3=0}  
+		98.3%	60/61 	8/4=4x/4
+			Correct Input:   {2=$}  {2=x}  {2=1x}  {$=x}  
+			Incorrect Input: {2=1}  
+		95.2%	20/21 	3/3=3x/3
+			Correct Input:   {1=$}  {1=x}  {$=x}  
+			Incorrect Input: {x=$}  
+		100.%	28/28 	9/3=3x/3
+			Correct Input:   {3=$}  {3=x}  
+		98.1%	54/55 	16/2=2x/2
+			Correct Input:   {8=$}  {8=x}  {8=1x}  {$=x}  
+			Incorrect Input: {8=1}  
+	Standard Deviation:	0.021711500358
+
+c0=c1+c2x+-c3
+		100.%	8/8 	5=3+2x+-4
+			Correct Input:   {5=$}  {5=-1 + 2x}  {$=-1+2x}  {5=-1+2x}  {5=2x+-1}  {5=2x-1}  
+		100.%	2/2 	1=15+6x+-8
+			Correct Input:   {1=$}  {1=7+6x}  
+		82.3%	14/17 	10=1+3x+-12
+			Correct Input:   {10--12=$}  {10--12=1+3x+-12--12}  {10=$}  {10=-11+3x}  {$=1+3x}  {22=1+3x}  {$=-11+3x}  {10=3x+-11}  
+			Incorrect Input: {10=4x+-12}  {10=1+-12+3x}  {$=1=3x}  
+	Standard Deviation:	0.0831890330808
+
+-c0+c1x=c2
+		71.4%	5/7 	-12+8x=4
+			Correct Input:   {-12=$}  {-12=4-8x}  {4(2x)+4(-3)=$}  {4(2x)+4(-3)=4}  
+			Incorrect Input: {-12=4+8x}  {4(2x)=$}  
+		100.%	6/6 	-3+7x=4
+			Correct Input:   {$=7}  {7x=7}  {7x=$}  {-3+7x+3=$}  {-3+7x+3=4+3}  
+		69.8%	44/63 	-6+14x=8
+			Correct Input:   {14x=$}  {14x=8+6}  {14x-6+6=$}  {14x-6+6=8+6}  {14x=14}  {-6+14x+6=$}  {-6+14x+6=8+6}  {6+-6+14x=$}  {6+-6+14x=8+6}  {-6+6+14x=$}  {-6+6+14x=8+6}  {-6+6+14x=14}  {-6+14x+6=14}  {$=8+6}  
+			Incorrect Input: {14x=2}  {-6+--6+14x=$}  {-6+14x+-6=$}  {-6+14x=$}  {14x-6+6=8-6}  {x=$}  {14=$}  {2=$}  {8=$}  {-6+16x -1=$}  {-6+6+14x=8}  {16+14x+6=$}  {-6+14+6=$}  {-6+14x+6=8}  {14x=-2}  
+		75.7%	50/66 	-6+3x=9
+			Correct Input:   {3x=$}  {3x=15}  {-6+6+3x=$}  {-6+6+3x=9+6}  {3(-2)+3(x)=$}  {3(-2)+3(x)=9}  {-6 + 6 + 3x=$}  {-6 + 6 + 3x=9+6}  {3x=9+6}  {-6+3x+6=$}  {-6+3x+6=9+6}  {-6 + 6 + 3x=9 + 6}  
+			Incorrect Input: {-6+6+3x\=$}  {-6+6+3x=9}  {-6+6+3x=9-6}  {x=$}  {$=5}  {$=12}  {=6=$}  {+6=$}  {-6+6=$}  {-6+6+3x=9-}  {-6+6+3x=9=6}  {-6+3x-3=$}  {-3x=$}  {3x=9-6}  
+		66.6%	20/30 	-2+2x=14
+			Correct Input:   {-2+ 2 +2x=$}  {-2+ 2 +2x=14+2}  {-2+2+2x=$}  {-2+2+2x=14+2}  {2x+-2+2=$}  {2x+-2+2=14+2}  {2x=$}  {2x=14+2}  {-2+2x+2=$}  {-2+2x+2=14+2}  {2x=14-(-2)}  {$=16}  {2x=16}  
+			Incorrect Input: {-2+ 2 +2x=14}  {-2+ 2 +2x=1}  {-2+2+2x=14}  {-2+2x-8=$}  {-2+2x+8=$}  {x=$}  {2x=14}  {2x=7}  {2x=-14}  {2x=14-2}  
+		100.%	4/4 	-3+3x=3
+			Correct Input:   {-3 + 3x - -3=$}  {-3 + 3x - -3=3 - -3}  {-3 + 3 + 3x=$}  {-3 + 3 + 3x=3 + 3}  
+		71.8%	46/64 	-10+10x=20
+			Correct Input:   {10x=$}  {10x=20+10}  {-10--10+10x=$}  {-10--10+10x=20--10}  {$=30}  {10x-10+10=30}  {-10+10x+10=$}  {-10+10x+10=20+10}  {10x-10+10=$}  {10x=30}  {-10+10X=20}  {-10+10+10x=$}  {-10+10+10x=20+10}  
+			Incorrect Input: {10x=10}  {10x=20-10}  {x=$}  {0x=$}  {-x=$}  {$=20}  {$=40}  {30=30}  {x=30}  {30x=30}  {+10-10+10x=$}  {+10=$}  {-10-10+10x=$}  {-10+10x+10=20+}  {-10+10X=$}  {-10+10x+10=30+10}  
+		88.8%	8/9 	-2+2x=4
+			Correct Input:   {2x=$}  {2x=6}  {-2+2x+2=$}  {-2+2x+2=4+2}  {2x=4 + 2}  
+			Incorrect Input: {2x=2}  
+		73.4%	36/49 	-1+4x=7
+			Correct Input:   {-1+4x+1=$}  {-1+4x+1=7+1}  {$=8}  {4x=8}  {1+4x-2=$}  {1+4x-2=7}  {4x=$}  {4x=7+1}  {-1+1+4x=$}  {-1+1+4x=7+1}  {-1+1+4x=8}  {-1+4x+1=8}  
+			Incorrect Input: {3x=$}  {-1+4x-1=$}  {-1+4x/1=$}  {-1+4x/-1=$}  {-1+4x+4=$}  {$=7}  {$=6}  {3=$}  {1+1+4x=$}  {-1+1+4x=7-1}  {-1+4x+-1=$}  {-1+4x+1=7}  
+	Standard Deviation:	0.122911200076
+
+x=c0
+		0.0%	0/4 	x=8
+			Incorrect Input: {x=$}  {$=8}  
+		50.0%	1/2 	x=9
+			Correct Input:   {$=-9}  
+			Incorrect Input: {$=9}  
+		23.0%	3/13 	x=4
+			Correct Input:   {x=$}  {x=4}  {$=2}  
+			Incorrect Input: {6-2=$}  {$=4}  {x=$}  {x=2}  {$=2}  {4=$}  
+		100.%	2/2 	x=5
+			Correct Input:   {$=3}  {-2+x=3}  
+		100.%	1/1 	x=6
+			Correct Input:   {$=2}  
+		0.0%	0/1 	x=7
+			Incorrect Input: {x-7=$}  
+		13.6%	3/22 	x=0
+			Correct Input:   {$=0}  {x=$}  {x=0}  
+			Incorrect Input: {1+3=$}  {x+3=$}  {what+3=$}  {0+3=$}  {$=3}  {55=$}  {x=$}  {$=0}  {-x/-1=$}  {x/-1=$}  {x/7=$}  {x-x=$}  
+		5.55%	2/36 	x=2
+			Correct Input:   {7x/7=$}  {7x/7=14/7}  
+			Incorrect Input: {2=$}  {$=x}  {x-2=$}  {x=$}  {x - 2=$}  {x ( /2)=$}  {$=2 - 2}  {$=2}  {7x/5=$}  {x/1=$}  {1/1=$}  {x-1=$}  {$=2/1}  {$=2-6}  {$=5-2}  {5-2=$}  {-x/-1=$}  {-x=$}  
+		12.5%	1/8 	x=3
+			Correct Input:   {$=3}  
+			Incorrect Input: {3x=$}  {3=$}  {$=x}  {3+3=$}  {x=$}  
+		33.3%	1/3 	x=15
+			Correct Input:   {$=3}  
+			Incorrect Input: {x=3}  {$=3}  
+		100.%	2/2 	x=11
+			Correct Input:   {$=-11}  
+	Standard Deviation:	0.39391068002
+
+c0+c1x-c2+c3=c4+c5
+		100.%	4/4 	4+3x-3+3=7+3
+			Correct Input:   {4+3x=$}  {4+3x=10}  
+		80.0%	4/5 	1+4x-2+2=7+2
+			Correct Input:   {1+4x=$}  {1+4x=9}  
+			Incorrect Input: {1+4x-1=$}  
+	Standard Deviation:	0.1
+
+-x+c0=c1
+		66.6%	2/3 	-x+10=5
+			Correct Input:   {-x=$}  {-x=-5}  
+			Incorrect Input: {-x=5}  
+		76.6%	243/317 	-x+7=18
+			Correct Input:   {-x=$}  {-x=11}  {-x+7-7=$}  {-x+7-7=18-7}  {7-7+-x=$}  {7-7+-x=18-7}  {-x=18-7}  {$=11}  {$=18-7}  {-x+7-7=18+-7}  {7-7-x=$}  {7-7-x=18-7}  {7=$}  {7=18+x}  {7-7-x=11}  {-x + 7 - 7=$}  {-x + 7 - 7=18-7}  {7-x-7=$}  {7-x-7=18-7}  {-x+7-7=11}  {-1x=$}  {-1x=11}  {(-x+7)-7=$}  {(-x+7)-7=18-7}  {-x + 7 - 7=18 - 7}  {-x + 7 -7=$}  {-x + 7 -7=18 - 7}  {-x+7+x=$}  {-x+7+x=18+x}  {$=18+x}  
+			Incorrect Input: {-x=7-18}  {0=$}  {x+7-7=$}  {-x+7-7=7-18}  {18-7=$}  {$=-x}  {7-18=$}  {-x-7=$}  {-x- 18=$}  {7-8=$}  {-x-7-=$}  {-x-7-7=$}  {7-7-x=x}  {7-7-x=7-18}  {7=18-x}  {7=-x}  {7=x}  {-x=7-7=$}  {-x=-25}  {$=18-18}  {$=18-18-x}  {-11=$}  {x=$}  {$=-11}  {-x=10}  {-x=hh}  {-x+-7=$}  {-x=12}  {$=18}  {7-x=$}  {-7=$}  {-7-x=$}  {$=-7}  {$=-x + 7 - 7}  {-x=18}  {7-x-7=18+x}  {7-x-7=18-x}  {-x+7+7=$}  {-x+7-7=18}  {-x=-11}  {-x=18+7}  {-x+7=$}  {-x=-18}  {-x=18/-1}  {-x=-7}  {-x=17}  {-x=7}  {7=18}  {-x+17+x=$}  {11=$}  
+		76.8%	246/320 	-x+6=15
+			Correct Input:   {-x+6-6=$}  {-x+6-6=15-6}  {-x=$}  {-x=15-6}  {$=9}  {-x=9}  {-x+6-6=9}  {6=$}  {6=15+x}  {-x + 6 - 6=$}  {-x + 6 - 6=15 - 6}  {6=15 +x}  {6-6-x=9}  {6-6+-x=$}  {6-6+-x=15-6}  {$=15-6}  {(-x+6)-6=$}  {(-x+6)-6=15-6}  {-x=15 - 6}  {-x+6+x=$}  {-x+6+x=15+x}  
+			Incorrect Input: {-x-6=$}  {-x-6-6=$}  {-x=6-15}  {-x+6=$}  {-x=-9}  {x+6-6=$}  {x=$}  {-x=-21}  {-x+6-6=6-16}  {-x+6-6=6-15}  {-x+6-6=15}  {9=$}  {-x=11}  {6=15}  {-6=$}  {$=x}  {-x=-6}  {-x=6}  {-9=$}  {x=9}  {c=9}  {0=9}  {6-6=9}  {-x=-15}  {-x=-21+6}  {-x=-1}  {-x=-3}  {-x+-9=$}  {-x-9=$}  {-x+6-6=-9}  {6+6+-x=$}  {6-6=$}  {15+x=$}  {$=15}  {$=6-0}  {-=$}  {-x=7}  {6-=$}  {6-6+x=$}  {6+6-x=$}  {-x = 6 - 6=$}  {-x =6 - 6=$}  {$=+}  {$=-}  {-x+6-6=10}  
+		28.5%	2/7 	-x+9=4
+			Correct Input:   {-x=$}  {-x=-5}  
+			Incorrect Input: {-x=5}  {-x=4}  {-x=9}  {-x=-4}  {-x=-9}  
+		72.3%	256/354 	-x+3=11
+			Correct Input:   {-x=$}  {-x=8}  {-x+3-3=$}  {-x+3-3=11-3}  {-x=11-3}  {$=8}  {3=$}  {3=11+x}  {3=11 -3}  {3-3-x=$}  {3-3-x=8}  {-x+3-3=8}  {-x +3 - 3=$}  {-x +3 - 3=11 - 3}  {3-3+-x=$}  {3-3+-x=11-3}  {$=11-3}  {3-3-x=11-3}  {(-x+3)-3=11-3}  {3 - 3 + (-x)=$}  {3 - 3 + (-x)=11 - 3}  {-x + 3 - 3=$}  {-x + 3 - 3=11 - 3}  {-x +3-3=$}  {-x +3-3=11-3}  {-x+3+x=$}  {-x+3+x=11+x}  
+			Incorrect Input: {-x=3-11}  {-x=3+11}  {x=$}  {-x+3-3=3-11}  {-x+3=$}  {$=3-11}  {-x=3-3=$}  {-x+3-3=11-11}  {-x=-14}  {3=8}  {3=11-x}  {-14=$}  {$=x}  {3=11}  {$=-8}  {-x=3 - 11}  {-x=-8}  {-x-3-3=8}  {$=14}  {-x=12}  {-x=1}  {-x=2}  {-x=3}  {-x=4}  {-x=5}  {-x=7}  {-x=14}  {-x=-13}  {-x=-12}  {-x=23}  {-x=-x}  {-x=14444444444}  {-x+3-8=8}  {$=11}  {-x=9}  {-3=$}  {3+x+-3=$}  {x=11-3}  {3=x=11-3}  {3_x=11-3}  {3+x=11-3}  {-x=11}  {-x=+3}  {3-3-x=3-11}  {-x=11+3}  {$=-3}  {-x-3=11-3}  {-x+3=11-3}  {-x=-9}  {3 - 3 + x=$}  {3 - 3=$}  {$=9}  {-x+3+3=11-3}  {-x-3-3=11-3}  {-x=1-3}  
+	Standard Deviation:	0.182053020042
+
+c0+x=-x+c1+x
+		100.%	4/4 	8+x=-x+2+x
+			Correct Input:   {8+x=$}  {8+x=2}  
+		100.%	4/4 	13+x=-x+6+x
+			Correct Input:   {$=6}  {13+x=6}  {13+x=$}  
+		36.3%	4/11 	10+x=-x+5+x
+			Correct Input:   {10+x=$}  {10+x=5}  {$=5}  {10+x=-x+5}  
+			Incorrect Input: {10+x-10=$}  {10+x-10=5}  {10-10+x=5}  {x=5}  {x+10-10=5}  {10=5}  {$=-x+5}  
+	Standard Deviation:	0.299984695049
+
+c0/c1*x=c2/c3
+		100.%	2/2 	5/5*x=15/5
+			Correct Input:   {x=$}  {x=3}  
+		100.%	2/2 	2/2*x=6/2
+			Correct Input:   {x=$}  {x=3}  
+		100.%	2/2 	6/6*x=18/6
+			Correct Input:   {x=$}  {x=3}  
+		100.%	4/4 	7/7*x=14/7
+			Correct Input:   {x=$}  {x=2}  
+	Standard Deviation:	0.0
+
+c0-c1=-x
+		50.0%	2/4 	3-5=-x
+			Correct Input:   {$=-x}  {-2=-x}  
+			Incorrect Input: {x=$}  {$=-2}  
+		40.0%	2/5 	7-2=-x
+			Correct Input:   {5=$}  {5=-x}  
+			Incorrect Input: {-x=$}  {-x-7=$}  {5=x}  
+		86.6%	26/30 	8-2=-x
+			Correct Input:   {6=$}  {6=-x}  {8-2=$}  {8-2=-x}  
+			Incorrect Input: {$=6}  {-6=$}  {-8-2=$}  {$=x}  
+		81.6%	40/49 	13-6=-x
+			Correct Input:   {7=$}  {7=-x}  {$=-x}  {$=6+-x-6}  {13-6=6+-x-6}  
+			Incorrect Input: {7=-x-7}  {9=$}  {19=-x}  {9=-x}  {7=x}  {13=$}  
+		88.8%	24/27 	1-9=-x
+			Correct Input:   {-8=$}  {-8=-x}  {$=-x}  
+			Incorrect Input: {8=$}  {$=x}  
+		74.2%	26/35 	5-6=-x
+			Correct Input:   {-1=$}  {-1=-x}  
+			Incorrect Input: {-1=-5-6}  {1=$}  {x=$}  {-1=x}  {$=x}  {-5+6=$}  {-5+-6=$}  {-1/-1=$}  
+		88.0%	22/25 	10-5=-x
+			Correct Input:   {5=$}  {5=-x}  {$=-x}  
+			Incorrect Input: {5=x}  {$=-x/-1}  {5=-7}  
+		92.8%	26/28 	3-7=-x
+			Correct Input:   {-4=$}  {-4=-x}  {$=-x}  
+			Incorrect Input: {-4=x}  {$=x}  
+	Standard Deviation:	0.184075831995
+
+c0-c1=-c2+c3-x
+		100.%	2/2 	5-6=-6+6-x
+			Correct Input:   {$=-x}  {-1=-x}  
+		66.6%	2/3 	3-7=-7+7-x
+			Correct Input:   {$=-x}  {-4=-x}  
+			Incorrect Input: {$=x}  
+		33.3%	2/6 	1-9=-9+9-x
+			Correct Input:   {-8=$}  {-8=-x}  
+			Incorrect Input: {a=$}  {$=RT"}  {-8=-X}  {-8=X}  
+	Standard Deviation:	0.272165526976
+
+-c0+c1x=-c2
+		61.1%	22/36 	-38+7x=-24
+			Correct Input:   {-38+7x+38=$}  {-38+7x+38=-24+38}  {-38- -38 +7x=$}  {-38- -38 +7x=-24--38}  {7x=$}  {7x=-24+38}  {-38+38+7x=$}  {-38+38+7x=-24+38}  {$=-24+38}  {-38 + 7x +38=$}  {-38 + 7x +38=14}  
+			Incorrect Input: {7x=-24}  {7x=-24-38}  {-38+7x-38=$}  {+38=$}  {--38=$}  {+38+7x=$}  {-38+38+7X=$}  {-38+38+7x=-24}  {-38+38+7x=-24=38}  {-38 + 7x-38=$}  {-38 + 7x - 38=$}  
+		53.0%	52/98 	-31+5x=-16
+			Correct Input:   {-31--31+5x=$}  {-31--31+5x=-16--31}  {-31+31+5x=$}  {-31+31+5x=-16+31}  {$=-16+31}  {5x=$}  {5x=15}  {-31+5x+31=$}  {-31+5x+31=-16+31}  {-31 + 5x +31=$}  {-31 + 5x +31=-16 + 31}  {5x=-16+31}  {$=15}  {-31 + 31 + 5x=$}  {-31 + 31 + 5x=-16+31}  {-31+5x+31=15}  {5x=-16--31}  {-31 + 31 + 5x=-16 + 31}  
+			Incorrect Input: {-31--31+5x=-16}  {-31--31+5x=-31--16}  {-31+5x+=$}  {-31+31+5x=-16+5}  {-31+31+5x=-16+5x}  {$=-16}  {$=2}  {$=-8}  {$=-32}  {$=32}  {31=$}  {$=17}  {-31+5x+5=$}  {-26x=$}  {-31 / 5=$}  {-31 - -16=$}  {-31 - (-16)=$}  {-31 / -16=$}  {-31 / -16 + 5x=$}  {5x / 5=$}  {-31 + -16 + 5x=$}  {-31 + -16=$}  {-31 + 16=$}  {-31 - 16=$}  {-31 + 5x +31=-16}  {-31 + 5x +31=-16 + 16}  {+31-5x=$}  {+31+5x=$}  {31+5x=$}  {31-5x=$}  {$=25}  {$=24}  {5x=25}  {3`=$}  {-31 + 31 + 5x=-16}  {-31 + 31 + 5x=-}  {5x=-47}  {+31=$}  
+		92.3%	12/13 	-30+5x=-15
+			Correct Input:   {-30+5x+30=$}  {-30+5x+30=-15+30}  {5x=$}  {5x=-15+30}  {$=15}  {5x=15}  
+			Incorrect Input: {$=5}  
+	Standard Deviation:	0.169256957485
+
+c0/-c1=-c2x/-c3
+		66.6%	4/6 	6/-1=-1x/-1
+			Correct Input:   {-6=$}  {-6=x}  
+			Incorrect Input: {6=$}  {$=-x}  
+		100.%	4/4 	10/-5=-5x/-5
+			Correct Input:   {$=x}  {-2=x}  
+		80.0%	4/5 	18/-6=-6x/-6
+			Correct Input:   {-3=$}  {-3=x}  
+			Incorrect Input: {-3=-x}  
+		100.%	2/2 	7/-1=-1x/-1
+			Correct Input:   {-7=$}  {-7=x}  
+		80.0%	4/5 	5/-1=-1x/-1
+			Correct Input:   {-5=$}  {-5=x}  
+			Incorrect Input: {-5=-x}  
+	Standard Deviation:	0.129271462864
+
+c0+c1x=-c2
+		100.%	4/4 	6+6x=-12
+			Correct Input:   {6x=$}  {6x=-12-6}  {$=-18}  {6x=-18}  
+		73.4%	36/49 	14+6x=-4
+			Correct Input:   {14-14+6x=$}  {14-14+6x=-4-14}  {6x=$}  {6x=-4 - 14}  {14+6x-14=$}  {14+6x-14=-4-14}  {6x=-4-14}  {6x=-18}  {14+6x-6x=$}  {14+6x-6x=-4-6x}  
+			Incorrect Input: {14-14+6x=-4}  {6x=-10}  {14-14+6x=14-4}  {14+6x-6x=-4}  {10+6x=$}  {-18+6x=$}  {-9+6x=$}  {-10+6x=$}  {$=-8}  {6x=10}  
+	Standard Deviation:	0.132653061224
+
+c0(c1x)+c2=c3
+		66.6%	2/3 	3(3x)+3=21
+			Correct Input:   {9x+ 3=$}  {9x+ 3=21}  
+			Incorrect Input: {3x + 6=$}  
+		66.6%	2/3 	2(2x)+2=6
+			Correct Input:   {4x+2=$}  {4x+2=6}  
+			Incorrect Input: {4+2=$}  
+	Standard Deviation:	0.0
+
+x=-c0/c1
+		100.%	2/2 	x=-4/4
+			Correct Input:   {x=$}  {x=-1}  
+		66.6%	8/12 	x=-10/5
+			Correct Input:   {x=$}  {x=-2}  
+			Incorrect Input: {x=-5}  {x=/5}  {x=5}  
+		100.%	2/2 	x=-8/2
+			Correct Input:   {x=$}  {x=-4}  
+		100.%	2/2 	x=-18/6
+			Correct Input:   {x=$}  {x=-3}  
+	Standard Deviation:	0.144337567297
+
+-c0=c1-c2-x
+		77.7%	14/18 	-4=6-6-x
+			Correct Input:   {-4=$}  {-4=6-6-x}  
+			Incorrect Input: {$=x}  {$=0-x}  {$=0}  {-10=$}  
+		55.5%	10/18 	-1=6-6-x
+			Correct Input:   {-1=$}  {-1=-x}  {$=-x}  
+			Incorrect Input: {x=-1=$}  {x=$}  {$=-1}  {-1=6-6}  {-1=6--6}  {-1=x}  {-1=0}  {$=x}  
+		100.%	2/2 	-8=9-9-x
+			Correct Input:   {$=-x}  {-8=-x}  
+		50.0%	4/8 	-4=7-7-x
+			Correct Input:   {-4=$}  {-4=-x}  {$=-x}  
+			Incorrect Input: {-4=1}  {-4=0}  {-4=x}  {$=-}  
+	Standard Deviation:	0.197886206233
+
+c0x=c1
+		89.5%	120/134 	6x=18
+			Correct Input:   {6x/6=$}  {6x/6=18/6}  {6/6x=$}  {6/6x=18/6}  {x=$}  {x=18/6}  {6/6*x=$}  {6/6*x=18/6}  {x=3}  {6x/ 6=$}  {6x/ 6=18/6}  {6x / 6=$}  {6x / 6=18 / 6}  {6x/ 6=18/ 6}  {$=3}  {$=18/6}  {6*x/6=$}  {6*x/6=18/6}  
+			Incorrect Input: {6x/6=6/18}  {x=6/18}  {6-6=$}  {6-6*x=$}  {x=18-6}  {x=8}  {x=10}  {6x/6=18}  {6/6=$}  {6/6+x=$}  {18/6=$}  {x=18/3}  {6x/6=10/6}  {6x/18=$}  
+		97.0%	97/100 	2x=10
+			Correct Input:   {x=$}  {x=5}  {2x/2=$}  {2x/2=10/2}  {x=10/2}  {$=5}  {$=10/2}  
+			Incorrect Input: {-8x=$}  {x=2}  {x=10/-2}  
+		94.1%	64/68 	9x=18
+			Correct Input:   {x=$}  {x=2}  {9x/9=$}  {9x/9=18/9}  {x=18/9}  {$=2}  {9x/ 9=$}  {9x/ 9=18/ 9}  {9x / 9=$}  {9x / 9=18 / 9}  
+			Incorrect Input: {9x/9=18/9x}  {9x-9=$}  {x=18}  {9=$}  
+		86.6%	188/217 	5x=15
+			Correct Input:   {5x/5=$}  {5x/5=15/5}  {$=3}  {x=3}  {5/5x=$}  {5/5x=15/5}  {$=15/5}  {x=$}  {x=15/5}  {5/5*x=$}  {5/5*x=15/5}  {5x / 5=$}  {5x / 5=15 / 5}  {5*x/5=$}  {5*x/5=15/5}  
+			Incorrect Input: {/5=$}  {5+5-x=$}  {5x/15=$}  {5*x=$}  {5x/5=5x}  {5x/5=5x*15}  {x=15/3}  {$=20}  {x=10}  {x=2}  {x=5}  {$=-10}  {x=-5}  {x=-3}  {5x-5=$}  {$=15-5}  {5x/3=$}  {5x/-1=$}  {5x/-5=$}  {5x/5=15/3}  {5=$}  {5x/5=15/}  {5x=$}  {x=5/15}  {5x/2=$}  
+		100.%	4/4 	5x=10
+			Correct Input:   {x=$}  {x=2}  {x=10/5}  
+		92.1%	70/76 	2x=16
+			Correct Input:   {2x/2=$}  {2x/2=16/2}  {x=$}  {x=8}  {x=16/2}  {2x / 2=$}  {2x / 2=16 / 2}  
+			Incorrect Input: {2=$}  {x=-16}  {x=16}  {x=6}  {2x-2=$}  
+		100.%	4/4 	2x=2
+			Correct Input:   {x=$}  {x=1}  
+		95.4%	104/109 	2x=4
+			Correct Input:   {2x/2=$}  {2x/2=4/2}  {x=$}  {x=2}  {x=4/2}  {$=4/2}  {$=4}  {x=4}  {$=2}  {2/2x=$}  {2/2x=4/2}  
+			Incorrect Input: {x=4}  {/2=$}  {$=/2}  {2=$}  {x]=2}  
+		89.4%	212/237 	2x=6
+			Correct Input:   {$=3}  {x=3}  {x=$}  {2x/2=$}  {2x/2=6/2}  {$=6}  {2x=6}  {2/2*x=$}  {2/2*x=6/2}  {x=6/2}  {2x / 2=$}  {2x / 2=6 / 2}  {$=6/2}  {2*x/2=6/2}  {2/2x=$}  {2/2x=6/2}  
+			Incorrect Input: {2=$}  {6/2=$}  {2/6=$}  {$=x}  {x=2-}  {2x=$}  {$=6}  {2x+2=$}  {$=wwwww}  {x6=$}  {x=6}  {x=6-2}  {x=4}  {x=2}  {x=2/6}  {x=6/-2}  {2x/2=6/s}  {2x/-2x=$}  {2-2x=$}  {2/2x=2/6}  {x=6+2}  {x=2+6}  {x=8}  
+		86.1%	168/195 	7x=14
+			Correct Input:   {x=$}  {x=2}  {$=2}  {$=14/7}  {7x/7=14/7}  {7x/7=$}  {x=14/7}  {7/7*x=$}  {7/7*x=14/7}  {7/7x=$}  {7/7x=14/7}  
+			Incorrect Input: {7x/14=14/7}  {x=17}  {x=7}  {x=14}  {x=-14}  {x=-7}  {x=7-14}  {x=14-7}  {x=14+7}  {x=7+14}  {7*2=$}  {1=$}  {7x=$}  {7x/7=17/7}  {7x/14=$}  {7x/7=14/2}  {7/7=$}  {$=7}  {7-14=$}  {$=14/2}  
+		95.8%	46/48 	3x=15
+			Correct Input:   {$=15/3}  {x=15/3}  {3x/3=$}  {3x/3=15/3}  {x=$}  {x=5}  
+			Incorrect Input: {3=$}  {3x/3=15}  
+		100.%	2/2 	3x=12
+			Correct Input:   {x=$}  {x=12/3}  
+		95.5%	86/90 	10x=20
+			Correct Input:   {x=$}  {x=20/10}  {x=2}  {10x/10=$}  {10x/10=20/10}  {10x / 10=$}  {10x / 10=20 / 10}  {$=20/10}  {$=2}  
+			Incorrect Input: {x=10}  {10=$}  {10x=$}  {x=-10}  
+		88.8%	72/81 	4x=4
+			Correct Input:   {4x/4=$}  {4x/4=4/4}  {x=$}  {x=4/4}  {x=1}  {4x / 4=$}  {4x / 4=4 / 4}  {$=4/4}  {4/4x=$}  {4/4x=4/4}  
+			Incorrect Input: {x=0}  {4x?4=$}  {4x-4=$}  {4x+4=$}  {4x=$}  {4x*4=$}  {x=4-4}  {x=4}  
+		72.7%	8/11 	7x=7
+			Correct Input:   {x=$}  {x=1}  {7x/7=$}  {7x/7=7/7}  
+			Incorrect Input: {$=0}  {x=7}  {x=0}  
+		95.3%	164/172 	4x=8
+			Correct Input:   {$=2}  {x=2}  {4x/4=$}  {4x/4=8/4}  {x=$}  {x=8/4}  {1x=$}  {1x=2}  {$=8}  {4x/4=8}  {4x/4=2}  {$=8/4}  
+			Incorrect Input: {4x/4=8-4}  {1x=8}  {4x/4x=$}  {x=4/8}  {x=4/-8}  {4x/4=8/4.}  {x=8}  {4x/4=4/4}  
+		0.0%	0/6 	1x=3
+			Incorrect Input: {1x/1=$}  {$=3/1}  {$=3/-x}  
+		93.4%	128/137 	6x=12
+			Correct Input:   {x=$}  {x=2}  {6x/6=$}  {6x/6=12/6}  {$=2}  {x=12/6}  {$=12/6}  {6x / 6=$}  {6x / 6=12 / 6}  {6/6x=$}  {6/6x=12/6}  
+			Incorrect Input: {6/x=$}  {6/6=$}  {x=6}  {2x=$}  {6*x=$}  {6*x-6=$}  {6x=$}  {6x-6=$}  {$=12-6}  
+		94.1%	192/204 	3x=9
+			Correct Input:   {x=$}  {x=3}  {3x/3=$}  {3x/3=9/3}  {x=9/3}  {3x/ 3=$}  {3x/ 3=9/ 3}  {3x / 3=$}  {3x / 3=9 / 3}  {$=3}  {$=9/3}  {3*x/3=$}  {3*x/3=9/3}  
+			Incorrect Input: {x=9}  {3/9=$}  {x=3/9}  {x=3-9}  {3/3=$}  {3/3/x=$}  {3/x=$}  {3/-1=$}  {3x=$}  {3x/4=$}  {3x/3=9x/3}  
+		96.6%	58/60 	3x=6
+			Correct Input:   {x=$}  {x=2}  {$=7}  {4+-3+3x=7}  {$=2}  {3x/3=$}  {3x/3=6/3}  {3/3x=$}  {3/3x=6/3}  {x=6/3}  {3x / 3=$}  {3x / 3=6 / 3}  
+			Incorrect Input: {x=3}  {x=1}  
+		100.%	2/2 	3x=7
+			Correct Input:   {$=6}  {x=6}  
+		93.7%	30/32 	6x=6
+			Correct Input:   {x=$}  {x=6/6}  {6x/6=$}  {6x/6=6/6}  {x=1}  
+			Incorrect Input: {x=6}  {x=-6}  
+		97.5%	40/41 	3x=3
+			Correct Input:   {x=$}  {x=1}  {x=3/3}  {3x/3=$}  {3x/3=3/3}  {3x/ 3=$}  {3x/ 3=3/3}  {$=1}  {3x/3=1}  
+			Incorrect Input: {x=0}  
+		96.6%	58/60 	8x=16
+			Correct Input:   {8x/8=$}  {8x/8=16/8}  {x=$}  {x=2}  {x=16/8}  {$=16/8}  
+			Incorrect Input: {8x/8=4}  {8x?8=$}  
+		96.6%	58/60 	14x=14
+			Correct Input:   {x=$}  {x=1}  {14x/14=$}  {14x/14=14/14}  {14x/14=1}  {x=14/14}  {$=14/14}  
+			Incorrect Input: {14x/4=$}  {x=0}  
+		83.5%	61/73 	10x=30
+			Correct Input:   {x=$}  {x=3}  {10x/10=$}  {10x/10=30/10}  {x=30/10}  {$=3}  {10x/10=3}  {10/10x=$}  {10/10x=30/10}  
+			Incorrect Input: {10-10=$}  {10x-10=$}  {x=40}  {x=20}  {x=-30}  {x=-20}  {10-10x=$}  {10x/10=30}  {/10=$}  {$=/10}  
+	Standard Deviation:	0.189037503506
+
+x=-c0/-c1
+		50.0%	4/8 	x=-5/-1
+			Correct Input:   {x=$}  {x=5}  
+			Incorrect Input: {x=-5}  {x=-1}  {x=-4}  {x=-}  
+		100.%	8/8 	x=-7/-1
+			Correct Input:   {x=$}  {x=7}  {$=7}  
+		100.%	4/4 	x=-3/-1
+			Correct Input:   {x=$}  {x=3}  
+		100.%	2/2 	x=-3/-3
+			Correct Input:   {$=1}  {x=1}  
+		100.%	2/2 	x=-9/-3
+			Correct Input:   {x=$}  {x=3}  
+		100.%	2/2 	x=-6/-1
+			Correct Input:   {x=$}  {x=6}  
+		100.%	4/4 	x=-10/-2
+			Correct Input:   {x=$}  {x=5}  
+	Standard Deviation:	0.174963553056
+
+c0x+c1-c2=c3-c4
+		50.0%	2/4 	3x+6-6=9-6
+			Correct Input:   {3x=$}  {3x=3}  
+			Incorrect Input: {3x/3=$}  {3x/=$}  
+		100.%	2/2 	4x+3-3=11-3
+			Correct Input:   {4x=$}  {4x=8}  
+		85.7%	42/49 	9x+3-3=21-3
+			Correct Input:   {9x=$}  {9x=18}  {3(3x)+3(1)=$}  {3(3x)+3(1)=21}  {$=18}  
+			Incorrect Input: {9x=19}  {(x)=$}  {(=$}  {3(3x)+=$}  {9x/9=$}  
+		96.0%	24/25 	4x+5-5=1-5
+			Correct Input:   {4x=$}  {4x=-4}  
+			Incorrect Input: {4=$}  
+		97.4%	38/39 	2x+2-2=6-2
+			Correct Input:   {2x=$}  {2x=4}  {$=4}  
+			Incorrect Input: {2x/2=$}  
+		100.%	22/22 	7x+15-15=1-15
+			Correct Input:   {7x=$}  {7x=-14}  
+		95.6%	22/23 	3x+1-1=10-1
+			Correct Input:   {3x=$}  {3x=9}  
+			Incorrect Input: {x=$}  
+		100.%	2/2 	5x+16-16=1-16
+			Correct Input:   {5x=$}  {5x=-15}  
+		85.7%	6/7 	3x+8-8=11-8
+			Correct Input:   {3x=$}  {3x=3}  
+			Incorrect Input: {3x/3=$}  
+		85.7%	6/7 	2x+6-6=22-6
+			Correct Input:   {2x=$}  {2x=16}  
+			Incorrect Input: {2x / 2=$}  
+		100.%	16/16 	4x+1-1=9-1
+			Correct Input:   {4x=$}  {4x=8}  
+		100.%	22/22 	5x+10-10=0-10
+			Correct Input:   {5x=$}  {5x=-10}  
+		92.5%	50/54 	4x+2-2=6-2
+			Correct Input:   {4x=$}  {4x=4}  {$=4}  
+			Incorrect Input: {4x/4=$}  {4x+0=$}  {$=3}  {4=$}  
+		100.%	2/2 	5x+3-3=13-3
+			Correct Input:   {5x=$}  {5x=10}  
+		100.%	16/16 	2x+3-3=7-3
+			Correct Input:   {2x=$}  {2x=4}  
+		100.%	2/2 	2x+10-10=2-10
+			Correct Input:   {2x=$}  {2x=-8}  
+		95.2%	20/21 	2x+4-4=0-4
+			Correct Input:   {2x=$}  {2x=-4}  
+			Incorrect Input: {0=$}  
+		100.%	2/2 	3x+11-11=2-11
+			Correct Input:   {3x=$}  {3x=-9}  
+		66.6%	2/3 	7x+4-4=18-4
+			Correct Input:   {$=14}  {7x=14}  
+			Incorrect Input: {7x/7=$}  
+	Standard Deviation:	0.129160047745
+
+c0-x=c1
+		57.2%	278/486 	7-x=2
+			Correct Input:   {7-7-x=$}  {7-7-x=2-7}  {$=-5}  {-x=-5}  {$=2-7}  {-x=2-7}  {-7+7-x=$}  {-7+7-x=2+-7}  {7-x-7=$}  {7-x-7=2-7}  {-x=$}  {(7 + -x) - 7=$}  {(7 + -x) - 7=2-7}  {7 - 7 - x=$}  {7 - 7 - x=2 - 7}  {-x+7-7=$}  {-x+7-7=2-7}  {7=$}  {7=2+x}  {7 - 7 -x=$}  {7 - 7 -x=2 - 7}  {7=2 + x}  {7 - 7 - x=-5}  {7-7-x=-5}  {7-x+x=$}  {7-x+x=2+x}  {7+-x-7=$}  {7+-x-7=2-7}  {7 - x - 7=$}  {7 - x - 7=2 - 7}  {7 - 7 -x=2  - 7}  {7-1x-7=$}  {7-1x-7=2-7}  
+			Incorrect Input: {x=$}  {$=7-2}  {x=2-7}  {x+7-7=$}  {x-7-7=$}  {7+7-x=$}  {-7+7-x=2+7}  {5=$}  {$=x}  {$=2-2}  {7-x=$}  {7-7-x=7-2}  {7-7+x=$}  {x+=$}  {$=9}  {$=2+7}  {7-2=$}  {$=2-5}  {$=5-2}  {+77777455663=$}  {-x+7-7=7-2}  {-5=$}  {-x=2}  {9=$}  {7=x}  {7=2}  {7=2+7+x}  {7=2+2+x}  {-7-x=$}  {7+2=$}  {-x=7-2}  {-x=7+2}  {7-7-x=2-2-x}  {7=-2}  {7=x - 2}  {7=7-}  {x=-5}  {1x=-5}  {7=2-7}  {7=2=x}  {$=2}  {$=-x}  {-x=9}  {-x=5}  {x + 2=$}  {7 - 2=$}  {$=7}  {$=5}  {7=5}  {7-7=$}  {o-x=-5}  {0-x=-5}  {x+7-7=-5}  {x+-5=-5}  {x-5=-5}  {7-7=-5}  {2-7=$}  {7-x+7=$}  {$=2-x}  {7-x=7=$}  {$=2=7}  {7-x+7=2-7}  {7+-x+7=$}  {7-x-2=$}  {7-x+2=$}  {7=-x-2}  {7=2-x}  {7-x+3=$}  {7=2/-7}  {7-5-x=$}  {7-5=$}  {7-5-2=$}  {7=2x+2}  {7=2+2}  {7-7-x=5}  {7-7-x=2}  {7-7-x=x}  {7-7-x=7}  {-7-7=$}  {7-7-2-7=$}  {-7=$}  {0=2-7}  {7=7-2}  {$=-6}  {7-7=x=$}  {$=2x}  {2+x=$}  {2+7=$}  {7=-5}  {2=-5}  {-7=-5}  {x-7+7=$}  
+		51.0%	24/47 	10-x=5
+			Correct Input:   {10-x=$}  {x=5-10}  {10=$}  {10=5+x}  {5=$}  {5=5-5+x}  {$=5-10}  {10-10-x=5-10}  {-x=5-10}  {10-5=$}  {10-5=x}  {-x=$}  
+			Incorrect Input: {x=$}  {$=5}  {5=$}  {5=x}  {x+5=$}  {x+5=10}  {x=5}  {10-5=$}  {0=$}  {10=5}  {10=-5}  {5-10=$}  {10-10=$}  {x=5-10}  {-x=15}  
+		57.2%	277/484 	6-x=3
+			Correct Input:   {6-6-x=$}  {6-6-x=3-6}  {$=3-6}  {-x=3-6}  {-x=$}  {-x=-3}  {6-x-6=3-6}  {(6+-x)-6=$}  {(6+-x)-6=3-6}  {$=-3}  {6-6-x=-3}  {6=$}  {6=3+x}  {6-x-6=$}  {-6+6-x=$}  {-6+6-x=3-6}  {-x=2}  {6=3 + x}  {-x+6-6=$}  {-x+6-6=-3}  {6 + -x - 6=$}  {6 + -x - 6=3 -6}  {6+-x-6=$}  {6+-x-6=3-6}  {6 - x - 6=$}  {6 - x - 6=3 - 6}  {-x=-6+3}  {-6+6-x=-3}  {6- 6 - x=$}  {6- 6 - x=3 -6}  {6 - 6 - x=$}  {6 - 6 - x=3 - 6}  {6-x+x=$}  {6-x+x=3+x}  
+			Incorrect Input: {6-3=$}  {6-6+x=$}  {6+3=$}  {$=6-3}  {6-6=$}  {x=$}  {$=x}  {6-x=$}  {6-6-x=6-3}  {x=3-6}  {x+3=$}  {$=9}  {-x=9}  {-x=3}  {$=3}  {3=$}  {-3=$}  {-6=$}  {6=6}  {6=-3}  {6=x}  {3-6=$}  {x-6=$}  {x-3=$}  {6-6-x=3}  {6-6-x=x}  {3-x=$}  {-3-x=$}  {-6-6-x=$}  {-6+6-x=3+6}  {6-6-x=c}  {x=3}  {x=9}  {x=-3}  {$=2}  {6x=-3}  {6=3}  {6-6-x=6}  {-x=6}  {-x=6-3}  {3 + x=$}  {6 - 3=$}  {-x=2}  {-x=-2}  {$=-9}  {x+6-6=$}  {6=6-3}  {6-x-6=6-3}  {6-6=3-6}  {0=3-6}  {$=-6}  {6=3-6}  {6-6-x=3-3}  {6+6-x=$}  {6-x+6=$}  {x+6=$}  {$=3+6}  {hhlhjkhjkhjhjklhjhjkhjkhjhkjhjhjhjhjkhjhkjhjhljhjhjkhjhlhjkhjkhkjhjhjkhhkjhjkhkjhjhjklhjlkhjhjkhjhjhljhjhljhjhjkhkjhlkhjhjklhjkhjkhjkhjkhlkhjhjkhjkhkjlhkhjkhlkhjhjhjlhljk=$}  {$=-6-}  {$=-6-3}  {-x=6+3}  {-x=3+6}  {-x+3-3=$}  {$=6-x}  {$=6+x}  {0=$}  {6- 6x=$}  {6 - x + 6=$}  {$=3 +}  {$=3 + 6}  {6 - x - 6=3 + 6}  {$=3+}  {1=$}  {x'l]=$}  {6+x-6=$}  {-4=$}  {6=3x}  {6=0}  {6=3=x}  {6-x-x=$}  
+		50.0%	4/8 	3-x=11
+			Correct Input:   {3=$}  {3=11+x}  {3=11+ x}  
+			Incorrect Input: {3=11-x}  {3=11}  {3=11- 3}  
+		40.0%	10/25 	9-x=4
+			Correct Input:   {9=$}  {9=4+x}  {9-x-9=$}  {9-x-9=4-9}  
+			Incorrect Input: {9x=$}  {4=$}  {9=4}  {9=x}  {x=$}  {9=}  {9=4=x}  {9-x-9=x}  {9-x-9=4x}  {9-x-9=4}  {9-x-9=4+x-4}  
+		57.2%	260/454 	8-x=1
+			Correct Input:   {8-8-x=$}  {8-8-x=1-8}  {$=-7}  {8 - x - 8=-7}  {-x=$}  {-x=1-8}  {8=$}  {8=1+x}  {-x=-7}  {$=1-8}  {8-x-8=$}  {8-x-8=1-8}  {-x+8-8=$}  {-x+8-8=1-8}  {8 - 8 - x=$}  {8 - 8 - x=1 - 8}  {8=1 +x}  {8-8-x=-7}  {-x+8-8=-7}  {8 + -x - 8=$}  {8 + -x - 8=1 - 8}  {8+-x-8=$}  {8+-x-8=1-8}  {8 - x - 8=$}  {8 - x - 8=1 - 8}  {-1x=$}  {-1x=-7}  {8-x+x=$}  {8-x+x=1+x}  
+			Incorrect Input: {8 - 8=$}  {8 - x - 1=$}  {$=1 - 1}  {- 8=$}  {$=- 8}  {x=$}  {1-8=$}  {$=x}  {8-1=$}  {$=-x}  {$=8-8-x}  {8=-x}  {8=x}  {8=1x}  {8-1-x=$}  {8-x-1=$}  {-x=1}  {-x=1+x}  {$=7}  {-x=7}  {8-8=1-8}  {8-x=$}  {-x=9}  {-x=1x8}  {-x=1*8}  {8--x.=$}  {8-8-x=x}  {8-=$}  {8 - 8 - x=-1}  {8-x+8=$}  {-8=$}  {-x=-9}  {gf2=$}  {8=1-8}  {$=1}  {8+x=$}  {7=$}  {8-7=$}  {8=8}  {8=-x-8}  {8=8-x}  {8=1}  {x-8=$}  {-x=8 - 1}  {$=\}  {0-x=$}  {-16-x=$}  {x=-7}  {-x=-1}  {-x+7-7=$}  {-x+8-8=7}  {8-x+-x=$}  {8 -x=$}  {8 - x=$}  {8 + -x=$}  {8=8-8-x}  {8+-x8-8=$}  {$=1 - 1 - 8}  {8 - x + 1=$}  {$=-1x}  {-7=$}  {7-x=$}  {8=1-x}  {-x==7}  {-x=-2}  {-x=2}  {-x=1-x}  {-1x=7}  {--x=$}  {8 + 8 + x=$}  {8 + x=$}  {-x=8-1}  {$=-8}  {$=9}  {$=8}  {8=x1+x}  {9=$}  {16x=$}  {$=8-1}  {$=1+8}  {$=1+}  {8-8-x=8-1}  {8-x-1=-7}  {8-1-x=-7}  {8=-7}  {-8=-7}  
+	Standard Deviation:	0.0620433826166
+
+c0+c1x-c2=c3
+		100.%	2/2 	1+4x-1=8
+			Correct Input:   {4x=$}  {4x=8}  
+		84.6%	22/26 	6+2x-8=14
+			Correct Input:   {-2 +2x=$}  {-2 +2x=14}  {-2+2x=$}  {-2+2x=14}  {6-6+2x-8=$}  {6-6+2x-8=14-6}  {2x-2=$}  {2x-2=14}  {$=14}  
+			Incorrect Input: {-4+2x=$}  {x=$}  {-2=14}  {14=14}  
+		80.0%	4/5 	1+3x-1=7
+			Correct Input:   {$=7-1}  {3x=7-1}  
+			Incorrect Input: {3x / 3=7-1}  
+		75.9%	63/83 	1+4x-2=7
+			Correct Input:   {1+4x=$}  {1+4x=9}  {-1+4x=$}  {-1+4x=7}  {$=7}  {1+4x=7+2}  {1+4x-2+2=$}  {1+4x-2+2=9}  {1+4x-2+2=7+2}  {4x-1=$}  {4x-1=7}  {4x + (-1)=$}  {4x + (-1)=7}  {4x-2=$}  {4x-2=6}  
+			Incorrect Input: {1+4x=7+1}  {1+4x=7}  {1+4x=7+4}  {5x-2=$}  {4x=$}  {3x=$}  {1=4x=$}  {1+4x=7-2}  {1+4x=5}  {-1+4=$}  {1+4x-2=$}  {1+4x=4}  
+		75.0%	12/16 	4+3x-3=7
+			Correct Input:   {1+3x=$}  {1+3x=7}  {4+3x-3+3=$}  {4+3x-3+3=7+3}  {4+3x=$}  {4+3x=7+3}  
+			Incorrect Input: {4x=$}  {3x=$}  {4+3x=7-3}  {4+3x=7}  
+	Standard Deviation:	0.0910949266657
+
+c0x-c1x=c2x-c3-c4x
+		96.2%	26/27 	7x-2x=2x-10-2x
+			Correct Input:   {5x=$}  {5x=-10}  {$=-10}  
+			Incorrect Input: {5x=10}  
+		100.%	4/4 	2x-3x=3x-6-3x
+			Correct Input:   {-1x=$}  {-1x=-6}  
+		100.%	4/4 	4x-7x=7x-3-7x
+			Correct Input:   {-3x=$}  {-3x=-3}  
+		100.%	2/2 	4x-4x=7x-3-4x
+			Correct Input:   {0=$}  {0=3x-3}  
+		100.%	4/4 	3x-3x=5x-10-3x
+			Correct Input:   {0=$}  {0=2x-10}  
+	Standard Deviation:	0.0148148148148
+
+c0=-x+c1
+		73.9%	272/368 	13=-x+6
+			Correct Input:   {13-6=$}  {13-6=6-6-x}  {$=6-6+-x}  {13-6=6-6+-x}  {7=$}  {7=6-6-x}  {13-6=-x}  {$=6-6-x}  {$=-x}  {7=-x}  {13-6=-x+6-6}  {$=6}  {13+x=6}  {$=-x+6-6}  {13+x=$}  {$=-x + 6 - 6}  {13 - 6=-x + 6 - 6}  {7=-x+6-6}  {$=(-x+6)-6}  {13-6=(-x+6)-6}  {13 - 6=$}  {13 - 6=-x}  {13 - 6=6 - 6 - x}  {$=-x+6+x}  {13+x=-x+6+x}  
+			Incorrect Input: {$=x}  {7=x}  {13-13-x=$}  {$=13-13-x}  {x-6+6=$}  {6-6-x=$}  {13=$}  {6-13=-x}  {hye yhert52j=$}  {13-13=$}  {9=-x}  {19=-x}  {14-6=$}  {113-6=$}  {13+6=$}  {x=$}  {13-x=6}  {13=6}  {-x=$}  {$=9}  {-x=-x}  {-x+6-6=$}  {$=-19}  {-19=$}  {$=-6}  {7=6}  {13-6=6}  {11=$}  {-7=-x}  {1-13=$}  {$=-6x}  {13=-x+6-6}  {1=$}  {1=6}  {13-6=-x+6-13}  {13-6=x+6-13}  {13-6=13-6+-x}  {$=13}  {6=$}  {$=-x+6+6}  {5=$}  {13 - 6=6 - 6 -}  {$=-x=6-6}  {-=$}  {14=$}  {$=-x+6-6+1}  {13-x=-x}  {what=-x}  {meme=-x}  {$=-x+6}  {-7=$}  
+		72.9%	259/355 	10=-x+5
+			Correct Input:   {10-5=$}  {10-5=-x+5-5}  {5=$}  {5=-x}  {10-5=5-5-x}  {$=-x}  {10-5=-x}  {$=5}  {10+x=5}  {10 -5=$}  {10 -5=-x+5-5}  {x+10=$}  {x+10=5}  {$=-x+5-5}  {5=5-5-x}  {10 - -x=$}  {10 - -x=5}  {$=5-5+-x}  {10-5=5-5+-x}  {10 - 5=$}  {10 - 5=5 - 5 - x}  {$=-x+5+x}  {10+x=-x+5+x}  {10+x=$}  {10-5=-x-5+5}  
+			Incorrect Input: {-x=$}  {5-10=-x}  {x=$}  {10=5}  {10-10-x=5}  {10-5=x}  {10/5=$}  {10-5=-x=5}  {10-5=5-5}  {10+5=$}  {-x+10=$}  {x-10=$}  {x-5=$}  {$=10}  {x=5}  {-5=5}  {-x=-x}  {$=-5}  {x=-5}  {$=xczdcfklsdfc;oesfkosr}  {-x=5}  {5=5}  {10=$}  {10 -5=5}  {$=x}  {-15=$}  {15=-x}  {-15=-x}  {-5=$}  {-5=-x}  {$=-x+5-10}  {10-5=-x+-5}  {$=-x+5+5}  {$=10-5}  {10-5=-x-5}  {5=10}  {5=10+x}  {5=10-x}  {10-5=5}  {10x=5}  {10-5=-5+5-5}  {5-10=$}  {$=-5x}  {$=5x}  {$=-x+5}  {10-5=5x}  {10-5=-5x}  {$=5-5}  {10-=$}  {10-5=-x+5+5}  {$=-}  
+		73.2%	266/363 	8=-x+2
+			Correct Input:   {8-2=$}  {8-2=2-2-x}  {$=-x}  {6=-x}  {$=-x+2-2}  {8-2=-x+2-2}  {8-2=-x}  {$=2-2+-x}  {8-2=2-2+-x}  {$=(-x+2)-2}  {8-2=(-x+2)-2}  {6=$}  {6=2-2-x}  {$=2}  {8+x=2}  {8+x=$}  {$=2-2-x}  {6=-x+2-2}  {$=2-2+ -x}  {8-2=2-2+ -x}  {$=2 - 2 + (-x)}  {8 - 2=2 - 2 + (-x)}  {8+x=-x+2+x}  {8-2=-x-2+2}  
+			Incorrect Input: {8 - 8=$}  {$=-x + 2 - 8}  {-x=$}  {8=$}  {-x+2-2=$}  {-6=$}  {x=$}  {8-2=x+2-2}  {8-2=x+8-8}  {8-2=-x+8-8}  {8-2=-x+-2-2}  {-8-2=$}  {-8+2=$}  {6=6}  {6=0}  {6=4}  {8-2=2-2}  {8-x=$}  {-x+2-2=-x}  {-10=$}  {$=-10}  {xx=$}  {$=x}  {10=-x}  {8+2=-x}  {2+8=-x}  {$=-2}  {-6=-x}  {-4=-x}  {8-2=x}  {6=-x-0}  {10=$}  {8+2=$}  {$=-x+2}  {8=-x+2-2}  {$=2-8}  {$=8-2}  {$=10}  {$=6}  {8-2=-2-2}  {8-2=-2}  {8-2=-x-2}  {8-2=-x+2}  {8=2}  {2-8=$}  {x+2-2=$}  {8+2-x=2}  {8=-x}  {+2=-x}  {2=-x}  {7=-x}  {6=x}  
+	Standard Deviation:	0.00396972690034
+
+c0*x/c1=c2/c3
+		100.%	2/2 	2*x/2=6/2
+			Correct Input:   {x=$}  {x=3}  
+		33.3%	2/6 	6*x/6=18/6
+			Correct Input:   {x=$}  {x=3}  
+			Incorrect Input: {$=2}  {$=2.2}  {$=2.4}  
+		100.%	2/2 	5*x/5=15/5
+			Correct Input:   {x=$}  {x=3}  
+		100.%	2/2 	3*x/3=9/3
+			Correct Input:   {$=3}  {x=3}  
+	Standard Deviation:	0.288675134595
+
+c0-c1=c2x
+		66.6%	2/3 	10-2=4x
+			Correct Input:   {8=$}  {8=4x}  
+			Incorrect Input: {8=4x/4}  
+		100.%	2/2 	8-1=1x
+			Correct Input:   {7=$}  {7=1x}  
+		50.0%	7/14 	16-8=4x
+			Correct Input:   {8=$}  {8=4x}  
+			Incorrect Input: {8=-4}  {8=-4x}  {8=x}  {8/4=$}  {8/4=x}  {8=2x}  
+		100.%	4/4 	15-3=3x
+			Correct Input:   {12=$}  {12=3x}  
+		80.0%	12/15 	1-7=6x
+			Correct Input:   {-6=$}  {-6=6x}  
+			Incorrect Input: {6=$}  {-6=x}  
+	Standard Deviation:	0.193677853951
+
+c0+c1=-c2+c3x-c4+c5
+		100.%	4/4 	18+2=-2+4x-4+2
+			Correct Input:   {18=$}  {18=-2+4x-4}  {20=$}  {20=4x-4}  
+		80.0%	4/5 	18+4=-2+4x-4+4
+			Correct Input:   {$=-2+4x}  {22=-2+4x}  {22=$}  
+			Incorrect Input: {$=-2+4x+2}  
+	Standard Deviation:	0.1
+
+c0x+c1-c2=-c3-c4
+		85.7%	6/7 	6x+14-14=-4-14
+			Correct Input:   {6x=$}  {6x=-18}  
+			Incorrect Input: {6x=-10}  
+		100.%	2/2 	6x+8-8=-10-8
+			Correct Input:   {6x=$}  {6x=-18}  
+		100.%	2/2 	6x+6-6=-12-6
+			Correct Input:   {6x=$}  {6x=-18}  
+	Standard Deviation:	0.0673435029701
+
+-c0+c1x+c2=c3
+		100.%	2/2 	-38+7x+38=14
+			Correct Input:   {7x=$}  {7x=14}  
+		100.%	2/2 	-6+14x+6=14
+			Correct Input:   {14x=$}  {14x=14}  
+		100.%	2/2 	-31+5x+31=15
+			Correct Input:   {5x=$}  {5x=15}  
+		100.%	2/2 	-1+4x+1=8
+			Correct Input:   {4x=$}  {4x=8}  
+	Standard Deviation:	0.0
+
+c0x+c1-c2=c3
+		100.%	2/2 	4x+1-1=8
+			Correct Input:   {4x=$}  {4x=8}  
+		100.%	2/2 	3x+6-6=3
+			Correct Input:   {3x=$}  {3x=3}  
+		66.6%	2/3 	2x+2-2=4
+			Correct Input:   {2x=$}  {2x=4}  
+			Incorrect Input: {2x=4/2}  
+		75.0%	3/4 	2x+2-2=6
+			Correct Input:   {$=4}  {2x=4}  
+			Incorrect Input: {$=3}  
+	Standard Deviation:	0.148779758928
+
+c0+-c1=x
+		50.0%	4/8 	9+-4=x
+			Correct Input:   {5=$}  {5=x}  {9-4=$}  {9-4=x}  
+			Incorrect Input: {x=$}  {$=5}  {x=5=$}  
+		100.%	2/2 	3+-11=x
+			Correct Input:   {-8=$}  {-8=x}  
+	Standard Deviation:	0.25
+
+x=c0-c1
+		100.%	4/4 	x=2-8
+			Correct Input:   {$=-6}  {x=-6}  {x=$}  
+		88.8%	40/45 	x=3-6
+			Correct Input:   {x=$}  {x=-3}  {$=-3}  {x=3-6}  
+			Incorrect Input: {x=9}  {x=-9}  {$=-9}  {$=9}  
+		100.%	2/2 	x=6-13
+			Correct Input:   {x=$}  {x=-7}  
+		100.%	2/2 	x=7-3
+			Correct Input:   {$=4}  {x=4}  
+		74.6%	53/71 	x=2-7
+			Correct Input:   {x=$}  {x=-5}  {$=-5}  {x=2-7}  
+			Incorrect Input: {x=9}  {2-7=$}  {x=5}  {x=14}  {5=$}  {x=x/5}  {x=-2}  {x=-7}  {x=2}  {x=7}  
+		81.2%	26/32 	x=7-7
+			Correct Input:   {x=$}  {x=0}  {x=7-7}  
+			Incorrect Input: {x=-1}  {x=-7}  {x+7=$}  {x7=$}  {x=1}  
+		50.0%	5/10 	x=5-10
+			Correct Input:   {10-10-x=$}  {-x=$}  {-x=-5}  {x=$}  {x=-5}  
+			Incorrect Input: {x=$}  {10-5=$}  {x=5}  
+		91.3%	21/23 	x=5-3
+			Correct Input:   {x=$}  {x=2}  {$=2}  
+			Incorrect Input: {x=3}  {x=-2}  
+		100.%	2/2 	x=6-5
+			Correct Input:   {x=$}  {x=1}  
+		82.3%	28/34 	x=0-6
+			Correct Input:   {$=-6}  {x=-6}  {x=$}  
+			Incorrect Input: {x=6}  {$=6}  {x=0}  
+		88.8%	24/27 	x=6-2
+			Correct Input:   {$=4}  {x=4}  {x=$}  
+			Incorrect Input: {s=$}  {-4=$}  {x=-4}  
+		87.0%	27/31 	x=0-3
+			Correct Input:   {$=-3}  {x=$}  {x=-3}  
+			Incorrect Input: {x=3}  {$=3}  {x=0}  
+		85.7%	12/14 	x=0-2
+			Correct Input:   {x=$}  {x=-2}  
+			Incorrect Input: {x=0+2}  {x=-3}  
+		100.%	16/16 	x=3-3
+			Correct Input:   {x=$}  {x=0}  
+	Standard Deviation:	0.131963845307
+
+-x=-c0
+		82.4%	240/291 	-x=-3
+			Correct Input:   {-x/-1=$}  {-x/-1=-3/-1}  {x=$}  {x=-3/-1}  {x=3}  {$=3}  {-x=$}  {x=-3}  {-x/-1=3}  {-x / -1=$}  {-x / -1=-3 / -1}  {-1x/-1=$}  {-1x/-1=-3/-1}  {-x/ -1=$}  {-x/ -1=-3/ -1}  {$=-3/-1}  {-1x / -1=$}  {-1x / -1=-3 / -1}  
+			Incorrect Input: {x=-3/-x}  {x=2}  {-3x=$}  {-x/-3=$}  {-x/=$}  {-x/3=$}  {-x/6=$}  {-x/-3x=$}  {$=x}  {-3/-1=$}  {$=-x/-1}  {-3=$}  {$=-x}  {-x=-2}  {x=$}  {x=0}  {-x/-1=-3/1}  {-x=$}  {0=$}  {-0=$}  {-x/-1=-3}  {-x/1=$}  {$=-3/1}  {-1/-x=$}  {-x/-1=-x/-3}  {-x/-x=$}  {-x/x=$}  {-1x/-1x=$}  {-1x/-1=-3/-x}  {-1x/-1=-3/-1x}  {x=-3}  {-x/ 1=$}  {-x*-1=$}  {-x*1=$}  {-x*(-1)=$}  {(-x)*(-1)=$}  {-x+1=$}  {-3/-x=$}  
+		100.%	1/1 	-x=-8
+			Correct Input:   {x=$}  
+		79.8%	226/283 	-x=-7
+			Correct Input:   {-x/-1=$}  {-x/-1=-7/-1}  {x=$}  {x=7}  {$=7}  {8-8-x=$}  {8-8-x=1-8}  {x=-7/-1}  {x=7/1}  {-x/-1=-7/ -1}  {-x / -1=$}  {-x / -1=-7 / -1}  {-1x/-1=$}  {-1x/-1=-7/-1}  {-1x / -1=$}  {-1x / -1=-7 / -1}  {$=-7/-1}  {-x/-1=7}  
+			Incorrect Input: {$=0}  {-x/1=$}  {$=-7/1}  {-x=$}  {-x/-8=$}  {-x/-1=-x/-8}  {-x/-1=-x/8}  {-x/8=$}  {-x--=$}  {-x-x=$}  {-x-=$}  {$=-7}  {$=-7-x}  {$=-7-}  {$=-7-1}  {x-1=$}  {8-8=$}  {-x-7=$}  {-x/=$}  {x=-6}  {x=-7+1}  {x=6}  {-x/-7=$}  {-7=$}  {x=7/-1}  {x=1}  {x=-7/-7}  {1=$}  {x=-7}  {-x*-x=$}  {-1=$}  {-1x=$}  {$=-1}  {-1x/-1x=$}  {x7=$}  {-x/-1=-7/-x}  {-x*-1=$}  {$=-7*-1}  {-x/-1=-7.-1}  {-x/-1=-7/.-1}  {-x/-1=-1/-7}  {-x/-x=$}  {+x=$}  {+1x=$}  {-x+1=$}  
+		86.0%	253/294 	-x=-5
+			Correct Input:   {-x/-1=$}  {-x/-1=-5/-1}  {x=$}  {x=5}  {-x/-1=5}  {$=5}  {-x=$}  {-x=-5}  {-x=2-7}  {x=-5/-1}  {$=-5/-1}  {-x / -1=$}  {-x / -1=-5 / -1}  {-1x/-1=$}  {-1x/-1=-5/-1}  
+			Incorrect Input: {x=-5}  {x=-5-x}  {x=0}  {-x/-1=-5/1}  {$=-5}  {-x=$}  {x=-6}  {x=-4}  {-x/-5=$}  {-x/-1=-5-1}  {-x/-1=4}  {+x=$}  {-x/-1=-x/-1}  {-x/-1=-x/-5}  {-(-)=$}  {/-x=$}  {$=/-x}  {/x=$}  {$=/-5}  {$=/-1}  {$=%-1}  {-x/1=$}  {-x/-1=-5}  {-x*-1=$}  {-x/x=$}  {$=-}  {$=-5-x}  {-=$}  {x=-1}  {x=4}  
+	Standard Deviation:	0.0776752882396
+
+c0x-c1x=c2x
+		60.0%	3/5 	12x-2x=2x
+			Correct Input:   {$=2x+20-2x}  {$=20}  {10x=20}  
+			Incorrect Input: {10x/10=2x+20-2x}  {$=20/10}  
+		100.%	2/2 	7x-2x=2x
+			Correct Input:   {$=2x-10-2x}  {5x=2x-10-2x}  
+	Standard Deviation:	0.2
+
+c0=c1+c2*x-c3*c4
+		20.0%	3/15 	10=1+3*x-4*3
+			Correct Input:   {10=$}  {10=1+3x-12}  
+			Incorrect Input: {10=4x-4*3}  {10=4x-12}  {10=4x}  {10=4x*3}  {10=3x}  {10=0}  {10=x}  {10=4*x-4*3}  {10=4*x}  {10=1+3x}  
+		80.0%	4/5 	5=3+2*x-2*2
+			Correct Input:   {5=$}  {5=3+2x-4}  {$=3+2x-4}  
+			Incorrect Input: {5=3+2x-6}  
+		100.%	2/2 	10=1+3*x-3*4
+			Correct Input:   {10=$}  {10=1+3x-12}  
+	Standard Deviation:	0.33993463424
+
+-x+c0-c1=-c2
+		100.%	2/2 	-x+6-6=-3
+			Correct Input:   {-x=$}  {-x=-3}  
+		100.%	3/3 	-x+8-8=-7
+			Correct Input:   {-x=$}  {-x=-7}  
+	Standard Deviation:	0.0
+
+-c0/-c1=x
+		50.0%	2/4 	-6/-6=x
+			Correct Input:   {$=x}  {1=x}  
+			Incorrect Input: {0=$}  {-1=$}  
+		81.4%	22/27 	-4/-1=x
+			Correct Input:   {4=$}  {4=x}  {$=x}  
+			Incorrect Input: {-4=$}  {x=$}  {-1=$}  
+		100.%	4/4 	-10/-2=x
+			Correct Input:   {5=$}  {5=x}  
+		88.0%	22/25 	-8/-1=x
+			Correct Input:   {8=$}  {8=x}  {$=x}  
+			Incorrect Input: {-8=$}  {0=x}  
+		100.%	4/4 	-9/-3=x
+			Correct Input:   {3=$}  {3=x}  
+		81.2%	13/16 	-1/-1=x
+			Correct Input:   {1=$}  {1=x}  {-1/-1=$}  {$=x}  
+			Incorrect Input: {-1/-1=-x}  {0=x}  {-1=$}  
+		100.%	2/2 	-2/-1=x
+			Correct Input:   {$=x}  {2=x}  
+	Standard Deviation:	0.166078709075
+
+c0=-c1+c2+c3x
+		60.0%	3/5 	10=-2+2+6x
+			Correct Input:   {10+2=$}  {12=$}  {12=6x}  
+			Incorrect Input: {10=$}  {10-2=$}  
+		66.6%	2/3 	6=-1+1+2x
+			Correct Input:   {6=$}  {6=2x}  
+			Incorrect Input: {x=$}  
+		50.0%	2/4 	12=-2+2+6x
+			Correct Input:   {12=$}  {12=6x}  
+			Incorrect Input: {2=$}  {12/6=$}  
+	Standard Deviation:	0.0684934889219
+
+-c0x+c1x-c2=-c3x+c4x
+		80.0%	4/5 	-3x+3x-9=-3x+6x
+			Correct Input:   {-9=$}  {-9=3x}  
+			Incorrect Input: {-9=x}  
+		57.1%	4/7 	-8x+8x-9=-8x+5x
+			Correct Input:   {-9=$}  {-9=-3x}  
+			Incorrect Input: {9=$}  {-9=-3}  {-9=-14}  
+	Standard Deviation:	0.114285714286
+
+c0/-c1=c2x
+		100.%	2/2 	6/-1=1x
+			Correct Input:   {-6=$}  {-6=x}  
+		66.6%	2/3 	7/-1=1x
+			Correct Input:   {-7=$}  {-7=x}  
+			Incorrect Input: {7=$}  
+	Standard Deviation:	0.166666666667
+
+c0+c1x=c2+c3
+		50.0%	2/4 	4+3x=7+3
+			Correct Input:   {4+3x=$}  {4+3x=10}  
+			Incorrect Input: {7x=$}  {3x=$}  
+		66.6%	4/6 	1+4x=7+2
+			Correct Input:   {$=9}  {1+4x=9}  {1+4x=$}  
+			Incorrect Input: {5x=9}  {4x=$}  
+	Standard Deviation:	0.0833333333333
+
+c0-c1-x=c2-c3
+		83.5%	66/79 	7-7-x=2-7
+			Correct Input:   {-x=$}  {-x=-5}  {$=-5}  
+			Incorrect Input: {x=$}  {0=-5}  {x.=$}  {-x=-4}  {-x=5}  {x=-5}  {$=-6}  
+		87.6%	64/73 	8-8-x=1-8
+			Correct Input:   {-x=$}  {-x=-7}  {-1x=$}  {-1x=-7}  {$=-7}  
+			Incorrect Input: {-x=-7\}  {-1=$}  {-x=7}  {x=$}  {-x=-8}  {-16x=-7}  {-16-x=-7}  
+		66.6%	4/6 	7-7-x=18-7
+			Correct Input:   {-1x=$}  {-1x=11}  {$=11}  {-x=11}  
+			Incorrect Input: {-1x=9}  {x=$}  
+		100.%	2/2 	3-3-x=11-3
+			Correct Input:   {-x=$}  {-x=8}  
+		84.4%	76/90 	6-6-x=3-6
+			Correct Input:   {-x=$}  {-x=-3}  {$=-3}  {6-6-x=$}  
+			Incorrect Input: {x=$}  {6/-1=$}  {-x=3}  {0=$}  {-x=3+-6=-3}  {z=$}  {x=-3}  {0=-3}  {-=$}  
+		100.%	2/2 	10-10-x=5-10
+			Correct Input:   {-x=$}  {-x=5+-10}  
+	Standard Deviation:	0.1133100404
+
+c0x-c1+c2+c3=c4+c5
+		66.6%	2/3 	2x-8+8+6=14+8
+			Correct Input:   {$=22}  {2x + 6=22}  
+			Incorrect Input: {2x + 6 - 6=$}  
+		80.0%	4/5 	2x-8+6+8=14+8
+			Correct Input:   {2x+6=$}  {2x+6=22}  {$=22}  
+			Incorrect Input: {2x+6-6=22}  
+	Standard Deviation:	0.0666666666667
+
+c0=c1(x)+c2(c3)
+		90.9%	20/22 	16=4(x)+4(2)
+			Correct Input:   {16=$}  {16=4x+8}  {16=4x + 8}  {16=4(x)+8}  {$=4x+8}  
+			Incorrect Input: {16=8+2x}  {16=8-2x}  
+		92.3%	12/13 	15=3(x)+3(1)
+			Correct Input:   {15=$}  {15=3x+3}  {15=3x + 3}  {$=3x + 3}  
+			Incorrect Input: {15=3x+4}  
+	Standard Deviation:	0.00699300699301
+
+c0=c1(x-c2)
+		100.%	6/6 	20=4(x-1)
+			Correct Input:   {5=$}  {5=x-1}  {$=4(x)+4(-1)}  {20=4(x)+4(-1)}  
+		100.%	8/8 	2=2(x-2)
+			Correct Input:   {1=$}  {1=x-2}  {$=2(x-2)/2}  {2/2=2(x-2)/2}  {2=$}  {2=2x-4}  
+		70.5%	12/17 	9=3(x-4)
+			Correct Input:   {3=$}  {3=(x-4)}  {3=x-4}  {$=3(x-4)/3}  {9/3=3(x-4)/3}  {$=3(x) + 3(- 4 )}  {9=3(x) + 3(- 4 )}  
+			Incorrect Input: {6=$}  {5=$}  {1=$}  {2=$}  {3=(x-4_}  
+	Standard Deviation:	0.138648388468
+
+c0(x+c1)/c2=c3/c4
+		100.%	2/2 	2(x+1)/2=6/2
+			Correct Input:   {x+1=$}  {x+1=3}  
+		100.%	2/2 	3(x+2)/3=9/3
+			Correct Input:   {(x+2)=$}  {(x+2)=3}  
+	Standard Deviation:	0.0
+
+x-c0=-c1
+		33.3%	2/6 	x-6=-3
+			Correct Input:   {-1+5(x)+ 5(-6)=$}  {-1+5(x)+ 5(-6)=-16}  
+			Incorrect Input: {/5=$}  {5(-6+x)-/5=$}  {5(-6+x)-1)/5=$}  {5*x-5+-6=$}  
+		66.6%	8/12 	x-6=-4
+			Correct Input:   {x=$}  {x=2}  {x-6+6=$}  {x-6+6=-4+6}  
+			Incorrect Input: {x=-10}  {x+6=$}  {-6+6=$}  {$=-4}  
+	Standard Deviation:	0.166666666667
+
+-c0+x=c1
+		85.7%	6/7 	-1+x=1
+			Correct Input:   {$=2}  {x=2}  {-1+x+1=$}  {-1+x+1=1+1}  
+			Incorrect Input: {-1+x=$}  
+		100.%	6/6 	-2+x=3
+			Correct Input:   {x=$}  {x=5}  {-2+x+2=$}  {-2+x+2=3+2}  
+	Standard Deviation:	0.0714285714286
+
+-c0x=c1
+		75.0%	6/8 	-3x=9
+			Correct Input:   {-3x/-3=$}  {-3x/-3=9/-3}  {x=$}  {x=9/-3}  
+			Incorrect Input: {-3/-3=$}  {-3x-3=$}  
+		50.0%	2/4 	-1x=8
+			Correct Input:   {-x/-1=$}  {-x/-1=-8/1}  
+			Incorrect Input: {-x/1=$}  {-x/-1=-8/-1}  
+		44.4%	4/9 	-1x=9
+			Correct Input:   {-x/-1=$}  {-x/-1=9/-1}  {-1x/-1=$}  {-1x/-1=9/-1}  
+			Incorrect Input: {-x/-1=-1/-9}  {-x/-1=-1/9}  {-x/-1=-9/-1}  
+		85.7%	6/7 	-1x=11
+			Correct Input:   {-x/-1=$}  {-x/-1=-11/1}  {-1x/-1=$}  {-1x/-1=11/-1}  {x=$}  {x=-11}  
+			Incorrect Input: {-x/-1=-x/18}  
+	Standard Deviation:	0.171081342015
+
+-c0+c1x-c2=-c3
+		76.4%	26/34 	-1+5x-30=-16
+			Correct Input:   {-31+5x=$}  {-31+5x=-16}  {$=-16}  {5x-31=-16}  {-31 + 5x=$}  {-31 + 5x=-16}  
+			Incorrect Input: {-1-30+5x=$}  {-31=$}  {-31x=$}  {-26x=$}  {4x-30=-16}  {+1=$}  {-1 +5x-3o +1=$}  
+		70.5%	36/51 	-30+5x-1=-16
+			Correct Input:   {-31+5x=$}  {-31+5x=-16}  {-31 + 5x=$}  {-31 + 5x=-16}  {$=-16}  {-30+5x=$}  {-30+5x=-16+1}  {-30+5x-1+1=$}  {-30+5x-1+1=-16+1}  
+			Incorrect Input: {-25-x-1=$}  {-25x-1=$}  {24x=$}  {-24x=$}  {-25x-1=-16}  {-30-5x-1=-16}  {-5x=-16}  {-29=-16}  {-29+5x=-16}  {$=-16-31}  {$=-16+-31}  {-31=$}  {$=-16+31}  {-31+=$}  {-31=5x=$}  
+	Standard Deviation:	0.0294117647059
+
+c0(-c1+x)/c2=c3/c4
+		100.%	2/2 	3(-2+x)/3=9/3
+			Correct Input:   {-2+x=$}  {-2+x=3}  
+		100.%	4/4 	3(-1+x)/3=3/3
+			Correct Input:   {$=1}  {-1+x=1}  {-1+x=$}  
+	Standard Deviation:	0.0
+
+c0-c1=c2x-c3+c4
+		100.%	2/2 	10-2=4x-2+2
+			Correct Input:   {8=$}  {8=4x}  
+		100.%	2/2 	9-15=6x-15+15
+			Correct Input:   {$=6x+15-15}  {-6=6x+15-15}  
+	Standard Deviation:	0.0
+
+c0(c1x)+c2(-c3)=c4
+		75.0%	12/16 	2(7x)+2(-3)=8
+			Correct Input:   {14x-6=$}  {14x-6=8}  {$=8}  {14x - 6=8}  
+			Incorrect Input: {0+-6=$}  {0x=-6=$}  {0x+-6=$}  {7x=$}  
+		69.5%	32/46 	4(2x)+4(-3)=4
+			Correct Input:   {8x-12=$}  {8x-12=4}  {$=4}  {4(2x)+4(-3)=4}  {8x+-12=$}  {8x+-12=4}  {8x - 12=$}  {8x - 12=4}  
+			Incorrect Input: {4*2x=$}  {4+2x+-2=$}  {4+2x+-12=$}  {4+2x+=$}  {8x-2=$}  {-12=$}  {8x+12=$}  {8x=-12=$}  {4x+-12=$}  {4x+12=$}  {8x+_12=$}  {2x+5=$}  {8x+-16=$}  
+		51.8%	14/27 	5(2x)+5(-2)=20
+			Correct Input:   {10x + -10=$}  {10x + -10=20}  {10x+-10=$}  {10x+-10=20}  {$=20}  {10x-10=20}  {-2 + 2x=$}  {-2 + 2x=4}  {10x-10=$}  
+			Incorrect Input: {x=$}  {$=x}  {-15=20}  {-10=20}  {-10x=20}  {$=10}  {$=-2.6}  {(10x)+(-10)=20}  {x=20}  {5(2x) +=$}  {5(2x)=$}  {-2 + 2x=15}  
+	Standard Deviation:	0.0988341452146
+
+c0x-c1-c2x=c3x-c4x
+		81.4%	22/27 	8x-9-8x=5x-8x
+			Correct Input:   {-9=$}  {-9=-3x}  {$=-3x}  
+			Incorrect Input: {8x=$}  {0x=-3x}  {9=-3x}  {9x=-3x}  {x=-3x}  
+		100.%	2/2 	5x-10-5x=3x-5x
+			Correct Input:   {-10=$}  {-10=-2x}  
+		100.%	5/5 	12x-20-2x=2x-2x
+			Correct Input:   {$=0}  {$=2x+20-20}  {12x-20=2x+20-20}  {10x-20=$}  {10x-20=0}  
+		100.%	2/2 	4x-6-4x=2x-4x
+			Correct Input:   {-6=$}  {-6=-2x}  
+		45.4%	10/22 	8x-9-5x=5x-5x
+			Correct Input:   {$=0}  {3x-9=0}  {3x - 9=$}  {3x - 9=0}  {3x-9=$}  
+			Incorrect Input: {3x -9 + 9=$}  {4x-9=$}  {$=x}  {9-4x=$}  {$=0x}  {$=1x}  {3x-9+9=$}  {3x-9=5x}  {3x-9=0x}  
+		80.0%	4/5 	5x-10-3x=3x-3x
+			Correct Input:   {2x-10=$}  {2x-10=0}  
+			Incorrect Input: {2x-10=0x}  
+		91.6%	22/24 	3x-9-3x=6x-3x
+			Correct Input:   {-9=$}  {-9=3x}  {$=3x}  
+			Incorrect Input: {9=$}  
+		100.%	2/2 	12x-20-12x=2x-12x
+			Correct Input:   {-20=$}  {-20=-10x}  
+		82.3%	14/17 	10x-6-4x=4x-4x
+			Correct Input:   {6x -6=$}  {6x -6=0}  {6x-6=$}  {6x-6=0}  {10x-6-10x=$}  {10x-6-10x=4x-10x}  
+			Incorrect Input: {6x-6=x}  {-6=$}  
+		100.%	2/2 	4x-6-2x=2x-2x
+			Correct Input:   {2x-6=$}  {2x-6=0}  
+		81.0%	30/37 	10x-6-10x=4x-10x
+			Correct Input:   {-6=$}  {-6=-6x}  {$=-6x}  
+			Incorrect Input: {6=$}  {6x=$}  {6-x=$}  {6-1x=$}  {x-6=$}  {6=-6x}  
+		66.6%	2/3 	6x-8-6x=2x-6x
+			Correct Input:   {-8=$}  {-8=-4x}  
+			Incorrect Input: {8=$}  
+	Standard Deviation:	0.161318291575
+
+c0-c1+c2x-c3=c4-c5
+		50.0%	2/4 	4-3+3x-4=7-4
+			Correct Input:   {- 3 + 3x=$}  {- 3 + 3x=3}  
+			Incorrect Input: {-3 + 3x + 3=$}  {-3 + 3 + 3x=$}  
+		66.6%	2/3 	6-6+2x-8=14-6
+			Correct Input:   {2x-8=$}  {2x-8=8}  
+			Incorrect Input: {2x-8-8=$}  
+	Standard Deviation:	0.0833333333333
+
+x+c0-c1=c2-c3
+		94.8%	92/97 	x+3-3=5-3
+			Correct Input:   {x=$}  {x=2}  {$=2}  
+			Incorrect Input: {x=5}  {2=$}  {3=$}  {x=-2}  
+		95.8%	93/97 	x+7-7=2-7
+			Correct Input:   {x=$}  {x=-5}  {$=-5}  
+			Incorrect Input: {X=$}  {0=$}  {x=-6}  {x=-7}  
+		96.3%	107/111 	x+3-3=3-3
+			Correct Input:   {x=$}  {x=0}  {$=0}  {x +3 - 3=$}  {x +3 - 3=3-3}  
+			Incorrect Input: {x=-3}  {x=3}  
+		100.%	2/2 	x+1-1=3-1
+			Correct Input:   {x=$}  {x=2}  
+		100.%	106/106 	x+2-2=6-2
+			Correct Input:   {x=$}  {x=4}  {$=4}  {1x=4}  
+		89.9%	116/129 	x+6-6=0-6
+			Correct Input:   {x=$}  {x=-6}  {$=-6}  {1x=-6}  {x=0-6}  
+			Incorrect Input: {$=-}  {-1x=-6}  {x=6}  {x=0}  {6 -6=$}  {x-6=$}  {$=x}  {6-6=$}  {6=$}  {x=6-6}  {x=6 -6}  
+		97.5%	120/123 	x+7-7=7-7
+			Correct Input:   {x=$}  {x=0}  {$=0}  {1x=0}  {x+7-7=$}  {x+7-7=7-7}  {x=7-7}  
+			Incorrect Input: {x=x}  {x=-7}  
+		83.2%	104/125 	x+2-2=0-2
+			Correct Input:   {x=$}  {x=-2}  {$=-2}  
+			Incorrect Input: {1x/1=$}  {x/2=$}  {2/2=$}  {2/1=$}  {2/-2=$}  {2--2=$}  {2+2=$}  {2+2=4=$}  {$=2}  {0-2=$}  {0+2=$}  {x=x}  {x=2x}  {x=2}  {x=-1}  {x=0}  
+		89.9%	116/129 	x+3-3=0-3
+			Correct Input:   {$=0-3}  {x=0-3}  {x=$}  {x=-3}  {$=-3}  
+			Incorrect Input: {x=0}  {x - 3=$}  {$=0}  {x=3}  {x=eehiuwfbkewjfgwejfuewfhidgafiuqerfbrehfoer8gverhvruigr;tyqergdjgdiufgkjegbeiruagkqejgbeiuagaekj,mwqr3gbkjqre}  {$=3}  {0=$}  
+		82.2%	102/124 	x+6-6=3-6
+			Correct Input:   {x=$}  {x=-3}  {$=-3}  {1x=-3}  {x=3-6}  {x+6-6=$}  {x+6-6=3-6}  
+			Incorrect Input: {x=3}  {$=-2}  {0=$}  {x=0}  {x=+-3}  {$=x}  {6+-6=$}  {6-6=$}  {$=0}  {x=3\}  {x=-6}  {$=-6}  {$=3}  {x=-9}  
+	Standard Deviation:	0.0610235853419
+
+c0x+c1-c2=c3x-c4
+		100.%	2/2 	7x+10-10=2x-10
+			Correct Input:   {7x=$}  {7x=2x-10}  
+		66.6%	12/18 	4x+3-3=7x-3
+			Correct Input:   {4x=$}  {4x=7x-3}  
+			Incorrect Input: {4x=7x-3+3}  {4x=7x-3+-3}  {4x=7x+-3+3}  {4x=4x}  {4x=4}  
+		63.6%	14/22 	2x+6-6=3x-6
+			Correct Input:   {2x=$}  {2x=3x-6}  
+			Incorrect Input: {2x=-3x}  {2x=-3}  {2x=3}  {2x=3x}  {2x=3x-6+6}  
+		88.8%	8/9 	3x+10-10=5x-10
+			Correct Input:   {3x=$}  {3x=5x-10}  
+			Incorrect Input: {3x=5}  
+	Standard Deviation:	0.152019363064
+
+-x+c0+x=c1+x
+		100.%	4/4 	-x+7+x=18+x
+			Correct Input:   {7=$}  {7=18+x}  
+		80.0%	4/5 	-x+6+x=15+x
+			Correct Input:   {6=$}  {6=15+x}  
+			Incorrect Input: {6=15x}  
+		100.%	4/4 	-x+3+x=11+x
+			Correct Input:   {3=$}  {3=11+x}  
+	Standard Deviation:	0.0942809041582
+
+c0x-c1x=c2x-c3x+c4
+		100.%	10/10 	5x-3x=3x-3x+10
+			Correct Input:   {2x=$}  {2x=10}  
+		100.%	6/6 	4x-2x=2x-2x+6
+			Correct Input:   {2x=$}  {2x=6}  
+		100.%	12/12 	6x-2x=2x-2x+8
+			Correct Input:   {4x=$}  {4x=8}  
+		100.%	4/4 	8x-5x=5x-5x+9
+			Correct Input:   {3x=$}  {3x=9}  
+		66.6%	2/3 	3x-3x=6x-3x+9
+			Correct Input:   {3x-3x=$}  {3x-3x=3x+9}  
+			Incorrect Input: {x=$}  
+		100.%	2/2 	10x-4x=4x-4x+6
+			Correct Input:   {6x=$}  {6x=6}  
+		50.0%	2/4 	8x-8x=5x-8x+9
+			Correct Input:   {0=$}  {0=-3x+9}  
+			Incorrect Input: {x=$}  {-x=$}  
+		66.6%	2/3 	3x-6x=6x-6x+9
+			Correct Input:   {-3x=$}  {-3x=9}  
+			Incorrect Input: {-3=$}  
+		100.%	12/12 	12x-2x=2x-2x+20
+			Correct Input:   {10x=$}  {10x=20}  
+	Standard Deviation:	0.188852574578
+
+-c0x=-c1
+		80.0%	8/10 	-3x=-9
+			Correct Input:   {x=$}  {x=-9/-3}  {-3x/-3=$}  {-3x/-3=-9/-3}  
+			Incorrect Input: {-3x/3=$}  {$=-9/}  
+		50.0%	2/4 	-5x=-25
+			Correct Input:   {$=5}  {x=5}  
+			Incorrect Input: {$=-5}  {-=$}  
+		83.3%	10/12 	-1x=-6
+			Correct Input:   {x=$}  {x=-6/-1}  {-1x/-1=$}  {-1x/-1=-6/-1}  
+			Incorrect Input: {x=-6/1}  {-1x/1=$}  
+		44.4%	4/9 	-1x=-7
+			Correct Input:   {-x/-1=$}  {-x/-1=7}  {x=$}  {x=7}  
+			Incorrect Input: {-x/01=$}  {-x/1=$}  {-x/-1=-7-1}  {-x/-1=-1/-1}  {-x/-1=-7}  
+		66.6%	12/18 	-3x=-3
+			Correct Input:   {x=$}  {x=-3/-3}  {-3x/-3=$}  {-3x/-3=-3/-3}  {x=1}  
+			Incorrect Input: {-3x/3=$}  {-3+3=$}  {-3x+3x=$}  {-3x+3=$}  {-3x/3x=$}  
+		80.0%	4/5 	-1x=-5
+			Correct Input:   {-x/-1=$}  {-x/-1=-5/-1}  {-1x/-1=$}  {-1x/-1=-5/-1}  
+			Incorrect Input: {-x/-1=-1/-5}  
+		66.6%	12/18 	-2x=-10
+			Correct Input:   {x=$}  {x=-10/-2}  {-2x/-2=$}  {-2x/-2=-10/-2}  {3x+ 10 - 3x=$}  {3x+ 10 - 3x=5x-3x}  {x=5}  
+			Incorrect Input: {2x=$}  {2=$}  {-2=$}  {$=-2}  {-=$}  {-2x/-2=10/-2}  
+	Standard Deviation:	0.141528210318
+
+-c0--c1+c2x=-c3--c4
+		100.%	2/2 	-31--31+5x=-16--31
+			Correct Input:   {5x=$}  {5x=15}  
+		100.%	2/2 	-38--38+7x=-24--38
+			Correct Input:   {7x=$}  {7x=14}  
+	Standard Deviation:	0.0
+
+c0x=c1x-c2
+		39.1%	18/46 	2x=3x-6
+			Correct Input:   {$=-6}  {2x-3x=-6}  {2x+6-6=$}  {2x+6-6=3x-6}  {2x-2x=$}  {2x-2x=3x-2x-6}  {2x-3x=$}  {2x-3x=3x-3x-6}  {$=3x-6+6}  {2x+6=3x-6+6}  {2x-3x=3x-6-3x}  
+			Incorrect Input: {3x=$}  {2x=$}  {x=$}  {-4x=$}  {5x=-6}  {3x+2x=-6}  {3x-3x=-6}  {2x-6=$}  {2x/3=$}  {2x/3x=$}  {2-2x+6=$}  {2x-2x=2x-3x}  {2x-2x=2x-3x-6}  {2x-2x=3x-2x}  {2x-2x=3x-6}  {2x-2x=3x}  {6-2x=$}  {2x-3x=3x-3x}  {2x-3x=3x-3}  {2x-3x=3x-2x}  {2=$}  {5x=$}  {2x+3x=$}  
+		77.7%	14/18 	3x=5x-10
+			Correct Input:   {3x-5x=$}  {3x-5x=5x-5x-10}  {3x-3x=$}  {3x-3x=5x-10-3x}  {3x-5x=-10}  {-2x=$}  {-2x=-10}  
+			Incorrect Input: {3x=$}  {3x-5x=5x-10+5x}  {3x-5x=5x-10}  {8x=$}  
+		79.5%	78/98 	7x=2x-10
+			Correct Input:   {7x-2x=$}  {7x-2x=2x-10-2x}  {7x-2x=-10}  {7x+10=$}  {7x+10=2x}  {$=2x-10+10}  {7x+10=2x-10+10}  {7x-2x=2x-2x-10}  {5x=$}  {5x=-10}  {$=-10}  {7x - 2x=$}  {7x - 2x=-10}  {$=2x-10-2x}  {$=2x}  {$=2x-2x-10}  
+			Incorrect Input: {7x-2x=10}  {17x=$}  {-3x=$}  {$=2x-2x+10}  {$=2x+2x-10}  {$=2x+2x+10}  {7x-10=$}  {7x=$}  {7x+2x=$}  {9x=$}  {17x=2x}  {-17x=2x}  {-3x=2x}  {3x=2x}  {7x=2x-10+10}  {7x-25x=2x-10-2x}  
+		66.6%	14/21 	4x=7x-3
+			Correct Input:   {4x-7x=$}  {4x-7x=-3}  {4x-7x=7x-7x-3}  {4x-7x=7x-3-7x}  {4x-4x=$}  {4x-4x=7x-3-4x}  
+			Incorrect Input: {4x/4=$}  {7x-4x=$}  {4x=$}  {4/4x=$}  {4x/7=$}  
+	Standard Deviation:	0.161686306165
+
+c0=c1x-c2
+		100.%	2/2 	0=3x-3
+			Correct Input:   {0+3=$}  {0+3=3x-3+3}  
+		60.6%	57/94 	20=5x-5
+			Correct Input:   {$=5x}  {25=5x}  {20+5=$}  {20+5=5x-5+5}  {20+5=5x}  {$=5x-5+5}  {20 + 5=$}  {20 + 5=5x - 5+ 5}  {$=-5}  {20-5x=-5}  {25=$}  
+			Incorrect Input: {15=$}  {4=$}  {$=5-x}  {-1=$}  {x=$}  {5=$}  {$=x}  {$=x-5}  {20=$}  {$=5}  {20=5x}  {20/5=5x}  {20-5=5x}  {4=5x}  {20-5=$}  {20/5=$}  {20+5=5x+5}  {20-5=5x-5+5}  {$=5x-5=5}  {20/ 5=$}  {20 - 5=$}  {20=-5}  
+		92.3%	12/13 	10=6x-2
+			Correct Input:   {10+2=$}  {10+2=6x-2+2}  {10+2=6x}  {12=$}  {12=6x}  {$=6x-2+2}  
+			Incorrect Input: {8=$}  
+		66.6%	4/6 	0=3x-9
+			Correct Input:   {$=3x}  {0+9=3x}  {0+9=$}  {0+9=3x-9+9}  
+			Incorrect Input: {0/0=$}  {0=3x}  
+		22.2%	4/18 	9=3x-12
+			Correct Input:   {$=3x}  {21=3x}  {9+12=3x}  
+			Incorrect Input: {3=$}  {-3=$}  {$=x}  {$=x - 12}  {-3=3x}  {3=3x}  {-9=3x}  {9=3x}  {9-12=$}  {9/3=3x}  {9-12=3x}  
+		50.0%	2/4 	22=4x-2
+			Correct Input:   {22+2=$}  {22+2=4x-2+2}  
+			Incorrect Input: {22-2=$}  {22+2=4x-2=2}  
+		85.7%	18/21 	10=3x-11
+			Correct Input:   {10+11=$}  {10+11=3x-11+11}  {$=3x-11+11}  {21=$}  {21=3x}  {10+11=3x+11-11}  
+			Incorrect Input: {10=$}  {10+1=3x-11+11}  {10+11=3x+11}  
+		80.0%	4/5 	20=4x-4
+			Correct Input:   {20+4=$}  {20+4=4x-4+4}  {$=4x-4+4}  {24=4x-4+4}  
+			Incorrect Input: {20-4=$}  
+		74.1%	23/31 	5=2x-1
+			Correct Input:   {6=$}  {6=2x}  {$=2x}  {5+1=$}  {5+1=2x-1+1}  {$=2x-1+1}  
+			Incorrect Input: {4=$}  {4=2x}  {2=2x}  {5-1=$}  {5+1=2x+1}  {$=2x-1}  
+		100.%	2/2 	4=6x-8
+			Correct Input:   {$=6x-8+8}  {4+8=6x-8+8}  
+		53.3%	8/15 	2=2x-4
+			Correct Input:   {$=-4}  {5=3+2x-2}  {$=2x}  {2+4=2x}  {2+4=$}  {2+4=2x-4+4}  {$=2x-4+4}  
+			Incorrect Input: {-2=$}  {x=-4}  {2=-4}  {$=3+2x-2}  {-2=2x}  {2=2x}  
+		100.%	2/2 	0=1x-6
+			Correct Input:   {6=$}  {6=x}  
+		100.%	4/4 	0=2x-10
+			Correct Input:   {$=2x-10+10}  {0+10=2x-10+10}  {0+10=$}  
+		88.8%	8/9 	18=4x-6
+			Correct Input:   {18+6=$}  {18+6=4x-6+6}  {$=4x}  {24=4x}  {$=4x-6+6}  {24=$}  
+			Incorrect Input: {18-6=$}  
+	Standard Deviation:	0.227525857412
+
+c0-c1=c2-x-c3
+		50.0%	2/4 	3-3=3-x-3
+			Correct Input:   {0=$}  {0=-x}  
+			Incorrect Input: {$=x}  {0=3x}  
+		50.0%	2/4 	7-7=7-x-7
+			Correct Input:   {$=-x}  {0=-x}  
+			Incorrect Input: {$=x}  {$=7x}  
+		70.5%	60/85 	3-7=7-x-7
+			Correct Input:   {-4=$}  {-4=-x}  {$=-x}  {-4=-1x}  
+			Incorrect Input: {-4=x}  {5=-x}  {-5=-x}  {4=-x}  {4=$}  {-4=-7-x}  {-4=-x-7}  {-4=o}  {-4=7-x=7}  {-=-x}  {-4=x-x}  {3=-x}  {$=x}  {-4=-x*-1}  {-4*-1=$}  {-4/-1=$}  
+		68.2%	56/82 	5-6=6-x-6
+			Correct Input:   {-1=$}  {-1=-x}  {$=-x}  {-1=-1x}  
+			Incorrect Input: {x=$}  {$=1}  {$=x}  {1=$}  {-1=x}  {$=0--x}  {-1=0-x}  {-1=12-x}  
+		84.2%	48/57 	1-9=9-x-9
+			Correct Input:   {-8=$}  {-8=-x}  {1+-9=$}  {1+-9=9-x-9}  {$=-x}  
+			Incorrect Input: {-8=x}  {$=x/-1}  {-8/-1=$}  {1+-9=9/-9}  {$=x}  {8=-x}  {8=$}  
+	Standard Deviation:	0.131178194766
+
+c0+c1=c2x
+		100.%	8/8 	10+2=6x
+			Correct Input:   {12=$}  {12=6x}  
+		80.0%	4/5 	10+11=3x
+			Correct Input:   {21=$}  {21=3x}  
+			Incorrect Input: {$=x}  
+		100.%	2/2 	9+12=3x
+			Correct Input:   {$=3x}  {21=3x}  
+		75.0%	6/8 	5+1=2x
+			Correct Input:   {6=$}  {6=2x}  
+			Incorrect Input: {$=2x/2}  {$=2*x/2}  
+		76.9%	10/13 	18+6=4x
+			Correct Input:   {24=$}  {24=4x}  
+			Incorrect Input: {24=4}  {24=x}  
+		40.0%	2/5 	2+4=2x
+			Correct Input:   {6=$}  {6=2x}  
+			Incorrect Input: {$=x}  {$=2x/2}  {6/2=$}  
+		100.%	2/2 	0+9=3x
+			Correct Input:   {x+9-x=$}  {x+9-x=4x-x}  
+		100.%	4/4 	20+5=5x
+			Correct Input:   {25=$}  {25=5x}  
+	Standard Deviation:	0.197074925491
+
+c0=c1+x
+		56.1%	243/433 	9=4+x
+			Correct Input:   {9-4=$}  {9-4=4-4+x}  {5=$}  {5=x}  {9-4=x}  {9-4=4+x-4}  {9-4=(4+x)-4}  {$=x}  {$=4+x-4}  {5=4-4+x}  {$=4}  {9-x=4}  {9-x=$}  {9 - 4=$}  {9 - 4=4 - 4 + x}  {$=4-4+x}  {-x+9=4}  {5=4 - 4 + x}  {5=x+4-4}  {$=x+4-4}  {9-4=x+4-4}  {9 - 4=4 + x - 4}  {5=1x}  {9 - x=4}  {9-4=4 - 4 + x}  {9-4=4+x -4}  
+			Incorrect Input: {x=$}  {9=$}  {5=0 + x}  {$=9-4}  {$=5}  {4-4=0 9-4=5=$}  {$=x=}  {4-4=0=$}  {4-4=$}  {$=0}  {9-4=5}  {9-4=4-4}  {9-4=4-4=0}  {9-4=x=5}  {$=-4}  {-4=$}  {5=0}  {5=0+x}  {$=4+x}  {$=4x}  {9+4=$}  {94=$}  {13=$}  {$=13}  {5=4+4+0}  {4=$}  {4x=$}  {9+x=$}  {9-4=5-x}  {9-4=5+x}  {4+9=$}  {4-x=$}  {x-4=$}  {$=4+5}  {$=9-5}  {9+4=13=$}  {9+4`2=x}  {9+4x=x}  {9-4=5=x}  {9 - 4 = 5=x}  {x-9=$}  {x+9=4}  {$=4 +5}  {$=4 + 5}  {5=4}  {5=5}  {5=04}  {5=1}  {5=6}  {5=3}  {5=9}  {5=8}  {5=9-4}  {$=9}  {x=4}  {3=$}  {o=x}  {2.25=x}  {3=x}  {x=x}  {4=x}  {4+5=$}  {$=x=5}  {9=4+x-4}  {9-0=4+x-4}  {$=4+4-x}  {9=x+4-4}  {$=4-x}  {9-4=x-4}  {9x=4+x-4}  {9-9=4+x-4}  {9+4=4+x-4}  {9=4=x=$}  {9=4=x=x}  {$=x - 4}  {9-4=4+5}  {9-4=4-4=x}  {4-9=4+x-4}  {9-=4+x-4}  {x+4-4=$}  {4+x-4=$}  {0=$}  {-9=$}  {+4=$}  {1=$}  {9-4=4-4+X}  {6=$}  {9-4=-4}  {9-4=4=+-4}  {5=4+9}  
+		66.6%	12/18 	7=18+x
+			Correct Input:   {$=18}  {-x+7=18}  {7-18=$}  {7-18=x}  {$=18-18+x}  {7-18=18-18+x}  {$=18+x-18}  {7-18=18+x-18}  {-11=$}  {-11=18-18+x}  
+			Incorrect Input: {x=$}  {-7+x=18}  {11=$}  {7-18=-x}  {7=18=$}  {7=$}  
+		63.9%	234/366 	10=5+x
+			Correct Input:   {5=$}  {5=x}  {10-5=$}  {10-5=5-5+x}  {$=x}  {10-5=x}  {10 - 5=x}  {$=5}  {10-x=5}  {5=5-5+x}  {10-5=5+x-5}  {10 -5=$}  {10 -5=x}  {$=5-5+x}  {10 - 5=$}  {10 - 5=5 - 5 + x}  {-x+10=$}  {-x+10=5}  {5=5}  {10 - 5=5+x-5}  {$=5+x-5}  {$=x+5-5}  {10-5=x+5-5}  {$=5+ x -5}  {10 -5=5+ x -5}  {10-x=$}  {5=5 -5 + x}  {$=5 + x - x}  {$=5 + x - 5}  {10 - 5=5 + x - 5}  {$=5+x -5}  {10-5=5+x -5}  
+			Incorrect Input: {x=$}  {$=10}  {x=5}  {X=5}  {10-5=5-5}  {10-5=5+x}  {10-5=0+x}  {10-5=5-x}  {10-5=5}  {5=10}  {5=10+x}  {5=10x}  {$=5+5=10}  {$=x=10}  {;i=$}  {10=$}  {$=5+5}  {10=5}  {5=5}  {the answer=5}  {5+x=5}  {10=5+5=5}  {5+5=10=5}  {x=5=5}  {x-10=$}  {$=5+x}  {10-10+x=5-5+x}  {10-5=`0-5}  {10-5=10-5}  {10 + 5=x}  {105=x}  {15=x}  {X=$}  {$=2}  {2=$}  {50=x}  {$=5 + 5}  {10=5+x-5}  {10=5+x=5}  {5+ x -5=$}  {10=5+ x -5}  {$=-5}  {-5=$}  {10-5=-5}  {5+5=5}  {10-y=$}  {10-=$}  {10-10=$}  {5=5-5=x}  {5=5-5=+x}  {5=5 -5 + 5}  {-5=5}  {10+x=5}  {2=x}  {$=5x}  {5+5=$}  {$=x x5}  {10=10=$}  {x=10=$}  {$=5 + x}  {10-5=5+5+x}  {10-5=5+5-x}  {10-5=5x}  
+		62.2%	38/61 	7=2+x
+			Correct Input:   {7-x=$}  {7-x=2}  {5=$}  {5=x}  {7 - 2=$}  {7 - 2=2 - 2 + x}  {$=2}  {$=x}  {7-2=x}  {7-2=$}  {7-2=2-2+x}  {7=$}  {7=2+x}  {$=2+x-2}  {7-2=2+x-2}  
+			Incorrect Input: {9=$}  {7=$}  {7-x=x}  {$=2 - 2}  {7 + 2=$}  {7=2}  {7=x}  {7-2=2-2}  {7-2=2+x}  {7-2=2-2+x\}  {7/2=$}  {x=$}  {$=5}  {7=x=2}  {7+x=2}  {7+5=2}  {7x=$}  {7/=$}  
+		71.9%	231/321 	6=3+x
+			Correct Input:   {3=$}  {3=x}  {6-3=$}  {6-3=3-3+x}  {6-3=x}  {6-3=3+x-3}  {$=3}  {6-x=3}  {$=x}  {$=3+x-3}  {$=3-3+x}  {6 - 3=$}  {6 - 3=3 - 3 + x}  {3=3}  {6-3=3-3 + x}  {$=3+x}  {6-3=3+x}  {$=x+3-3}  {6-3=x+3-3}  {3=3-3+x}  {$=3+x-x}  {6-x=3+x-x}  
+			Incorrect Input: {x=$}  {6-3=3+x}  {6-3=3+3}  {6-3=3-3}  {6-3=3}  {6-3=6-3}  {3=0}  {3=0+x}  {6-6=$}  {6=3-3+x}  {6=$}  {6+x=$}  {$=3+x}  {3=3}  {x=3}  {$=x=3}  {3+x=6=3}  {6+x=3=3}  {6+3-3=$}  {6=3}  {$=+3}  {$=3+3+x}  {6x=$}  {$=}  {6=3+x-3}  {-3=x}  {2=x}  {6-3=3-3=x}  {$=9}  {9=$}  {9=x}  {3-6=x}  {2=$}  {6-3x=$}  {3=-3+6}  {3=3+3}  {3=3+0}  {3=6}  {3=6+-3}  {3=3-3+3}  {3=3-3+#}  {3=3-3+6}  {3=3-3+0}  {$=3+-3}  {6-3=3-x+3}  {6-3=3-3-x}  {6-3=3+3-x}  {$=3x-3}  {6-3=3x}  {6+3=3+x-x}  {6-3=3+x-x}  {6-3x=3+x-x}  
+		60.8%	14/23 	6=15+x
+			Correct Input:   {$=15}  {-x+6=15}  {6-15=$}  {6-15=15-15+x}  {$=15-15+x}  {$=15+x-15}  {6-15=15+x-15}  
+			Incorrect Input: {-x=$}  {6=$}  {x=$}  {15+x-15=$}  {15-15=$}  {$=15-15}  {16-15=15-15+x}  
+		100.%	4/4 	5=1+x
+			Correct Input:   {4=$}  {4=x}  {$=1+x-1}  {5-1=1+x-1}  
+		50.0%	28/56 	8=1+x
+			Correct Input:   {8-x=$}  {8-x=1}  {$=1}  {8-1=$}  {8-1=1-1+x}  {8-1x=$}  {8-1x=1+x-x}  {$=x}  {7=x}  {8-1=x}  {$=1x}  {8-1=1x}  {$=1+x-1}  {8-1=1+x-1}  {7=$}  
+			Incorrect Input: {8-x+x=$}  {$=1+x}  {8-x-8=$}  {$=1+x-8}  {8-x=1+x}  {8-x=1-x}  {8=$}  {9=$}  {8-1x=7-x}  {8-1x=7x}  {x=$}  {$=7}  {-1=$}  {$=-1}  {1x=$}  {$=8}  {$=9}  {8=1x}  {1+8=1x}  {$=1+x+1}  
+		66.6%	14/21 	3=11+x
+			Correct Input:   {$=11}  {3-x=11}  {-8=$}  {-8=x}  {3 - x=11}  {3 - 11=$}  {3 - 11=11 - 11+ x}  {$=11+x-11}  {3-11=11+x-11}  {3-11=$}  {3-11=11-11+x}  
+			Incorrect Input: {3=$}  {3=11}  {-3=11}  {x-11=$}  {x=$}  {3-11=11-11}  
+	Standard Deviation:	0.132836720794
+
+c0=c1x+(-c2)
+		100.%	2/2 	10=6x+(-2)
+			Correct Input:   {10+2=$}  {10+2=6x+(-2)+2}  
+		50.0%	2/4 	18=4x+(-6)
+			Correct Input:   {18-(-6)=$}  {18-(-6)=4x}  
+			Incorrect Input: {12=$}  {18-6=$}  
+	Standard Deviation:	0.25
+
+c0x+c1=c2x
+		86.1%	93/108 	2x+6=3x
+			Correct Input:   {6=$}  {6=1x}  {$=3x-2x}  {6=3x-2x}  {2x-2x+6=3x-2x}  {2x+6-2x=$}  {2x+6-2x=3x-2x}  {6=x}  {2x=$}  {2x=3x-6}  {2x+6-6=$}  {2x+6-6=3x-6}  {2x-2x+6=$}  {$=1x}  {6=3x - 2x}  {2x + 6 - 2x=$}  {2x + 6 - 2x=3x - 2x}  {$=x}  {2x +6-2x=$}  {2x +6-2x=3x-2x}  
+			Incorrect Input: {-2x=$}  {$=3x}  {$=5x}  {3x-2x=$}  {3x-2=1x}  {3x-2x=1x}  {3x-2x+6=1x}  {6=2x+3x}  {6=2x-3x}  {2x-6-2x=3x-2x}  {2x+6-2x=3x-6}  {2x+6=$}  {2x=3x+6}  
+		89.6%	78/87 	4x+3=7x
+			Correct Input:   {3=$}  {3=3x}  {4x-4x+3=$}  {4x-4x+3=7x-4x}  {4x+3-4x=$}  {4x+3-4x=7x-4x}  {4x=$}  {4x=7x-3}  {3=7x - 4x}  {$=7x-3}  {4x+3-3=7x-3}  {$=3x}  {4x+3-3=$}  {3=7x-4x}  {$=7x-4x}  {-4x+4x+3=$}  {-4x+4x+3=7x-4x}  
+			Incorrect Input: {$=4x}  {$=7x}  {$=x}  {x+3=$}  {4x/4=$}  {4+3=$}  {4x+3=$}  {$=7}  {4x+3-4x=7x+3-4x}  
+		84.0%	79/94 	3x+10=5x
+			Correct Input:   {3x=$}  {3x=5x-10}  {$=2x}  {10=2x}  {3x+10-3x=$}  {3x+10-3x=5x-3x}  {10=$}  {10=5x - 3x}  {3x+10-10=$}  {3x+10-10=5x-10}  {3x-3x+10=$}  {3x-3x+10=5x-3x}  {$=5x-3x}  {10=5x-3x}  {3x+10-3x=2x}  {-3x+3x+10=$}  {-3x+3x+10=5x-3x}  {$=0}  {3x+10-3x=0}  
+			Incorrect Input: {3x=5x-3x}  {3x=5x+3x}  {3x+10-3x=5x-2x}  {10=5x + 3x}  {8x=$}  {3x+10-10=5x}  {10=5x+3x}  {3x-10+3x=$}  {3x-10-3x=$}  {$=5x}  {3x+10-3x=10}  {3x+10=$}  {3x+1q=$}  {3x+10-3x=0}  
+		58.3%	14/24 	7x+10=2x
+			Correct Input:   {10=$}  {10=2x-7x}  {$=2x-7x}  {7x+10-7x=2x-7x}  {7x-7x+10=2x-7x}  {7x+10-10=$}  {7x+10-10=2x-10}  {7x+10-7x=$}  {$=-5x}  {10=-5x}  
+			Incorrect Input: {$=2x}  {$=2x/2}  {7x+10/7=$}  {7x/7+10=$}  {$=x}  {$=9x}  {9x=$}  {-10=-5x}  
+	Standard Deviation:	0.124045539125
+
+c0+x-x=c1-x
+		66.6%	2/3 	1+x-x=9-x
+			Correct Input:   {1=$}  {1=9-x}  
+			Incorrect Input: {1=9-x+x}  
+		100.%	2/2 	7+x-x=7-x
+			Correct Input:   {7=$}  {7=7-x}  
+	Standard Deviation:	0.166666666667
+
+c0/-c1=x
+		33.3%	2/6 	2/-1=x
+			Correct Input:   {-2=$}  {-2=x}  
+			Incorrect Input: {2=$}  {2x=$}  {1=$}  
+		36.3%	4/11 	3/-1=x
+			Correct Input:   {-3=$}  {-3=x}  {$=x}  
+			Incorrect Input: {2=$}  {x=$}  {3=$}  {-3=0}  {2=x}  {3=x}  
+		84.2%	16/19 	6/-1=x
+			Correct Input:   {$=x}  {-6=x}  {-6=$}  
+			Incorrect Input: {6=$}  
+		66.6%	4/6 	10/-5=x
+			Correct Input:   {-2=$}  {-2=x}  {$=x}  
+			Incorrect Input: {5=$}  {-5=x}  
+		78.7%	26/33 	7/-1=x
+			Correct Input:   {-7=$}  {-7=x}  {$=x}  
+			Incorrect Input: {7=$}  {1=$}  {0=$}  {1=x}  {7=x}  
+		100.%	6/6 	5/-1=x
+			Correct Input:   {-5=$}  {-5=x}  
+	Standard Deviation:	0.24478353807
+
+c0x+c1=c2x+c3
+		100.%	2/2 	8x+1=2x+13
+			Correct Input:   {8x - 2x +1=$}  {8x - 2x +1=2x - 2x +13}  
+		66.6%	2/3 	5x+2=2x+8
+			Correct Input:   {5x - 2x + 2=$}  {5x - 2x + 2=2x-2x+8}  
+			Incorrect Input: {5x + 2x + 2=$}  
+		100.%	4/4 	7x+10=5x+2
+			Correct Input:   {7x-5x+10=$}  {7x-5x+10=5x-5x+2}  {7x - 5x +10=$}  {7x - 5x +10=5x - 5x + 2}  
+		50.0%	2/4 	9x+3=3x+21
+			Correct Input:   {9x - 3 +3=$}  {9x - 3 +3=3x + 21 - 3}  
+			Incorrect Input: {9x - 3 +3=3x + 3x +21}  {9x - 3 +3=3x - 3x +21}  
+	Standard Deviation:	0.216506350946
+
+c0x=c1-c2
+		100.%	2/2 	2x=7-3
+			Correct Input:   {2x=$}  {2x=4}  
+		100.%	2/2 	7x=18-4
+			Correct Input:   {7x=$}  {7x=14}  
+		100.%	2/2 	3x=15-3
+			Correct Input:   {3x=$}  {3x=12}  
+		83.3%	10/12 	2x=6-2
+			Correct Input:   {2x=$}  {2x=4}  
+			Incorrect Input: {$=2}  {x=$}  
+		100.%	10/10 	3x=7-1
+			Correct Input:   {3x=$}  {3x=6}  {$=6}  {3x / 3=6}  
+		100.%	2/2 	5x=13-3
+			Correct Input:   {5x=$}  {5x=10}  
+		100.%	2/2 	2x=2-10
+			Correct Input:   {2x=$}  {2x=-8}  
+		100.%	2/2 	6x=13-1
+			Correct Input:   {6x=$}  {6x=12}  
+		100.%	2/2 	4x=9-1
+			Correct Input:   {4x=$}  {4x=8}  
+		100.%	6/6 	9x=21-3
+			Correct Input:   {9x=$}  {9x=18}  
+		100.%	4/4 	3x=11-8
+			Correct Input:   {$=3}  {3x=3}  {3x=$}  
+		85.7%	12/14 	4x=6-2
+			Correct Input:   {4x=$}  {4x=4}  
+			Incorrect Input: {2x=$}  {x=$}  
+		100.%	2/2 	3x=5-2
+			Correct Input:   {3x=$}  {3x=3}  
+		100.%	2/2 	3x=8-2
+			Correct Input:   {3x=$}  {3x=6}  
+		100.%	2/2 	3x=10-4
+			Correct Input:   {3x=$}  {3x=6}  
+	Standard Deviation:	0.0527882195185
+
+c0=c1(x)+c2(-c3)
+		50.0%	2/4 	9=3(x)+3(-4)
+			Correct Input:   {$=3x + 3(- 4)}  {9=3x + 3(- 4)}  
+			Incorrect Input: {$=3x + -21}  {$=3x + 21}  
+		100.%	2/2 	20=4(x)+4(-1)
+			Correct Input:   {$=4x+-4}  {20=4x+-4}  
+		64.2%	18/28 	20=5(x)+5(-1)
+			Correct Input:   {20=$}  {20=5x-5}  {$=5x-5}  {20=5x+-5}  
+			Incorrect Input: {20=5x+4}  {20=5x+}  {20-=$}  {20=10(x)=+(-1)}  {20=10(x)\+(-1)}  {20=10(x)+(-1)}  {$=9x}  {4=$}  {8=$}  {$=5x=-5}  
+	Standard Deviation:	0.210280020627
+
+-c0/-c1=-x/-c2
+		89.1%	90/101 	-4/-1=-x/-1
+			Correct Input:   {4=$}  {4=x}  {$=1x}  {4=1x}  {$=x}  {$=-x/-1}  {4=-x/-1}  
+			Incorrect Input: {$=-1x}  {-4=$}  {4=1}  {-1=$}  {1=$}  {-.25=$}  
+		40.0%	2/5 	-2/-1=-x/-1
+			Correct Input:   {2=$}  {2=x}  
+			Incorrect Input: {x=$}  {$=1}  {1=$}  
+		80.3%	82/102 	-1/-1=-x/-1
+			Correct Input:   {1=$}  {1=x}  {1=1x}  {$=x}  
+			Incorrect Input: {0=$}  {-1=$}  {-2=$}  {x=$}  {1=-x}  {0=x}  {2=$}  {+1=$}  
+		93.2%	96/103 	-8/-1=-x/-1
+			Correct Input:   {8=$}  {8=x}  {$=x}  {$=-x/-1}  {-8/-1=-x/-1}  
+			Incorrect Input: {-8=$}  {8=-1x}  {8=-1}  {8=1}  {-9=$}  {8=8}  
+	Standard Deviation:	0.21110950394
+
+c0-x+x=c1+x
+		63.6%	7/11 	7-x+x=2+x
+			Correct Input:   {$=x+2}  {7=x+2}  {$=2+x}  {7=2+x}  {7=$}  
+			Incorrect Input: {x=$}  {$=x}  {5=$}  
+		75.0%	6/8 	6-x+x=3+x
+			Correct Input:   {6=$}  {6=3+x}  
+			Incorrect Input: {$=3x}  {6=3+x-x}  
+		66.6%	6/9 	8-x+x=1+x
+			Correct Input:   {8=$}  {8=1+x}  
+			Incorrect Input: {8-1=$}  {8=1+x-1}  {8=1+x+1}  
+	Standard Deviation:	0.0480462060365
+
+c0=-c1+c2x+c3
+		50.0%	2/4 	24=-6+4x+6
+			Correct Input:   {$=4x}  {24/4=4x}  
+			Incorrect Input: {24/4x=4x}  {4x/24=4x}  
+		64.2%	18/28 	10=-8+6x+6
+			Correct Input:   {10=$}  {10=-2+6x}  {$=-8+6x}  {4=-8+6x}  {$=-2+6x}  {10=-2 + 6x}  
+			Incorrect Input: {10=-2x+6}  {$=-8+12x}  {$=2+6x}  {10=-3}  {10=-2}  {12=$}  {2=$}  {$=x}  {$=6x}  
+	Standard Deviation:	0.0714285714286
+
+c0+c1=x-c2+c3
+		100.%	2/2 	1+2=x-2+2
+			Correct Input:   {3=$}  {3=x}  
+		100.%	4/4 	3+4=x-4+4
+			Correct Input:   {7=$}  {7=x}  
+	Standard Deviation:	0.0
+
+c0x-c1=-c2
+		75.0%	24/32 	7x-38=-24
+			Correct Input:   {7x=$}  {7x=14}  {7x=-24+38}  {7x-38+38=$}  {7x-38+38=-24+38}  {$=- 24}  {7x=- 24}  {$=-24+38}  
+			Incorrect Input: {7x=-62}  {7x=-52}  {7x=62}  {7x=-60}  {7x=-14}  {7x=-}  {7x-38=38=$}  
+		14.8%	4/27 	5x-31=-16
+			Correct Input:   {5x+31-31=$}  {5x+31-31=-16+31}  {5x=$}  {5x=15}  
+			Incorrect Input: {5x+31-31=-16-31}  {5x+31-31=-16=31}  {$=-16}  {$=25}  {$=7}  {$=6}  {$=8}  {$=-47}  {5x=11}  {5x=1}  {5x=2}  {5x=3}  {5x=4}  {5x=5}  {5x=6}  {5x=7}  {5x=8}  {5x=9}  {5x=10}  {5x=12}  {5x=13}  {5x=14}  
+		84.6%	22/26 	3x-1=-10
+			Correct Input:   {3x-1+1=$}  {3x-1+1=-10+1}  {3x+1-1=$}  {3x+1-1=-10+1}  {3x - 1 + 1=$}  {3x - 1 + 1=-10 +1}  {3x - 1 + 1=-10 + 1}  
+			Incorrect Input: {3x-1+1=-10=1}  {3x+1-1=-10-1}  {3x+1-1=-10_1}  {3x+1-1=-10+2}  
+	Standard Deviation:	0.308883863137
+
+c0x-c1+c2=c3x+c4
+		66.6%	4/6 	6x-8+8=2x+8
+			Correct Input:   {6x=$}  {6x=2x+8}  
+			Incorrect Input: {$=10x}  {6x=2x}  
+		83.3%	10/12 	10x-6+6=4x+6
+			Correct Input:   {10x=$}  {10x=4x+6}  
+			Incorrect Input: {10x-4x=$}  {10x=4x}  
+		66.6%	6/9 	3x-9+9=6x+9
+			Correct Input:   {3x=$}  {3x=6x+9}  
+			Incorrect Input: {3x=6x/3}  {3x=6x+9-9}  {3x=6x}  
+		82.3%	14/17 	8x-9+9=5x+9
+			Correct Input:   {8x=$}  {8x=5x+9}  
+			Incorrect Input: {8x=5x}  {8x-5x=$}  
+	Standard Deviation:	0.0809565910045
+
+c0=c1x+c2(-c3)
+		85.7%	6/7 	20=5x+5(-1)
+			Correct Input:   {20=$}  {20=5x-5}  {$=5x-5}  {$=5x + -5}  {20=5x + -5}  
+			Incorrect Input: {20=5x+4}  
+		100.%	2/2 	9=3x+3(-4)
+			Correct Input:   {$=3x + -12}  {9=3x + -12}  
+	Standard Deviation:	0.0714285714286
+
+c0x-c1x+c2=c3x-c4x+c5
+		100.%	2/2 	8x-2x+1=2x-2x+13
+			Correct Input:   {6x + 1=$}  {6x + 1=13}  
+		100.%	2/2 	2x-5x+1=5x-5x+10
+			Correct Input:   {-3x + 1=$}  {-3x + 1=10}  
+		100.%	4/4 	7x-5x+10=5x-5x+2
+			Correct Input:   {2x+10=$}  {2x+10=2}  {2x + 10=$}  {2x + 10=2}  
+		100.%	2/2 	5x-2x+2=2x-2x+8
+			Correct Input:   {3x + 2=$}  {3x + 2=8}  
+	Standard Deviation:	0.0
+
+c0-c1=(-x+c2)-c3
+		100.%	2/2 	8-2=(-x+2)-2
+			Correct Input:   {6=$}  {6=-x}  
+		100.%	2/2 	13-6=(-x+6)-6
+			Correct Input:   {7=$}  {7=-x}  
+	Standard Deviation:	0.0
+
+c0+c1=-c2+c3+c4x
+		85.7%	6/7 	5+1=-1+1+2x
+			Correct Input:   {6=$}  {6=2x}  
+			Incorrect Input: {6=1=2x}  
+		100.%	2/2 	10+2=-2+2+6x
+			Correct Input:   {12=$}  {12=6x}  
+		100.%	2/2 	10+11=-11+11+3x
+			Correct Input:   {21=$}  {21=3x}  
+		100.%	14/14 	18+6=-6+6+4x
+			Correct Input:   {24=$}  {24=4x}  
+	Standard Deviation:	0.0618589574132
+
+c0x-c1x+c2=c3x-c4x
+		100.%	8/8 	2x-2x+6=3x-2x
+			Correct Input:   {6=$}  {6=x}  {6=1x}  
+		100.%	2/2 	7x-7x+10=2x-7x
+			Correct Input:   {10=$}  {10=-5x}  
+		100.%	6/6 	4x-4x+3=7x-4x
+			Correct Input:   {3=$}  {3=3x}  
+		80.0%	4/5 	3x-3x+10=5x-3x
+			Correct Input:   {10=$}  {10=2x}  
+			Incorrect Input: {1o=$}  
+	Standard Deviation:	0.0866025403784
+
+c0-c1=c2-c3-x
+		87.1%	68/78 	1-9=9-9-x
+			Correct Input:   {-8=$}  {-8=-x}  {$=-x}  
+			Incorrect Input: {-8=0}  {-8=0x}  {8=$}  {$=x}  {-8=x}  
+		46.1%	6/13 	6-3=3-3-x
+			Correct Input:   {3=$}  {3=-x}  
+			Incorrect Input: {x=$}  {3=3}  {3=x}  {3=x3-3}  {3=3-3}  {$=x}  
+		80.2%	69/86 	3-7=7-7-x
+			Correct Input:   {-4=$}  {-4=-x}  {$=-x}  
+			Incorrect Input: {4=$}  {$=x}  {4=-x}  {-4=x}  {nnfnk=$}  {==================================$}  {-4=0}  {-4=7-7}  {-5=$}  
+		100.%	2/2 	7-7=7-7-x
+			Correct Input:   {0=$}  {0=-x}  
+		91.6%	44/48 	10-5=5-5-x
+			Correct Input:   {5=$}  {5=-x}  {$=-x}  {5=- x}  
+			Incorrect Input: {5=x}  {x=$}  
+		93.7%	45/48 	8-2=2-2-x
+			Correct Input:   {6=$}  {6=-x}  
+			Incorrect Input: {6=x}  {6=-4}  
+		78.2%	61/78 	5-6=6-6-x
+			Correct Input:   {-1=$}  {-1=-x}  {5-6=$}  {5-6=-x}  {$=-x}  
+			Incorrect Input: {-1=x}  {-1=-36-x}  {-1=-12-x}  {5-6=6-6-}  {$=x}  {-1=0x}  {1=$}  
+		88.0%	44/50 	13-6=6-6-x
+			Correct Input:   {7=$}  {7=-x}  {$=-x}  
+			Incorrect Input: {7=x}  {-7=$}  {7=0}  
+		50.0%	7/14 	3-5=5-5-x
+			Correct Input:   {3-5=$}  {3=$}  {3=5-x}  {3-5=-x}  {$=-x}  {-2=-x}  
+			Incorrect Input: {x=$}  {3-5=-2}  {3-5=x}  {3=5}  {3-5=5-5}  {$=x}  
+	Standard Deviation:	0.179102182941
+
+c0-x=c1+x-x
+		42.8%	3/7 	6-x=3+x-x
+			Correct Input:   {6-x=$}  {6-x=3}  
+			Incorrect Input: {6-x=3+x}  {6-x=6-x/x}  {6-x=x+-x}  {6-x=x-x}  
+		66.6%	6/9 	8-x=1+x-x
+			Correct Input:   {8-x=$}  {8-x=1+x-x}  {$=1}  {8-x=1}  
+			Incorrect Input: {x=$}  {8-x=1+x}  {8-z=$}  
+	Standard Deviation:	0.119047619048
+
+-x+c0-c1=c2-c3
+		66.6%	2/3 	-x+7-7=2-7
+			Correct Input:   {$=-5}  {-1x=-5}  
+			Incorrect Input: {-1=-5}  
+		89.8%	106/118 	-x+6-6=15-6
+			Correct Input:   {-x=$}  {-x=9}  {-1x=$}  {-1x=9}  {$=9}  
+			Incorrect Input: {-x/1=$}  {$=10}  {-x=-9}  {-6=$}  {-x=8}  {-x=7}  {$=7}  {$=8}  {-x/-1=$}  {x=9}  {x=$}  {-1x/-1=$}  
+		100.%	2/2 	-x+8-8=1-8
+			Correct Input:   {-x=$}  {-x=-7}  
+		88.7%	110/124 	-x+7-7=18-7
+			Correct Input:   {-x=$}  {-x=11}  {$=11}  {-x+7-7=$}  {-x+7-7=18-7}  {-1x=$}  {-1x=11}  
+			Incorrect Input: {0=$}  {-x=6}  {-x=8}  {-x=7}  {-x=9}  {-x=12}  {-x/1=11}  {-1x=8}  {x=$}  {-x=5}  {-1x/-1=$}  {-x=11/-1}  
+		94.4%	118/125 	-x+3-3=11-3
+			Correct Input:   {-x=$}  {-x=8}  {$=8}  {-1x=8}  {-x=11-3}  
+			Incorrect Input: {x=$}  {-x=7}  {-x=-8}  {x=8}  {$=9}  {-x=9}  
+	Standard Deviation:	0.113480800265
+
+c0x=-c1+c2
+		88.8%	32/36 	5x=-16+31
+			Correct Input:   {5x=$}  {5x=-16+31}  {-30+5x-1=$}  {-30+5x-1=-16}  {$=15}  {x=15}  {5x=15}  
+			Incorrect Input: {x=$}  {5x=25}  
+		80.0%	8/10 	7x=-24+38
+			Correct Input:   {7x=$}  {7x=14}  
+			Incorrect Input: {x=$}  {7x=-14}  
+		100.%	2/2 	5x=-15+30
+			Correct Input:   {5x=$}  {5x=15}  
+	Standard Deviation:	0.0818174890162
+
+c0-c1+x=c2-c3
+		28.5%	2/7 	6-6+x=0-6
+			Correct Input:   {x=$}  {x=-6}  
+			Incorrect Input: {0=$}  {x=0}  {x=6}  {x=x}  
+		100.%	4/4 	3-3+x=0-3
+			Correct Input:   {x=$}  {x=-3}  {$=-3}  
+		100.%	6/6 	7-7+x=2-7
+			Correct Input:   {x=$}  {x=-5}  
+		100.%	2/2 	1-1+x=9-1
+			Correct Input:   {x=$}  {x=8}  
+		100.%	2/2 	8-8+x=2-8
+			Correct Input:   {x=$}  {x=-6}  
+		85.7%	6/7 	2-2+x=0-2
+			Correct Input:   {x=$}  {x=-2}  
+			Incorrect Input: {$=0}  
+		100.%	4/4 	5-5+x=6-5
+			Correct Input:   {x=$}  {x=1}  
+		100.%	4/4 	3-3+x=5-3
+			Correct Input:   {x=$}  {x=2}  
+		66.6%	2/3 	3-3+x=3-3
+			Correct Input:   {x=$}  {x=0}  
+			Incorrect Input: {x=3}  
+		100.%	4/4 	2-2+x=6-2
+			Correct Input:   {x=$}  {x=4}  
+		100.%	2/2 	7-7+x=7-7
+			Correct Input:   {$=0}  {x=0}  
+		100.%	2/2 	10-10+x=5-10
+			Correct Input:   {x=$}  {x=-5}  
+		100.%	2/2 	13-13+x=6-13
+			Correct Input:   {x=$}  {x=-7}  
+		100.%	2/2 	3-3+x=7-3
+			Correct Input:   {x=$}  {x=4}  
+	Standard Deviation:	0.196485620599
+
+c0x+c1=-c2
+		100.%	2/2 	6x+8=-10
+			Correct Input:   {6x + 8 - 8=$}  {6x + 8 - 8=-10 -8}  
+		100.%	6/6 	6x+14=-4
+			Correct Input:   {6x+14-14=$}  {6x+14-14=-4-14}  
+		45.4%	5/11 	6x+6=-12
+			Correct Input:   {6=$}  {6=-12-6x}  {6x+6-6=$}  {6x+6-6=-12-6}  
+			Incorrect Input: {x=$}  {1=$}  {6=-12}  {6=x}  {6=12}  
+	Standard Deviation:	0.257129738613
+
+c0+c1=-c2+c3x+c4
+		100.%	14/14 	10+11=-11+3x+11
+			Correct Input:   {21=$}  {21=3x}  
+		100.%	10/10 	18+6=-6+4x+6
+			Correct Input:   {$=-6+4x+6}  {24=-6+4x+6}  {24=$}  {24=4x}  {$=4x}  
+		90.9%	10/11 	5+1=-1+2x+1
+			Correct Input:   {6=$}  {6=2x}  
+			Incorrect Input: {6=x}  
+		100.%	4/4 	10+2=-2+6x+2
+			Correct Input:   {$=6x}  {12=6x}  {12=$}  
+		100.%	6/6 	22+2=-2+4x+2
+			Correct Input:   {24=$}  {24=4x}  {$=4x}  
+	Standard Deviation:	0.0363636363636
+
+c0=c1*x-c2*c3
+		100.%	4/4 	20=5*x-1*5
+			Correct Input:   {20=$}  {20=5x-5}  
+		100.%	2/2 	20=5*x-5*1
+			Correct Input:   {20=$}  {20=5x-5}  
+	Standard Deviation:	0.0
+
+c0+c1=c2x+c3-c4
+		100.%	2/2 	18+6=4x+6-6
+			Correct Input:   {24=$}  {24=4x}  
+		100.%	6/6 	10+11=3x+11-11
+			Correct Input:   {21=$}  {21=3x}  {10+11=$}  {10+11=3x+11-11}  
+		100.%	2/2 	7+1=2x+1-1
+			Correct Input:   {8=$}  {8=2x}  
+	Standard Deviation:	0.0
+
+c0+c1=c2x-c3+c4+c5
+		100.%	2/2 	1+8=6x-8+15+8
+			Correct Input:   {9=$}  {9=6x+15}  
+		100.%	2/2 	1+8=6x-8+8+15
+			Correct Input:   {9=$}  {9=6x+15}  
+	Standard Deviation:	0.0
+
+c0x-c1=c2
+		60.8%	14/23 	2x-8=8
+			Correct Input:   {2x-8+8=$}  {2x-8+8=8+8}  {2x=$}  {2x=8+8}  {2x=16}  
+			Incorrect Input: {2x-8-8=$}  {2x-8=$}  {2x/2-8=$}  {$=8-8}  {2x=8}  {2x=0}  
+		100.%	4/4 	4x-2=6
+			Correct Input:   {4x=$}  {4x=8}  {4x-2+2=$}  {4x-2+2=6+2}  
+		94.4%	17/18 	2x-5=5
+			Correct Input:   {2x-5+5=$}  {2x-5+5=5+5}  {2x - 5 + 5=$}  {2x - 5 + 5=5+ 5}  {2x - 5 + 5=5 + 5}  
+			Incorrect Input: {2x+5+5=$}  
+		80.0%	4/5 	2x-1=3
+			Correct Input:   {2x=$}  {2x=4}  {2x-1+1=$}  {2x-1+1=3+1}  
+			Incorrect Input: {2x4=$}  
+		85.7%	24/28 	2x-2=14
+			Correct Input:   {2x-2+2=$}  {2x-2+2=14+2}  {2x - 2 + 2=$}  {2x - 2 + 2=14 + 2}  {2x=$}  {2x=14+2}  
+			Incorrect Input: {2x+2=$}  {2x-2=$}  {x=$}  {2x-2+2=14}  
+		66.6%	2/3 	2x-4=6
+			Correct Input:   {2x=$}  {2x=6 - -4}  
+			Incorrect Input: {2x=6 - 4}  
+		28.5%	2/7 	2x-2=4
+			Correct Input:   {-2=$}  {-2=4-2x}  
+			Incorrect Input: {x=$}  {$=4}  {-x=$}  {-2=4}  
+		66.6%	2/3 	10x-20=0
+			Correct Input:   {10x-20+20=$}  {10x-20+20=0+20}  
+			Incorrect Input: {10-20+20=$}  
+		100.%	4/4 	2x-10=0
+			Correct Input:   {2x-10+10=$}  {2x-10+10=0+10}  
+		81.0%	30/37 	3x-6=3
+			Correct Input:   {3x-6+6=$}  {3x-6+6=3+6}  {3x - 6 + 6=$}  {3x - 6 + 6=3 + 6}  {3x=$}  {3x=9}  {3x=3+6}  {3x=3 + 6}  
+			Incorrect Input: {3x-6+6=3-6}  {3x-6-6=$}  {6=$}  {3x-6+6=3}  {3x=-3}  
+		64.2%	18/28 	14x-6=8
+			Correct Input:   {14x=$}  {14x=14}  {14x=8+6}  {-6=$}  {-6=8-14x}  {14x-6+6=$}  {14x-6+6=8+6}  {$=14}  {14x-6+6=14}  
+			Incorrect Input: {14x-6-7=$}  {14x-6-6=$}  {14x6+6=$}  {14x=8}  {14x=8-8}  {x=$}  {-6=8}  {$=8}  {14x=8-6}  
+		45.4%	10/22 	10x-10=20
+			Correct Input:   {10x-10+10=$}  {10x-10+10=20+10}  {$=30}  {10x=30}  {10x=$}  {10x=20+10}  
+			Incorrect Input: {10x-10+10=20}  {x=$}  {$=20}  {$=12}  {$=0}  {0x=$}  {$=3}  {10x=20-10}  {10x=20/10}  {10x=20*10}  {10x=20}  
+		100.%	2/2 	2x-6=0
+			Correct Input:   {2x-6+6=$}  {2x-6+6=0+6}  
+		100.%	12/12 	6x-6=0
+			Correct Input:   {6x - 6 + 6=$}  {6x - 6 + 6=0 + 6}  {6x-6+6=$}  {6x-6+6=0+6}  
+		100.%	7/7 	4x-1=7
+			Correct Input:   {4x-1+1=$}  {1+4x-2=$}  {1+4x-2=7}  {4x-1+1=7+1}  
+		69.4%	50/72 	8x-12=4
+			Correct Input:   {8x-12+12=$}  {8x-12+12=4+12}  {$=4+12}  {-12=$}  {-12=4-8x}  {8x=$}  {8x=4+12}  {8x=16}  {8x - 12 + 12=$}  {8x - 12 + 12=4 + 12}  
+			Incorrect Input: {8x-12+12=4}  {8x-12+12=x}  {8x-12+12=-x}  {8x-12-12=$}  {12-12-8x=$}  {$=4}  {8x-12=12=4+12}  {8x-12+2=4+12}  {8x-12-8=$}  {8x-12+12=8x-24}  {8x-12+12=8x+24}  {-12=4}  {8x=-8}  {8x=-}  {8x - 12 + 12=4}  
+		92.3%	12/13 	2x-3=1
+			Correct Input:   {$=4}  {2x=4}  {2x=$}  {2x-3+3=$}  {2x-3+3=1+3}  
+			Incorrect Input: {23-3+3=$}  
+		92.3%	12/13 	3x-9=0
+			Correct Input:   {3x-9+9=$}  {3x-9+9=0+9}  {3x - 9 + 9=$}  {3x - 9 + 9=0 + 9}  
+			Incorrect Input: {3x-9+9=9+9}  
+	Standard Deviation:	0.203515584257
+
+-c0=x
+		100.%	1/1 	-11=x
+			Correct Input:   {$=x}  
+		0.0%	0/1 	-1=x
+			Incorrect Input: {x=$}  
+		0.0%	0/2 	-5=x
+			Incorrect Input: {x=$}  {-5=$}  
+		0.0%	0/5 	-6=x
+			Incorrect Input: {x=$}  {$=-6}  {6=$}  {$=x}  {-6 + 6=$}  
+		0.0%	0/5 	-3=x
+			Incorrect Input: {x=$}  {-3=$}  {3=$}  {-x=$}  
+	Standard Deviation:	0.4
+
+c0x+c1-c2x=c3x-c4x
+		97.7%	44/45 	2x+6-2x=3x-2x
+			Correct Input:   {6=$}  {6=1x}  {6=x}  {$=1x}  {$=x}  
+			Incorrect Input: {-6=$}  
+		97.5%	40/41 	3x+10-3x=5x-3x
+			Correct Input:   {10=$}  {10=2x}  {$=2x}  {$=5x-3x}  {10=5x-3x}  
+			Incorrect Input: {10/2=$}  
+		100.%	6/6 	7x+10-7x=2x-7x
+			Correct Input:   {10=$}  {10=-5x}  
+		96.2%	26/27 	4x+3-4x=7x-4x
+			Correct Input:   {3=$}  {3=3x}  {$=3x}  
+			Incorrect Input: {$=3x/3}  
+	Standard Deviation:	0.0133336362801
+
+-c0+c1=c2x-c3+c4
+		85.7%	6/7 	-14+8=6x-8+8
+			Correct Input:   {-6=$}  {-6=6x}  
+			Incorrect Input: {-4=$}  
+		100.%	2/2 	-7+4=3x-4+4
+			Correct Input:   {-3=$}  {-3=3x}  
+	Standard Deviation:	0.0714285714286
+
+-c0--c1+c2x=c3--c4
+		100.%	2/2 	-6--6+3x=3--6
+			Correct Input:   {3x=$}  {3x=9}  
+		100.%	2/2 	-10--10+10x=20--10
+			Correct Input:   {10x=$}  {10x=30}  
+	Standard Deviation:	0.0
+
+c0=(c1x+c2)
+		33.3%	2/6 	6=(2x+2)
+			Correct Input:   {4=$}  {4=2x}  
+			Incorrect Input: {3=$}  {$=(x+2)}  {8=$}  {84=$}  
+		80.0%	4/5 	5=(2x+1)
+			Correct Input:   {$=2x}  {4=2x}  {$=(2x + 1)-1}  {5-1=(2x + 1)-1}  
+			Incorrect Input: {$=(2x + 1)/2}  
+	Standard Deviation:	0.233333333333
+
+c0x-c1x=c2
+		100.%	6/6 	4x-2x=6
+			Correct Input:   {2x=$}  {2x=6}  
+		100.%	6/6 	12x-2x=20
+			Correct Input:   {10x=$}  {10x=20}  
+		100.%	10/10 	6x-2x=8
+			Correct Input:   {4x=$}  {4x=8}  
+		100.%	6/6 	5x-3x=10
+			Correct Input:   {2x=$}  {2x=10}  
+		66.6%	2/3 	9x-3x=18
+			Correct Input:   {6x=$}  {6x=18}  
+			Incorrect Input: {3x=$}  
+		100.%	4/4 	10x-4x=6
+			Correct Input:   {6x=$}  {6x=6}  
+	Standard Deviation:	0.12422599875
+
+c0-c1+-x=c2-c3
+		100.%	6/6 	7-7+-x=18-7
+			Correct Input:   {-x=$}  {-x=11}  
+		66.6%	2/3 	3-3+-x=11-3
+			Correct Input:   {-x=$}  {-x=8}  
+			Incorrect Input: {-x=85}  
+		100.%	4/4 	6-6+-x=15-6
+			Correct Input:   {-x=$}  {-x=9}  
+	Standard Deviation:	0.157134840264
+
+c0=c1-c2+x
+		50.0%	2/4 	3=3-3+x
+			Correct Input:   {3=$}  {3=x}  
+			Incorrect Input: {$=3}  {3=3-3+3}  
+		76.1%	16/21 	5=4-4+x
+			Correct Input:   {$=x}  {5=x}  {5=$}  {5=4 - 4 + x}  
+			Incorrect Input: {1=$}  {$=1-1-x}  {1=x}  {4=$}  {4 - 4 + x=$}  
+		60.6%	20/33 	5=5-5+x
+			Correct Input:   {$=5-5+x}  {5=5-5+x}  {5=$}  {5=x}  {5=5-5+1x}  
+			Incorrect Input: {$=5-5}  {10=5-5+x}  {10=$}  {x=$}  {0=$}  {10-5=x=$}  {5=5-5+10}  {5=5-5}  {5=0}  {5=}  {5=10}  {5=-10}  
+	Standard Deviation:	0.107564119057
+
+c0/c1=c2*x/c3
+		100.%	2/2 	6/2=2*x/2
+			Correct Input:   {3=$}  {3=x}  
+		66.6%	2/3 	20/4=4*x/4
+			Correct Input:   {5=$}  {5=x}  
+			Incorrect Input: {3=$}  
+		80.0%	4/5 	16/8=8*x/8
+			Correct Input:   {2=$}  {2=x}  {$=x}  
+			Incorrect Input: {8=x}  
+		28.5%	2/7 	18/3=3*x/3
+			Correct Input:   {6=$}  {6=x}  
+			Incorrect Input: {3=$}  {4=$}  {2=$}  {8=$}  {5=$}  
+		100.%	2/2 	16/2=2*x/2
+			Correct Input:   {8=$}  {8=x}  
+	Standard Deviation:	0.264576845226
+
+x+c0=c1
+		66.8%	238/356 	x+7=2
+			Correct Input:   {x=$}  {x=-5}  {x+7-7=$}  {x+7-7=2-7}  {x=2-7}  {x=- 5}  {$=2-7}  {7=$}  {7=2-x}  {x + 7 - 7=$}  {x + 7 - 7=2 - 7}  {$=-5}  {x+7-7=-5}  {7-7+x=$}  {7-7+x=2-7}  {7+x-7=$}  {7+x-7=2-7}  {x + 7 -7=$}  {x + 7 -7=2 - 7}  {x-7+7=$}  {x-7+7=2-7}  
+			Incorrect Input: {x=2}  {x=7}  {x=5}  {x=9}  {x=13}  {- 7=$}  {$=- 7}  {2-7=$}  {$=-}  {2 + -7=$}  {-7=$}  {$=-7}  {$=-2}  {x+7-7=7-2}  {x +7=$}  {7=x+2}  {x=7-2}  {7=2}  {7=x=2}  {7-2=$}  {7=x-2+-..}  {7=x-2}  {7=5}  {x=7-7=$}  {2=$}  {7=x}  {7-7=$}  {x+7-2=$}  {X+7-7=$}  {-5=$}  {x=1}  {x=3}  {x=4}  {x=6}  {x=x}  {x=x5}  {x=5x}  {$=x}  {x=28}  {x=7+2}  {5=$}  {x=-7}  {x=0...29}  {$=-6}  {$=-9}  {$=9}  {x+7-7=9}  {x+7-7=-9}  {x+7=$}  {7-7+x=7-2}  {x+7-7=]}  {$=2}  {7+x-7=2}  {7x=$}  {x=7x-2}  {x=-}  {7+2=$}  {x=-9}  {x=7=2}  {x+7-7=cbgh}  {x+7-7=65}  {x+7-=$}  {x+7-7=-2}  {x+7-7=2x}  {x+7-7=2}  {x+7-7=x}  {x+7-7=x-2}  {x+7-7=7}  {-x=$}  {x7=$}  {7x-7=$}  {ggggg=$}  {x-7+7=2+7}  {x-7+7=9}  
+		66.6%	4/6 	x+10=5
+			Correct Input:   {10=$}  {10=-x+5}  {x=$}  {x=-5}  
+			Incorrect Input: {10=5}  {10=-x}  
+		75.4%	233/309 	x+7=7
+			Correct Input:   {x+7-7=$}  {x+7-7=7-7}  {x=$}  {x=7-7}  {x=0}  {$=0}  {7=$}  {7=7-x}  {x + 7 - 7=$}  {x + 7 - 7=7 -7}  {x+7-7=0}  {x + 7 - 7=7 - 7}  {1x=0}  {7-7+x=$}  {7-7+x=7-7}  {$=7-7}  
+			Incorrect Input: {x=7}  {x=7+7}  {x=-7}  {x-7=$}  {x+7-7=7}  {X+7=$}  {X=$}  {7-7=$}  {7+7=$}  {7+x=$}  {$=7}  {7x=$}  {x7=$}  {7=x}  {7=7-7-x}  {1=$}  {x=7-7=$}  {x=14}  {0+7=$}  {0+7-7=$}  {x+7-7=x=0}  {$=14}  {$=-7}  {x+=$}  {x+7-7=7x}  {-x=$}  {x+7=$}  {x+7-7=-7}  {x+7-7=-x}  {x+7-7=-}  {x=1}  {x=o}  {7=7+x}  {7=x+7}  {x + 7=$}  {/7=$}  {/ 7=$}  {x7/7=$}  {x7 / 7=$}  {Divide by 7=$}  {\ 7=$}  {- 7=$}  {7x / 7=$}  {DIVIDE BY THE NUMBER 7=$}  {7 / 7=$}  {x - 7=$}  
+		100.%	2/2 	x+5=6
+			Correct Input:   {x=$}  {x=1}  
+		74.3%	235/316 	x+3=5
+			Correct Input:   {x=$}  {x=2}  {x+3-3=$}  {x+3-3=5-3}  {x=5-3}  {$=5-3}  {3=$}  {3=5-x}  {x + 3 - 3=$}  {x + 3 - 3=5 - 3}  {$=2}  {x+3-3=2}  {$=5-x}  {x-x+3=5-x}  {3-3+x=5-3}  {$=5 -3}  {3 - 3 + x=5 -3}  {x + 3 -3=$}  {x + 3 -3=5 - 3}  {3+x-3=$}  {3+x-3=5-3}  
+			Incorrect Input: {x=2=$}  {$=x=2}  {-3=$}  {$=-3}  {3=5}  {x=3-5}  {x=3+5}  {2+3=$}  {$=5}  {x+3-3=5}  {$=x}  {2=$}  {x+3=$}  {2+3=2}  {x+3=2}  {5+3=2}  {3+2=2}  {x==$}  {=$}  {12423123123123=$}  {1=$}  {circle=$}  {$=life}  {all your base belong to me=$}  {fnvfjve hksdhbvdhbdvsdfhbvhkusdhbvkhjegbqerjavhoiuqerhv=$}  {$=eriwjrqc27h5vtyh gu54ws zekjbcfgeudgqeuweqoufg unew hebguoborgb3u 4gf42r84fg234ug2regh80ewrbfg3qreuihfq-u3i 476rg834rwu Gur8t4cdv6fbptg][-9oimk}  {5-3=$}  {x=x}  {x=3}  {$=5+5}  {$=5+5x}  {ffgwfeg=$}  {x+3+3=$}  {x+3-3=5-5}  {x+3-3=3-5}  {3-x-3=$}  {$=5-}  {x=5-x}  {3-5=5-x}  {5-3=5-x}  {3-x-3=5-x}  {5-x-5=5-x}  {5+x-5=5-x}  {5+x+5=5-x}  {x+x+3=5-x}  {x=-5}  {x-3=$}  {+3=$}  {$=+3}  {x=8}  {3x=$}  {$=8}  {2x+3=$}  {x=5-5}  {x=0}  {x=1}  {$=5-5}  
+		80.0%	4/5 	x+3=7
+			Correct Input:   {x=$}  {x=4}  {$=7-3}  {x=7-3}  
+			Incorrect Input: {x-3=7-3}  
+		66.0%	200/303 	x+3=0
+			Correct Input:   {x+3-3=$}  {x+3-3=0-3}  {x=$}  {x=0-3}  {x=-3}  {x + 3 - 3=$}  {x + 3 - 3=0 - 3}  {$=0-3}  {3=$}  {3=0-x}  {$=-3}  {x+3-3=-3}  {3-3+x=$}  {3-3+x=0-3}  {3 - 3 + x=$}  {3 - 3 + x=0 - 3}  
+			Incorrect Input: {x=3-3=$}  {-3+3=0=$}  {x+3=3+x=$}  {x+3=0=$}  {3+0=x=$}  {x+0=3=$}  {x=0=3=$}  {x=0+3=$}  {x=3+0}  {-3+3=$}  {$=0}  {3+-3=$}  {x+3-3=0}  {x+3-3=x}  {x+3-3=3-3=x}  {x+3-3=3-3+x}  {x+3-3=3-3}  {x = -3=$}  {-3=$}  {x + 3=$}  {x +3=$}  {x+3=$}  {- 3=$}  {x - 3=$}  {-3 + 3=$}  {x + 3 - 3=0}  {3-0=$}  {x+3-0=$}  {x+0=$}  {x-0=$}  {x.=0-3}  {0=$}  {3=x}  {3=0}  {3=3}  {3=0+x}  {3=x+0}  {3=x+3}  {x+3-3=0-0}  {-3-3\=$}  {-3-3=$}  {$=x}  {x3=$}  {x=3}  {x+=$}  {3-3+x=0-0}  {x+3-3=0+3}  {x=3=$}  {x=3=0-3}  {x=3-3=0-3}  {x+3+3=$}  {3-0+x=$}  {$=3-0}  {x=0}  {x=03}  {x=0.3}  {x=0.}  {x=3-0}  {x=0+3}  {x-3=$}  {x0=$}  {$=x0}  {x=0=$}  {o=$}  {$=o}  {3x=$}  
+		100.%	4/4 	x+1=3
+			Correct Input:   {x=$}  {x=2}  {x+1-1=$}  {x+1-1=3-1}  
+		80.3%	253/315 	x+3=3
+			Correct Input:   {x=$}  {x=0}  {x+3-3=$}  {x+3-3=3-3}  {x=3-3}  {x + 3 - 3=$}  {x + 3 - 3=3 - 3}  {(x+3)-3=$}  {(x+3)-3=3-3}  {3=$}  {3-3+x=$}  {3-3+x=3-3}  {x=3 -3}  {$=3-3}  {3=3-x}  {x + 3 -3=$}  {x + 3 -3=3 - 3}  {$=0}  {x+3-3=0}  {1x=0}  {x + 3 - 3=3 -3}  
+			Incorrect Input: {3=x}  {3-3=$}  {3-3=x}  {3=3}  {3-3+x=3x}  {x+3-3=0-3}  {x+3-3=0+3}  {x=3}  {x++6633633=$}  {0+3=$}  {$=3}  {0=$}  {2+3=$}  {3+3=$}  {3+3-3=$}  {$=3+3-3}  {x-3=$}  {x=3+3}  {x+3-3=3+3}  {x + 3 _3=$}  {x + 3 -3=x +3 - 3}  {x + 3 -3=x + 3 - 3}  {x=1}  {x=x}  {1=$}  {x=-3}  {x+3-3=3}  {9=$}  {-6=$}  {x+3=$}  {x+3-3=3-3+x}  {x-=$}  {-3=$}  {$=-3}  {x-3=3-3}  {3x=$}  {3=6}  {x=6}  
+		79.6%	208/261 	x+2=0
+			Correct Input:   {x+2-2=$}  {x+2-2=0-2}  {x=$}  {x=0-2}  {x=-2}  {2=$}  {2=0-x}  {x + 2 - 2=$}  {x + 2 - 2=0 - 2}  {$=0-2}  {x-2+2=0-2}  {2-2+x=$}  {2-2+x=0-2}  {x  + 2 - 2=$}  {x  + 2 - 2=0 - 2}  {$=-2}  {1x=-2}  {x+2-2=-2}  {2 - 2 +x=$}  {2 - 2 +x=0 - 2}  
+			Incorrect Input: {x+2=$}  {x+2-2=2-0}  {x=2}  {x=--2}  {2-0=$}  {2+0=$}  {x-0=$}  {x+0=$}  {x+2-2=x}  {x+2-2=0}  {x=2-0}  {x+22=$}  {x+=$}  {2=0}  {2-2=$}  {+2-2=0-2}  {x-2=0-2}  {x2=$}  {$=x}  {x+2x=$}  {x-22-2=$}  {$=0}  {x+2-2=2-2}  {x  + 2 - 2=0}  {x  + 2 - 2=x}  {2x=$}  {x + 2=$}  {2 - 2=$}  {+2=$}  {$=+2}  {$=0+2}  {x+2=0-2}  {x=0}  {2-2+x=0-6}  {x=o-2}  
+		100.%	2/2 	x+2=3
+			Correct Input:   {x=$}  {x=1}  
+		100.%	2/2 	x+1=9
+			Correct Input:   {x=$}  {x=8}  
+		69.4%	234/337 	x+6=0
+			Correct Input:   {x=$}  {x=-6}  {x+6-6=$}  {x+6-6=0-6}  {x=0-6}  {x + 6 - 6=$}  {x + 6 - 6=0 - 6}  {x=0 - 6}  {$=-6}  {x+6-6=-6}  {x-6+6=$}  {x-6+6=0-6}  {6=$}  {6=0-x}  {6-6+x=$}  {6-6+x=0-6}  {6+x-6=$}  {6+x-6=0-6}  
+			Incorrect Input: {x=0}  {x=x}  {-6+6=$}  {$=0}  {-5-=$}  {x+6=$}  {-6-6=$}  {x-6=$}  {-6=$}  {x=6}  {x=1}  {x=2}  {x=3}  {x=4}  {x=5}  {x=7}  {x+6-6=6-0}  {x+6-6=6-6}  {6-0=$}  {x-0=$}  {0-6=$}  {x+6-6=x}  {x+6-6=0}  {x+6-0=$}  {x+-0=$}  {x+0-6=$}  {$=6+0}  {x+6-6=0+6}  {x=0 + x}  {x=0 + 6}  {-7=$}  {-7+6=$}  {x==$}  {6x=$}  {6/6=$}  {$=x}  {x-6+6=0+6}  {x-6+6=6+0}  {x-6+6=x=0}  {$=0-}  {6=6}  {6=6x}  {6-x=$}  {6-x=6}  {-6=x=$}  {-6+x=$}  {6 +x=$}  {6 +x=-6}  {x=6-0}  {x=0+6}  {$=6}  {9=$}  {x=-6=$}  {-6=-6}  
+		69.1%	208/301 	x+6=3
+			Correct Input:   {x+6-6=$}  {x+6-6=3-6}  {x=$}  {x=-3}  {x=3-6}  {$=3-6}  {6=$}  {6=3-x}  {x + 6 - 6=$}  {x + 6 - 6=3 - 6}  {x+6-6=-3}  {x+6 -6=$}  {x + 6 -  6=$}  {x + 6 -  6=3 - 6}  {$=-3}  {1x=$}  {1x=-3}  {6+x-6=$}  {6+x-6=3-6}  
+			Incorrect Input: {x=6-6=$}  {x=6-3}  {6-6=$}  {6-3=$}  {$=3-3}  {6-6=3-6}  {x+6=$}  {$=3+}  {x+6-6=3+6}  {x+6-6=3+12}  {x+6-6=3+3}  {x+6-6=3+9}  {3=$}  {6=3-3+x}  {6=6-6+x}  {$=3}  {x+6-6=6-3}  {$=0}  {x+3=$}  {6=x}  {6=3}  {6=9}  {6=x+6}  {6=x+3}  {-3=$}  {6=6}  {$=x+6-6}  {x=6+3}  {3+6=$}  {x+6-6=x}  {x+6-6=1}  {x=9}  {6=3+x}  {purple=$}  {$=blue}  {$=321}  {$=9}  {x=3}  {x=x}  {j=$}  {$=k}  {x+6=-3=$}  {x+6-6=-6-3}  {x + 6 -  6=3}  {x-6=$}  {-6=3-6}  {x+6-3=$}  {$=x}  {$=6}  {x+6-3=-3}  {x+3-6=$}  {x=1}  {x=6}  {x=-9}  {x+6-6=3}  {6x-6=$}  {6+x-6=3}  {xx=$}  
+		75.3%	245/325 	x+2=6
+			Correct Input:   {x=$}  {x=4}  {2-2+x=$}  {2-2+x=6-2}  {x=6-2}  {x+2-2=$}  {x+2-2=6-2}  {$=6-2}  {2=$}  {2=6-x}  {x+ 2-2=$}  {x+ 2-2=6-2}  {$=4}  {x + 2 - 2=$}  {x + 2 - 2=6 - 2}  {x+2-2=4}  {1x=4}  {x-2+2=$}  {x-2+2=6-2}  
+			Incorrect Input: {x+2-2=6}  {x+2-2=2-6}  {$=8}  {4=$}  {2=3}  {2=8}  {2=4}  {2=2}  {2=10}  {2=7}  {2=6}  {2-6=$}  {6-2=$}  {6+2=$}  {x+2-6=$}  {x+2-2=0-2}  {x+2-2=2-2}  {x+ 2-6=$}  {x+ -2-2=$}  {x+ 2-2=2-6}  {4+2=$}  {$=6}  {x+2=$}  {$=6x}  {+2+6=$}  {x+2+6=$}  {$=x}  {x=2+6}  {x=6}  {x=2-6}  {x=4=$}  {x4=$}  {x=-4}  {x=12}  {x+2-2=6-6}  {x+2-2=6+6}  {x+2-2=6-x}  {x+2-2=0}  {x+2-2=-2}  {-2=$}  {-6=$}  {x=8}  {2x=$}  {x-2+2=6+2}  {x=+4}  {x=2-6\}  {$=-2}  
+	Standard Deviation:	0.127812316023
+
+c0x+c1=c2x-c3+c4
+		66.6%	12/18 	7x+10=2x-10+10
+			Correct Input:   {$=2x}  {7x+10=2x}  {7x+10=$}  {7x-2x=2x}  
+			Incorrect Input: {7x+10-10=2x}  {17x=$}  {7x+10/7=$}  {7x/7+10=$}  {7x-10=$}  {7x+10-7x=$}  
+		100.%	2/2 	2x+6=3x-6+6
+			Correct Input:   {2x+6=$}  {2x+6=3x}  
+	Standard Deviation:	0.166666666667
+
+c0=c1x
+		94.2%	196/208 	10=2x
+			Correct Input:   {5=$}  {5=x}  {10/2=$}  {10/2=2x/2}  {10/2=x}  {$=2x/2}  {$=x}  {10/ 2=$}  {10/ 2=2x/2}  {10 / 2=$}  {10 / 2=2x / 2}  {$=2x / 2}  {3x+10-3x=$}  {3x+10-3x=5x-3x}  
+			Incorrect Input: {2/10=2x/2}  {10/10=$}  {x=$}  {$=5}  {10/2=10/2x}  {10/2=2x/10}  {10x/ 10=$}  {$=2}  {2=$}  {10-2=$}  {10/2=2/x}  {$=/2}  
+		100.%	14/14 	4=2x
+			Correct Input:   {2=$}  {2=x}  {18=$}  {18=3(2x+2)}  {$=2x/2}  {4/2=2x/2}  
+		92.7%	64/69 	24=4x
+			Correct Input:   {$=x}  {24/4=x}  {6=$}  {6=x}  {24/4=$}  {24/4=4x/4}  {$=4x/4}  {24/ 4=$}  {24/ 4=4x/ 4}  {24/4=4/4x}  
+			Incorrect Input: {20=$}  {24/ 4=4x ? 4}  {24/-4=$}  {24/6=$}  {24=$}  
+		0.0%	0/5 	7=1x
+			Incorrect Input: {7=$}  {x=$}  {$=7}  {7x=$}  {1x=$}  
+		95.6%	66/69 	25=5x
+			Correct Input:   {$=x}  {5=x}  {5=$}  {$=5x/5}  {25/5=5x/5}  {25/5=$}  {25/5=x}  {25/ 5=$}  {25/ 5=5x/ 5}  {25/5=5/5x}  
+			Incorrect Input: {25=$}  {25=x}  {25/5=5/5}  
+		92.4%	208/225 	6=2x
+			Correct Input:   {3=$}  {3=x}  {$=2x}  {6/2=2x}  {6/2=$}  {6/2=x}  {$=2x/2}  {6/2=2x/2}  {$=2/2*x}  {6/2=2/2*x}  {$=x}  {6/2=2*x/2}  {6/2=2/2x}  
+			Incorrect Input: {6-2=$}  {6=$}  {6/2=2x/}  {6/6=2/2*x}  {x=$}  {$=3}  {6/2=3}  {6*2=$}  {6*2/2=$}  {6/2=2*2}  {6/2=2/2/x}  {6/2=2/2}  {4=$}  {$=2x}  {6/2=2x/6}  
+		92.9%	118/127 	18=3x
+			Correct Input:   {6=$}  {6=x}  {18/3=$}  {18/3=x}  {18/3=3x/3}  {$=3x/3}  {$=x}  {$=3x / 3}  {18 / 3=3x / 3}  {$=3*x/3}  {18/3=3*x/3}  
+			Incorrect Input: {x=$}  {18 / x=$}  {18/=$}  {18=$}  {18/3=3/3}  {$=/3}  {$=3x/x}  
+		0.0%	0/4 	2=1x
+			Incorrect Input: {2=$}  {$=x}  {2/1=$}  {$=1x/1}  
+		98.4%	64/65 	9=3x
+			Correct Input:   {9/3=$}  {9/3=3x/3}  {$=x}  {3=x}  {3=$}  {$=3x/3}  {9/3=x}  
+			Incorrect Input: {6=x}  
+		87.9%	102/116 	16=2x
+			Correct Input:   {16/2=$}  {16/2=2x/2}  {16/2=x}  {8=$}  {8=x}  {$=2x/2}  {$=x}  {$=2*x/2}  {16/2=2*x/2}  
+			Incorrect Input: {16*2=$}  {16-2=$}  {16+2=$}  {2-16=$}  {16/2=2/2}  {16=$}  {16-2x=$}  {2x=$}  {x=$}  {16/2=2x}  {16/2=2/x}  {4=$}  
+		69.5%	57/82 	21=3x
+			Correct Input:   {21/3=$}  {21/3=3x/3}  {7=$}  {7=x}  {$=3x/3}  {$=x}  {21/3=x}  {$=3x}  {21/3=3x}  
+			Incorrect Input: {21/=$}  {21/3x=$}  {$=3x/-3}  {21/-3=$}  {21=$}  {10=$}  {21/-=$}  {21/-3x=$}  {$=21/-3}  {$=3x/-1}  {$=-3/3x}  {$=3x}  {$=3x/}  {21=3x}  {21/=3x/}  {21/-3=3x/}  
+		96.0%	48/50 	12=3x
+			Correct Input:   {12/3=$}  {12/3=3x/3}  {$=3x/3}  {$=x}  {4=x}  {12/3=x}  {4=$}  
+			Incorrect Input: {12=3x/3}  {12/3=3x*3/3}  
+		0.0%	0/4 	1=1x
+			Incorrect Input: {1/1=$}  {1=$}  {1x=$}  
+		6.52%	3/46 	6=1x
+			Correct Input:   {6=$}  {6=x}  {$=x}  
+			Incorrect Input: {$=x}  {$=1x}  {6=$}  {6/1=$}  {$=1x/1x}  {$=1x/1}  {6/1x=$}  {$=1x/6}  {1=$}  {2=$}  {x=$}  {$=1/}  
+		0.0%	0/2 	5=1x
+			Incorrect Input: {5/1=$}  {5/1x=$}  
+		100.%	20/20 	8=2x
+			Correct Input:   {8/2=$}  {8/2=2x/2}  
+		96.8%	124/128 	8=4x
+			Correct Input:   {8/4=$}  {8/4=4x/4}  {8/4=x}  {2=$}  {2=x}  {$=4x/4}  {$=x}  {8/ 4=$}  {8/ 4=x}  {8 / 4=$}  {8 / 4=4x / 4}  
+			Incorrect Input: {8/-4=$}  {4=x}  {8-4=$}  
+		98.5%	66/67 	3=3x
+			Correct Input:   {$=x}  {1=x}  {3/3=$}  {3/3=3x/3}  {1=$}  {3/3=x}  {$=3x/3}  
+			Incorrect Input: {x=$}  
+		0.0%	0/3 	3=1x
+			Incorrect Input: {3/1=$}  {$=1/3}  {1/3=$}  
+		88.8%	120/135 	20=4x
+			Correct Input:   {20/4=$}  {20/4=4x/4}  {$=4x/4}  {5=$}  {5=x}  {$=x}  {20/4=x}  {20 / 4=$}  {20 / 4=4x / 4}  {$=4*x/4}  {20/4=4*x/4}  {20/4=4/4x}  
+			Incorrect Input: {20/20=$}  {$=/4}  {40=x}  {16=x}  {$=4}  {4=$}  {20=$}  {20*4=$}  {4.1=x}  {4.10=x}  {$=4x-4}  {$=4x\4}  {$=4x^4}  {20-4=$}  
+		94.7%	18/19 	12=4x
+			Correct Input:   {12/4=$}  {12/4=4x/4}  
+			Incorrect Input: {12=$}  
+		82.5%	132/160 	16=8x
+			Correct Input:   {16/8=$}  {16/8=8x/8}  {$=x}  {2=x}  {$=8/8x}  {16/8=8/8x}  {16/8=x}  {2=$}  {$=8x/8}  {16 / 8=$}  {16 / 8=8x / 8}  {$=8*x/8}  {16/8=8*x/8}  
+			Incorrect Input: {16-8=$}  {16/8=8/8+x}  {16/8=8/8-x}  {16/8=8/8}  {16=$}  {16-16=$}  {16/8=8x}  {$=36}  {8=x}  {-8=x}  {$=8x/8x}  {$=8x}  {8x=x}  {16=x}  {-8x=x}  {16x=x}  {x=x}  {2x=x}  {x=$}  {8x-8=$}  {$=8+x-8}  {$=8*x-8}  
+		86.2%	50/58 	12=6x
+			Correct Input:   {$=x}  {2=x}  {12/6=$}  {12/6=6x/6}  {2=$}  {12/6=x}  {$=6x/6}  
+			Incorrect Input: {12/6x=$}  {12=$}  {6=$}  {12=x}  {12/2=x}  {/6=$}  {$=6x}  
+	Standard Deviation:	0.40537481183
+
+c0x=c1--c2
+		66.6%	2/3 	2x=6--4
+			Correct Input:   {2x=$}  {2x=10}  
+			Incorrect Input: {2x=2}  
+		100.%	2/2 	2x=14--2
+			Correct Input:   {2x=$}  {2x=16}  
+		100.%	2/2 	3x=3--6
+			Correct Input:   {$=9}  {3x=9}  
+	Standard Deviation:	0.157134840264
+
+c0-c1=c2-c3-c4x
+		66.6%	2/3 	2-6=6-6-4x
+			Correct Input:   {-4=$}  {-4=-4x}  
+			Incorrect Input: {+6=$}  
+		100.%	2/2 	5-6=6-6-1x
+			Correct Input:   {-1=$}  {-1=-1x}  
+	Standard Deviation:	0.166666666667
+
+c0+c1=c2x+-c3+c4
+		100.%	4/4 	20+5=5x+-5+5
+			Correct Input:   {25=$}  {25=5x}  
+		66.6%	2/3 	18+6=4x+-6+6
+			Correct Input:   {24=$}  {24=4x}  
+			Incorrect Input: {24=4x+-1}  
+		100.%	2/2 	10+2=6x+-2+2
+			Correct Input:   {12=$}  {12=6x}  
+	Standard Deviation:	0.157134840264
+
+c0x=c1x+c2
+		50.0%	8/16 	3x=6x+9
+			Correct Input:   {$=6x-6x+9}  {3x-6x=6x-6x+9}  {3x-3x=$}  {3x-3x=6x-3x+9}  {3x-6x=$}  {3x-6x=6x+9-6x}  {$=6x}  {3x - 9=6x}  
+			Incorrect Input: {$=6x+9-6}  {3x-6=$}  {$=3x-6x}  {0x=6x-6x+9}  {9=6x-6x+9}  {0x+9=6x-6x+9}  {3x-3x=3x-6x+9}  {3x-6x=6x-9-6x}  
+		100.%	2/2 	9x=3x+18
+			Correct Input:   {9x - 3x=$}  {9x - 3x=18}  
+		84.6%	94/111 	5x=3x+10
+			Correct Input:   {$=10}  {2x=10}  {5x-3x=$}  {5x-3x=10}  {2x=$}  {5x-3x=3x-3x+10}  {5x-3x=3x+10-3x}  {5x-10=$}  {5x-10=3x}  {$=3x+10-5x}  {5x-5x=3x+10-5x}  {5x - 3x=$}  {5x - 3x=10}  {$=3x+10-3x}  {$=3x}  {$=3x+10-10}  {5x-10=3x+10-10}  
+			Incorrect Input: {5x+3x=$}  {$=-10}  {5x+10=$}  {5x=$}  {5x+3x=3x}  {5x-3x=3x}  {5x=3x}  {8x=$}  {$=1}  {5x+3x=3x+10}  {$=3x+1--3x}  {1x=10}  
+		76.9%	97/126 	12x=2x+20
+			Correct Input:   {$=2x-2x+20}  {12x-2x=2x-2x+20}  {12x-2x=$}  {10x=$}  {10x=20}  {12x-2x=2x+20-2x}  {12x - 2x=$}  {12x - 2x=20}  {$=2x+20-20}  {12x-20=2x+20-20}  {$=2x+20-2x}  {$=20}  {12x-20=$}  {12x-2x=2x + 20 - 2x}  {12x-2x=20}  {$=2x + 20 - 2x}  {12x - 2x=2x + 20 - 2x}  {$=2x}  {12x-2x=2x}  {12x-20=2x-20+20}  
+			Incorrect Input: {$=2x-2x-20}  {12x=$}  {12(x)=$}  {12-12(x)=$}  {12x=2x+20-20}  {12x-2=$}  {12x-2x=2x-2z+20}  {10=20}  {12x-2x=2x-2x-20}  {12x-2x=2x+2x-20}  {12x+ 2x=$}  {14x=20}  {12=$}  {1=$}  {$=2x-20-2x}  {12x-2x=2x}  {12x-2=2x+20-2x}  {12-2x=2x+20-2x}  {12-20=$}  
+		85.7%	18/21 	10x=4x+6
+			Correct Input:   {10x-4x=$}  {10x-4x=6}  {10x-4x=4x-4x+6}  {10x-4x=4x+6-4x}  {$=4x+6-4x}  {6x=$}  {6x=6}  
+			Incorrect Input: {10x+4x=$}  {6x=4x +6}  {6x=+6}  
+		81.5%	97/119 	6x=2x+8
+			Correct Input:   {$=8}  {4x=8}  {6x-2x=$}  {6x-2x=2x-2x+8}  {$=2x+8-8}  {6x-8=2x+8-8}  {6x-8=$}  {6x-8/2=2x+8}  {6x-2x=2x+8-2x}  {$=2x+8-2x}  {6x - 2x=$}  {6x - 2x=8}  {6x-2x=8}  {4x=$}  {6x - 2x=2x + 8 -2x}  
+			Incorrect Input: {6x-2x=2x-2-8}  {6x-2x=2x-2x-8}  {6x/2=$}  {6x-8/2=$}  {6x-8/2=2x+8/2}  {6x-2x=2x-2x}  {6x=$}  {x=$}  {3x=8}  {6x-2x=2x+8-2}  {6x=2x+8-8}  {6x+2x=$}  {6x_8=2x+8-8}  {$=2x-8}  {6x/6=$}  {$=10x}  {6x+8=2x+8-8}  
+		63.6%	14/22 	8x=5x+9
+			Correct Input:   {8x-9-8x=$}  {8x-9-8x=5x-8x}  {8x-8x=$}  {8x-8x=5x-8x+9}  {8x-5x=$}  {8x-5x=5x-5x+9}  {8x-5x=5x+9-5x}  {8x-9+9=$}  {8x-9+9=5x+9}  
+			Incorrect Input: {8x+5x=$}  {8x=$}  {$=5x-8x}  {8x-8x=8x-5x+9}  {8x-8x=8x+5x+9}  {8x-8x=5x+9}  
+		94.2%	82/87 	4x=2x+6
+			Correct Input:   {4x-2x=$}  {4x-2x=2x+6-2x}  {$=6}  {2x=6}  {$=2x+6-6}  {4x-6=2x+6-6}  {4x-2x=2x-2x+6}  {2x=$}  {2x=2x-2x+6}  {4x - 2x=6}  {$=2x + 6-2x}  {4x-2x=2x + 6-2x}  {4x - 2x=$}  {4x - 2x=2x - 2x + 6}  {4x-2x=6}  {$=2x + 6 - 2x}  {4x - 2x=2x + 6 - 2x}  {$=2x+6-2x}  {$=2x-2x+6}  {4x-6=$}  {4x-6=2x}  
+			Incorrect Input: {4x=$}  {4x - 2x=2x - 6 - 2x}  {4x-2x=2x}  
+	Standard Deviation:	0.151476224169
+
+c0+c1=c2x-c3+c4
+		100.%	4/4 	0+10=2x-10+10
+			Correct Input:   {10=$}  {10=2x}  
+		94.1%	16/17 	10+11=3x-11+11
+			Correct Input:   {21=$}  {21=3x}  {$=3x}  
+			Incorrect Input: {$=3x/3}  
+		94.1%	16/17 	5+1=2x-1+1
+			Correct Input:   {6=$}  {6=2x}  {$=2x}  
+			Incorrect Input: {6/2=$}  
+		100.%	4/4 	2+4=2x-4+4
+			Correct Input:   {6=$}  {6=2x}  
+		100.%	2/2 	0+3=3x-3+3
+			Correct Input:   {3=$}  {3=3x}  
+		66.6%	2/3 	4+8=6x-8+8
+			Correct Input:   {12=$}  {12=6x}  
+			Incorrect Input: {12/6=$}  
+		79.2%	42/53 	20+5=5x-5+5
+			Correct Input:   {25=$}  {25=5x}  {$=5x}  
+			Incorrect Input: {$=x}  {25=10x}  {25=-5x}  {25=5x-10}  {15=$}  {25=x}  {25/5=$}  {25=5x/5}  {15=5x}  
+		100.%	18/18 	7+1=2x-1+1
+			Correct Input:   {8=$}  {8=2x}  
+		100.%	2/2 	0+9=3x-9+9
+			Correct Input:   {9=$}  {9=3x}  
+		100.%	2/2 	20+4=4x-4+4
+			Correct Input:   {24=$}  {24=4x}  
+		85.7%	6/7 	10+2=6x-2+2
+			Correct Input:   {12=$}  {12=6x}  {$=6x}  
+			Incorrect Input: {142=6x}  
+		100.%	2/2 	18+6=4x-6+6
+			Correct Input:   {24=$}  {24=4x}  
+		100.%	2/2 	22+2=4x-2+2
+			Correct Input:   {$=4x}  {24=4x}  
+	Standard Deviation:	0.100809864965
+
+c0x-c1+c2=c3
+		40.0%	4/10 	10x-10+10=30
+			Correct Input:   {10x=$}  {10x=30}  
+			Incorrect Input: {10=$}  {30=$}  {-30=$}  {x=$}  {10x=40}  
+		68.2%	43/63 	2x-8+6=14
+			Correct Input:   {2x-2=$}  {2x-2=14}  {-2+2x=$}  {-2+2x=14}  {$=14-6}  {2x-8+6-6=14-6}  {2x-8=$}  {2x-8=14-6}  {2x-8+6-6=$}  {$=22}  {2x+6=22}  {2x - 2=$}  {2x - 2=14}  {2x -8 + 8 +6=$}  {2x -8 + 8 +6=14 + 8}  {2x-8+6+8=$}  {2x-8+6+8=14+8}  {2x-8=8}  {2x+6=$}  
+			Incorrect Input: {2x-14=$}  {-2+2x=14+-2}  {2x-8+-6=$}  {2x -2 +2=$}  {2x -14 + 14=$}  {2x -2 + 2=$}  {2x-2=14-2}  {2x-8+6+8-6=$}  {$=12}  {2x=$}  {$=6}  {$=20}  {2x-8=20}  {2x-8=6}  {2x-15=$}  
+		100.%	2/2 	14x-6+6=14
+			Correct Input:   {14x=$}  {14x=14}  
+	Standard Deviation:	0.245087223787
+
+c0x+c1-c2=-c3+c4
+		100.%	2/2 	5x+31-31=-16+31
+			Correct Input:   {5x=$}  {5x=15}  
+		100.%	2/2 	3x+1-1=-10+1
+			Correct Input:   {3x=$}  {3x=-9}  
+	Standard Deviation:	0.0
+
+c0-c1=c2+c3(x-c4)-c5
+		100.%	2/2 	10-1=1+3(x-4)-1
+			Correct Input:   {9=$}  {9=3(x-4)}  
+		100.%	2/2 	5-3=3+2(x-2)-3
+			Correct Input:   {2=$}  {2=2(x-2)}  
+	Standard Deviation:	0.0
+
+-c0+c1+c2x=c3+c4
+		100.%	4/4 	-1+1+4x=7+1
+			Correct Input:   {4x=$}  {4x=8}  
+		100.%	2/2 	-10+10+10x=20+10
+			Correct Input:   {$=30}  {10x=30}  
+		100.%	2/2 	-3+3+3x=3+3
+			Correct Input:   {3x=$}  {3x=6}  
+		100.%	4/4 	-6+6+14x=8+6
+			Correct Input:   {14x=$}  {14x=14}  {$=8+6}  {14x=8+6}  
+		100.%	10/10 	-2+2+2x=14+2
+			Correct Input:   {2x=$}  {2x=16}  
+		83.3%	10/12 	-6+6+3x=9+6
+			Correct Input:   {3x=$}  {3x=15}  
+			Incorrect Input: {3x/3=$}  {3/3x=$}  
+	Standard Deviation:	0.062112999375
+
+x=c0/-c1
+		90.9%	10/11 	x=9/-1
+			Correct Input:   {x=$}  {x=-9}  {$=-9}  
+			Incorrect Input: {x=9}  
+		86.3%	19/22 	x=11/-1
+			Correct Input:   {x=$}  {x=-11}  {$=-11}  
+			Incorrect Input: {x=11}  {$=10}  {$=11}  
+		100.%	2/2 	x=9/-3
+			Correct Input:   {x=$}  {x=-3}  
+		94.4%	17/18 	x=8/-1
+			Correct Input:   {x=$}  {x=-8}  {$=-8}  
+			Incorrect Input: {$=8}  
+	Standard Deviation:	0.0498697415609
+
+c0-c1-x=c2
+		80.0%	4/5 	3-3-x=8
+			Correct Input:   {-x=$}  {-x=8}  {$=8}  
+			Incorrect Input: {x=$}  
+		100.%	2/2 	7-7-x=11
+			Correct Input:   {-x=$}  {-x=11}  
+		100.%	4/4 	6-6-x=9
+			Correct Input:   {-x=$}  {-x=9}  {$=9}  
+	Standard Deviation:	0.0942809041582
+
+-c0+c1x+c2=-c3+c4
+		100.%	8/8 	-30+5x+30=-15+30
+			Correct Input:   {5x=$}  {5x=15}  
+		88.0%	22/25 	-31+5x+31=-16+31
+			Correct Input:   {$=15}  {5x=15}  {5x=$}  
+			Incorrect Input: {5x/5=$}  {5x=25}  {5x=17}  
+		100.%	6/6 	-38+7x+38=-24+38
+			Correct Input:   {7x=$}  {7x=14}  
+	Standard Deviation:	0.0565685424949
+
+c0+c1=c2+c3x-c4+c5
+		100.%	2/2 	1+8=15+6x-8+8
+			Correct Input:   {9=$}  {9=15+6x}  
+		100.%	2/2 	5+4=3+2x-4+4
+			Correct Input:   {9=$}  {9=3+2x}  
+	Standard Deviation:	0.0
+
+c0+c1x=c2
+		75.0%	42/56 	1+3x=7
+			Correct Input:   {1-1+3x=$}  {1-1+3x=7-1}  {3x=$}  {3x=6}  {1+3x-1=$}  {1+3x-1=7-1}  {$=6}  {3x=7-1}  {$=7}  {1+3x-1=7}  {1 + 3x - 1=$}  {1 + 3x - 1=7 - 1}  {3x=7}  
+			Incorrect Input: {1-1+3x=7}  {$=7}  {4x=$}  {1+3x=$}  {1+3x=7}  {1+3x-1=7}  {3x=1+7}  {4x=7}  {5=7}  {5x=7}  
+		85.7%	6/7 	4+3x=10
+			Correct Input:   {4+3x-4=$}  {4+3x-4=10-4}  {3x=$}  {3x=10-4}  {4-4+3x=$}  {4-4+3x=10-4}  
+			Incorrect Input: {4+3x/3=$}  
+		100.%	4/4 	2+3x=5
+			Correct Input:   {3x=$}  {3x=3}  {3x=5-2}  
+		86.9%	20/23 	8+3x=11
+			Correct Input:   {8-8+3x=$}  {8-8+3x=11-8}  {8 - 8 + 3x=$}  {8 - 8 + 3x=11-8}  {$=3}  {3x=3}  {3x=$}  {3x=11-8}  {8-8+3x=3}  {8+3x-8=$}  {8+3x-8=11-8}  {$=11-8}  
+			Incorrect Input: {8 + 3x-3=$}  {8 + 3x=$}  {$=11}  
+		100.%	4/4 	4+7x=18
+			Correct Input:   {7x=$}  {7x=14}  {7x=18-4}  
+		88.8%	16/18 	1+4x=9
+			Correct Input:   {4x=$}  {4x=8}  {1-1+4x=$}  {1-1+4x=9-1}  {1+4x-1=$}  {1+4x-1=8}  {1+4x-1=9-1}  {4x=9-1}  {1+4x-2=$}  {1+4x-2=7}  
+			Incorrect Input: {1+x=$}  {4x=9}  
+	Standard Deviation:	0.0867844129523
+
+-c0/-c1=-c2x/-c3
+		80.0%	8/10 	-20/-10=-10x/-10
+			Correct Input:   {$=x}  {2=x}  {2=$}  {2=1x}  
+			Incorrect Input: {10=x}  {2=1}  
+		85.7%	6/7 	-8/-4=-4x/-4
+			Correct Input:   {2=$}  {2=x}  
+			Incorrect Input: {-2=$}  
+		100.%	8/8 	-4/-1=-1x/-1
+			Correct Input:   {4=$}  {4=x}  {$=x}  
+		100.%	4/4 	-1/-1=-1x/-1
+			Correct Input:   {1=$}  {1=x}  
+		95.6%	22/23 	-9/-3=-3x/-3
+			Correct Input:   {3=$}  {3=x}  {3=1x}  
+			Incorrect Input: {3=1}  
+		82.7%	24/29 	-6/-6=-6x/-6
+			Correct Input:   {$=x}  {1=x}  {1=$}  {1=1x}  
+			Incorrect Input: {-1=$}  {6=$}  {1=-1x}  {0=$}  
+		85.7%	6/7 	-6/-2=-2x/-2
+			Correct Input:   {$=x}  {3=x}  {3=$}  
+			Incorrect Input: {$=-x}  
+		100.%	2/2 	-8/-1=-1x/-1
+			Correct Input:   {8=$}  {8=x}  
+		100.%	6/6 	-10/-2=-2x/-2
+			Correct Input:   {5=$}  {5=x}  
+	Standard Deviation:	0.0800961890765
+
+c0*c1x+c2*c3=c4
+		100.%	8/8 	2*2x+2*1=6
+			Correct Input:   {4x+2=$}  {4x+2=6}  {4x+2*1=$}  {4x+2*1=6}  
+		100.%	4/4 	3*3x+3*1=21
+			Correct Input:   {9x+3=$}  {9x+3=21}  
+	Standard Deviation:	0.0
+
+c0-c1=c2+-x-c3
+		33.3%	2/6 	13-6=6+-x-6
+			Correct Input:   {7=$}  {7=-x}  
+			Incorrect Input: {8=$}  {8+x=$}  {8+-x=$}  {7=x}  
+		50.0%	2/4 	3-7=7+-x-7
+			Correct Input:   {-4=$}  {-4=-x}  
+			Incorrect Input: {-7=$}  {-6=$}  
+		100.%	2/2 	5-6=6+-x-6
+			Correct Input:   {-1=$}  {-1=-x}  
+		100.%	2/2 	1-9=9+-x-9
+			Correct Input:   {-8=$}  {-8=-x}  
+	Standard Deviation:	0.297559517856
+
+c0/c1=x
+		100.%	2/2 	21/3=x
+			Correct Input:   {7=$}  {7=x}  
+		100.%	10/10 	16/8=x
+			Correct Input:   {2=$}  {2=x}  {$=x}  
+		100.%	12/12 	20/4=x
+			Correct Input:   {5=$}  {5=x}  
+		100.%	4/4 	25/5=x
+			Correct Input:   {5=$}  {5=x}  
+		93.3%	14/15 	8/4=x
+			Correct Input:   {2=$}  {2=x}  {$=x}  
+			Incorrect Input: {4=$}  
+		100.%	20/20 	10/2=x
+			Correct Input:   {5=$}  {5=x}  {$=x}  
+		100.%	2/2 	12/6=x
+			Correct Input:   {2=$}  {2=x}  
+		100.%	2/2 	6/6=x
+			Correct Input:   {1=$}  {1=x}  
+		100.%	6/6 	24/4=x
+			Correct Input:   {6=$}  {6=x}  
+		100.%	2/2 	8/1=x
+			Correct Input:   {8=$}  {8=x}  
+		100.%	2/2 	12/3=x
+			Correct Input:   {4=$}  {4=x}  
+		100.%	4/4 	3/3=x
+			Correct Input:   {1=$}  {1=x}  
+		88.0%	22/25 	6/2=x
+			Correct Input:   {3=$}  {3=x}  
+			Incorrect Input: {4=$}  {x=$}  {$=3}  
+		100.%	8/8 	18/3=x
+			Correct Input:   {6=$}  {6=x}  
+		100.%	12/12 	9/3=x
+			Correct Input:   {3=$}  {3=x}  {$=4x-x}  {9=4x-x}  
+		100.%	14/14 	16/2=x
+			Correct Input:   {8=$}  {8=x}  
+	Standard Deviation:	0.0322748612184
+
+c0-c1=c2-c3+-x
+		100.%	4/4 	13-6=6-6+-x
+			Correct Input:   {7=$}  {7=-x}  
+		100.%	2/2 	10-5=5-5+-x
+			Correct Input:   {5=$}  {5=-x}  
+		100.%	4/4 	3-7=7-7+-x
+			Correct Input:   {-4=$}  {-4=-x}  
+		66.6%	4/6 	8-2=2-2+-x
+			Correct Input:   {6=$}  {6=-x}  
+			Incorrect Input: {x=$}  {6=x}  
+		100.%	2/2 	1-9=9-9+-x
+			Correct Input:   {-8=$}  {-8=-x}  
+	Standard Deviation:	0.133333333333
+
+c0-c1=c2+c3x-c4
+		100.%	2/2 	9-3=3+2x-3
+			Correct Input:   {6=$}  {6=2x}  
+		100.%	2/2 	9-15=15+6x-15
+			Correct Input:   {-6=$}  {-6=6x}  
+		100.%	20/20 	15-3=3+3x-3
+			Correct Input:   {12=$}  {12=3x}  {$=3x}  
+		66.6%	2/3 	1-7=7+6x-7
+			Correct Input:   {-6=$}  {-6=6x}  
+			Incorrect Input: {-6=x}  
+		100.%	2/2 	22-1=1+3x-1
+			Correct Input:   {21=$}  {21=3x}  
+	Standard Deviation:	0.133333333333
+
+c0-c1=-x-c2+c3
+		100.%	2/2 	10-5=-x-5+5
+			Correct Input:   {5=$}  {5=-x}  
+		100.%	2/2 	8-2=-x-2+2
+			Correct Input:   {6=$}  {6=-x}  
+	Standard Deviation:	0.0
+
+-x=c0
+		81.6%	241/295 	-x=8
+			Correct Input:   {x=$}  {x=8/-1}  {-x/-1=$}  {-x/-1=8/-1}  {x=-8}  {-x/-1=-8}  {$=8/-1}  {$=-8}  {-x=$}  {-x=11-3}  {-x+3-3=$}  {-x+3-3=11-3}  {0=8}  {-x/-1=8/ -1}  {-1x/-1=$}  {-1x/-1=8/-1}  {-1x / -1=$}  {-1x / -1=8 / -1}  
+			Incorrect Input: {x=8}  {-x+x=$}  {$=8}  {-x=$}  {-x/-1=8}  {8=$}  {-8=$}  {$=8/3}  {-x-1=$}  {-x/-1=-8/-1}  {x=-1}  {-x/-1=8/1}  {x=0}  {-x/8=$}  {-x/-1=x}  {-x/-1=-x}  {-x/1=$}  {x=1}  {0=$}  {x/ -1=$}  {-1/x=$}  {-x/x=$}  {-1x/-1x=$}  {x=11-3}  {$=x}  {-/-1=$}  {-x=-8}  {-x+1=$}  {-x+1x=$}  {-x/-x=$}  {-x*-1=$}  {$=8*-1}  {-x/-1=8-1}  {$=-8/-1}  
+		81.3%	227/279 	-x=9
+			Correct Input:   {x=$}  {x=-9}  {-x/-1=$}  {-x/-1=9/-1}  {-x/-1=-9}  {x=9/-1}  {$=-9}  {$=9/-1}  {-1x/-1=9/-1}  {-1x / -1=$}  {-1x / -1=9 / -1}  {$=9}  {x=9}  
+			Incorrect Input: {-x/1=$}  {$=9/1}  {x=9}  {-x/-1=9}  {-x/-1=8}  {-x=$}  {9/-x=$}  {9/-15=$}  {-xx-1=$}  {-x-1=$}  {x=-21}  {$=9/9}  {$=9-9}  {$=-9x/9}  {-x/1x=$}  {-x/-1=-9/-1}  {*-1=$}  {/-1=$}  {$=/-1}  {9=$}  {$=9/-9}  {-x/-1=9/-9}  {-1/-1=$}  {x=_9}  {-x/1=-9}  {-x=x=$}  {-x+x=$}  {-x-x=$}  {-x=-x=$}  {-x+-x=x=$}  {-x+-x=$}  {x=8}  {x=0}  {x=10}  {x=1}  
+		42.8%	3/7 	-x=2
+			Correct Input:   {-x=$}  {x=-3}  
+			Incorrect Input: {$=9}  {-x=3}  {-x=2}  {x=$}  
+		83.4%	227/272 	-x=11
+			Correct Input:   {$=11/-1}  {x=11/-1}  {-x/-1=$}  {-x/-1=11/-1}  {x=$}  {x=-11}  {$=-11}  {$=11}  {x=11}  {-x+7-7=$}  {-x+7-7=18-7}  {-1x/-1=$}  {-1x/-1=11/-1}  {-x/-1=-11}  {-x/-1=11}  
+			Incorrect Input: {x=11}  {-x/1=$}  {$=10}  {-x--1=$}  {x/-1=$}  {-x-1=$}  {-x+1=$}  {-=$}  {-x/-1=11-1}  {-x/-1=11/1}  {-x=$}  {-11/-1=$}  {x=-11/-1}  {x=10}  {$=-11}  {x=4}  {x=7}  {$=-x/1}  {$=-11/x}  {$=-11/-1}  {-x/11=$}  {-x/-1=--/-1}  {-x/-1=11}  {-x/-1=-x/-11}  {-x/-1=-x/-}  {-x/-1=-11/-1}  {$=-x/11}  {11/-x=11}  {11/x=11}  {-x/1=11}  
+	Standard Deviation:	0.170419536278
+
+c0+x=c1-x+x
+		60.0%	6/10 	3+x=7-x+x
+			Correct Input:   {$=7}  {x+3=7}  {3+x=7}  {3+x=$}  
+			Incorrect Input: {$=x}  {x=7}  {x-3=7}  {3+x-3=$}  
+		54.5%	6/11 	5+x=6-x+x
+			Correct Input:   {$=6}  {5+x=6}  {5+x=$}  
+			Incorrect Input: {$=6x}  {$=x}  {$=6+x}  {5x=6}  {x=6}  
+		53.3%	8/15 	1+x=9-x+x
+			Correct Input:   {$=9}  {1+x=9}  {1+x=$}  
+			Incorrect Input: {1+x-1=9}  {x=9}  {1+x-x=9}  {1+x-1=$}  
+		80.0%	4/5 	7+x=7-x+x
+			Correct Input:   {$=7}  {x+7=7}  {7+x=7}  
+			Incorrect Input: {7x=7}  
+	Standard Deviation:	0.107083808994
+
+x-c0+c1=c2-c3
+		100.%	4/4 	x-6+6=0-6
+			Correct Input:   {x=$}  {x=-6}  {$=-6}  
+		100.%	2/2 	x-2+2=0-2
+			Correct Input:   {x=$}  {x=-2}  
+		100.%	2/2 	x-7+7=2-7
+			Correct Input:   {x=$}  {x=-5}  
+		100.%	2/2 	x-2+2=6-2
+			Correct Input:   {$=4}  {x=4}  
+	Standard Deviation:	0.0
+
+-x/-c0=-c1/c2
+		16.6%	2/12 	-x/-1=-11/1
+			Correct Input:   {$=-11}  {x=-11}  
+			Incorrect Input: {$=-10}  {$=10}  {$=-12}  {$=-9}  {$=9}  {-1=-11}  {1=-11}  {-1x=-11}  
+		25.0%	2/8 	-x/-1=-8/1
+			Correct Input:   {$=-8}  {x=-8}  
+			Incorrect Input: {$=8}  {$=-}  {-1=-8}  {-1x=-8}  {-x.=-8}  {-x=-8}  
+	Standard Deviation:	0.0416666666667
+
+c0=c1x+c2-c3
+		100.%	2/2 	8=4x+8-8
+			Correct Input:   {8=$}  {8=4x}  
+		72.7%	32/44 	10=6x+6-8
+			Correct Input:   {$=6x+-2}  {10=6x+-2}  {10=$}  {$=6x+6}  {18=6x+6}  {10=6x-2}  {$=6x-2}  {10=6x+(-2)}  {$=6x+6-8-6}  {10-6=6x+6-8-6}  {$=-2+6x}  {10=-2+6x}  
+			Incorrect Input: {10=6x}  {2=6x+6}  {10=6x+14}  {10=6x+2}  {$=6x-2+2}  {$=6x}  {2=$}  {$=x}  {10+6-8=$}  {10+6=$}  {10-6-8=$}  
+	Standard Deviation:	0.136363636364
+
+c0(x-c1)=-c2
+		90.9%	10/11 	7(x-6)=-28
+			Correct Input:   {$=-4}  {(x - 6)=-4}  {x-6=$}  {x-6=-4}  {7(x - 6)/7=$}  {7(x - 6)/7=-28/7}  {7(x-6)/7=$}  {7(x-6)/7=-28/7}  
+			Incorrect Input: {$=4}  
+		50.0%	2/4 	5(x-6)=-15
+			Correct Input:   {5(x-6)/5=$}  {5(x-6)/5=-15/5}  
+			Incorrect Input: {/5=$}  {5(x-6)=$}  
+	Standard Deviation:	0.204545454545
+
+-x+c0-c1=c2
+		66.6%	2/3 	-x+7-7=11
+			Correct Input:   {-x=$}  {-x=11}  
+			Incorrect Input: {-x=-11}  
+		100.%	4/4 	-x+3-3=8
+			Correct Input:   {-x=$}  {-x=8}  
+		88.8%	8/9 	-x+6-6=9
+			Correct Input:   {-x=$}  {-x=9}  
+			Incorrect Input: {x=$}  
+	Standard Deviation:	0.138579903214
+
+-c0x/-c1=-c2/-c3
+		80.0%	8/10 	-1x/-1=-6/-1
+			Correct Input:   {x=$}  {x=6}  
+			Incorrect Input: {x=-6}  {x=-1}  
+		88.8%	8/9 	-3x/-3=-3/-3
+			Correct Input:   {x=$}  {x=1}  
+			Incorrect Input: {x=0}  
+		100.%	6/6 	-1x/-1=-3/-1
+			Correct Input:   {1x=$}  {1x=3}  {x=$}  {x=3}  
+		100.%	6/6 	-3x/-3=-9/-3
+			Correct Input:   {x=$}  {x=3}  
+		100.%	4/4 	-1x/-1=-7/-1
+			Correct Input:   {x=$}  {x=7}  
+		80.0%	4/5 	-2x/-2=-10/-2
+			Correct Input:   {x=$}  {x=5}  
+			Incorrect Input: {-x=$}  
+		75.0%	6/8 	-1x/-1=-5/-1
+			Correct Input:   {x=$}  {x=5}  {$=5}  {1x=5}  
+			Incorrect Input: {-x=5}  {-1x=5}  
+	Standard Deviation:	0.1014818401
+
+c0x+c1=c2
+		83.3%	10/12 	3x+8=11
+			Correct Input:   {3x=$}  {3x=3}  {3x+8-8=$}  {3x+8-8=11-8}  
+			Incorrect Input: {3x=19}  {3x=11}  
+		88.0%	22/25 	7x+15=1
+			Correct Input:   {7x+15-15=$}  {7x+15-15=1-15}  {7x + 15 - 15=$}  {7x + 15 - 15=1 - 15}  
+			Incorrect Input: {7x=15-15=$}  {7x+15-15=1-7}  {7x+15-15=1-16}  
+		100.%	4/4 	2x+1=3
+			Correct Input:   {$=2}  {2x=2}  {2x=$}  
+		100.%	18/18 	2x+3=7
+			Correct Input:   {2x+3-3=$}  {2x+3-3=7-3}  {2x=$}  {2x=7-3}  {2x + 3 - 3=$}  {2x + 3 - 3=7 - 3}  
+		82.1%	69/84 	2x+2=6
+			Correct Input:   {2x+2-2=$}  {2x+2-2=6-2}  {2x=$}  {2x=6-2}  {2x=4}  {$=6}  {2x+2-2=6}  {2=$}  {2x+2-2=4}  {$=4}  
+			Incorrect Input: {2x=8}  {2x=6}  {$=6}  {$=5}  {x=$}  {4x=$}  {2x+2-2=6}  {2+6=$}  {2x=2+6}  {2x=6+2}  
+		100.%	2/2 	3x+11=2
+			Correct Input:   {3x+11-11=$}  {3x+11-11=2-11}  
+		80.4%	66/82 	9x+3=21
+			Correct Input:   {9x=$}  {9x=18}  {9x+3-3=$}  {9x+3-3=21-3}  {9x + 3 -3=$}  {9x + 3 -3=21- 3}  {9x=21-3}  {9x + 3 - 3=$}  {9x + 3 - 3=21 - 3}  {9x-3+3=$}  {9x-3+3=21-3}  
+			Incorrect Input: {3-21=$}  {9x+3/3=$}  {$=21/3}  {9x+3=$}  {12x=$}  {9x+3-3=21}  {9x+3-3=9}  {9x+3-3=12}  {9x + -9 + 3=$}  {9x + 3 -3=21/3}  {9x-3=$}  {9x-3+3=21}  {9x-3+3=21+3}  {9x-3+3=24}  
+		100.%	22/22 	3x+1=10
+			Correct Input:   {3x+1-1=$}  {3x+1-1=10-1}  {3x + 1  - 1=$}  {3x + 1  - 1=10 - 1}  {3x + 1 - 1=$}  {3x + 1 - 1=10 - 1}  
+		95.8%	23/24 	4x+5=1
+			Correct Input:   {4x+5-5=$}  {4x+5-5=1-5}  {4x + 5 - 5=$}  {4x + 5 - 5=1 - 5}  {4x + 5  - 5=$}  {4x + 5  - 5=1 - 5}  
+			Incorrect Input: {4x5-5=$}  
+		100.%	2/2 	4x+3=11
+			Correct Input:   {4x+3-3=$}  {4x+3-3=11-3}  
+		80.0%	4/5 	3x+1=7
+			Correct Input:   {3x=$}  {3x=6}  {3x=7-1}  
+			Incorrect Input: {3x=8}  
+		100.%	8/8 	2x+6=22
+			Correct Input:   {2x=$}  {2x=16}  {2x + 6 - 6=$}  {2x + 6 - 6=22 - 6}  {2x+6-6=$}  {2x+6-6=22-6}  
+		100.%	2/2 	3x+2=8
+			Correct Input:   {3x=$}  {3x=8 - 2}  
+		100.%	4/4 	2x+10=2
+			Correct Input:   {2x+10-10=$}  {2x+10-10=2-10}  {2x=$}  {2x=2 - 10}  
+		100.%	2/2 	3x+3=15
+			Correct Input:   {3x=$}  {3x=15 - 3}  
+		100.%	2/2 	5x+16=1
+			Correct Input:   {5x+16-16=$}  {5x+16-16=1-16}  
+		81.8%	18/22 	4x+1=9
+			Correct Input:   {4x+1-1=$}  {4x+1-1=9-1}  {$=8}  {4x+1-1=8}  {4x + 1 - 1=$}  {4x + 1 - 1=9 - 1}  {4x+1 - 1=$}  {4x+1 - 1=9 - 1}  
+			Incorrect Input: {4x+1-=$}  {4x+1=$}  {3=$}  {3x=8}  
+		85.7%	6/7 	3x+6=9
+			Correct Input:   {3x=$}  {3x=3}  {3x+6-6=$}  {3x+6-6=3}  {3x+6-6=9-6}  
+			Incorrect Input: {3x+6-6=6}  
+		83.3%	5/6 	5x+3=13
+			Correct Input:   {5x+3-3=$}  {5x+3-3=13-3}  {5x=$}  {5x=13 -3}  
+			Incorrect Input: {5x=13 +}  
+		95.2%	20/21 	2x+4=0
+			Correct Input:   {2x+4-4=$}  {2x+4-4=0-4}  {2x + 4 - 4=$}  {2x + 4 - 4=0 - 4}  
+			Incorrect Input: {4-2=$}  
+		60.1%	74/123 	4x+2=6
+			Correct Input:   {4x=$}  {4x=6-2}  {4x+2-2=$}  {4x+2-2=6-2}  {4x=4}  {$=6-2}  {4x + 2 - 2=$}  {4x + 2 - 2=6 - 2}  {2=$}  {2=6-4x}  {4x + 2-2=$}  {4x + 2-2=6-2}  
+			Incorrect Input: {2x=$}  {x=$}  {4x=6}  {$=6}  {4x+2+4=$}  {4x+2+2=$}  {4x+2+=$}  {4=$}  {4x/2=$}  {4x-2=$}  {4x-2=6-2}  {4x=2-2=6-2}  {8x-2=$}  {6x-2=$}  {6x=$}  {-2=$}  {-4=$}  {+2=$}  {-4x+2=$}  {$=-2}  {$=-6}  {$=+2}  {$=2}  {-x=$}  {-6=$}  {+6=$}  {$=+6}  {+4x=$}  {+4=$}  {2=2}  {2=8}  {2=4}  {2=-2}  {2=+2}  {2=6-2}  {2=6+2}  {$=2+6}  {4x+2-2=6}  {4x=6+2}  
+		100.%	2/2 	7x+4=18
+			Correct Input:   {7x+4-4=$}  {7x+4-4=18-4}  
+		100.%	2/2 	6x+1=13
+			Correct Input:   {6x=$}  {6x=13 -1}  
+		100.%	20/20 	5x+10=0
+			Correct Input:   {5x+10-10=$}  {5x+10-10=0-10}  {5x + 10 - 10=$}  {5x + 10 - 10=0 - 10}  {5x +10 - 10=$}  {5x +10 - 10=0 - 10}  
+	Standard Deviation:	0.103101608513
+
+c0-c1=-x+c2-c3
+		95.5%	85/89 	8-2=-x+2-2
+			Correct Input:   {6=$}  {6=-x}  {$=-x}  {6=-1x}  {8-2=$}  {8-2=-x+2-2}  
+			Incorrect Input: {$=-x/-x}  {$=-x/x}  {6=-x/-1}  
+		80.0%	4/5 	1-9=-x+9-9
+			Correct Input:   {$=-x}  {-8=-x}  {$=-1x}  {-8=-1x}  
+			Incorrect Input: {8=-x}  
+		90.7%	88/97 	10-5=-x+5-5
+			Correct Input:   {5=$}  {5=-x}  {5=-1x}  {$=-x}  
+			Incorrect Input: {5=x}  {$=x}  {5=0}  {$=-x/-1}  {5/-1=$}  
+		97.5%	78/80 	13-6=-x+6-6
+			Correct Input:   {7=$}  {7=-x}  {7=-1x}  {$=-x}  
+			Incorrect Input: {7=-x/-1}  {7=x}  
+		100.%	2/2 	3-7=-x+7-7
+			Correct Input:   {-4=$}  {-4=-1x}  
+	Standard Deviation:	0.0706250710298
+
+-c0=c1x
+		81.5%	62/76 	-6=6x
+			Correct Input:   {-6/6=$}  {-6/6=6x/6}  {$=x}  {-1=x}  {-6/6=x}  {-1=$}  {$=6x/6}  {-6/6=6/6x}  
+			Incorrect Input: {0=$}  {-12=$}  {-6=$}  {3=$}  {-3=$}  {-2=$}  {2=$}  {1=$}  {1=x}  {6=x}  {-6/7=$}  
+		100.%	4/4 	-3=3x
+			Correct Input:   {-1=$}  {-1=x}  {$=x}  
+		100.%	2/2 	-15=5x
+			Correct Input:   {-3=$}  {-3=x}  
+		95.5%	64/67 	-9=3x
+			Correct Input:   {-9/3=$}  {-9/3=3x/3}  {-9/3=x}  {$=x}  {-3=x}  {-3=$}  {$=3x/3}  
+			Incorrect Input: {3=x}  {-9/3x=$}  {-3=x]}  
+	Standard Deviation:	0.0755474981302
+
+c0-x-c1=c2-c3
+		80.6%	50/62 	7-x-7=2-7
+			Correct Input:   {-x=$}  {-x=-5}  {$=-5}  
+			Incorrect Input: {x=$}  {-7=$}  {-5=$}  {-x=5}  {-x=$}  {-x/-1=-5}  {x=-5}  
+		85.2%	58/68 	8-x-8=1-8
+			Correct Input:   {-x=$}  {-x=-7}  {$=-7}  
+			Incorrect Input: {x=-7}  {x=$}  {0=$}  {$=-8}  {-x/-1=$}  
+		91.1%	62/68 	6-x-6=3-6
+			Correct Input:   {-x=$}  {-x=-3}  {$=-3}  
+			Incorrect Input: {6=$}  {x=$}  {-x=3}  {x=-3}  
+		100.%	2/2 	7-x-7=18-7
+			Correct Input:   {-x=$}  {-x=11}  
+		40.0%	2/5 	9-x-9=4-9
+			Correct Input:   {$=-5}  {-x=-5}  
+			Incorrect Input: {x=$}  {$=5-}  {4x=-5}  
+	Standard Deviation:	0.207446071517
+
+c0x=c1+c2
+		75.0%	6/8 	8x=4+12
+			Correct Input:   {$=16}  {8x=16}  {8x=$}  
+			Incorrect Input: {$=18}  {x=$}  
+		85.7%	6/7 	3x=3+6
+			Correct Input:   {3x=$}  {3x=9}  {$=9}  
+			Incorrect Input: {x=$}  
+		100.%	4/4 	4x=7+1
+			Correct Input:   {4x=$}  {4x=8}  
+		55.5%	10/18 	14x=8+6
+			Correct Input:   {14x=$}  {14x=14}  {$=14}  {14x/14=14}  
+			Incorrect Input: {x=$}  {$=1}  {14/1=$}  {14x/14=$}  {14x/1=$}  {14x/-1=$}  {14x/=$}  {$=2}  
+		66.6%	4/6 	2x=14+2
+			Correct Input:   {2x=$}  {2x=16}  
+			Incorrect Input: {x=$}  {2/x=$}  
+		85.7%	6/7 	10x=20+10
+			Correct Input:   {10x=$}  {10x=30}  
+			Incorrect Input: {10=$}  
+		100.%	4/4 	3x=9+6
+			Correct Input:   {3x=$}  {3x=15}  
+		66.6%	2/3 	2x=4+2
+			Correct Input:   {2x=$}  {2x=6}  
+			Incorrect Input: {x=$}  
+		72.7%	8/11 	2x=8+8
+			Correct Input:   {2x=$}  {2x=16}  {$=16}  
+			Incorrect Input: {2x/2=$}  {2/2x=$}  {x=$}  
+	Standard Deviation:	0.144545424232
+
+c0=x-c1
+		100.%	4/4 	4=x-1
+			Correct Input:   {5=$}  {5=x}  
+		100.%	4/4 	5=x-1
+			Correct Input:   {6=$}  {6=x}  
+		100.%	8/8 	3=x-4
+			Correct Input:   {7=$}  {7=x}  {$=x-4+4}  {3+4=x-4+4}  {3+4=$}  
+		100.%	6/6 	1=x-2
+			Correct Input:   {3=$}  {3=x}  {$=x-2+2}  {1+2=x-2+2}  
+	Standard Deviation:	0.0
+
+c0-c1-x=-c2
+		75.0%	6/8 	6-6-x=-3
+			Correct Input:   {-x=$}  {-x=-3}  {$=-3}  
+			Incorrect Input: {x=$}  
+		35.7%	10/28 	7-7-x=-5
+			Correct Input:   {-x=$}  {-x=-5}  {$=-5}  
+			Incorrect Input: {x=$}  {-x=4}  {-x=-4}  {-x=-3}  {-x=-18}  {xx-0=$}  {x-0=$}  {x=-5}  {7-7=-5}  {7-x=-5}  {0-x=-5}  {x-7=-5}  {x-0=-5}  {x-=-5}  
+		100.%	4/4 	8-8-x=-7
+			Correct Input:   {-x=$}  {-x=-7}  
+	Standard Deviation:	0.264596556796
+
+c0-c1=c2-c3+c4x
+		57.1%	8/14 	15-3=3-3+3x
+			Correct Input:   {$=3-3+3x}  {15-3=3-3+3x}  {12=$}  {12=3x}  
+			Incorrect Input: {$=3x/3}  {12/3=$}  {$=x}  {$=-3+3x}  {$=3-3}  
+		85.7%	6/7 	1-7=7-7+6x
+			Correct Input:   {-6=$}  {-6=6x}  
+			Incorrect Input: {6=$}  
+	Standard Deviation:	0.142857142857
+
+-x/-c0=-c1
+		80.0%	4/5 	-x/-1=-11
+			Correct Input:   {x=$}  {x=-11}  {$=-11}  
+			Incorrect Input: {$=11}  
+		100.%	6/6 	-x/-1=-8
+			Correct Input:   {x=$}  {x=-8}  {$=-8}  
+		80.0%	4/5 	-x/-1=-9
+			Correct Input:   {x=$}  {x=-9}  
+			Incorrect Input: {$=9}  
+	Standard Deviation:	0.0942809041582
+
+c0x-c1+c2=-c3+c4
+		95.2%	20/21 	3x-1+1=-10+1
+			Correct Input:   {3x=$}  {3x=-9}  
+			Incorrect Input: {3x=-7}  
+		94.1%	16/17 	7x-38+38=-24+38
+			Correct Input:   {7x=$}  {7x=14}  
+			Incorrect Input: {7x=12}  
+	Standard Deviation:	0.00560224089636
+
+(x+c0)-c1=c2-c3
+		100.%	2/2 	(x+3)-3=3-3
+			Correct Input:   {x=$}  {x=0}  
+		100.%	2/2 	(x+2)-2=3-2
+			Correct Input:   {x=$}  {x=1}  
+	Standard Deviation:	0.0
+
+-x/-c0=-c1/-c2
+		82.2%	102/124 	-x/-1=-7/-1
+			Correct Input:   {x=$}  {x=7}  {$=7}  {-x/-1=$}  {-x/-1=-7/-1}  
+			Incorrect Input: {-x=$}  {x=-7}  {1=$}  {-7=$}  {0=$}  {7=7}  {1=7}  {-1=7}  {x=-6}  {x=-8}  {x=-1}  {x=1}  {-1=$}  
+		95.2%	100/105 	-x/-1=-3/-1
+			Correct Input:   {x=$}  {x=3}  {-x/-1=$}  {-x/-1=3}  {$=3}  
+			Incorrect Input: {-1x=$}  {x=2}  {x=1}  {-x=$}  {x=-3}  
+		84.3%	108/128 	-x/-1=-5/-1
+			Correct Input:   {x=$}  {x=5}  {$=5}  
+			Incorrect Input: {x=-5}  {$=-5}  {1=$}  {$=4}  {-1=$}  {-x=$}  {x=4}  {x=-4}  {x=-6}  {xd=$}  {-1x=$}  {x=-1}  
+	Standard Deviation:	0.0568594223148
+
+-c0x/-c1=c2/-c3
+		100.%	4/4 	-3x/-3=9/-3
+			Correct Input:   {1x=$}  {1x=-3}  {$=-3}  {x=-3}  
+		100.%	4/4 	-1x/-1=11/-1
+			Correct Input:   {x=$}  {x=-11}  
+		100.%	6/6 	-1x/-1=9/-1
+			Correct Input:   {1x=$}  {1x=-9}  {x=$}  {x=-9}  
+		100.%	4/4 	-1x/-1=8/-1
+			Correct Input:   {1x=$}  {1x=-8}  {$=8 / -1}  {x=8 / -1}  
+	Standard Deviation:	0.0
+
+(-x+c0)-c1=c2-c3
+		100.%	2/2 	(-x+6)-6=15-6
+			Correct Input:   {$=9}  {-x=9}  
+		100.%	2/2 	(-x+3)-3=11-3
+			Correct Input:   {-x=$}  {-x=8}  
+		100.%	2/2 	(-x+7)-7=18-7
+			Correct Input:   {-x=$}  {-x=11}  
+	Standard Deviation:	0.0
+
+c0-c1=c2+x-c3
+		100.%	4/4 	6-15=15+x-15
+			Correct Input:   {$=x}  {-9=x}  {-9=$}  
+		94.2%	66/70 	6-3=3+x-3
+			Correct Input:   {$=x}  {3=x}  {3=$}  
+			Incorrect Input: {x=$}  {$=3}  {9=$}  {-3=$}  
+		100.%	6/6 	8-1=1+x-1
+			Correct Input:   {7=$}  {7=x}  {$=x}  
+		100.%	2/2 	5-1=1+x-1
+			Correct Input:   {4=$}  {4=x}  
+		100.%	4/4 	3-11=11+x-11
+			Correct Input:   {-8=$}  {-8=x}  
+		98.2%	57/58 	10-5=5+x-5
+			Correct Input:   {5=$}  {5=x}  {$=x}  {10-5=$}  
+			Incorrect Input: {2=$}  
+		100.%	72/72 	9-4=4+x-4
+			Correct Input:   {$=x}  {5=x}  {5=$}  
+		100.%	4/4 	7-2=2+x-2
+			Correct Input:   {$=x}  {5=x}  
+		80.0%	4/5 	7-18=18+x-18
+			Correct Input:   {-11=$}  {-11=x}  
+			Incorrect Input: {11=$}  
+	Standard Deviation:	0.0625365505305
+
+c0x-c1=c2x
+		80.0%	8/10 	4x-6=2x
+			Correct Input:   {$=2x-2x}  {4x-6-2x=2x-2x}  {4x-4x-6=$}  {4x-4x-6=2x-4x}  {-6=$}  {-6=2x-4x}  {4x-6-4x=$}  {4x-6-4x=2x-4x}  
+			Incorrect Input: {-2x=$}  {-6=2x+4x}  
+		67.5%	98/145 	10x-6=4x
+			Correct Input:   {-6=$}  {-6=-6x}  {10x-10x-6=$}  {10x-10x-6=4x-10x}  {$=4x-10x}  {10x-6-10x=4x-10x}  {$=-6x}  {10x=$}  {10x=4x+6}  {$=4x - 10x}  {-6=4x - 10x}  {10x-6-10x=$}  {-6=4x-10x}  {10x - 6-10x=$}  {10x - 6-10x=4x-10x}  {10x-6+6=$}  {10x-6+6=4x+6}  {10x-6-4x=$}  {10x - 6 - 4x=$}  {10x - 6 - 4x=4x - 4x}  {$=4x-4x}  {10x-6-4x=4x-4x}  {10x=4x +6}  {10x-4x-6=$}  
+			Incorrect Input: {6=$}  {$=4x+10x}  {10x=4x-6}  {$=4x + x}  {$=4x}  {$=4}  {6=4x - 10x}  {10x-6-10x=4x-10z}  {10x-6-6=$}  {10x-6=$}  {$=4x-4}  {10x-4-6=$}  {4-10x-6=$}  {10x-10-6=$}  {6-10x=$}  {-6=4x=10x}  {-6=4x10x}  {-6=4x+10x}  {-6=4}  {10 - 4x=$}  {$=-6}  {$=10x - 4x}  {-6=10x + 4x}  {10x + 4=$}  {10x + 4x=$}  {10x - 4x=$}  {4x - 10x=$}  {10x - 6 + 10x=$}  {10x-=$}  {10x-6=4x}  {10x-6-10x=4x-4x}  {10x+6-4x=4x-4x}  {10-6-4x=4x-4x}  {10x-6-10=$}  {$=4x-10}  {$=4x+10}  {-6=-6}  {$=10x+4x}  {$=10x-4x}  
+		78.7%	78/99 	8x-9=5x
+			Correct Input:   {8x-9-8x=$}  {8x-9-8x=5x-8x}  {-9=$}  {-9=-3x}  {8x-8x-9=$}  {8x-8x-9=5x-8x}  {$=-3x}  {$=5x-8x}  {8x-9+9=$}  {8x-9+9=5x+9}  {8x-5x-9=$}  {8x-5x-9=5x-5x}  {-8x+8x-9=$}  {-8x+8x-9=-8x+5x}  {-9=5x - 8x}  {8x-9-5x=$}  {8x-9-5x=5x-5x}  {8x - 8x - 9=$}  {8x - 8x - 9=5x - 8x}  {8x - 9 -5x=$}  {8x - 9 -5x=5x - 5x}  {$=5x-5x}  
+			Incorrect Input: {8x+5x=$}  {8x-5x=$}  {9-5x=$}  {8x-8x-9=5x-9}  {9=-3x}  {$=3x}  {8x-9=$}  {$=5x}  {8x-9-9=$}  {$=5x-9}  {-8x+8x-9=5x}  {9=$}  {8x-9+8x=$}  {8x/8-9=$}  {8x/8x-9=$}  {-9=-4x}  
+		83.1%	69/83 	3x-9=6x
+			Correct Input:   {3x-9-3x=$}  {3x-9-3x=6x-3x}  {$=3x}  {-9=3x}  {$=6x-3x}  {3x-3x-9=6x-3x}  {3x-3x-9=$}  {3x-9+9=$}  {3x-9+9=6x+9}  {-3x+3x-9=$}  {-3x+3x-9=-3x+6x}  {3x=$}  {-9=$}  {-9=6x - 3x}  {-9=6x-3x}  {$=6x+9}  {3x - 9 - 3x=$}  {3x - 9 - 3x=6x - 3x}  {3x=6x + 9}  
+			Incorrect Input: {$=6x-x}  {$=6x+x}  {9-3x=6x-3x}  {3x-9=6x-3x}  {3x-9=+9=$}  {3x-9+9=6x/3}  {3x+3x+9=$}  {3x-3x+9=$}  {9=$}  {$=2x}  {$=9x}  {9x=$}  {-9=9x}  {x-9=$}  
+		88.8%	16/18 	5x-10=3x
+			Correct Input:   {-10=$}  {-10=3x-5x}  {5x-5x-10=$}  {5x-5x-10=3x-5x}  {5x-10-5x=$}  {5x-10-5x=3x-5x}  {5x-10-3x=$}  {5x-10-3x=3x-3x}  {-10=-2x}  
+			Incorrect Input: {-10=3x-10}  {-10=3x+10}  
+		60.0%	12/20 	6x-8=2x
+			Correct Input:   {6x-8+8=$}  {6x-8+8=2x+8}  {6x-6x-8=$}  {6x-6x-8=2x-6x}  {$=2x-6x}  {6x-8-6x=$}  {6x-8-6x=2x-6x}  
+			Incorrect Input: {6x-8/2=$}  {6x-8=$}  {$=2x/2}  {$=2x}  
+		51.8%	14/27 	12x-20=2x
+			Correct Input:   {$=2x-12x}  {12x-12x-20=2x-12x}  {12x-12x-20=$}  {12x=$}  {12x=2x+20}  {12x-20-12x=$}  {12x-20-12x=2x-12x}  {12x-20-2x=$}  {12x-20-2x=2x-2x}  
+			Incorrect Input: {$=2x}  {$=2x-20}  {12-12x-20=$}  {-8=$}  {-8x=$}  {12x-20=$}  {12x-12+20=$}  {12x-12-20=$}  {12x-12x-20=2x-12}  {12x-12x-20=2x/-9}  {12x=2x}  {12x=x}  {12x=2}  
+	Standard Deviation:	0.124389761803
+
+c0=-c1x
+		60.0%	6/10 	18=-6x
+			Correct Input:   {$=x}  {-3=x}  {$=-6x/-6}  {18/-6=-6x/-6}  {18/-6=$}  
+			Incorrect Input: {18=$}  {3=x}  {18/-6=-6x/6}  
+		66.6%	10/15 	10=-5x
+			Correct Input:   {10/-5=$}  {10/-5=x}  {$=-5x/-5}  {10/-5=-5x/-5}  {$=x}  
+			Incorrect Input: {10/-5=-5x/5}  {10/=$}  {5=x}  {-5=x}  
+		66.6%	2/3 	5=-1x
+			Correct Input:   {5/-1=$}  {5/-1=-x/-1}  
+			Incorrect Input: {5/-1=-5/10}  
+		66.6%	2/3 	6=-1x
+			Correct Input:   {6/-1=$}  {6/-1=-x/-1}  
+			Incorrect Input: {-6/-1=$}  
+		66.6%	2/3 	7=-1x
+			Correct Input:   {7/-1=$}  {7/-1=-x/-1}  
+			Incorrect Input: {7/=$}  
+	Standard Deviation:	0.0266666666667
+
+c0x/c1=c2
+		100.%	2/2 	4x/4=8
+			Correct Input:   {$=8/4}  {x=8/4}  
+		100.%	2/2 	14x/14=1
+			Correct Input:   {x=$}  {x=1}  
+		100.%	2/2 	4x/4=2
+			Correct Input:   {x=$}  {x=2}  
+		100.%	2/2 	3x/3=6
+			Correct Input:   {$=6 / 3}  {x=6 / 3}  
+		100.%	2/2 	10x/10=3
+			Correct Input:   {x=$}  {x=3}  
+		100.%	2/2 	14x/14=14
+			Correct Input:   {$=14/14}  {x=14/14}  
+		100.%	2/2 	3x/3=1
+			Correct Input:   {x=$}  {x=1}  
+	Standard Deviation:	0.0
+
+(x-c0)=c1
+		100.%	2/2 	(x-2)=1
+			Correct Input:   {$=3}  {x=3}  
+		100.%	2/2 	(x-4)=4
+			Correct Input:   {x=$}  {x=8}  
+	Standard Deviation:	0.0
+
+c0+-x-c1=c2-c3
+		80.0%	4/5 	6+-x-6=3-6
+			Correct Input:   {-x=$}  {-x=-3}  {$=-3}  
+			Incorrect Input: {-x/-1=$}  
+		100.%	2/2 	7+-x-7=2-7
+			Correct Input:   {$=-5}  {-x=-5}  
+		57.1%	4/7 	8+-x-8=1-8
+			Correct Input:   {-x=$}  {-x=-7}  
+			Incorrect Input: {-x=7}  {$=-8}  {-x=-9}  
+	Standard Deviation:	0.175093107722
+
+c0-c1=c2x+c3-c4
+		82.3%	14/17 	1-7=6x+7-7
+			Correct Input:   {-6=$}  {-6=6x}  {$=6x}  
+			Incorrect Input: {-6/6=$}  {$=6x/6}  {6=6x}  
+		100.%	2/2 	9-15=6x+15-15
+			Correct Input:   {$=6x}  {-6=6x}  
+		100.%	18/18 	15-3=4x+3-3
+			Correct Input:   {12=$}  {12=4x}  
+		91.8%	34/37 	10-2=4x+2-2
+			Correct Input:   {8=$}  {8=4x}  {$=4x}  
+			Incorrect Input: {8=4x-2}  {8/4=$}  {2=$}  
+		90.9%	10/11 	15-3=3x+3-3
+			Correct Input:   {12=$}  {12=3x}  
+			Incorrect Input: {12=x}  
+		100.%	2/2 	0-9=3x+9-9
+			Correct Input:   {-9=$}  {-9=3x}  
+		100.%	26/26 	11-5=2x+5-5
+			Correct Input:   {6=$}  {6=2x}  
+		86.7%	46/53 	16-8=4x+8-8
+			Correct Input:   {8=$}  {8=4x}  {$=4x+8}  {16=4x+8}  {$=4x}  
+			Incorrect Input: {8=4x/4}  {8/4=$}  {$=4x/4}  
+	Standard Deviation:	0.0657267254259
+
+c0=-x+c1-c2
+		100.%	4/4 	7=-x+6-6
+			Correct Input:   {7=$}  {7=-x}  {$=-x}  
+		100.%	2/2 	6=-x+2-2
+			Correct Input:   {6=$}  {6=-x}  
+	Standard Deviation:	0.0
+
+c0-(-c1)=c2x
+		66.6%	2/3 	18-(-6)=4x
+			Correct Input:   {24=$}  {24=4x}  
+			Incorrect Input: {12=$}  
+		66.6%	2/3 	10-(-11)=3x
+			Correct Input:   {21=$}  {21=3x}  
+			Incorrect Input: {-1=$}  
+	Standard Deviation:	0.0
+
+c0x=-c1-c2
+		100.%	2/2 	6x=-12-6
+			Correct Input:   {6x=$}  {6x=-18}  
+		100.%	6/6 	6x=-4-14
+			Correct Input:   {6x=$}  {6x=-18}  
+	Standard Deviation:	0.0
